@@ -41,6 +41,45 @@ ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"barrel_260mm", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
 
+ATT.Attachments = {
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 3.8, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 9.8, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "M-LOK R",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset_right"},
+        Pos = Vector(0.85, 9.2, 0.05),
+        Ang = Angle(90, -0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK L",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-0.85, 9.2, 0.05),
+        Ang = Angle(90, -0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B",
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 3.6, 0.97),
+        Ang = Angle(180, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_ax15")
 
 ///////////////////////////////////////      eft_hg_ar15_mk10
@@ -62,6 +101,29 @@ ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"eft_gas_ar15_rg", "eft_gas_ar15_m4fs"}
 
+ATT.Attachments = {
+    {
+        PrintName = "L Mount",
+        Category = {"eft_mount_alexander_3"},
+        Pos = Vector(-1.05, 10.65, 0.11),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "R Mount",
+        Category = {"eft_mount_alexander_3"},
+        Pos = Vector(1.05, 10.65, 0.11),
+        Ang = Angle(180, 90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "B Mount",
+        Category = {"eft_mount_alexander_10"},
+        Pos = Vector(0, 4, 1.25),
+        Ang = Angle(0, -90, -90),   
+    },
+}
+
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_mk10")
 
 ///////////////////////////////////////      eft_hg_ar15_m4
@@ -82,7 +144,31 @@ ATT.LHIK_Priority = -22 -- needs lower hg
 
 ATT.Category = {"eft_ar15_hguard"}
 
+ATT.Attachments = {
+    {
+        PrintName = "Lower HG",
+        Category = {"eft_hglower_m4"},
+        Pos = Vector(0, 0.65, 0.1),
+        Ang = Angle(0, 0, 0),   
+        Icon_Offset = Vector(0, 3.35, -1),
+    },
+}
+
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_m4")
+
+///////////////////////////////////////      eft_hg_ar15_m4_lower
+ATT = {}
+ATT.PrintName = "AR-15 Colt M4 Carbine Length lower handguard"
+ATT.CompactName = "M4 Carbine"
+ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Description = [[A carbine length lower handguard part manufactured by Colt, a standard-issue handguard for the M4A1 assault rifles.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_colt_m4_length_std_bottom.mdl"
+ATT.LHIK = true
+ATT.Category = {"eft_hglower_m4"}
+ARC9.LoadAttachment(ATT, "eft_hg_ar15_m4_lower")
+
 
 ///////////////////////////////////////      eft_hg_ar15_ddrisii1225
 
@@ -103,10 +189,86 @@ ATT.LHIK_Priority = -22 -- needs lower hg
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "Daniel Defens"
 
-
 ATT.ExcludeElements = {"barrel_260mm", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
 
+ATT.Attachments = {
+    {
+        PrintName = "Lower HG",
+        Category = {"eft_hglower_ddrisii1225"},
+        Pos = Vector(0, 0.87, -0.07),
+        Ang = Angle(0, 0, 0),   
+        Icon_Offset = Vector(0, 3.35, -1),
+    },    
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 1.8, -1.15),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 12.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },    
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 8.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "R Tactical",
+        Category = {"eft_tactical", "eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(1.1, 12, 0.1),
+        Ang = Angle(0, -90, 90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "L Tactical",
+        Category = {"eft_tactical", "eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(-1.1, 12, 0.1),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+}
+
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_ddrisii1225")
+
+///////////////////////////////////////      eft_hg_ar15_ddrisii1225_lower
+ATT = {}
+ATT.PrintName = "AR-15 Daniel Defense RIS II 12.25 lower handguard (Coyote Brown)"
+ATT.CompactName = "RIS II 12.25"
+ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Description = [[The Daniel Defense RIS II 12.25 lower handguard. Made with light but durable aircraft aluminum alloy. Equipped with RIS interface for installation of additional devices and accessories. Coyote Brown version.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_dd_ris_ii_12,25_lower.mdl"
+ATT.LHIK = true
+ATT.Category = {"eft_hglower_ddrisii1225"}
+ATT.Attachments = {
+    {
+        PrintName = "B Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(0, 10, 1.15),
+        Ang = Angle(0, -90, 180),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "Grip",
+        Category = {"eft_foregrip_small", "eft_foregrip_large"},
+        Pos = Vector(0, 3.4, 1.2),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, -1),
+    },
+}
+ARC9.LoadAttachment(ATT, "eft_hg_ar15_ddrisii1225_lower")
+
 
 ///////////////////////////////////////      eft_hg_ar15_ddrisii95
 
@@ -128,7 +290,77 @@ ATT.LHIK_Priority = -22 -- needs lower hg
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "Daniel Defens"
 
+ATT.Attachments = {
+    {
+        PrintName = "Lower HG",
+        Category = {"eft_hglower_ddrisii95"},
+        Pos = Vector(0, 0.87, -0.07),
+        Ang = Angle(0, 0, 0),   
+        Icon_Offset = Vector(0, 3.35, -1),
+    },    
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 1.8, -1.15),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 12.5-3.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },    
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 8.5-3.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "R Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(1.1, 12-3.5, 0.1),
+        Ang = Angle(0, -90, 90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "L Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(-1.1, 12-3.5, 0.1),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+}
+
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_ddrisii95")
+
+///////////////////////////////////////      eft_hg_ar15_ddrisii95_lower
+ATT = {}
+ATT.PrintName = "AR-15 Daniel Defense RIS II 9.5 lower handguard"
+ATT.CompactName = "RIS II 12.25"
+ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Description = [[The Daniel Defense RIS II 9.5 lower handguard. Made with light but durable aircraft aluminum alloy. Equipped with RIS interface for installation of additional devices and accessories.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_dd_ris_ii_9,5_lower.mdl"
+ATT.ModelSkin = 1
+ATT.LHIK = true
+ATT.Category = {"eft_hglower_ddrisii95"}
+ATT.Attachments = {
+    {
+        PrintName = "Grip",
+        Category = {"eft_foregrip_small", "eft_foregrip_large"},
+        Pos = Vector(0, 3.4, 1.2),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, -1),
+    },
+}
+ARC9.LoadAttachment(ATT, "eft_hg_ar15_ddrisii95_lower")
 
 ///////////////////////////////////////      eft_hg_ar15_ddrisii95_b
 
@@ -148,8 +380,76 @@ ATT.LHIK_Priority = -22 -- needs lower hg
 
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "Daniel Defens"
+ATT.Attachments = {
+    {
+        PrintName = "Lower HG",
+        Category = {"eft_hglower_ddrisii95"},
+        Pos = Vector(0, 0.87, -0.07),
+        Ang = Angle(0, 0, 0),   
+        Icon_Offset = Vector(0, 3.35, -1),
+    },    
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 1.8, -1.15),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 12.5-3.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },    
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 8.5-3.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "R Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(1.1, 12-3.5, 0.1),
+        Ang = Angle(0, -90, 90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "L Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(-1.1, 12-3.5, 0.1),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+}
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_ddrisii95_b")
+
+///////////////////////////////////////      eft_hg_ar15_ddrisii95_lower_b
+ATT = {}
+ATT.PrintName = "AR-15 Daniel Defense RIS II 9.5 lower handguard (Coyote Brown)"
+ATT.CompactName = "RIS II 12.25"
+ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Description = [[The Daniel Defense RIS II 9.5 lower handguard. Made with light but durable aircraft aluminum alloy. Equipped with RIS interface for installation of additional devices and accessories. Coyote Brown.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_dd_ris_ii_9,5_lower.mdl"
+ATT.LHIK = true
+ATT.Category = {"eft_hglower_ddrisii95"}
+ATT.Attachments = {
+    {
+        PrintName = "Grip",
+        Category = {"eft_foregrip_small", "eft_foregrip_large"},
+        Pos = Vector(0, 3.4, 1.2),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, -1),
+    },
+}
+ARC9.LoadAttachment(ATT, "eft_hg_ar15_ddrisii95_lower_b")
 
 ///////////////////////////////////////      eft_hg_ar15_ddfsp
 
@@ -168,6 +468,37 @@ ATT.LHIK = true
 
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "Daniel Defens"
+
+ATT.Attachments = {
+    {
+        PrintName = "Grip",
+        Category = {"eft_foregrip_small", "eft_foregrip_large"},
+        Pos = Vector(0, 4.2, 1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, -1),
+    }, 
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 8.5-3.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "R Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(1.1, 12-3.5, 0.1),
+        Ang = Angle(0, -90, 90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "L Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(-1.1, 12-3.5, 0.1),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+}
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_ddfsp")
 
@@ -190,6 +521,52 @@ ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"barrel_260mm", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
 
+ATT.Attachments = {
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 2.3, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 9.8+3.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 8.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "M-LOK R",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset_right"},
+        Pos = Vector(0.8, 9.2+1.5, 0.1),
+        Ang = Angle(90, -0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK L",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-0.8, 9.2+1.5, 0.1),
+        Ang = Angle(90, -0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B",
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 3.6, 1),
+        Ang = Angle(180, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_mk16")
 
@@ -212,6 +589,52 @@ ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
 
+ATT.Attachments = {
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 1.3, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 9.8+3.5-4.2, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 8.5-3.2, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "M-LOK R",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset_right"},
+        Pos = Vector(0.8, 9.2+1.5-2.6, 0.1),
+        Ang = Angle(90, -0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK L",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-0.8, 9.2+1.5-2.6, 0.1),
+        Ang = Angle(90, -0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B",
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 3.6, 1),
+        Ang = Angle(180, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_mk1695")
 
@@ -232,8 +655,62 @@ ATT.LHIK = true
 ATT.LHIK_Priority = -22 -- needs lower hg`
 
 ATT.Category = {"eft_ar15_hguard"}
+ATT.Attachments = {
+    {
+        PrintName = "Lower HG",
+        Category = {"eft_hglower_kacris"},
+        Pos = Vector(0, 0.83, 0.4),
+        Ang = Angle(0, 0, 0),   
+        Icon_Offset = Vector(0, 3.35, -1),
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 8.5-2.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "R Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(1.1, 12-5, 0.1),
+        Ang = Angle(0, -90, 90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "L Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(-1.1, 12-5, 0.1),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+}
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_kacris")
+
+///////////////////////////////////////      eft_hg_ar15_kacris_lower
+ATT = {}
+ATT.PrintName = "AR-15 KAC RIS lower handguard"
+ATT.CompactName = "KAC RIS"
+ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Description = [[Knight's Armament Company RIS lower handguard for the M4A1 carbine.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_kac_ris_lower.mdl"
+ATT.ModelSkin = 1
+ATT.LHIK = true
+ATT.Category = {"eft_hglower_kacris"}
+ATT.Attachments = {
+    {
+        PrintName = "Grip",
+        Category = {"eft_foregrip_small", "eft_foregrip_large"},
+        Pos = Vector(0, 3.4, 0.8),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, -1),
+    },
+}
+ARC9.LoadAttachment(ATT, "eft_hg_ar15_kacris_lower")
+
 
 ///////////////////////////////////////      eft_hg_ar15_kacurx31
 
