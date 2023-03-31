@@ -1048,6 +1048,73 @@ ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"barrel_260mm","barrel_370mm","barrel_406mm", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
 
+ATT.Attachments = {
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 3.3, -1.15),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 14.8+1.2, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 11.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK R",
+        Category = {"eft_mount_mlok", "eft_mount_mlokoffset"}, -- no canti
+        Pos = Vector(0.85, 10.5, 0.12),
+        Ang = Angle(180, 90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK L",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-0.85, 10.5, 0.12),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B Tac",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(0, 10.5, 0.85),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B",
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 5.5, 0.85),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK R2",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(0.5, 14, 0.5),
+        Ang = Angle(180, 90, 45),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK L2",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-0.5, 14, 0.5),
+        Ang = Angle(0, -90, -45),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_ionlite")
 
@@ -2226,4 +2293,104 @@ ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"barrel_260mm", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
 
+ATT.Attachments = {
+    {
+        PrintName = "PR Bottom",
+        Category = {"eft_mount_precis_b"},
+        Pos = Vector(0, 4.82, 1.12),
+        Ang = Angle(0, -90, -90),   
+    },
+    {
+        PrintName = "PR Left",
+        Category = {"eft_mount_precis_s"},
+        Pos = Vector(-1.02, 10.85, 0.58),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "PR Right",
+        Category = {"eft_mount_precis_s"},
+        Pos = Vector(1.02, 10.85, 0.58),
+        Ang = Angle(180, 90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "PR Top",
+        Category = {"eft_mount_precis_t"},
+        Pos = Vector(0, 7.9, -1),
+        Ang = Angle(0, 0, 0),   
+    },
+}
+
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_precision")
+
+///////////////////////////////////////      eft_mount_precision_bottom
+ATT = {}
+ATT.PrintName = "Precision Reflex handguard bottom rail mount"
+ATT.CompactName = "PR bot."
+ATT.Icon = Material("entities/eft_attachments/mount/si6.png", "mips smooth")
+ATT.Description = [[A bottom rail for handguards by Precision Reflex, which allows you to install foregrips.]]
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_pri_precision_reflex_bottom_rail_section_gen3.mdl"
+ATT.Category = {"eft_mount_precis_b"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.Attachments = {
+    {
+        PrintName = "Grip",
+        Category = {"eft_foregrip_small"},
+        Pos = Vector(0, -0.27, 0),
+        Ang = Angle(0, 0, 90),
+        Icon_Offset = Vector(0, 0, -1),
+    },
+}
+ARC9.LoadAttachment(ATT, "eft_mount_precision_bottom")
+
+///////////////////////////////////////      eft_mount_precision_side
+ATT = {}
+ATT.PrintName = "Precision Reflex handguard short side rail mount"
+ATT.CompactName = "PR side"
+ATT.Icon = Material("entities/eft_attachments/mount/si4.png", "mips smooth")
+ATT.Description = [[A short rail for handguards by Precision Reflex, which allows you to install additional tactical equipment.]]
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_pri_precision_reflex_short_rail_section_gen3.mdl"
+ATT.Category = {"eft_mount_precis_s"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.Attachments = {
+    {
+        PrintName = "Tactical",
+        Category = {"eft_tactical_top", "eft_tactical"},
+        Pos = Vector(-0.2, -0.32, 0),
+        Ang = Angle(0, 0, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+ARC9.LoadAttachment(ATT, "eft_mount_precision_side")
+
+///////////////////////////////////////      eft_mount_precision_top
+ATT = {}
+ATT.PrintName = "Precision Reflex handguard long top rail mount"
+ATT.CompactName = "PR top"
+ATT.Icon = Material("entities/eft_attachments/mount/si4.png", "mips smooth")
+ATT.Description = [[A long rail for handguards by Precision Reflex, which allows you to install additional tactical equipment and front iron sights.]]
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_pri_precision_reflex_long_rail_section_gen3.mdl"
+ATT.Category = {"eft_mount_precis_t"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.Attachments = {
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 4.05, -0.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 0.9, -0.2),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+ARC9.LoadAttachment(ATT, "eft_mount_precision_top")
