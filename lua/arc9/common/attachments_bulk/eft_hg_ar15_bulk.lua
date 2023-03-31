@@ -697,7 +697,6 @@ ATT.Description = [[Knight's Armament Company RIS lower handguard for the M4A1 c
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_kac_ris_lower.mdl"
-ATT.ModelSkin = 1
 ATT.LHIK = true
 ATT.Category = {"eft_hglower_kacris"}
 ATT.Attachments = {
@@ -732,9 +731,200 @@ ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"barrel_260mm", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
 
+ATT.Attachments = {
+    {
+        PrintName = "Lower HG",
+        Category = {"eft_hglower_kacurx31"},
+        Pos = Vector(0, 0.91, -0.055),
+        Ang = Angle(0, 0, 0),   
+        Icon_Offset = Vector(0, 3.35, -1),
+    },
+    {
+        PrintName = "Front sight",
+        Category = "eft_frontsight",
+        Pos = Vector(0, 10.7, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "R Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(1.15, 12-2, 0.15),
+        Ang = Angle(0, -90, 90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "L Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(-1.15, 12-2, 0.15),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 7.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "Right panel",
+        Category = {"eft_urx_panel_long", "eft_urx_panel_short"},
+        Pos = Vector(1, 4.65, 0.1),
+        Ang = Angle(0, -90, 90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "Left panel",
+        Category = {"eft_urx_panel_long", "eft_urx_panel_short"},
+        Pos = Vector(-1, 4.65, 0.1),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 1.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+}
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_kacurx31")
 
+
+///////////////////////////////////////      eft_hg_ar15_kacurx31_lower
+ATT = {}
+ATT.PrintName = "AR-15 KAC URX 3.1 10.75 inch lower handguard"
+ATT.CompactName = "URX3.1 10.75\""
+ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Description = [[The Knight's Armament URX 3.1 lower handguard for AR-15 equipped with a unique interface for installation of additional devices and accessories.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_kac_urx_31_10,75_inch_lower.mdl"
+ATT.LHIK = true
+ATT.Category = {"eft_hglower_kacurx31"}
+ATT.Attachments = {
+    {
+        PrintName = "B Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(0, 8.5, 1.25),
+        Ang = Angle(0, -90, 180),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "Lower panel",
+        Category = "eft_urx_panel_lower",
+        Pos = Vector(0, 2.85, 1.1),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+ARC9.LoadAttachment(ATT, "eft_hg_ar15_kacurx31_lower")
+
+
+///////////////////////////////////////      eft_urxpanel_3
+ATT = {}
+ATT.PrintName = "KAC URX 3 3 inch rail"
+ATT.CompactName = "3In. URX"
+ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Description = [[KAC URX 3 1 inch rail allows installation of additional equipment on the Knights Armanent Company URX handguards.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_urx_kac_3_inch_rail_section.mdl"
+ATT.ModelAngleOffset = Angle(0,-90,0)
+ATT.Category = {"eft_urx_panel_lower"}
+ATT.Attachments = {
+    {
+        PrintName = "Grip",
+        Category = {"eft_foregrip_small"},
+        Pos = Vector(0, -0.75, 0.25),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, -1),
+    },
+}
+ARC9.LoadAttachment(ATT, "eft_urxpanel_3")
+
+///////////////////////////////////////      eft_urxstoper
+ATT = {}
+ATT.PrintName = "KAC URX 3/3.1 stopper panel"
+ATT.CompactName = "KAC stoper"
+ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Description = [[Stopper panel for URX 3/3.1 handguards, manufactured by Knights Armament.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tactical_urx_kac_panel_hand_stop.mdl"
+ATT.ModelAngleOffset = Angle(0,-90,0)
+ATT.Category = {"eft_urx_panel_lower"}
+ARC9.LoadAttachment(ATT, "eft_urxstoper")
+///////////////////////////////////////      eft_urxstoper_fde
+ATT = {}
+ATT.PrintName = "KAC URX 3/3.1 stopper panel (Flat dark earth)"
+ATT.CompactName = "KAC stoper"
+ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Description = [[Stopper panel for URX 3/3.1 handguards, manufactured by Knights Armament. Flat dark earth.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tactical_urx_kac_panel_hand_stop.mdl"
+ATT.ModelSkin = 1
+ATT.ModelAngleOffset = Angle(0,-90,0)
+ATT.Category = {"eft_urx_panel_lower"}
+ARC9.LoadAttachment(ATT, "eft_urxstoper_fde")
+
+///////////////////////////////////////      eft_urxlong
+ATT = {}
+ATT.PrintName = "KAC URX 3/3.1 long panel"
+ATT.CompactName = "URX long"
+ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Description = [[Long rail cover for URX 3/3.1 handguards, manufactured by Knights Armament.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tactical_urx_kac_panel_long.mdl"
+ATT.ModelAngleOffset = Angle(0,180,0)
+ATT.Category = {"eft_urx_panel_long"}
+ARC9.LoadAttachment(ATT, "eft_urxlong")
+
+///////////////////////////////////////      eft_urxlong_fde
+ATT = {}
+ATT.PrintName = "KAC URX 3/3.1 long panel (Flat dark earth)"
+ATT.CompactName = "URX long"
+ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Description = [[Long rail cover for URX 3/3.1 handguards, manufactured by Knights Armament. Flat dark earth.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tactical_urx_kac_panel_long.mdl"
+ATT.ModelSkin = 1
+ATT.ModelAngleOffset = Angle(0,180,0)
+ATT.Category = {"eft_urx_panel_long"}
+ARC9.LoadAttachment(ATT, "eft_urxlong_fde")
+
+///////////////////////////////////////      eft_urxshort
+ATT = {}
+ATT.PrintName = "KAC URX 3/3.1 short panel"
+ATT.CompactName = "URX short"
+ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Description = [[Short rail cover for URX 3/3.1 handguards, manufactured by Knights Armament.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tactical_urx_kac_panel_short.mdl"
+ATT.ModelAngleOffset = Angle(0,180,0)
+ATT.Category = {"eft_urx_panel_long"}
+ARC9.LoadAttachment(ATT, "eft_urxshort")
+
+///////////////////////////////////////      eft_urxshort_fde
+ATT = {}
+ATT.PrintName = "KAC URX 3/3.1 short panel (Flat dark earth)"
+ATT.CompactName = "URX short"
+ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Description = [[Short rail cover for URX 3/3.1 handguards, manufactured by Knights Armament. Flat dark earth.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tactical_urx_kac_panel_short.mdl"
+ATT.ModelSkin = 1
+ATT.ModelAngleOffset = Angle(0,180,0)
+ATT.Category = {"eft_urx_panel_short"}
+ARC9.LoadAttachment(ATT, "eft_urxshort_fde")
 
 ///////////////////////////////////////      eft_hg_ar15_kacurx38
 
@@ -755,9 +945,89 @@ ATT.LHIK_Priority = -22 -- needs lower hg
 ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
-
+ATT.Attachments = {
+    {
+        PrintName = "Lower HG",
+        Category = {"eft_hglower_kacurx38"},
+        Pos = Vector(0, 0.91, -0.055),
+        Ang = Angle(0, 0, 0),   
+        Icon_Offset = Vector(0, 3.35, -1),
+    },
+    {
+        PrintName = "Front sight",
+        Category = "eft_frontsight",
+        Pos = Vector(0, 10.7-2.8, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "R Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(1.15, 12-2-2.6, 0.15),
+        Ang = Angle(0, -90, 90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "L Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(-1.15, 12-2-2.6, 0.15),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "Top Tac+Backup",
+        Category = {"eft_tactical_top", "eft_tactical_top_big","eft_backupmount"},
+        Pos = Vector(0, 7.5-3.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Right panel",
+        Category = {"eft_urx_panel_short"},
+        Pos = Vector(1, 4.65-0.8, 0.1),
+        Ang = Angle(0, -90, 90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "Left panel",
+        Category = { "eft_urx_panel_short"},
+        Pos = Vector(-1, 4.65-0.8, 0.1),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_kacurx38")
+
+///////////////////////////////////////      eft_hg_ar15_kacurx38_lower
+ATT = {}
+ATT.PrintName = "AR-15 KAC URX 3 8 inch lower handguard"
+ATT.CompactName = "URX3 8\""
+ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Description = [[The Knight's Armament URX 3 lower handguard for AR-15 equipped with a unique interface for installation of additional devices and accessories.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_kac_urx_3_8_inch_lower.mdl"
+ATT.LHIK = true
+ATT.Category = {"eft_hglower_kacurx38"}
+ATT.Attachments = {
+    {
+        PrintName = "B Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(0, 8.5-2.2, 1.25),
+        Ang = Angle(0, -90, 180),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "Lower panel",
+        Category = "eft_urx_panel_lower",
+        Pos = Vector(0, 2.85, 1.1),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+ARC9.LoadAttachment(ATT, "eft_hg_ar15_kacurx38_lower")
 
 ///////////////////////////////////////      eft_hg_ar15_ionlite
 
