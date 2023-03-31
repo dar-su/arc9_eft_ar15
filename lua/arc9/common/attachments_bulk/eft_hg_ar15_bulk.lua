@@ -1070,6 +1070,7 @@ ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"barrel_406mm"}
 
+-- fix later 
 ATT.Attachments = {
     {
         PrintName = "M-LOK R",
@@ -1116,6 +1117,30 @@ ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"barrel_260mm","barrel_370mm", "eft_gas_ar15_jp"}
 
+-- fix later 
+ATT.Attachments = {
+    {
+        PrintName = "M-LOK R",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset_right"},
+        Pos = Vector(0.75, 5.5, -0.35),
+        Ang = Angle(90-15, -0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK L",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-0.75, 5.5, -0.35),
+        Ang = Angle(90+15, -0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B",
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 3.2, 1.25),
+        Ang = Angle(180, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_moeslmid")
 
@@ -1138,6 +1163,72 @@ ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"barrel_260mm", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
 
+ATT.Attachments = {
+    {
+        PrintName = "Front sight",
+        Category = "eft_frontsight",
+        Pos = Vector(0, 10.4+3.35, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "R Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(1.35, 12-2+3.35, 0.1),
+        Ang = Angle(0, -90, 90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "L Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(-1.35, 12-2+3.35, 0.1),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 6.5+3.35, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "B Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(0, 12-2+3.35, 1.45),
+        Ang = Angle(0, -90, 180),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "M-LOK R",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti"},
+        Pos = Vector(0.9, 7+3.35, 0.1),
+        Ang = Angle(90, -0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK L",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti"},
+        Pos = Vector(-0.9, 7+3.35, 0.1),
+        Ang = Angle(90, -0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B",
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 3.9, 1),
+        Ang = Angle(180, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 1.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+}
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_saiqd")
 
@@ -1159,6 +1250,72 @@ ATT.LHIK = true
 ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"barrel_406mm","barrel_370mm","barrel_18i","barrel_20i", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
+ATT.Attachments = {
+    {
+        PrintName = "Front sight",
+        Category = "eft_frontsight",
+        Pos = Vector(0, 10.4, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "R Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(1.35, 12-2, 0.1),
+        Ang = Angle(0, -90, 90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "L Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(-1.35, 12-2, 0.1),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 6.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "B Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(0, 12-2, 1.45),
+        Ang = Angle(0, -90, 180),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "M-LOK R",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti"},
+        Pos = Vector(0.9, 7, 0.1),
+        Ang = Angle(90, -0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK L",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti"},
+        Pos = Vector(-0.9, 7, 0.1),
+        Ang = Angle(90, -0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B",
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 3.9, 1),
+        Ang = Angle(180, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 1.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+}
 
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_saiqd10")
@@ -1183,6 +1340,52 @@ ATT.Folder = "Soyuz-TM"
 
 ATT.ExcludeElements = {"barrel_260mm","barrel_105i", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
 
+ATT.Attachments = {
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 1.2, -1.15),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 14.8-3, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "M-LOK R",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset_right"},
+        Pos = Vector(0.85, 13.5-3, 0.12),
+        Ang = Angle(90, -0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK L",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-0.85, 13.5-3, 0.12),
+        Ang = Angle(90, -0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B Tac",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(0, 13.5-3, 0.85),
+        Ang = Angle(180, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B",
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 3.75, 0.85),
+        Ang = Angle(180, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_stm12")
 
@@ -1206,6 +1409,52 @@ ATT.Folder = "Soyuz-TM"
 
 ATT.ExcludeElements = {"barrel_260mm","barrel_370mm","barrel_105i","barrel_12i", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
 
+ATT.Attachments = {
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 1.2, -1.15),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 14.8, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "M-LOK R",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset_right"},
+        Pos = Vector(0.85, 13.5, 0.12),
+        Ang = Angle(90, -0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK L",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-0.85, 13.5, 0.12),
+        Ang = Angle(90, -0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B Tac",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(0, 13.5, 0.85),
+        Ang = Angle(180, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B",
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 3.75, 0.85),
+        Ang = Angle(180, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_stm15")
 
@@ -1229,6 +1478,52 @@ ATT.Folder = "Soyuz-TM"
 
 ATT.ExcludeElements = {"eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
 
+ATT.Attachments = {
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 1.2, -1.15),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 14.8-6, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "M-LOK R",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset_right"},
+        Pos = Vector(0.85, 13.5-6, 0.12),
+        Ang = Angle(90, -0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK L",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-0.85, 13.5-6, 0.12),
+        Ang = Angle(90, -0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B Tac",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(0, 13.5-6, 0.85),
+        Ang = Angle(180, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B",
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 3.75, 0.85),
+        Ang = Angle(180, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_stm9")
 
@@ -1250,7 +1545,59 @@ ATT.LHIK = true
 ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
-
+ATT.Attachments = {
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 1.5, -1.15),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 14.8-5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 6.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK R",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset_right"},
+        Pos = Vector(0.85, 13.5-5.5, 0.12),
+        Ang = Angle(90, -0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK L",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-0.85, 13.5-5.5, 0.12),
+        Ang = Angle(90, -0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B Tac",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(0, 13.5-4.7, 0.85),
+        Ang = Angle(180, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B",
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 3.5, 0.85),
+        Ang = Angle(180, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_vypr")
 
@@ -1274,8 +1621,34 @@ ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"barrel_406mm"}
 
+-- fix later 
+ATT.Attachments = {
+    {
+        PrintName = "Lower HG",
+        Category = {"eft_hglower_viper"},
+        Pos = Vector(0, 0.985, 0.01),
+        Ang = Angle(0, 0, 0),   
+        Icon_Offset = Vector(0, 3.35, -1),
+    },    
+    {
+        PrintName = "M-LOK R",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset_right"},
+        Pos = Vector(0.75, 5.5, -0.35),
+        Ang = Angle(90-15, -0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK L",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-0.75, 5.5, -0.35),
+        Ang = Angle(90+15, -0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_viper")
+
 
 ///////////////////////////////////////      eft_hg_ar15_viper_f
 
@@ -1296,10 +1669,79 @@ ATT.LHIK_Priority = -22 -- needs lower hg
 
 ATT.Category = {"eft_ar15_hguard"}
 
+ATT.Attachments = {
+    {
+        PrintName = "Lower HG",
+        Category = {"eft_hglower_viper"},
+        Pos = Vector(0, 0.985, 0.01),
+        Ang = Angle(0, 0, 0),   
+        Icon_Offset = Vector(0, 3.35, -1),
+    },    
+    {
+        PrintName = "M-LOK R",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset_right"},
+        Pos = Vector(0.75, 5.5, -0.35),
+        Ang = Angle(90-15, -0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK L",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-0.75, 5.5, -0.35),
+        Ang = Angle(90+15, -0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
 ATT.ExcludeElements = {"barrel_406mm"}
 
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_viper_f")
+
+///////////////////////////////////////      eft_hg_ar15_viper_lower
+ATT = {}
+ATT.PrintName = "AR-15 Strike Industries Viper carbine length M-LOK lower handguard"
+ATT.CompactName = "Viper AR15"
+ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Description = [[The Strike Industries Viper lower handguard for AR-15 equipped with an M-LOK interface for the installation of additional devices and accessories.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_strike_industries_viper_lower.mdl"
+ATT.LHIK = true
+ATT.Category = {"eft_hglower_viper"}
+ATT.Attachments = {
+    {
+        PrintName = "M-LOK B",
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 2.25, 1.31),
+        Ang = Angle(180, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+ARC9.LoadAttachment(ATT, "eft_hg_ar15_viper_lower")
+
+///////////////////////////////////////      eft_hg_ar15_viper_lower_fde
+ATT = {}
+ATT.PrintName = "AR-15 Strike Industries Viper carbine length M-LOK lower handguard (Flat dark earth)"
+ATT.CompactName = "Viper AR15"
+ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Description = [[The Strike Industries Viper lower handguard for AR-15 equipped with an M-LOK interface for the installation of additional devices and accessories. Flat dark earth.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_strike_industries_viper_lower.mdl"
+ATT.ModelSkin = 1
+ATT.LHIK = true
+ATT.Category = {"eft_hglower_viper"}
+ATT.Attachments = {
+    {
+        PrintName = "M-LOK B",
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 2.25, 1.31),
+        Ang = Angle(180, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+ARC9.LoadAttachment(ATT, "eft_hg_ar15_viper_lower_fde")
 
 ///////////////////////////////////////      eft_hg_ar15_wing
 
@@ -1344,6 +1786,58 @@ ATT.Folder = "WS LVOA"
 ATT.ExcludeElements = {"barrel_260mm", "eft_silencer_r43_556"}
 
 
+ATT.Attachments = {
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 1.2, -1.15),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 14.8+1.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 6.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "B2 Keymod",
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Pos = Vector(0, 12.6, 1.22),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "L Keymod",
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Pos = Vector(-0.8, 12.6, 0.165),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "R Keymod",
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Pos = Vector(0.8, 12.6, 0.165),
+        Ang = Angle(180, 90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "B Keymod",
+        Category = {"eft_mount_keymod6"},
+        Pos = Vector(0, 5, 1.22),
+        Ang = Angle(0, -90, -90),   
+    },
+}
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_lvoac_b")
 
 ///////////////////////////////////////      eft_hg_ar15_lvoac_f
@@ -1366,6 +1860,59 @@ ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "WS LVOA"
 
 ATT.ExcludeElements = {"barrel_260mm", "eft_silencer_r43_556"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 1.2, -1.15),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 14.8+1.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 6.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "B2 Keymod",
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Pos = Vector(0, 12.6, 1.22),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "L Keymod",
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Pos = Vector(-0.8, 12.6, 0.165),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "R Keymod",
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Pos = Vector(0.8, 12.6, 0.165),
+        Ang = Angle(180, 90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "B Keymod",
+        Category = {"eft_mount_keymod6"},
+        Pos = Vector(0, 5, 1.22),
+        Ang = Angle(0, -90, -90),   
+    },
+}
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_lvoac_f")
 
@@ -1390,6 +1937,58 @@ ATT.Folder = "WS LVOA"
 
 ATT.ExcludeElements = {"barrel_260mm", "eft_silencer_r43_556"}
 
+ATT.Attachments = {
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 1.2, -1.15),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 14.8+1.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 6.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "B2 Keymod",
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Pos = Vector(0, 12.6, 1.22),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "L Keymod",
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Pos = Vector(-0.8, 12.6, 0.165),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "R Keymod",
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Pos = Vector(0.8, 12.6, 0.165),
+        Ang = Angle(180, 90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "B Keymod",
+        Category = {"eft_mount_keymod6"},
+        Pos = Vector(0, 5, 1.22),
+        Ang = Angle(0, -90, -90),   
+    },
+}
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_lvoac_g")
 
 ///////////////////////////////////////      eft_hg_ar15_lvoas_b
@@ -1409,7 +2008,58 @@ ATT.LHIK = true
 
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "WS LVOA"
-
+ATT.Attachments = {
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 1.2, -1.15),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 14.8+1.5-4, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 6.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "B2 Keymod",
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Pos = Vector(0, 12.6-2, 1.22),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "L Keymod",
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Pos = Vector(-0.8, 12.6-2, 0.165),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "R Keymod",
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Pos = Vector(0.8, 12.6-2, 0.165),
+        Ang = Angle(180, 90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "B Keymod",
+        Category = {"eft_mount_keymod6"},
+        Pos = Vector(0, 5, 1.22),
+        Ang = Angle(0, -90, -90),   
+    },
+}
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_lvoas_b")
 
 ///////////////////////////////////////      eft_hg_ar15_lvoas_f
@@ -1430,7 +2080,58 @@ ATT.LHIK = true
 
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "WS LVOA"
-
+ATT.Attachments = {
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 1.2, -1.15),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 14.8+1.5-4, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 6.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "B2 Keymod",
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Pos = Vector(0, 12.6-2, 1.22),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "L Keymod",
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Pos = Vector(-0.8, 12.6-2, 0.165),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "R Keymod",
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Pos = Vector(0.8, 12.6-2, 0.165),
+        Ang = Angle(180, 90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "B Keymod",
+        Category = {"eft_mount_keymod6"},
+        Pos = Vector(0, 5, 1.22),
+        Ang = Angle(0, -90, -90),   
+    },
+}
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_lvoas_f")
 
 ///////////////////////////////////////      eft_hg_ar15_lvoas_g
@@ -1451,6 +2152,59 @@ ATT.LHIK = true
 
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "WS LVOA"
+
+ATT.Attachments = {
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 1.2, -1.15),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 14.8+1.5-4, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(0, 6.5, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "B2 Keymod",
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Pos = Vector(0, 12.6-2, 1.22),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "L Keymod",
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Pos = Vector(-0.8, 12.6-2, 0.165),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "R Keymod",
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Pos = Vector(0.8, 12.6-2, 0.165),
+        Ang = Angle(180, 90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "B Keymod",
+        Category = {"eft_mount_keymod6"},
+        Pos = Vector(0, 5, 1.22),
+        Ang = Angle(0, -90, -90),   
+    },
+}
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_lvoas_g")
 
