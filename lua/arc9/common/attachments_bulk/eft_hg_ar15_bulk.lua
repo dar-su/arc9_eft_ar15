@@ -1070,6 +1070,30 @@ ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"barrel_406mm"}
 
+ATT.Attachments = {
+    {
+        PrintName = "M-LOK R",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset_right"},
+        Pos = Vector(0.75, 5.5, -0.35),
+        Ang = Angle(90-15, -0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK L",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-0.75, 5.5, -0.35),
+        Ang = Angle(90+15, -0, 180),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B",
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 3.2, 1.25),
+        Ang = Angle(180, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_moesl")
 
