@@ -17,6 +17,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_stanag_colt_ar15_std_556x45_
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_colt_ar15_std_556x45_30.mdl"
 
 ATT.Category = {"eft_ar15_mag"}
+ATT.SuppressEmptySuffix = false 
 
 -- ATT.EFTErgoAdd = -4
 -- ATT.CustomCons = { Ergonomics = "-4" }
@@ -44,6 +45,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_stanag_fn_mk16_std_556x45_30
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_fn_mk16_std_556x45_30.mdl"
 
 ATT.Category = {"eft_ar15_mag"}
+ATT.SuppressEmptySuffix = false 
 
 -- ATT.EFTErgoAdd = -4
 -- ATT.CustomCons = { Ergonomics = "-4" }
@@ -73,6 +75,7 @@ ATT.ModelSkin = 1
 ATT.DropMagazineSkin = 1
 
 ATT.Category = {"eft_ar15_mag"}
+ATT.SuppressEmptySuffix = false 
 
 -- ATT.EFTErgoAdd = -4
 -- ATT.CustomCons = { Ergonomics = "-4" }
@@ -100,6 +103,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_stanag_hk_416_steel_maritime
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_hk_416_steel_maritime_556x45_30.mdl"
 
 ATT.Category = {"eft_ar15_mag"}
+ATT.SuppressEmptySuffix = false 
 
 -- ATT.EFTErgoAdd = -4
 -- ATT.CustomCons = { Ergonomics = "-4" }
@@ -128,6 +132,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_stanag_hk_gen_2_pm_556x45_30
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_hk_gen_2_pm_556x45_30.mdl"
 
 ATT.Category = {"eft_ar15_mag"}
+ATT.SuppressEmptySuffix = false 
 
 -- ATT.EFTErgoAdd = -4
 -- ATT.CustomCons = { Ergonomics = "-4" }
@@ -156,6 +161,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_stanag_hk_polymer_mag_556x45
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_hk_polymer_mag_556x45_30.mdl"
 
 ATT.Category = {"eft_ar15_mag"}
+ATT.SuppressEmptySuffix = false 
 
 -- ATT.EFTErgoAdd = -4
 -- ATT.CustomCons = { Ergonomics = "-4" }
@@ -183,6 +189,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_stanag_magpul_pmag_d-60_556x
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_magpul_pmag_d-60_556x45_60.mdl"
 
 ATT.Category = {"eft_ar15_mag"}
+ATT.SuppressEmptySuffix = false 
 
 -- ATT.EFTErgoAdd = -4
 -- ATT.CustomCons = { Ergonomics = "-4" }
@@ -210,6 +217,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_stanag_magpul_pmag_gen_m3_55
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_magpul_pmag_gen_m3_556x45_10.mdl"
 
 ATT.Category = {"eft_ar15_mag"}
+ATT.SuppressEmptySuffix = false 
 
 -- ATT.EFTErgoAdd = -4
 -- ATT.CustomCons = { Ergonomics = "-4" }
@@ -237,6 +245,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_stanag_magpul_pmag_gen_m3_55
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_magpul_pmag_gen_m3_556x45_20.mdl"
 
 ATT.Category = {"eft_ar15_mag"}
+ATT.SuppressEmptySuffix = false 
 
 -- ATT.EFTErgoAdd = -4
 -- ATT.CustomCons = { Ergonomics = "-4" }
@@ -264,6 +273,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_stanag_magpul_pmag_gen_m3_55
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_magpul_pmag_gen_m3_556x45_30.mdl"
 
 ATT.Category = {"eft_ar15_mag"}
+ATT.SuppressEmptySuffix = false 
 
 -- ATT.EFTErgoAdd = -4
 -- ATT.CustomCons = { Ergonomics = "-4" }
@@ -295,6 +305,7 @@ ATT.DropMagazineSkin = 1
 
 
 ATT.Category = {"eft_ar15_mag"}
+ATT.SuppressEmptySuffix = false 
 
 -- ATT.EFTErgoAdd = -4
 -- ATT.CustomCons = { Ergonomics = "-4" }
@@ -323,6 +334,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_stanag_magpul_pmag_gen_m3_55
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_magpul_pmag_gen_m3_556x45_40.mdl"
 
 ATT.Category = {"eft_ar15_mag"}
+ATT.SuppressEmptySuffix = false 
 
 -- ATT.EFTErgoAdd = -4
 -- ATT.CustomCons = { Ergonomics = "-4" }
@@ -354,6 +366,7 @@ ATT.DropMagazineSkin = 1
 
 
 ATT.Category = {"eft_ar15_mag"}
+ATT.SuppressEmptySuffix = false 
 
 -- ATT.EFTErgoAdd = -4
 -- ATT.CustomCons = { Ergonomics = "-4" }
@@ -382,6 +395,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_stanag_magpul_pmag_gen_m3_wi
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_magpul_pmag_gen_m3_window_556x45_30.mdl"
 
 ATT.Category = {"eft_ar15_mag"}
+ATT.SuppressEmptySuffix = false 
 
 -- ATT.EFTErgoAdd = -4
 -- ATT.CustomCons = { Ergonomics = "-4" }
@@ -413,6 +427,7 @@ ATT.DropMagazineSkin = 1
 
 
 ATT.Category = {"eft_ar15_mag"}
+ATT.SuppressEmptySuffix = false 
 
 -- ATT.EFTErgoAdd = -4
 -- ATT.CustomCons = { Ergonomics = "-4" }
@@ -442,6 +457,7 @@ ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_surefire_
 
 
 ATT.Category = {"eft_ar15_mag"}
+ATT.SuppressEmptySuffix = false 
 
 -- ATT.EFTErgoAdd = -4
 -- ATT.CustomCons = { Ergonomics = "-4" }
@@ -470,11 +486,12 @@ ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_surefire_
 
 
 ATT.Category = {"eft_ar15_mag"}
+ATT.SuppressEmptySuffix = false 
 
 -- ATT.EFTErgoAdd = -4
 -- ATT.CustomCons = { Ergonomics = "-4" }
 
-ATT.ActivateElements = {"60rnd"}
+ATT.ActivateElements = {"100rnd"}
 
 ATT.ChamberSize = 1
 ATT.ClipSize = 60
@@ -499,6 +516,7 @@ ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_troy_batt
 
 
 ATT.Category = {"eft_ar15_mag"}
+ATT.SuppressEmptySuffix = false 
 
 -- ATT.EFTErgoAdd = -4
 -- ATT.CustomCons = { Ergonomics = "-4" }
@@ -509,6 +527,39 @@ ATT.ChamberSize = 1
 ATT.ClipSize = 30
 
 ARC9.LoadAttachment(ATT, "eft_mag_ar15_battlemag_30")
+
+
+
+///////////////////////////////////////      eft_mag_ar15_airsoft
+
+
+ATT = {}
+
+ATT.PrintName = "5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine (FDE) (Airsoft)"
+ATT.CompactName = "GEN M3"
+ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Description = [[A 30-round polymer Magpul PMAG GEN M3 30 magazine, for 5.56x45 ammunition. Flat Dark Earth version.]]
+ATT.SortOrder = 99
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_stanag_maopul_pmag_airsoft_6_30.mdl"
+ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_maopul_pmag_airsoft_6_30.mdl"
+
+
+ATT.Category = {"eft_ar15_mag_airsoft"}
+ATT.SuppressEmptySuffix = false 
+
+ATT.FuckingAirsoft = true 
+
+-- ATT.EFTErgoAdd = -4
+-- ATT.CustomCons = { Ergonomics = "-4" }
+
+ATT.ActivateElements = {"30rnd"}
+
+ATT.ChamberSize = 1
+ATT.ClipSize = 30
+
+ARC9.LoadAttachment(ATT, "eft_mag_ar15_airsoft")
 
 
 

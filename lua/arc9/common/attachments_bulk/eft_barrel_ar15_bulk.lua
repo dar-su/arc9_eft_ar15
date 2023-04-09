@@ -11,6 +11,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[A 260mm barrel for AR-15 based weapons for 5.56x45 NATO ammo. Corresponds with standard service M4 CQBR barrel.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_ar15_260mm.mdl"
 
@@ -46,6 +47,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[A 370mm barrel for AR-15 based weapons for 5.56x45 NATO ammo. Corresponds with standard service M4A1 barrel.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_ar15_370mm.mdl"
 
@@ -81,6 +83,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[A barrel for AR-15 based weapons for 5.56x45 NATO ammo, 18 inch long.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_ar15_457mm.mdl"
 
@@ -117,6 +120,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[A barrel for AR-15 based weapons for 5.56x45 NATO ammo, 20 inches long.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_ar15_508mm.mdl"
 
@@ -153,6 +157,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[The Molot Arms 406mm barrel for AR-15 based weapons for 5.56x45 NATO ammo. A standard-issue barrel for ADAR 2-15.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_ar15_adar_406mm.mdl"
 

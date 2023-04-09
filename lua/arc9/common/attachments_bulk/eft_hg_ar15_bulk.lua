@@ -12,6 +12,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[ADAR 2-15 SVD style wooden handguard.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_adar_wood_v1.mdl"
 ATT.LHIK = true 
@@ -33,6 +34,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[The AX-15 10.5 inch handguard for AR-15 systems, equipped with an M-LOK interface for the installation of additional devices and accessories. Manufactured by Aeroknox.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_aeroknox_ax15_10,5_m_lok.mdl"
 ATT.LHIK = true 
@@ -93,6 +95,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[The MK10 lightweight handguard system manufactured by Alexander Arms. Made of G10 composite fiberglass and compatible with most AR-15-type carbines.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_alexander_arms_mk10_rifle_lenght.mdl"
 ATT.LHIK = true 
@@ -137,6 +140,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[A carbine length handguard manufactured by Colt, a standard-issue handguard for the M4A1 assault rifles.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_colt_m4_length_std.mdl"
 ATT.LHIK = true 
@@ -181,6 +185,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[The Daniel Defense RIS II 12.25 foregrip is a part of the SOPMOD Block II program to replace the standard M4CQBR or Mk18 foregrips in the US SOCOM service. It's made with light but durable aircraft aluminum alloy and comes equipped with 4 mounts for the installation of additional devices and accessories. This foregrip option is incompatible with the M203 UBGL.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_dd_ris_ii_12,25.mdl"
 ATT.LHIK = true 
@@ -281,6 +286,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[The Daniel Defense RIS II 9.5 foregrip is a part of the SOPMOD Block II program to replace the standard M4CQBR or Mk18 foregrips in the US SOCOM service. It's made with light but durable aircraft aluminum alloy and comes equipped with 4 mounts for the installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_dd_ris_ii_9,5.mdl"
 ATT.ModelSkin = 1
@@ -373,6 +379,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[The Daniel Defense RIS II 9.5 foregrip is a part of the SOPMOD Block II program to replace the standard M4CQBR or Mk18 foregrips in the US SOCOM service. It's made with light but durable aircraft aluminum alloy and comes equipped with 4 mounts for the installation of additional devices and accessories. Coyote brown.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_dd_ris_ii_9,5.mdl"
 ATT.LHIK = true 
@@ -440,6 +447,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_dd_ris_ii_9,5_lower.mdl"
 ATT.LHIK = true
 ATT.Category = {"eft_hglower_ddrisii95"}
+ATT.HasHG = true
 ATT.Attachments = {
     {
         PrintName = "Grip",
@@ -462,6 +470,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[The Daniel Defense RIS II FSP 9.5 foregrip is a part of the SOPMOD Block II program to replace the standard M4CQBR or Mk18 foregrips in the US SOCOM service. It's made with light but durable aircraft aluminum alloy and comes equipped with 4 mounts for the installation of additional devices and accessories. This foregrip option is incompatible with the M203 UBGL.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_dd_ris_ii_fsp_9,5.mdl"
 ATT.LHIK = true 
@@ -513,6 +522,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[Geissele SMR 13.5 inch M-LOK handguard for AR-15 equipped with a M-LOK interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_geissele_smr_mk16_135_inch.mdl"
 ATT.LHIK = true 
@@ -581,6 +591,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[Geissele SMR 9.5 inch M-LOK handguard for AR-15 equipped with a M-LOK interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_geissele_smr_mk16_95_inch.mdl"
 ATT.LHIK = true 
@@ -649,6 +660,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[Knight's Armament Company RIS is a standard service handguard for the M4A1 carbines, but it can be installed on most AR-15 based weapons, provided that the barrel is the right length. It comes equipped with 4 mounts for the installation of a heat shield and additional accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_kac_ris.mdl"
 ATT.LHIK = true 
@@ -726,6 +738,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_kac_urx_31_10,75_inch.mdl"
 ATT.LHIK = true 
 ATT.LHIK_Priority = -22 -- needs lower hg
+ATT.HasHG = true
 
 ATT.Category = {"eft_ar15_hguard"}
 
@@ -937,6 +950,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[The Knight's Armament URX 3 handguard for AR-15 equipped with a unique interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_kac_urx_3_8_inch.mdl"
 ATT.LHIK = true 
@@ -1040,6 +1054,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[Lightweight handguard Lone Star Ion Lite for use with sport rifles based on AR-15.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_lone_star_ion_lite_m_lok_16_inch.mdl"
 ATT.LHIK = true 
@@ -1129,6 +1144,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[The Magpul MOE SL carbine length handguard for AR-15 systems, equipped with an M-LOK interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_magpul_moe_sl_carabine_length.mdl"
 ATT.LHIK = true 
@@ -1175,6 +1191,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[Magpul MOE SL foregrip for AR-15 equipped with a M-LOK interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_magpul_moe_sl_mid_length.mdl"
 ATT.LHIK = true 
@@ -1220,6 +1237,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[The Salient Arms International QD Rail handguard for AR-15 equipped with an M-LOK interface for the installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_sai_qd_rail_long.mdl"
 ATT.LHIK = true 
@@ -1308,6 +1326,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[Salinet Arms QD Rail foregrip for AR-15 equipped with a M-LOK interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_sai_qd_rail_short.mdl"
 ATT.LHIK = true 
@@ -1396,6 +1415,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[STM 12 inch M-LOK handguard for AR-15 equipped with a M-LOK interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_stmarms_12_inch_m_lok.mdl"
 ATT.LHIK = true 
@@ -1465,6 +1485,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[STM 15 inch M-LOK handguard for AR-15 equipped with a M-LOK interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_stmarms_15_inch_m_lok.mdl"
 ATT.LHIK = true 
@@ -1534,6 +1555,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[STM 9 inch M-LOK handguard for AR-15 equipped with a M-LOK interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_stmarms_9_inch_m_lok.mdl"
 ATT.LHIK = true 
@@ -1603,6 +1625,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[Stngr Vypr foregrip for AR-15 equipped with a M-LOK interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_stngr_vypr_m_lok_10_inch.mdl"
 ATT.LHIK = true 
@@ -1677,6 +1700,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[The Strike Industries Viper handguard for AR-15 equipped with an M-LOK interface for the installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_strike_industries_viper.mdl"
 ATT.LHIK = true 
@@ -1726,6 +1750,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[The Strike Industries Viper handguard for AR-15 equipped with an M-LOK interface for the installation of additional devices and accessories. Flat dark earth.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_strike_industries_viper.mdl"
 ATT.ModelSkin = 1
@@ -1819,6 +1844,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[A 12 inch Wing & Skull handguard for AR-15 weapon systems. Manufactured by Unique-ARs.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_unique_ars_wing_and_skull_12_inch.mdl"
 ATT.LHIK = true 
@@ -1841,6 +1867,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[Lightweight handguard War Sport LVOA-C for use with sport rifles based on AR-15.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_war_sport_lvoa_c.mdl"
 ATT.LHIK = true 
@@ -1916,6 +1943,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[Lightweight handguard War Sport LVOA-C for use with sport rifles based on AR-15. Flat dark earth.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_war_sport_lvoa_c.mdl"
 ATT.ModelSkin = 1
@@ -1992,6 +2020,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[Lightweight handguard War Sport LVOA-C for use with sport rifles based on AR-15. Gray.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_war_sport_lvoa_c.mdl"
 ATT.ModelSkin = 2
@@ -2067,6 +2096,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[Lightweight handguard War Sport LVOA-S (SBR) for use with sport rifles based on AR-15.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_war_sport_lvoa_s.mdl"
 ATT.LHIK = true 
@@ -2138,6 +2168,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[Lightweight handguard War Sport LVOA-S (SBR) for use with sport rifles based on AR-15. Flat dark earth.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_war_sport_lvoa_s.mdl"
 ATT.ModelSkin = 1
@@ -2210,6 +2241,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[Lightweight handguard War Sport LVOA-S (SBR) for use with sport rifles based on AR-15. Gray.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_war_sport_lvoa_s.mdl"
 ATT.ModelSkin = 2
@@ -2284,6 +2316,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[The GEN III Delta Carbon handguard for AR-15 systems, equipped with a custom interface for the installation of additional devices and accessories. Manufactured by Precision Reflex.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_precision_reflex_carbon_fiber_delta_gen_3.mdl"
 ATT.ModelSkin = 2

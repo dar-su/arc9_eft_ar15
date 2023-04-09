@@ -12,6 +12,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[Standard charging handle for ADAR 2-15 and compatible systems.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasBolt = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/charge_ar15_colt_charging_handle.mdl"
 
@@ -30,6 +31,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[The Badger Ordnance Tactical Charging Handle is optimized for use with Mil Spec AR-15/M16/M4 platform rifles and features preinstalled popular Gen I Tactical Latch of the same company. All components are machined from 6061 Alloy and Mil Spec Type III Hardcoat Anodized.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasBolt = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/charge_ar15_badger_ordnance_tactical_latch.mdl"
 
@@ -48,6 +50,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[Standard charging handle for AR-15 and compatible systems.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasBolt = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/charge_ar15_colt_charging_handle.mdl"
 
@@ -66,6 +69,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[Geissele Airborne Charging Handle for AR-15 and compatible systems.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasBolt = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/charge_ar15_geissele_ach.mdl"
 
@@ -84,6 +88,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[Regular HK 416A5 charging hadle with a extended latch.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasBolt = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/charge_ar15_hk_extended_latch_charging_handle.mdl"
 
@@ -102,6 +107,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[MASP Ambi battle charging handle for AR-15 and compatible systems.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasBolt = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/charge_ar15_masp_ambi_battle_charging_handle.mdl"
 
@@ -120,6 +126,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[Raptor charging handle for AR-15 and compatible systems.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasBolt = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/charge_ar15_radian_raptor_ambidextrous_charging_handle.mdl"
 
@@ -138,6 +145,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[Raptor charging handle for AR-15 and compatible systems.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasBolt = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/charge_ar15_radian_raptor_ambidextrous_charging_handle.mdl"
 ATT.ModelSkin = 1
@@ -156,6 +164,7 @@ ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
 ATT.Description = [[Avalanche Mod.2 charging handle for AR-15 and compatible systems. Manufactured by Rainer Arms.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasBolt = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/charge_ar15_rainer_arms_avalanche_mod2.mdl"
 
