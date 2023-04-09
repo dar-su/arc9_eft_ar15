@@ -14,6 +14,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_ar15_260mm.mdl"
+ATT.MuzzleDevice = true
+ATT.BarrelLengthAdd = 2
 
 ATT.Category = {"eft_m4a1_barrel"}
 
@@ -50,6 +52,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_ar15_370mm.mdl"
+ATT.MuzzleDevice = true
+ATT.BarrelLengthAdd = 2
 
 ATT.Category = {"eft_m4a1_barrel"}
 
@@ -86,6 +90,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_ar15_457mm.mdl"
+ATT.MuzzleDevice = true
+ATT.BarrelLengthAdd = 2
 
 ATT.Category = {"eft_m4a1_barrel"}
 
@@ -123,6 +129,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_ar15_508mm.mdl"
+ATT.MuzzleDevice = true
+ATT.BarrelLengthAdd = 2
 
 ATT.Category = {"eft_m4a1_barrel"}
 
@@ -160,6 +168,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_ar15_adar_406mm.mdl"
+ATT.MuzzleDevice = true
+ATT.BarrelLengthAdd = 2
 
 ATT.Category = {"eft_m4a1_barrel"}
 

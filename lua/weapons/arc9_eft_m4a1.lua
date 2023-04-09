@@ -392,7 +392,6 @@ SWEP.ReloadHideBoneTables = {
 }
 
 SWEP.Hook_TranslateAnimation = function(swep, anim)
-    print(anim)
     local elements = swep:GetElements()
     local class = swep:GetClass()
 
@@ -445,7 +444,15 @@ SWEP.Hook_TranslateAnimation = function(swep, anim)
 
 
     if anim == "fix" then
-        rand = math.Truncate(util.SharedRandom("hi", 0, 4.99))
+        local rand = math.Truncate(util.SharedRandom("hi", 0, 4.99))
+
+        -- swep.EFTInspectnum = swep.EFTInspectnum or 0
+        -- if IsFirstTimePredicted() then
+        --     swep.EFTInspectnum = swep.EFTInspectnum + 1
+        -- end
+        -- local rand = swep.EFTInspectnum
+        -- if rand == 5 then swep.EFTInspectnum = 0 rand = 0 end
+
 
         if ARC9EFTBASE and SERVER then
             net.Start("arc9eftjam")
@@ -453,7 +460,11 @@ SWEP.Hook_TranslateAnimation = function(swep, anim)
             net.Send(swep:GetOwner())
         end
 
-        return "jam" .. rand
+        if swep:GetValue("EFTAR15NoFwdAssist") and (rand == 1 or rand == 2) then
+            rand = rand .. "_nofwd"
+        end
+        
+        return "jam_" .. rand
     end
     
     if anim == "ready" then return anim end -- fcudfjhgfioudhmfiojm
@@ -540,11 +551,12 @@ local rst_empty = {
     { s = magout, t = 0.38 },
     { s = pouchout, t = 0.96 },
     { s = magin, t = 1.6 },
-    { s = path .. "mcx_bolt_catchrelease.wav", t = 2.24 },
+    { s = path .. "mcx_bolt_catch_handhit.wav", t = 2.2 },
+    { s = path .. "mcx_bolt_catchrelease.wav", t = 2.25 },
     { s = randspin, t = 2.27 },
     {hide = 0, t = 0},
     {hide = 1, t = 0.6},
-    {hide = 0, t = 1.06}
+    {hide = 0, t = 1.1}
 }
 
 
@@ -563,11 +575,12 @@ local rst_empty40 = {
     { s = magout, t = 0.38 },
     { s = pouchout, t = 0.96+0.12 },
     { s = magin, t = 1.6+0.12 },
-    { s = path .. "mcx_bolt_catchrelease.wav", t = 2.24+0.12 },
+    { s = path .. "mcx_bolt_catch_handhit.wav", t = 2.2+0.12 },
+    { s = path .. "mcx_bolt_catchrelease.wav", t = 2.25+0.12 },
     { s = randspin, t = 2.27+0.12 },
     {hide = 0, t = 0},
     {hide = 1, t = 0.6},
-    {hide = 0, t = 1.1}
+    {hide = 0, t = 1.12}
 }
 
 local rst_def50 = {
@@ -585,11 +598,12 @@ local rst_empty50 = {
     { s = magout, t = 0.38 },
     { s = pouchout, t = 0.96+0.2 },
     { s = magin, t = 1.6+0.2 },
-    { s = path .. "mcx_bolt_catchrelease.wav", t = 2.24+0.2 },
+    { s = path .. "mcx_bolt_catch_handhit.wav", t = 2.2+0.2 },
+    { s = path .. "mcx_bolt_catchrelease.wav", t = 2.25+0.2 },
     { s = randspin, t = 2.27+0.2 },
     {hide = 0, t = 0},
     {hide = 1, t = 0.6},
-    {hide = 0, t = 1.1}
+    {hide = 0, t = 1.12}
 }
 
 local rst_magcheck = {
@@ -661,7 +675,8 @@ SWEP.Animations = {
     },
 
     ["fire"] = {
-        Source = "fire",
+        Source = "fire", 
+        EventTable = { { s = "arc9_eft_shared/weap_trigger_hammer.wav", t = 0 } }
     },
     ["fire_empty"] = {
         Source = "fire_empty",
@@ -695,7 +710,7 @@ SWEP.Animations = {
         EventTable = rst_def,
     },
     ["reload_empty0"] = {
-        Source = "reload_empty0",
+        Source = {"reload_empty0", "reload_empty0_1"},
         MinProgress = 0.9,
         FireASAP = true,
         IKTimeLine = rik_empty,
@@ -709,7 +724,7 @@ SWEP.Animations = {
         EventTable = rst_def,
     },
     ["reload_empty2"] = {
-        Source = "reload_empty2",
+        Source = {"reload_empty2", "reload_empty2_1"},
         MinProgress = 0.9,
         FireASAP = true,
         IKTimeLine = rik_empty,
@@ -723,7 +738,7 @@ SWEP.Animations = {
         EventTable = rst_def40,
     },
     ["reload_empty4"] = {
-        Source = "reload_empty4",
+        Source = {"reload_empty4", "reload_empty4_1"},
         MinProgress = 0.9,
         FireASAP = true,
         IKTimeLine = rik_empty,
@@ -737,7 +752,7 @@ SWEP.Animations = {
         EventTable = rst_def50,
     },
     ["reload_empty5"] = {
-        Source = "reload_empty5",
+        Source = {"reload_empty5", "reload_empty5_1"},
         MinProgress = 0.9,
         FireASAP = true,
         IKTimeLine = rik_empty,
@@ -751,7 +766,7 @@ SWEP.Animations = {
         EventTable = rst_def,
     },
     ["reload_empty6"] = {
-        Source = "reload_empty6",
+        Source = {"reload_empty6", "reload_empty6_1"},
         MinProgress = 0.9,
         FireASAP = true,
         IKTimeLine = rik_empty,
@@ -847,68 +862,137 @@ SWEP.Animations = {
 
 
 
-    ["jam0"] = {
-        Source = {"misfire_0", "misfire_1"}, -- misfire
+    ["jam_0"] = {
+        Source = "jam_misfire", -- misfire
         EventTable = {
-            { s = randspin, t = 0.2 },            
-            { s = path.."ak74_slider_up.wav", t = 0.8},
-            { s = path.."ak74_slider_down.wav", t = 1.04},
-            { s = randspin, t = 1.55 },        
+            { s = randspin, t = 0.04 },
+            { s = randspin, t = 0.49 },
+            { s = path .. "mcx_bolt_out.wav", t = 1.17 },
+            { s = path .. "mcx_bolt_in.wav", t = 1.55 },
+            { s = randspin, t = 1.89 },
+            
         },
-        EjectAt = 0.77
+        IKTimeLine = {
+            { t = 0, lhik = 1 },
+            { t = 0.3, lhik = 1 },
+            { t = 0.41, lhik = 0 },
+            { t = 0.8, lhik = 0 },
+            { t = 0.95, lhik = 1 },
+            { t = 1, lhik = 1 },
+        },
+        EjectAt = 1.3
     },
-    ["jam2"] = {
+    ["jam_2"] = {
         Source = "jam_feed", -- jam feed
         EventTable = {
-            { s = randspin, t = 0.4 },
-            { s = path .. "ak_jam_stuckbolt_in_starting.wav", t = 0.6 },
-            { s = path .. "ak_jam_stuckbolt_in1.wav", t = 0.72 },
-            { s = path .. "ak_jam_stuckbolt_in_moving.wav", t = 1.18 },
-            { s = path .. "ak_jam_feedfault_roundaftercharge.wav", t = 1.4 },
-            { s = path .. "ak_jam_feedfault_extraction_nohand.wav", t = 1.53 },
-            { s = path .. "ak74_slider_down.wav", t = 1.72 },
-            { s = randspin, t = 2.05 },
-        },
-        EjectAt = 1.4
-    },
-    ["jam3"] = {
-        Source = "jam_hard", -- jam hard
-        EventTable = {
-            { s = randspin, t = 0.25 },
-            { s = path .. "ak_jam_stuckbolt_in_starting.wav", t = 0.42 },
-            { s = path .. "ak_jam_stuckbolt_in1.wav", t = 0.51 },
-            { s = path .. "ak_jam_stuckbolt_in2.wav", t = 0.96 },
+            { s = randspin, t = 0.04 },
+            { s = randspin, t = 0.49 },
+            { s = randspin, t = 0.81 },
+            { s = path .. "mcx_bolt_out.wav", t = 1.04 },
             { s = randspin, t = 1.3 },
-            { s = randspin, t = 1.79 },
-            { s = path .. "ak_jam_stuckbolt_in3.wav", t = 2.14 },
-            { s = path .. "ak_jam_stuckbolt_in_moving.wav", t = 2.67 },
-            { s = path .. "ak_jam_feedfault_extraction_nohand.wav", t = 2.86 },
-            { s = path .. "ak74_slider_down.wav", t = 2.97 },
-            { s = randspin, t = 3.48 },
+            { s = randspin, t = 1.61 },
+            { s = path .. "ak_jam_feedfault_extraction_nohand.wav", t = 1.66 },
+            { s = randspin, t = 1.91 },
+            { s = path .. "mcx_bolt_in.wav", t = 2.38 },
+            { s = path .. "generic_jam_slidelock_hit1.wav", t = 2.66 },
+            { s = path .. "generic_jam_slidelock_hit2.wav", t = 3.02 },
+            { s = randspin, t = 3.38 },
         },
-        EjectAt = 2.86
+        EjectAt = 1.66
     },
-    ["jam4"] = {
-        Source = "jam_soft", -- jam soft
+    ["jam_2_nofwd"] = {
+        Source = "jam_feed_nofwd", -- jam feed
         EventTable = {
-            { s = randspin, t = 0.16 },
-            { s = path .. "ak_jam_stuckbolt_in_starting.wav", t = 0.5 },
-            { s = path .. "ak_jam_stuckbolt_in3.wav", t = 0.73 },
-            { s = path .. "ak_jam_stuckbolt_in_moving.wav", t = 1.26 },
-            { s = path .. "ak_jam_feedfault_extraction_nohand.wav", t = 1.44 },
-            { s = path .. "ak74_slider_down.wav", t = 1.54 },
-            { s = randspin, t = 2 },
+            { s = randspin, t = 0.04 },
+            { s = randspin, t = 0.49 },
+            { s = randspin, t = 0.81 },
+            { s = path .. "mcx_bolt_out.wav", t = 1.04 },
+            { s = randspin, t = 1.3 },
+            { s = randspin, t = 1.61 },
+            { s = path .. "ak_jam_feedfault_extraction_nohand.wav", t = 1.66 },
+            { s = randspin, t = 1.91 },
+            { s = path .. "mcx_bolt_in.wav", t = 2.38 },
+            { s = randspin, t = 2.73 },
         },
-        EjectAt = 1.44
+        EjectAt = 1.66
     },
-    ["jam1"] = {
+
+    ["jam_3"] = {
+        Source = "jam_hard_slide", -- jam hard
+        EventTable = {
+            { s = randspin, t = 0.04 },
+            { s = randspin, t = 0.49 },
+            { s = path .. "ar_jam_boltlock_grab1.wav", t = 0.98 },
+            { s = path .. "ar_jam_boltlock_try1.wav", t = 1.04 },
+            { s = path .. "ar_jam_boltlock_grab2.wav", t = 1.57 },
+            { s = path .. "ar_jam_boltlock_try2.wav", t = 1.72 },
+            { s = randspin, t = 1.94 },
+            { s = path .. "ar_jam_boltlock_grab3.wav", t = 2.37 },
+            { s = path .. "ar_jam_boltlock_try3.wav", t = 2.44 },
+            { s = path .. "mcx_bolt_out.wav", t = 2.88 },
+            { s = path .. "ak_jam_feedfault_extraction_nohand.wav", t = 2.97 },
+            { s = path .. "mcx_bolt_in.wav", t = 3 },
+            { s = randspin, t = 3.18 },
+            
+        },
+        IKTimeLine = {
+            { t = 0, lhik = 1 },
+            { t = 0.15, lhik = 1 },
+            { t = 0.24, lhik = 0 },
+            { t = 0.56, lhik = 0 },
+            { t = 0.67, lhik = 1 },
+            { t = 1, lhik = 1 },
+        },
+        EjectAt = 2.97
+    },
+    ["jam_4"] = {
+        Source = "jam_soft_slide", -- jam soft
+        EventTable = {
+            { s = randspin, t = 0.04 },
+            { s = randspin, t = 0.49 },
+            { s = path .. "ar_jam_boltlock_grab1.wav", t = 1.03 },
+            { s = path .. "ar_jam_boltlock_try1.wav", t = 1.22 },
+            { s = path .. "ar_jam_boltlock_grab2.wav", t = 1.56 },
+            { s = path .. "mcx_bolt_out.wav", t = 1.67 },
+            { s = path .. "ak_jam_feedfault_extraction_nohand.wav", t = 1.75 },
+            { s = path .. "mcx_bolt_in.wav", t = 1.87 },
+            { s = randspin, t = 2.1 },
+            
+        },
+        IKTimeLine = {
+            { t = 0, lhik = 1 },
+            { t = 0.28, lhik = 1 },
+            { t = 0.4, lhik = 0 },
+            { t = 0.82, lhik = 0 },
+            { t = 0.9, lhik = 1 },
+            { t = 1, lhik = 1 },
+        },
+        EjectAt = 1.75
+    },
+    ["jam_1"] = {
         Source = "jam_shell", -- jam shell
         EventTable = {
-            { s = randspin, t = 0.3 },
-            { s = path .. "ak_jam_shell_grab.wav", t = 0.56 },
-            { s = path .. "ak_jam_feedfault_extraction_nohand.wav", t = 1.2 },
-            { s = path .. "ak_jam_stuckbolt_out_hit3.wav", t = 1.44 },
-            { s = randspin, t = 1.7 },
+            { s = randspin, t = 0.04 },
+            { s = randspin, t = 0.49 },
+            { s = path .. "ak_jam_shell_grab.wav", t = 0.94 },
+            { s = path .. "ak_jam_shell_remove.wav", t = 1.3 },
+            { s = "arc9_eft_shared/weap_bolt_handle_out.wav", t = 1.71},
+            { s = "arc9_eft_shared/weap_bolt_handle_in.wav", t = 2},
+            { s = path .. "generic_jam_slidelock_hit1.wav", t = 2.25 },
+            { s = randspin, t = 2.43 },
+        },
+    },
+    ["jam_1_nofwd"] = {
+        Source = "jam_shell_nofwd", -- jam shell
+        EventTable = {
+            { s = randspin, t = 0.04 },
+            { s = randspin, t = 0.49 },
+            { s = path .. "ak_jam_shell_grab.wav", t = 0.94 },
+            { s = path .. "ak_jam_shell_remove.wav", t = 1.3 },
+            { s = "arc9_eft_shared/weap_bolt_handle_out.wav", t = 1.71},
+            { s = "arc9_eft_shared/weap_bolt_handle_in.wav", t = 2},
+            -- { s = path .. "generic_jam_slidelock_hit1.wav", t = 2.25 },
+            { s = randspin, t = 2.3 },
         },
     },
 }
@@ -923,23 +1007,27 @@ SWEP.AttachmentElements = {
 SWEP.missingpartsnotifsent = 0
 
 function SWEP:HookP_BlockFire() 
-    if  !self:GetValue("HasGas") or 
+    if self:GetValue("FuckingAirsoft") then 
+        if self.missingpartsnotifsent < CurTime() then
+            self.missingpartsnotifsent = CurTime() + 2
+            net.Start("arc9eftquestionnotif")
+            net.Send(self:GetOwner())
+        end
+        return true
+    elseif !self:GetValue("HasGas") or 
         !self:GetValue("HasAmmoooooooo") or 
         !self:GetValue("HasGrip") or 
         !self:GetValue("HasBolt") or 
         !self:GetValue("HasReciever") or 
         !self:GetValue("HasBarrel") or 
         !self:GetValue("HasBufferTube") or 
-        !self:GetValue("HasHG") or
-        self:GetValue("FuckingAirsoft") then
-            
+        !self:GetValue("HasHG") then
             if self.missingpartsnotifsent < CurTime() then
                 self.missingpartsnotifsent = CurTime() + 3
                 net.Start("arc9eftmissingparts")
-                if self:GetValue("FuckingAirsoft") then net.WriteBool(true) end
                 net.Send(self:GetOwner())
             end
-            return true 
+            return true
     end    
 end
 

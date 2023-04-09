@@ -1722,15 +1722,15 @@ ATT.Attachments = {
     {
         PrintName = "M-LOK R",
         Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
-        Pos = Vector(0.75, 5.5, -0.35),
-        Ang = Angle(180, 90, 0),
+        Pos = Vector(0.82, 5.5, -0.65),
+        Ang = Angle(180, 90, -30),
         Icon_Offset = Vector(0, 0, 0),
     },
     {
         PrintName = "M-LOK L",
         Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
-        Pos = Vector(-0.75, 5.5, -0.35),
-        Ang = Angle(0, -90, 0),
+        Pos = Vector(-0.82, 5.5, -0.65),
+        Ang = Angle(0, -90, 30),
         Icon_Offset = Vector(0, 0, 0),
     },
 }
