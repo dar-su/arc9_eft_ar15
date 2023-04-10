@@ -187,7 +187,7 @@ SWEP.HeatLockout = false
 
 --          Firemodes
 
-SWEP.RPM = 450
+SWEP.RPM = 600
 -- SWEP.Firemodes = { { Mode = -1 }, { Mode = 1 } } -- auto, semi
 SWEP.Firemodes = {
     -- { Mode = -1, PoseParam = 1},
