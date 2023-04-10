@@ -6,17 +6,17 @@ SWEP.Category = "ARC9 - Escape From Tarkov"
 SWEP.SubCategory = "Assault Rifles"
 SWEP.Credits = { Author1 = "Darsu", Assets2 = "Battlestate Games LTD", General_help3 = "Mal0", ARC9_Base4 = "Arctic" }
 
-SWEP.PrintName = "Colt M4A1"
+SWEP.PrintName = "HK 416A5"
 SWEP.Class = "Assault Rifle"
 SWEP.Trivia = {
-    Manufacturer1 = "Colt’s Manufacturing Company",
+    Manufacturer1 = "Heckler & Koch",
     Calibre2 = "5.56x45mm NATO",
-    Action3 = "Gas",
-    Country4 = "USA",
-    Year5 = "1991"
+    Action3 = "Blow",
+    Country4 = "Germany",
+    Year5 = "2004"
 }
 
-SWEP.Description = [[The Colt M4A1 carbine is a fully automatic variant of the basic M4 Carbine and was primarily designed for special operations use. However, U.S. Special Operations Command (USSOCOM) was soon to adopt the M4A1 for almost all special operations units, followed later by general introduction of the M4A1 into service with the U.S. Army and Marine Corps.]]
+SWEP.Description = [[The HK416 A5 is a further development of the HK416 assault rifle in 5.56x45mm NATO caliber. The most striking changes compared to its previous versions as well as to market available AR platforms include an improved and tool-less gas regulator for suppressor use, a redesigned, user-friendly lower receiver, which allows complete ambidextrous operation of the weapon and ensures optimised magazine compatibility. Additionally, numerous technical improvements to maximize the safety of the operator, weapon reliability, ammunition compatibility, and durability under real operating conditions.]]
 
 
 SWEP.StandardPresets = {
@@ -26,7 +26,7 @@ SWEP.StandardPresets = {
 SWEP.BarrelLength = 38
 SWEP.Slot = 2
 SWEP.WorldModel = "models/weapons/w_rif_m4a1.mdl"
-SWEP.ViewModel = "models/weapons/arc9/darsu_eft/c_m4a1.mdl"
+SWEP.ViewModel = "models/weapons/arc9/darsu_eft/c_hk416.mdl"
 SWEP.ViewModelFOVBase = 65
 SWEP.MirrorVMWM = true
 SWEP.DefaultBodygroups = "00000010000000"
@@ -187,7 +187,7 @@ SWEP.HeatLockout = false
 
 --          Firemodes
 
-SWEP.RPM = 770
+SWEP.RPM = 820
 -- SWEP.Firemodes = { { Mode = -1 }, { Mode = 1 } } -- auto, semi
 SWEP.Firemodes = {
     { Mode = -1, PoseParam = 1},
@@ -328,22 +328,22 @@ SWEP.ShootPitchVariation = 0
 SWEP.DistantShootVolume = 0.05
 SWEP.DistantShootVolumeActual = 0.05
 
-SWEP.ShootSound = { path .. "fire_new/m4_fire_outdoor_loop1.wav", path .. "fire_new/m4_fire_outdoor_loop2.wav", path .. "fire_new/m4_fire_outdoor_loop3.wav", path .. "fire_new/m4_fire_outdoor_loop4.wav" }
-SWEP.LayerSound = path .. "fire_new/m4_fire_outdoor_loop_tail.wav"
+SWEP.ShootSound = { path .. "fire_new/hk416_outdoor_close_loop1.wav", path .. "fire_new/hk416_outdoor_close_loop2.wav", path .. "fire_new/hk416_outdoor_close_loop3.wav", path .. "fire_new/hk416_outdoor_close_loop4.wav" }
+SWEP.LayerSound = path .. "fire_new/hk416_outdoor_close_loop_tail.wav"
 
-SWEP.ShootSoundSilenced = { path .. "fire_new/m4a1_fire_silenced_close_loop1.wav", path .. "fire_new/m4a1_fire_silenced_close_loop2.wav", path .. "fire_new/m4a1_fire_silenced_close_loop3.wav", path .. "fire_new/m4a1_fire_silenced_close_loop4.wav" }
-SWEP.LayerSoundSilenced = path .. "fire_new/m4a1_fire_silenced_close_loop_tail.wav"
+SWEP.ShootSoundSilenced = { path .. "fire_new/hk416_outdoor_silenced_close_loop1.wav", path .. "fire_new/hk416_outdoor_silenced_close_loop2.wav", path .. "fire_new/hk416_outdoor_silenced_close_loop3.wav", path .. "fire_new/hk416_outdoor_silenced_close_loop4.wav" }
+SWEP.LayerSoundSilenced = path .. "fire_new/hk416_outdoor_silenced_close_loop_tail.wav"
 
-SWEP.ShootSoundIndoor = { path .. "fire_new/m4_fire_indoor_loop1.wav", path .. "fire_new/m4_fire_indoor_loop2.wav", path .. "fire_new/m4_fire_indoor_loop3.wav", path .. "fire_new/m4_fire_indoor_loop4.wav" }
-SWEP.LayerSoundIndoor = path .. "fire_new/m4_fire_indoor_loop_tail.wav"
+SWEP.ShootSoundIndoor = { path .. "fire_new/hk416_indoor_close_loop1.wav", path .. "fire_new/hk416_indoor_close_loop2.wav", path .. "fire_new/hk416_indoor_close_loop3.wav", path .. "fire_new/hk416_indoor_close_loop4.wav" }
+SWEP.LayerSoundIndoor = path .. "fire_new/hk416_indoor_close_loop_tail.wav"
 
-SWEP.ShootSoundSilencedIndoor = { path .. "fire_new/m4a1_silenced_indoor_close_loop1.wav", path .. "fire_new/m4a1_silenced_indoor_close_loop2.wav", path .. "fire_new/m4a1_silenced_indoor_close_loop3.wav", path .. "fire_new/m4a1_silenced_indoor_close_loop4.wav" }
-SWEP.LayerSoundSilencedIndoor = path .. "fire_new/m4a1_silenced_indoor_close_loop_tail.wav"
+SWEP.ShootSoundSilencedIndoor = { path .. "fire_new/hk416_indoor_silenced_close_loop1.wav", path .. "fire_new/hk416_indoor_silenced_close_loop2.wav", path .. "fire_new/hk416_indoor_silenced_close_loop3.wav", path .. "fire_new/hk416_indoor_silenced_close_loop4.wav" }
+SWEP.LayerSoundSilencedIndoor = path .. "fire_new/hk416_indoor_silenced_close_loop_tail.wav"
 
-SWEP.DistantShootSound = { path .. "fire_new/m4_fire_distant_loop1.wav", path .. "fire_new/m4_fire_distant_loop2.wav", path .. "fire_new/m4_fire_distant_loop3.wav", path .. "fire_new/m4_fire_distant_loop4.wav" }
-SWEP.DistantShootSoundSilenced = { path .. "fire_new/m4a1_fire_silenced_distant_loop1.wav", path .. "fire_new/m4a1_fire_silenced_distant_loop2.wav", path .. "fire_new/m4a1_fire_silenced_distant_loop3.wav", path .. "fire_new/m4a1_fire_silenced_distant_loop4.wav" }
-SWEP.DistantShootSoundIndoor = { path .. "fire_new/hk416_indoor_distant_loop1.wav", path .. "fire_new/hk416_indoor_distant_loop2.wav", path .. "fire_new/hk416_indoor_distant_loop3.wav", path .. "fire_new/hk416_indoor_distant_loop4.wav" } -- no idea where m4 are
-SWEP.DistantShootSoundSilencedIndoor = { path .. "fire_new/m4a1_silenced_indoor_distant_loop1.wav", path .. "fire_new/m4a1_silenced_indoor_distant_loop2.wav", path .. "fire_new/m4a1_silenced_indoor_distant_loop3.wav", path .. "fire_new/m4a1_silenced_indoor_distant_loop4.wav" }
+SWEP.DistantShootSound = { path .. "fire_new/hk416_outdoor_distant_loop1.wav", path .. "fire_new/hk416_outdoor_distant_loop2.wav", path .. "fire_new/hk416_outdoor_distant_loop3.wav", path .. "fire_new/hk416_outdoor_distant_loop4.wav" }
+SWEP.DistantShootSoundSilenced = { path .. "fire_new/hk416_outdoor_silenced_distant_loop1.wav", path .. "fire_new/hk416_outdoor_silenced_distant_loop2.wav", path .. "fire_new/hk416_outdoor_silenced_distant_loop3.wav", path .. "fire_new/hk416_outdoor_silenced_distant_loop4.wav" }
+SWEP.DistantShootSoundIndoor = { path .. "fire_new/hk416_indoor_distant_loop1.wav", path .. "fire_new/hk416_indoor_distant_loop2.wav", path .. "fire_new/hk416_indoor_distant_loop3.wav", path .. "fire_new/hk416_indoor_distant_loop4.wav" }
+SWEP.DistantShootSoundSilencedIndoor = { path .. "fire_new/hk416_indoor_silenced_distant_loop1.wav", path .. "fire_new/hk416_indoor_silenced_distant_loop2.wav", path .. "fire_new/hk416_indoor_silenced_distant_loop3.wav", path .. "fire_new/hk416_indoor_silenced_distant_loop4.wav" }
 
 
 SWEP.FiremodeSound = "" -- we will have own in sound tables
@@ -392,42 +392,37 @@ function SWEP:HookP_BlockFire() return ARC9EFT.AR15_MissingParts(self) end
 SWEP.Attachments = {
     {
         PrintName = "Reciever",
-        Category = "eft_m4a1_upper",
-        Installed = "eft_rec_ar15_m4a1",
+        Category = "eft_hk416_upper",
+        -- Installed = "eft_rec_hk416",
         Bone = "mod_reciever",
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, -90, 0),
         Icon_Offset = Vector(-4, 0, 0.5),
-        SubAttachments = {
-            {},
-            {
-                Installed = "eft_rearsight_m4carry"
-            },
-            {
-                Installed = "eft_barrel_ar15_370mm",
-                SubAttachments = {
-                    {
-                        Installed = "eft_gas_ar15_m4fs"
-                    },
-                    {
-                        Installed = "eft_muzzle_ar15_usgia2"
-                    }
-                }
-            },
-            {
-                Installed = "eft_hg_ar15_m4",
-                SubAttachments = {
-                    {
-                        Installed = "eft_hg_ar15_m4_lower"
-                    }
-                }
-            }
-        }
+        -- SubAttachments = {
+        --     {},
+        --     {
+        --         Installed = "eft_rearsight_hk416"
+        --     },
+        --     {
+        --         Installed = "eft_barrel_hk416_145i",
+        --         SubAttachments = {
+        --             {
+        --                 Installed = "eft_gas_hk416_std"
+        --             },
+        --             {
+        --                 Installed = "eft_muzzle_ar15_usgia2"
+        --             }
+        --         }
+        --     },
+        --     {
+        --         Installed = "eft_hg_hk416_quad",
+        --     }
+        -- }
     },
     {
         PrintName = "Pistol grip",
         Category = {"eft_ar15_pgrip", "eft_ar15_pgripstock", "eft_ar15_pgrip_m4"},
-        Installed = "eft_ar_pgrip_colta2",
+        Installed = "eft_ar_pgrip_hkbg",
         Bone = "mod_pistol_grip",
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, -90, 0),
@@ -435,7 +430,7 @@ SWEP.Attachments = {
     {
         PrintName = "Charging handle",
         Category = "eft_ar15_charge",
-        Installed = "eft_charge_ar15_colt",
+        Installed = "eft_charge_ar15_hkext",
         Bone = "mod_charge",
         Icon_Offset = Vector(1, 0, 0),
         Pos = Vector(0, 0, 0),
@@ -443,16 +438,16 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Buffer tube",
-        Category = "eft_ar15_buffertube",
+        Category = "eft_hk416_buffertube",
         Bone = "mod_reciever",
         Pos = Vector(0, -7.7, 0.9),
         Ang = Angle(0, -90, 0),
-        Installed = "eft_ar_buffertube_std",
-        SubAttachments = {
-            {
-                Installed = "eft_ar_stock_m4ss"
-            }
-        }
+        -- Installed = "eft_ar_buffertube_hkenh",
+        -- SubAttachments = {
+        --     {
+        --         Installed = "eft_ar_stock_slim"
+        --     }
+        -- }
     },
     {
         PrintName = "Ammunition",
@@ -467,7 +462,7 @@ SWEP.Attachments = {
         PrintName = "Magazine",
         Category = {"eft_ar15_mag", "eft_ar15_drum", "eft_ar15_quad", "eft_ar15_mag_airsoft"},
         Bone = "mod_magazine",
-        Installed = "eft_mag_ar15_stanag_30",
+        -- Installed = "eft_mag_ar15_hksteel",
         Icon_Offset = Vector(-1, 0, -3.5),
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, -90, 0),

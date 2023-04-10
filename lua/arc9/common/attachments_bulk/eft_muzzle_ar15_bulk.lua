@@ -699,6 +699,11 @@ ATT.MuzzleDevice = true
 ATT.BarrelLengthAdd = 1.5
 
 ATT.Category = {"eft_jailbreak"}
+-- a lot
+ATT.ExcludeElements = {"eft_muzzle_ar15_kx3","eft_muzzle_ar15_ferfrans","barrel_18i","barrel_20i", "eft_silencer_gemtechone", "eft_muzzle_dthybrid", "eft_silencer_r43_556", "eft_muzzle_pws_cqb", "eft_silencer_sdn6", 
+"eft_silencer_ar15_sakerasr", "eft_silencer_ar15_kacqdssnt4", "eft_silencer_ar15_kacqdssnt4_f", "eft_silencer_ar15_socommonster", "eft_silencer_ar15_socomrc2", "eft_silencer_ar15_socommini", 
+"eft_silencer_ultra5", "eft_silencer_waveqd", "eft_silencer_ar15_qdc556", "eft_muzzle_ar15_warden", "eft_silencer_ar15_m4sdk", "eft_silencer_thorpsr"}
+-- stm9 upper
 
 ARC9.LoadAttachment(ATT, "eft_muzzle_ar15_jailbreak")
 
@@ -725,6 +730,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_base_awc_thor_psr_xl_mu
 ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
+ATT.Silencer = true
 
 ATT.Category = {"eft_awcpsr"}
 
@@ -745,6 +751,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_qdc_kac_qdc_suppressor_
 ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
+ATT.Silencer = true
 
 ATT.Category = {"eft_kacqdc3"}
 
@@ -765,6 +772,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_sdqd_griffin_m4sd_k_sil
 ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
+ATT.Silencer = true
 
 ATT.Category = {"eft_m4sdk"}
 
@@ -785,6 +793,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_ar10_aac_762_sdn_6_762x
 ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
+ATT.Silencer = true
 
 ATT.Category = {"eft_sdn6"}
 
@@ -805,6 +814,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_base_gemtech_one_multi.
 ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
+ATT.Silencer = true
 
 ATT.Category = {"eft_gemtechone"}
 
@@ -825,6 +835,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_socom_surefire_socom556
 ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
+ATT.Silencer = true
 
 ATT.Category = {"eft_ar15_surefire_silencer"}
 
@@ -845,6 +856,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_socom_surefire_socom556
 ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
+ATT.Silencer = true
 
 ATT.Category = {"eft_ar15_surefire_silencer"}
 
@@ -865,6 +877,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_tbac_thunder_beast_ultr
 ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
+ATT.Silencer = true
 
 ATT.Category = {"eft_ultra5"}
 
@@ -885,6 +898,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_socom_surefire_socom556
 ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
+ATT.Silencer = true
 
 ATT.Category = {"eft_ar15_surefire_silencer"}
 
@@ -905,6 +919,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_asr_silencerco_saker_55
 ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
+ATT.Silencer = true
 
 ATT.Category = {"eft_ar15_saker"}
 
@@ -926,6 +941,7 @@ ATT.ModelSkin = 0
 ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
+ATT.Silencer = true
 
 ATT.Category = {"eft_ar15_kacqdc"}
 
@@ -947,6 +963,7 @@ ATT.ModelSkin = 1
 ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
+ATT.Silencer = true
 
 ATT.Category = {"eft_ar15_kacqdc"}
 
@@ -967,6 +984,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_wave_dd_wave_qd_supress
 ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
+ATT.Silencer = true
 
 ATT.Category = {"eft_waveqd"}
 

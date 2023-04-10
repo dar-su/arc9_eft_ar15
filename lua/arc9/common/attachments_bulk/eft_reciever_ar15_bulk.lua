@@ -28,7 +28,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "Rear sight",
-        Category = {"eft_ar_rearsight", "eft_rearsight"},
+        Category = {"eft_ar_rearsight", "eft_rearsight", "eft_rearsight_hk416"},
         Pos = Vector(4.75, 0, -2.13),
         Ang = Angle(0, 0, 0),
     },
@@ -78,7 +78,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "Rear sight",
-        Category = {"eft_ar_rearsight", "eft_rearsight"},
+        Category = {"eft_ar_rearsight", "eft_rearsight", "eft_rearsight_hk416"},
         Pos = Vector(4.75, 0, -2.13),
         Ang = Angle(0, 0, 0),
     },
@@ -130,7 +130,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "Rear sight",
-        Category = {"eft_ar_rearsight", "eft_rearsight"},
+        Category = {"eft_ar_rearsight", "eft_rearsight", "eft_rearsight_hk416"},
         Pos = Vector(4.75, 0, -2.13),
         Ang = Angle(0, 0, 0),
     },
@@ -180,7 +180,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "Rear sight",
-        Category = {"eft_ar_rearsight", "eft_rearsight"},
+        Category = {"eft_ar_rearsight", "eft_rearsight", "eft_rearsight_hk416"},
         Pos = Vector(4.75, 0, -2.13),
         Ang = Angle(0, 0, 0),
     },
@@ -232,7 +232,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "Rear sight",
-        Category = {"eft_ar_rearsight", "eft_rearsight"},
+        Category = {"eft_ar_rearsight", "eft_rearsight", "eft_rearsight_hk416"},
         Pos = Vector(4.75, 0, -2.13),
         Ang = Angle(0, 0, 0),
     },
