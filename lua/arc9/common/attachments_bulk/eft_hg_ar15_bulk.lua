@@ -144,7 +144,7 @@ ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_colt_m4_length_std.mdl"
 ATT.LHIK = true 
-ATT.LHIK_Priority = -22 -- needs lower hg
+-- ATT.LHIK_Priority = -22 -- needs lower hg
 
 ATT.Category = {"eft_ar15_hguard"}
 
@@ -170,6 +170,7 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_colt_m4_length_std_bottom.mdl"
 ATT.LHIK = true
+ATT.LHIK_Priority = 1 -- lower
 ATT.Category = {"eft_hglower_m4"}
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_m4_lower")
 
@@ -189,7 +190,8 @@ ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_dd_ris_ii_12,25.mdl"
 ATT.LHIK = true 
-ATT.LHIK_Priority = -22 -- needs lower hg
+ATT.LHIK_Priority = 0 -- lower
+-- ATT.LHIK_Priority = -22 -- needs lower hg
 
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "Daniel Defens"
@@ -255,6 +257,7 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_dd_ris_ii_12,25_lower.mdl"
 ATT.LHIK = true
+ATT.LHIK_Priority = 1 -- lower
 ATT.Category = {"eft_hglower_ddrisii1225"}
 ATT.Attachments = {
     {
@@ -291,7 +294,7 @@ ATT.HasHG = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_dd_ris_ii_9,5.mdl"
 ATT.ModelSkin = 1
 ATT.LHIK = true 
-ATT.LHIK_Priority = -22 -- needs lower hg
+-- ATT.LHIK_Priority = -22 -- needs lower hg
 
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "Daniel Defens"
@@ -356,6 +359,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_dd_ris_ii_9,5_lower.mdl"
 ATT.ModelSkin = 1
 ATT.LHIK = true
+ATT.LHIK_Priority = 1 -- lower
 ATT.Category = {"eft_hglower_ddrisii95"}
 ATT.Attachments = {
     {
@@ -383,7 +387,7 @@ ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_dd_ris_ii_9,5.mdl"
 ATT.LHIK = true 
-ATT.LHIK_Priority = -22 -- needs lower hg
+-- ATT.LHIK_Priority = -22 -- needs lower hg
 
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "Daniel Defens"
@@ -446,6 +450,7 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_dd_ris_ii_9,5_lower.mdl"
 ATT.LHIK = true
+ATT.LHIK_Priority = 1 -- lower
 ATT.Category = {"eft_hglower_ddrisii95"}
 ATT.HasHG = true
 ATT.Attachments = {
@@ -664,7 +669,7 @@ ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_kac_ris.mdl"
 ATT.LHIK = true 
-ATT.LHIK_Priority = -22 -- needs lower hg`
+-- ATT.LHIK_Priority = -22 -- needs lower hg`
 
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Attachments = {
@@ -710,6 +715,7 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_kac_ris_lower.mdl"
 ATT.LHIK = true
+ATT.LHIK_Priority = 1 -- lower
 ATT.Category = {"eft_hglower_kacris"}
 ATT.Attachments = {
     {
@@ -737,7 +743,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_kac_urx_31_10,75_inch.mdl"
 ATT.LHIK = true 
-ATT.LHIK_Priority = -22 -- needs lower hg
+-- ATT.LHIK_Priority = -22 -- needs lower hg
 ATT.HasHG = true
 
 ATT.Category = {"eft_ar15_hguard"}
@@ -817,6 +823,7 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_kac_urx_31_10,75_inch_lower.mdl"
 ATT.LHIK = true
+ATT.LHIK_Priority = 1 -- lower
 ATT.Category = {"eft_hglower_kacurx31"}
 ATT.Attachments = {
     {
@@ -954,7 +961,7 @@ ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_kac_urx_3_8_inch.mdl"
 ATT.LHIK = true 
-ATT.LHIK_Priority = -22 -- needs lower hg
+-- ATT.LHIK_Priority = -22 -- needs lower hg
 
 ATT.Category = {"eft_ar15_hguard"}
 
@@ -1024,6 +1031,7 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_kac_urx_3_8_inch_lower.mdl"
 ATT.LHIK = true
+ATT.LHIK_Priority = 1 -- lower
 ATT.Category = {"eft_hglower_kacurx38"}
 ATT.Attachments = {
     {
@@ -1248,6 +1256,13 @@ ATT.ExcludeElements = {"barrel_260mm", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "ef
 
 ATT.Attachments = {
     {
+        PrintName = "Muzzle",
+        Category = "eft_jailbreak",
+        Pos = Vector(0, 13.925, 0.085),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
         PrintName = "Front sight",
         Category = "eft_frontsight",
         Pos = Vector(0, 10.4+3.35, -1.1),
@@ -1335,6 +1350,13 @@ ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"barrel_406mm","barrel_370mm","barrel_18i","barrel_20i", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
 ATT.Attachments = {
+    {
+        PrintName = "Muzzle",
+        Category = "eft_jailbreak",
+        Pos = Vector(0, 10.725, 0.085),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
     {
         PrintName = "Front sight",
         Category = "eft_frontsight",
@@ -1704,7 +1726,7 @@ ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_strike_industries_viper.mdl"
 ATT.LHIK = true 
-ATT.LHIK_Priority = -22 -- needs lower hg
+-- ATT.LHIK_Priority = -22 -- needs lower hg
 
 ATT.Category = {"eft_ar15_hguard"}
 
@@ -1755,7 +1777,7 @@ ATT.HasHG = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_strike_industries_viper.mdl"
 ATT.ModelSkin = 1
 ATT.LHIK = true 
-ATT.LHIK_Priority = -22 -- needs lower hg
+-- ATT.LHIK_Priority = -22 -- needs lower hg
 
 ATT.Category = {"eft_ar15_hguard"}
 
@@ -1798,6 +1820,7 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_strike_industries_viper_lower.mdl"
 ATT.LHIK = true
+ATT.LHIK_Priority = 1 -- lower
 ATT.Category = {"eft_hglower_viper"}
 ATT.Attachments = {
     {
@@ -1821,6 +1844,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_strike_industries_viper_lower.mdl"
 ATT.ModelSkin = 1
 ATT.LHIK = true
+ATT.LHIK_Priority = 1 -- lower
 ATT.Category = {"eft_hglower_viper"}
 ATT.Attachments = {
     {
