@@ -37,18 +37,18 @@ ARC9EFT.AR15_AnimsHook = function(swep, anim)
             if nomag then ending = math.max(rand, 2) end
             ending = rand
         end
-    -- elseif anim == "inspect_ubgl" then -- gp25 lhik
-    --     swep.EFTInspectBool = swep.EFTInspectBool or false
-    --     if IsFirstTimePredicted() then
-    --         swep.EFTInspectBool = !swep.EFTInspectBool
-    --     end
-    --     local inspect = swep.EFTInspectBool
+    elseif anim == "inspect_ubgl" then -- m203 lhik
+        swep.EFTInspectBool = swep.EFTInspectBool or false
+        if IsFirstTimePredicted() then
+            swep.EFTInspectBool = !swep.EFTInspectBool
+        end
+        local inspect = swep.EFTInspectBool
 
-    --     if !inspect and swep:Clip2() > 0 then
-    --         return "inspect_check_ubgl"
-    --     else
-    --         return "inspect_ubgl"
-    --     end
+        if !inspect and swep:Clip2() > 0 then
+            return "inspect_check_ubgl"
+        else
+            return "inspect_ubgl"
+        end
     end
 
 

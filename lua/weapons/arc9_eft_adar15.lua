@@ -4,6 +4,7 @@ SWEP.Base = "arc9_base"
 SWEP.Spawnable = true
 SWEP.Category = "ARC9 - Escape From Tarkov"
 SWEP.SubCategory = "Assault Carbines"
+SWEP.SubCategory = "_Not for your eyes"
 SWEP.Credits = { Author1 = "Darsu", Assets2 = "Battlestate Games LTD", General_help3 = "Mal0", ARC9_Base4 = "Arctic" }
 
 SWEP.PrintName = "ADAR 2-15"
@@ -457,6 +458,14 @@ SWEP.Attachments = {
         Icon_Offset = Vector(-1, 0, -3.5),
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, -90, 0),
+    },
+    {
+        PrintName = "Launcher",
+        Category = "eft_m4a1_m203",
+        Bone = "weapon",
+        Pos = Vector(0, 18.2, -1.55),
+        Ang = Angle(0, 90, 0),
+        RequireElements = {"eft_barrel_ar15_370mm"}
     },
     {
         PrintName = "Custom slot",

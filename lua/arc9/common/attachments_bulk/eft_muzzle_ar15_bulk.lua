@@ -683,6 +683,25 @@ ATT.Category = {"eft_ar15_muzzle"}
 
 ARC9.LoadAttachment(ATT, "eft_muzzle_ar15_warden")
 
+///////////////////////////////////////      eft_muzzle_ar15_alien
+
+ATT = {}
+
+ATT.PrintName = "AR-15 AlienTech 5.56x45 muzzle brake"
+ATT.CompactName = "AlienTech"
+ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Description = [[A competition steel muzzle brake with one closed and five open ports designed by George Gubich, a six-time champion in practical shooting in Russia. Installed on AR-15 family weapons.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_alientech_gubich_muzzle_brake_556x45.mdl"
+ATT.MuzzleDevice = true
+ATT.BarrelLengthAdd = 0.5
+
+ATT.Category = {"eft_ar15_muzzle"}
+
+ARC9.LoadAttachment(ATT, "eft_muzzle_ar15_alien")
+
 ///////////////////////////////////////      eft_muzzle_ar15_jailbreak
 
 ATT = {}
@@ -702,8 +721,12 @@ ATT.Category = {"eft_jailbreak"}
 -- a lot
 ATT.ExcludeElements = {"eft_muzzle_ar15_kx3","eft_muzzle_ar15_ferfrans","barrel_18i","barrel_20i", "eft_silencer_gemtechone", "eft_muzzle_dthybrid", "eft_silencer_r43_556", "eft_muzzle_pws_cqb", "eft_silencer_sdn6", 
 "eft_silencer_ar15_sakerasr", "eft_silencer_ar15_kacqdssnt4", "eft_silencer_ar15_kacqdssnt4_f", "eft_silencer_ar15_socommonster", "eft_silencer_ar15_socomrc2", "eft_silencer_ar15_socommini", 
-"eft_silencer_ultra5", "eft_silencer_waveqd", "eft_silencer_ar15_qdc556", "eft_muzzle_ar15_warden", "eft_silencer_ar15_m4sdk", "eft_silencer_thorpsr"}
--- stm9 upper
+"eft_silencer_ultra5", "eft_silencer_waveqd", "eft_silencer_ar15_qdc556", "eft_muzzle_ar15_warden", "eft_silencer_ar15_m4sdk", 
+
+"NOT THE eft_silencer_thorpsr"}
+-- thor psr can be installed because commisioner wanted the glitch to stay 🐟
+
+-- add stm9 upper too
 
 ARC9.LoadAttachment(ATT, "eft_muzzle_ar15_jailbreak")
 
