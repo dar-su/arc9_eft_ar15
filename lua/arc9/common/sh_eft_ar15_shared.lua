@@ -620,7 +620,7 @@ ARC9EFT.AR15_MissingParts = function(swep)
         !swep:GetValue("HasAmmoooooooo") or 
         !swep:GetValue("HasGrip") or 
         !swep:GetValue("HasBolt") or 
-        !swep:GetValue("HasReciever") or 
+        !swep:GetValue("HasReceiver") or 
         !swep:GetValue("HasBarrel") or 
         !swep:GetValue("HasBufferTube") or 
         !swep:GetValue("HasHG") then

@@ -12,7 +12,7 @@ ATT.Icon = Material("entities/eft_ar15_attachments/rec/m4a1_556x45_upper_receive
 ATT.Description = [[Upper receiver for M4A1 assault rifle manufactured by Colt. Equipped with a mount for attaching additional devices.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.HasReciever = true
+ATT.HasReceiver = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/reciever_ar15_colt_m4a1_std.mdl"
 
@@ -62,7 +62,7 @@ ATT.Icon = Material("entities/eft_ar15_attachments/rec/adar_215_556x45_upper_rec
 ATT.Description = [[Upper receiver for ADAR 2-15 assault rifle manufactured by ADAR. Equipped with a mount for attaching additional devices.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.HasReciever = true
+ATT.HasReceiver = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/reciever_ar15_adar_2-15_std.mdl"
 
@@ -112,7 +112,7 @@ ATT.Icon = Material("entities/eft_ar15_attachments/rec/tx15_556x45_lightweight_u
 ATT.Description = [[Upper receiver for TX15 rifle manufactured by Lone Star. Equipped with a mount for attaching additional devices.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.HasReciever = true
+ATT.HasReceiver = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/reciever_ar15_lone_star_tx15_lightweight.mdl"
 
@@ -164,7 +164,7 @@ ATT.Icon = Material("entities/eft_ar15_attachments/rec/ar15_noveske_gen3_556x45_
 ATT.Description = [[The Gen.3 modular upper receiver for AR-based weapons, manufactured by Noveske. Fitted with mounts for attaching additional equipment.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.HasReciever = true
+ATT.HasReceiver = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/reciever_ar15_noveske_gen3.mdl"
 
@@ -214,7 +214,7 @@ ATT.Icon = Material("entities/eft_ar15_attachments/rec/ar15_vltor_mur1s_556x45_u
 ATT.Description = [[MUR-1S modular upper receiver for AR-based weapons by Vltor company. Fitted with mount for attaching additional equipment.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.HasReciever = true
+ATT.HasReceiver = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/reciever_ar15_vltor_mur-1s.mdl"
 
