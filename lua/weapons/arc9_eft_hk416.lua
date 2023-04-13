@@ -378,6 +378,23 @@ SWEP.Hook_TranslateAnimation = ARC9EFT.AR15_AnimsHook
 
 SWEP.Animations = ARC9EFT.AR15_Anims
 
+-- anger
+local sposoffset, sangoffset = Vector(-0.006, 0, -0.05), Angle(0, 0.45, 0)
+function SWEP:GetSightPositions()
+    local s = self:GetSight()
+    local e = self:GetElements()
+
+    if self:GetValue("FoldSights") then
+        return s.Pos, s.Ang
+    elseif e["barrel_20i"] then
+        return s.Pos + sposoffset, s.Ang + sangoffset
+    elseif e["barrel_165i"] or e["barrel_145i"] then
+        return s.Pos + sposoffset, s.Ang + sangoffset*1.2
+    elseif e["eft_hg_hk416_crux"] then
+        return s.Pos + sposoffset*0.8, s.Ang + sangoffset*0.6
+    end
+    return s.Pos, s.Ang
+end
 
 ------------------------- [[[           Attachments            ]]] -------------------------
 
@@ -394,31 +411,31 @@ SWEP.Attachments = {
     {
         PrintName = "Reciever",
         Category = "eft_hk416_upper",
-        -- Installed = "eft_rec_hk416",
+        Installed = "eft_rec_hk416",
         Bone = "mod_reciever",
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, -90, 0),
         Icon_Offset = Vector(-4, 0, 0.5),
-        -- SubAttachments = {
-        --     {},
-        --     {
-        --         Installed = "eft_rearsight_hk416"
-        --     },
-        --     {
-        --         Installed = "eft_barrel_hk416_145i",
-        --         SubAttachments = {
-        --             {
-        --                 Installed = "eft_gas_hk416_std"
-        --             },
-        --             {
-        --                 Installed = "eft_muzzle_ar15_usgia2"
-        --             }
-        --         }
-        --     },
-        --     {
-        --         Installed = "eft_hg_hk416_quad",
-        --     }
-        -- }
+        SubAttachments = {
+            {},
+            {
+                Installed = "eft_rearsight_hk416"
+            },
+            {
+                Installed = "eft_barrel_hk416_145i",
+                SubAttachments = {
+                    {
+                        Installed = "eft_gas_hk416_std"
+                    },
+                    {
+                        Installed = "eft_muzzle_ar15_usgia2"
+                    }
+                }
+            },
+            {
+                Installed = "eft_hg_hk416_quad",
+            }
+        }
     },
     {
         PrintName = "Pistol grip",
@@ -443,12 +460,12 @@ SWEP.Attachments = {
         Bone = "mod_reciever",
         Pos = Vector(0, -7.7, 0.9),
         Ang = Angle(0, -90, 0),
-        -- Installed = "eft_ar_buffertube_hkenh",
-        -- SubAttachments = {
-        --     {
-        --         Installed = "eft_ar_stock_slim"
-        --     }
-        -- }
+        Installed = "eft_ar_buffertube_hkenh",
+        SubAttachments = {
+            {
+                Installed = "eft_ar_stock_slim"
+            }
+        }
     },
     {
         PrintName = "Ammunition",
@@ -463,7 +480,7 @@ SWEP.Attachments = {
         PrintName = "Magazine",
         Category = {"eft_ar15_mag", "eft_ar15_drum", "eft_ar15_quad", "eft_ar15_mag_airsoft"},
         Bone = "mod_magazine",
-        -- Installed = "eft_mag_ar15_hksteel",
+        Installed = "eft_mag_ar15_hksteel",
         Icon_Offset = Vector(-1, 0, -3.5),
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, -90, 0),

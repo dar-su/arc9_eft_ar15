@@ -8,7 +8,7 @@ ATT = {}
 
 ATT.PrintName = "Alexander Arms 3 inch rail"
 ATT.CompactName = "Mk10 3 in."
-ATT.Icon = Material("entities/eft_attachments/mount/cnc2.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/mounts/alexander_arms_3_inch_rail.png", "mips smooth")
 ATT.Description = [[Alexander Arms guide for Mk 10 3 inch length allows you to install additional equipment on the handguard.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_mk10_alexander_arms_3_inch_rail_section.mdl"
@@ -41,7 +41,7 @@ ATT = {}
 
 ATT.PrintName = "Alexander Arms 10 inch rail"
 ATT.CompactName = "Mk10 10\""
-ATT.Icon = Material("entities/eft_attachments/mount/si6.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/mounts/alexander_arms_10_inch_rail.png", "mips smooth")
 ATT.Description = [[Alexander Arms guide for Mk 10 10 inch length allows you to install additional equipment on the handguard.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_mk10_alexander_arms_10_inch_rail_section.mdl"

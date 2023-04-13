@@ -8,7 +8,7 @@ ATT = {}
 
 ATT.PrintName = "M4A1 5.56x45 upper receiver"
 ATT.CompactName = "M4A1"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/rec/m4a1_556x45_upper_receiver.png", "mips smooth")
 ATT.Description = [[Upper receiver for M4A1 assault rifle manufactured by Colt. Equipped with a mount for attaching additional devices.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -58,7 +58,7 @@ ATT = {}
 
 ATT.PrintName = "ADAR 2-15 5.56x45 upper receiver"
 ATT.CompactName = "2-15 Upper"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/rec/adar_215_556x45_upper_receiver.png", "mips smooth")
 ATT.Description = [[Upper receiver for ADAR 2-15 assault rifle manufactured by ADAR. Equipped with a mount for attaching additional devices.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -108,7 +108,7 @@ ATT = {}
 
 ATT.PrintName = "TX-15 5.56x45 Lightweight upper receiver"
 ATT.CompactName = "TX15 LW"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/rec/tx15_556x45_lightweight_upper_receiver.png", "mips smooth")
 ATT.Description = [[Upper receiver for TX15 rifle manufactured by Lone Star. Equipped with a mount for attaching additional devices.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -160,7 +160,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Noveske Gen.3 5.56x45 upper receiver"
 ATT.CompactName = "Gen.3"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/rec/ar15_noveske_gen3_556x45_upper_receiver.png", "mips smooth")
 ATT.Description = [[The Gen.3 modular upper receiver for AR-based weapons, manufactured by Noveske. Fitted with mounts for attaching additional equipment.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -210,7 +210,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Vltor MUR-1S 5.56x45 upper receiver"
 ATT.CompactName = "MUR-1S"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/rec/ar15_vltor_mur1s_556x45_upper_receiver.png", "mips smooth")
 ATT.Description = [[MUR-1S modular upper receiver for AR-based weapons by Vltor company. Fitted with mount for attaching additional equipment.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"

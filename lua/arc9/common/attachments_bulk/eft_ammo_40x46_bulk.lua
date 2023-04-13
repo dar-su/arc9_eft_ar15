@@ -8,7 +8,7 @@ local mult1270 = GetConVar("arc9_eft_mult_shotgun"):GetFloat() or 0.5
 ATT = {}
 ATT.PrintName = "40x46mm M381 (HE) grenade"
 ATT.CompactName = "M381"
-ATT.Icon = Material("entities/eft_attachments/ammo/556/warma.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/ammo/40x46/40x46mm_m381.png", "mips smooth")
 ATT.Description = [[A 40-mm M381 (HE) shot with a fragmentation grenade equipped with an instantaneous fuse, which is cocked after the shot, at a distance of 8-10 feet from the muzzle.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -30,7 +30,7 @@ ARC9.LoadAttachment(ATT, "eft_ammo_40x46_m381")
 ATT = {}
 ATT.PrintName = "40x46mm M386 (HE) grenade"
 ATT.CompactName = "M386"
-ATT.Icon = Material("entities/eft_attachments/ammo/556/warma.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/ammo/40x46/40x46mm_m386.png", "mips smooth")
 ATT.Description = [[A 40-mm M386 (HE) shot with a fragmentation grenade equipped with an instantaneous fuse, which is cocked after the shot, at a distance of 45-90 feet from the muzzle.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -52,7 +52,7 @@ ARC9.LoadAttachment(ATT, "eft_ammo_40x46_m386")
 ATT = {}
 ATT.PrintName = "40x46mm M406 (HE) grenade"
 ATT.CompactName = "M406"
-ATT.Icon = Material("entities/eft_attachments/ammo/556/warma.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/ammo/40x46/40x46mm_m406.png", "mips smooth")
 ATT.Description = [[A 40-mm M406 (HE) shot with a fragmentation grenade equipped with an instantaneous fuse, which is cocked after the shot, at a distance of 45-90 feet from the muzzle.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -74,7 +74,7 @@ ARC9.LoadAttachment(ATT, "eft_ammo_40x46_m406")
 ATT = {}
 ATT.PrintName = "40x46mm M433 (HEDP) grenade"
 ATT.CompactName = "M433"
-ATT.Icon = Material("entities/eft_attachments/ammo/556/warma.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/ammo/40x46/40x46mm_m433.png", "mips smooth")
 ATT.Description = [[A 40-mm M433 (High Explosive Dual Purpose) shot with a fragmentation grenade equipped with an instantaneous fuse, which is cocked after the shot, at a distance of 45-90 feet from the muzzle.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -96,7 +96,7 @@ ARC9.LoadAttachment(ATT, "eft_ammo_40x46_m433")
 ATT = {}
 ATT.PrintName = "40x46mm M441 (HE) grenade"
 ATT.CompactName = "M441"
-ATT.Icon = Material("entities/eft_attachments/ammo/556/warma.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/ammo/40x46/40x46mm_m441.png", "mips smooth")
 ATT.Description = [[A 40-mm M441 (HE) shot with a fragmentation grenade equipped with an instantaneous fuse, which is cocked after the shot, at a distance of 8-10 feet from the muzzle.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -118,7 +118,7 @@ ARC9.LoadAttachment(ATT, "eft_ammo_40x46_m441")
 ATT = {}
 ATT.PrintName = "40x46mm M576 (MP-APERS) grenade"
 ATT.CompactName = "M576"
-ATT.Icon = Material("entities/eft_attachments/ammo/556/warma.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/ammo/40x46/40x46mm_m576.png", "mips smooth")
 ATT.Description = [[M576 is a 40mm buckshot shot shell. MP-APERS stands for Multiple Projectile Anti PERSonnel]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"

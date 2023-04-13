@@ -7,7 +7,7 @@ ATT = {}
 
 ATT.PrintName = "HK 416A5 5.56x45 upper receiver"
 ATT.CompactName = "416A5 Upper"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hk416/hk_416a5_556x45_upper_receiver.png", "mips smooth")
 ATT.Description = [[An upper receiver for the 416A5 assault rifle manufactured by Heckler & Koch. Equipped with a mount for attaching additional devices.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -59,7 +59,7 @@ ATT = {}
 ATT.PrintName = "HK Enhanced Tube buffer tube"
 ATT.CompactName = "Enhanced Tube"
 ATT.Description = [[Heckler & Koch Receiver Extension Buffer Tube, Mil-Spec diameter will fit any 416-based carbine or rifle.]]
-ATT.Icon = Material("entities/eft_attachments/stocks/viperpdw.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hk416/hk_enhanced_tube_buffer_tube.png", "mips smooth")
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/stock_ar15_hk_enhanced_stock_tube.mdl"
 
@@ -100,7 +100,7 @@ ATT = {}
 
 ATT.PrintName = "HK 416A5 5.56x45 10.6 inch barrel"
 ATT.CompactName = "10.6\" 416A5"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hk416/hk_416a5_556x45_106_inch_barrel.png", "mips smooth")
 ATT.Description = [[A barrel for 416 based weapons for 5.56x45 NATO ammo, 264mm long.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -109,6 +109,11 @@ ATT.HasBarrel = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_416_hk_264mm_556x45.mdl"
 ATT.MuzzleDevice = true
 ATT.BarrelLengthAdd = 2
+
+ATT.ExcludeElements = {
+    "eft_hg_hk416_mrs14", "eft_hg_hk416_quadext", "eft_hg_hk416_midwest135", "eft_hg_hk416_crux", "eft_hg_hk416_troy",
+    "eft_muzzle_ar15_ferfrans", "eft_silencer_sdn6", "eft_silencer_gemtechone", "eft_silencer_ar15_kacqdssnt4", "eft_silencer_ar15_kacqdssnt4_f", "eft_silencer_ar15_socommonster", "eft_silencer_ar15_socomrc2", "eft_silencer_ar15_socommini", "eft_silencer_ultra5", "eft_silencer_waveqd"
+}
 
 ATT.Category = {"eft_hk416_barrel"}
 
@@ -137,7 +142,7 @@ ATT = {}
 
 ATT.PrintName = "HK 416A5 5.56x45 11 inch barrel"
 ATT.CompactName = "11\" 416A5"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hk416/hk_416a5_556x45_11_inch_barrel.png", "mips smooth")
 ATT.Description = [[A barrel for 416 based weapons for 5.56x45 NATO ammo, 279mm long.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -146,6 +151,8 @@ ATT.HasBarrel = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_416_hk_279mm_556x45.mdl"
 ATT.MuzzleDevice = true
 ATT.BarrelLengthAdd = 2
+
+ATT.ExcludeElements = {"eft_hg_hk416_mrs14", "eft_hg_hk416_quadext", "eft_hg_hk416_midwest135", "eft_hg_hk416_crux", "eft_hg_hk416_troy"}
 
 ATT.Category = {"eft_hk416_barrel"}
 
@@ -174,7 +181,7 @@ ATT = {}
 
 ATT.PrintName = "HK 416A5 5.56x45 14.5 inch barrel"
 ATT.CompactName = "14.5\" 416A5"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hk416/hk_416a5_556x45_145_inch_barrel.png", "mips smooth")
 ATT.Description = [[A barrel for 416 based weapons for 5.56x45 NATO ammo, 368mm long with a flip up front sight.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -187,6 +194,8 @@ ATT.BarrelLengthAdd = 2
 ATT.DrawFunc = function(swep, model) model:SetBodygroup(1, swep:GetValue("FoldSights") and 1 or 0) end
 
 ATT.Category = {"eft_hk416_barrel"}
+
+ATT.ExcludeElements = {"eft_hg_hk416_mrs14", "eft_hg_hk416_quadext", "eft_hg_hk416_midwest135", "eft_hg_hk416_crux", "eft_hg_hk416_troy"}
 
 ATT.ActivateElements = {"barrel_145i"}
 
@@ -213,7 +222,7 @@ ATT = {}
 
 ATT.PrintName = "HK 416A5 5.56x45 16.5 inch barrel with flip-up front sight"
 ATT.CompactName = "16.5\" 416A5"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hk416/hk_416a5_556x45_165_inch_barrel_with_flipup_front_sight.png", "mips smooth")
 ATT.Description = [[A barrel for 416 based weapons for 5.56x45 NATO ammo, 419mm long with a flip up front sight.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -226,6 +235,8 @@ ATT.BarrelLengthAdd = 2
 ATT.DrawFunc = function(swep, model) model:SetBodygroup(1, swep:GetValue("FoldSights") and 1 or 0) end
 
 ATT.Category = {"eft_hk416_barrel"}
+
+ATT.ExcludeElements = {"eft_hg_hk416_mrs14", "eft_hg_hk416_quadext", "eft_hg_hk416_midwest135", "eft_hg_hk416_crux", "eft_hg_hk416_troy"}
 
 ATT.ActivateElements = {"barrel_165i"}
 
@@ -252,7 +263,7 @@ ATT = {}
 
 ATT.PrintName = "HK 416A5 5.56x45 20 inch barrel"
 ATT.CompactName = "20\" 416A5"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hk416/hk_416a5_556x45_20_inch_barrel.png", "mips smooth")
 ATT.Description = [[A barrel for 416 based weapons for 5.56x45 NATO ammo, 505mm long with a flip up front sight.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -291,7 +302,7 @@ ATT = {}
 
 ATT.PrintName = "HK 416A5 low profile gas block"
 ATT.CompactName = "416A5"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hk416/hk_416a5_low_profile_gas_block.png", "mips smooth")
 ATT.Description = [[Regular HK416A5 Gas Block.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -309,7 +320,7 @@ ATT = {}
 
 ATT.PrintName = "HK 416A5 flip-up rear sight"
 ATT.CompactName = "416A5 Rear"
-ATT.Icon = Material("entities/eft_attachments/ironsights/mp7.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hk416/hk_416a5_flipup_rear_sight.png", "mips smooth")
 ATT.Description = [[Removable folding rear sight HK 416A5 Flip Up Rearsight.]]
 ATT.SortOrder = 1
 
@@ -322,8 +333,10 @@ ATT.DrawFunc = function(swep, model) model:SetBodygroup(1, swep:GetValue("FoldSi
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 7.5, -1.37),
-        Ang = Angle(0, -0, 0),
+        -- Pos = Vector(0, 7.5, -1.39),
+        -- Ang = Angle(0, -0.5, 0),
+        Pos = Vector(0, 7.5, -1.32),
+        Ang = Angle(0, 0, 0),
         Magnification = 1.1,
         IsIronSight = true
     }
@@ -337,7 +350,7 @@ ATT = {}
 
 ATT.PrintName = "HK 416A5 MRS KeyMod 14 inch handguard"
 ATT.CompactName = "HK KeyMod"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hk416/hk_416a5_mrs_keymod_14_inch_handguard.png", "mips smooth")
 ATT.Description = [[The HK MRS KeyMod handguard for 416A5 equipped with a KeyMod interface for the installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -354,7 +367,7 @@ ATT.Attachments = {
     {
         PrintName = "Backup",
         Category = {"eft_backupmount"},
-        Pos = Vector(0, 3.3, -1.15),
+        Pos = Vector(0, 2.1, -1.35),
         Ang = Angle(0, -90, 0),
         Icon_Offset = Vector(0, 0, 0),
         ExtraSightDistance = 8
@@ -362,7 +375,7 @@ ATT.Attachments = {
     {
         PrintName = "Front sight",
         Category = {"eft_frontsight"},
-        Pos = Vector(0, 14.8+1.2, -1.1),
+        Pos = Vector(0, 13.95, -1.35),
         Ang = Angle(0, -90, 0),
         Icon_Offset = Vector(0, 0, 0),
         ExtraSightDistance = 8
@@ -370,8 +383,54 @@ ATT.Attachments = {
     {
         PrintName = "Top Tactical",
         Category = {"eft_tactical_top", "eft_tactical_top_big"},
-        Pos = Vector(0, 11.5, -1.1),
+        Pos = Vector(0, 9.5, -1.35),
         Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+
+
+
+
+    {
+        PrintName = "R Keymod",
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Pos = Vector(1.05, 9.5, 0.12),
+        Ang = Angle(180, 90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "L Keymod",
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Pos = Vector(-1.05, 9.5, 0.12),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "B Tac Keymod",
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Pos = Vector(0, 12.3, 1.15),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "B Keymod",
+        Category = {"eft_mount_keymod6"},
+        Pos = Vector(0, 5.5, 1.15),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "R2 Keymod",
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Pos = Vector(0.75, 11.9, 0.85),
+        Ang = Angle(180, 90, 45),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "L2 Keymod",
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Pos = Vector(-0.75, 11.9, 0.85),
+        Ang = Angle(0, -90, -45),
         Icon_Offset = Vector(0, 0, 0),
     },
 }
@@ -384,7 +443,7 @@ ATT = {}
 
 ATT.PrintName = "HK 416A5 Quad Rail handguard"
 ATT.CompactName = "Quadrail"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hk416/hk_416a5_quad_rail_handguard.png", "mips smooth")
 ATT.Description = [[Quadrail handguard for 416 and compatables. Comes with a four picatinny rails for attaching wide amount of different accessories. Produced by Heckler and Koch.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -401,7 +460,7 @@ ATT.Attachments = {
     {
         PrintName = "Backup",
         Category = {"eft_backupmount"},
-        Pos = Vector(0, 3.3, -1.15),
+        Pos = Vector(0, 1.7, -1.35),
         Ang = Angle(0, -90, 0),
         Icon_Offset = Vector(0, 0, 0),
         ExtraSightDistance = 8
@@ -409,7 +468,7 @@ ATT.Attachments = {
     {
         PrintName = "Front sight",
         Category = {"eft_frontsight"},
-        Pos = Vector(0, 14.8+1.2, -1.1),
+        Pos = Vector(0, 9.1, -1.35),
         Ang = Angle(0, -90, 0),
         Icon_Offset = Vector(0, 0, 0),
         ExtraSightDistance = 8
@@ -417,10 +476,31 @@ ATT.Attachments = {
     {
         PrintName = "Top Tactical",
         Category = {"eft_tactical_top", "eft_tactical_top_big"},
-        Pos = Vector(0, 11.5, -1.1),
+        Pos = Vector(0, 5.7, -1.35),
         Ang = Angle(0, -90, 0),
         Icon_Offset = Vector(0, 0, 0),
     },
+    {
+        PrintName = "R Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(1.15, 12-3.1, 0.1),
+        Ang = Angle(0, -90, 90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "L Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(-1.15, 12-3.1, 0.1),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "Grip",
+        Category = {"eft_foregrip_small", "eft_foregrip_large"},
+        Pos = Vector(0, 4.4, 1.37),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, -1),
+    }, 
 }
 
 ARC9.LoadAttachment(ATT, "eft_hg_hk416_quad")
@@ -431,7 +511,7 @@ ATT = {}
 
 ATT.PrintName = "HK 416A5 Quad Rail Extended handguard"
 ATT.CompactName = "Ext.Quad"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hk416/hk_416a5_quad_rail_extended_handguard.png", "mips smooth")
 ATT.Description = [[Extended length quadrail handguard for 416 and compatables. Comes with a four picatinny rails for attaching wide amount of different accessories. Produced by Heckler and Koch.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -442,13 +522,15 @@ ATT.LHIK = true
 
 ATT.Category = {"eft_hk416_hguard"}
 
+ATT.ExcludeElements = {"barrel_11i", "barrel_145i", "barrel_165i"}
+
 -- ATT.ExcludeElements = {"barrel_260mm","barrel_370mm","barrel_406mm", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
 
 ATT.Attachments = {
     {
         PrintName = "Backup",
         Category = {"eft_backupmount"},
-        Pos = Vector(0, 3.3, -1.15),
+        Pos = Vector(0, 1.9, -1.35),
         Ang = Angle(0, -90, 0),
         Icon_Offset = Vector(0, 0, 0),
         ExtraSightDistance = 8
@@ -456,7 +538,7 @@ ATT.Attachments = {
     {
         PrintName = "Front sight",
         Category = {"eft_frontsight"},
-        Pos = Vector(0, 14.8+1.2, -1.1),
+        Pos = Vector(0, 14.15, -1.35),
         Ang = Angle(0, -90, 0),
         Icon_Offset = Vector(0, 0, 0),
         ExtraSightDistance = 8
@@ -464,10 +546,31 @@ ATT.Attachments = {
     {
         PrintName = "Top Tactical",
         Category = {"eft_tactical_top", "eft_tactical_top_big"},
-        Pos = Vector(0, 11.5, -1.1),
+        Pos = Vector(0, 10.2, -1.35),
         Ang = Angle(0, -90, 0),
         Icon_Offset = Vector(0, 0, 0),
     },
+    {
+        PrintName = "R Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(1.15, 12-3.1, 0.1),
+        Ang = Angle(0, -90, 90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "L Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(-1.15, 12-3.1, 0.1),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "Grip",
+        Category = {"eft_foregrip_small", "eft_foregrip_large"},
+        Pos = Vector(0, 4.4, 1.37),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, -1),
+    }, 
 }
 
 ARC9.LoadAttachment(ATT, "eft_hg_hk416_quadext")
@@ -478,7 +581,7 @@ ATT = {}
 
 ATT.PrintName = "HK 416A5 Quad Rail handguard with flip-up front sight"
 ATT.CompactName = "Quad. sight"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hk416/hk_416a5_quad_rail_handguard_with_flipup_front_sight.png", "mips smooth")
 ATT.Description = [[Quadrail handguard for 416 and compatables. Comes with a four picatinny rails for attaching wide amount of different accessories and a built-in flip up front sight. Produced by Heckler and Koch.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -497,26 +600,47 @@ ATT.Attachments = {
     {
         PrintName = "Backup",
         Category = {"eft_backupmount"},
-        Pos = Vector(0, 3.3, -1.15),
+        Pos = Vector(0, 1.7, -1.35),
         Ang = Angle(0, -90, 0),
         Icon_Offset = Vector(0, 0, 0),
         ExtraSightDistance = 8
     },
-    {
-        PrintName = "Front sight",
-        Category = {"eft_frontsight"},
-        Pos = Vector(0, 14.8+1.2, -1.1),
-        Ang = Angle(0, -90, 0),
-        Icon_Offset = Vector(0, 0, 0),
-        ExtraSightDistance = 8
-    },
+    -- {
+    --     PrintName = "Front sight",
+    --     Category = {"eft_frontsight"},
+    --     Pos = Vector(0, 9.1, -1.35),
+    --     Ang = Angle(0, -90, 0),
+    --     Icon_Offset = Vector(0, 0, 0),
+    --     ExtraSightDistance = 8
+    -- },
     {
         PrintName = "Top Tactical",
         Category = {"eft_tactical_top", "eft_tactical_top_big"},
-        Pos = Vector(0, 11.5, -1.1),
+        Pos = Vector(0, 5.7, -1.35),
         Ang = Angle(0, -90, 0),
         Icon_Offset = Vector(0, 0, 0),
     },
+    {
+        PrintName = "R Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(1.15, 12-3.1, 0.1),
+        Ang = Angle(0, -90, 90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "L Tactical",
+        Category = {"eft_tactical", "eft_tactical_top"},
+        Pos = Vector(-1.15, 12-3.1, 0.1),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "Grip",
+        Category = {"eft_foregrip_small", "eft_foregrip_large"},
+        Pos = Vector(0, 4.4, 1.37),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, -1),
+    }, 
 }
 
 ARC9.LoadAttachment(ATT, "eft_hg_hk416_quadsight")
@@ -527,7 +651,7 @@ ATT = {}
 
 ATT.PrintName = "HK 416A5 Midwest Industries 9 inch M-LOK handguard"
 ATT.CompactName = "Midwest M-LOK"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hk416/hk_416a5_midwest_industries_9_inch_mlok_handguard.png", "mips smooth")
 ATT.Description = [[Midwest M-LOK foregrip for 416A5 equipped with a M-LOK interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -544,7 +668,7 @@ ATT.Attachments = {
     {
         PrintName = "Backup",
         Category = {"eft_backupmount"},
-        Pos = Vector(0, 3.3, -1.15),
+        Pos = Vector(0, 2.1, -1.35),
         Ang = Angle(0, -90, 0),
         Icon_Offset = Vector(0, 0, 0),
         ExtraSightDistance = 8
@@ -552,7 +676,7 @@ ATT.Attachments = {
     {
         PrintName = "Front sight",
         Category = {"eft_frontsight"},
-        Pos = Vector(0, 14.8+1.2, -1.1),
+        Pos = Vector(0, 8.9, -1.35),
         Ang = Angle(0, -90, 0),
         Icon_Offset = Vector(0, 0, 0),
         ExtraSightDistance = 8
@@ -560,8 +684,29 @@ ATT.Attachments = {
     {
         PrintName = "Top Tactical",
         Category = {"eft_tactical_top", "eft_tactical_top_big"},
-        Pos = Vector(0, 11.5, -1.1),
+        Pos = Vector(0, 4.8, -1.35),
         Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },    
+    {
+        PrintName = "M-LOK R",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(0.8, 7.4, 0.1),
+        Ang = Angle(180, 90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK L",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-0.8, 7.4, 0.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B",
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 4, 1),
+        Ang = Angle(0, -90, -90),
         Icon_Offset = Vector(0, 0, 0),
     },
 }
@@ -574,7 +719,7 @@ ATT = {}
 
 ATT.PrintName = "HK 416A5 Midwest Industries 13.5 inch M-LOK handguard"
 ATT.CompactName = "Midwest M-LOK"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hk416/hk_416a5_midwest_industries_135_inch_mlok_handguard.png", "mips smooth")
 ATT.Description = [[Midwest M-LOK foregrip for 416A5 equipped with a M-LOK interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -585,13 +730,14 @@ ATT.LHIK = true
 
 ATT.Category = {"eft_hk416_hguard"}
 
+ATT.ExcludeElements = {"barrel_11i", "barrel_145i", "barrel_165i"}
 -- ATT.ExcludeElements = {"barrel_260mm","barrel_370mm","barrel_406mm", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
 
 ATT.Attachments = {
     {
         PrintName = "Backup",
         Category = {"eft_backupmount"},
-        Pos = Vector(0, 3.3, -1.15),
+        Pos = Vector(0, 2.4, -1.35),
         Ang = Angle(0, -90, 0),
         Icon_Offset = Vector(0, 0, 0),
         ExtraSightDistance = 8
@@ -599,7 +745,7 @@ ATT.Attachments = {
     {
         PrintName = "Front sight",
         Category = {"eft_frontsight"},
-        Pos = Vector(0, 14.8+1.2, -1.1),
+        Pos = Vector(0, 13.7, -1.35),
         Ang = Angle(0, -90, 0),
         Icon_Offset = Vector(0, 0, 0),
         ExtraSightDistance = 8
@@ -607,8 +753,36 @@ ATT.Attachments = {
     {
         PrintName = "Top Tactical",
         Category = {"eft_tactical_top", "eft_tactical_top_big"},
-        Pos = Vector(0, 11.5, -1.1),
+        Pos = Vector(0, 9.6, -1.35),
         Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },    
+    {
+        PrintName = "M-LOK R",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(0.8, 11.7, 0.1),
+        Ang = Angle(180, 90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK L",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-0.8, 11.7, 0.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B",
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 4, 1),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B Tac",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(0, 12.3, 1.12),
+        Ang = Angle(0, -90, -90),
         Icon_Offset = Vector(0, 0, 0),
     },
 }
@@ -621,7 +795,7 @@ ATT = {}
 
 ATT.PrintName = "HK 416A5 Strike Industries CRUX 15 inch M-LOK handguard"
 ATT.CompactName = "CRUX Handguard"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hk416/hk_416a5_strike_industries_crux_15_inch_mlok_handguard.png", "mips smooth")
 ATT.Description = [[Strike Industries CRUX foregrip for 416A5 equipped with a M-LOK interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -640,24 +814,52 @@ ATT.Attachments = {
     {
         PrintName = "Backup",
         Category = {"eft_backupmount"},
-        Pos = Vector(0, 3.3, -1.15),
+        Pos = Vector(0, 2.0, -1.35),
         Ang = Angle(0, -90, 0),
         Icon_Offset = Vector(0, 0, 0),
         ExtraSightDistance = 8
     },
-    {
-        PrintName = "Front sight",
-        Category = {"eft_frontsight"},
-        Pos = Vector(0, 14.8+1.2, -1.1),
-        Ang = Angle(0, -90, 0),
-        Icon_Offset = Vector(0, 0, 0),
-        ExtraSightDistance = 8
-    },
+    -- {
+    --     PrintName = "Front sight",
+    --     Category = {"eft_frontsight"},
+    --     Pos = Vector(0, 13.1, -1.35),
+    --     Ang = Angle(0, -90, 0),
+    --     Icon_Offset = Vector(0, 0, 0),
+    --     ExtraSightDistance = 8
+    -- },
     {
         PrintName = "Top Tactical",
         Category = {"eft_tactical_top", "eft_tactical_top_big"},
-        Pos = Vector(0, 11.5, -1.1),
+        Pos = Vector(0, 10.3, -1.35),
         Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },    
+    {
+        PrintName = "M-LOK R",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(1.05, 12.5, 0.1),
+        Ang = Angle(180, 90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK L",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-1.05, 12.5, 0.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B",
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 4.5, 1.27),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B Tac",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(0, 12.5, 1.27),
+        Ang = Angle(0, -90, -90),
         Icon_Offset = Vector(0, 0, 0),
     },
 }
@@ -670,7 +872,7 @@ ATT = {}
 
 ATT.PrintName = "HK 416A5 TROY M-LOK 13 inch handguard"
 ATT.CompactName = "TROY M-LOK"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hk416/hk_416a5_troy_mlok_13_inch_handguard.png", "mips smooth")
 ATT.Description = [[Troy industries carbon fiber M-LOK foregrip for 416A5 equipped with a M-LOK interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -687,7 +889,7 @@ ATT.Attachments = {
     {
         PrintName = "Backup",
         Category = {"eft_backupmount"},
-        Pos = Vector(0, 3.3, -1.15),
+        Pos = Vector(0, 2.0, -1.35),
         Ang = Angle(0, -90, 0),
         Icon_Offset = Vector(0, 0, 0),
         ExtraSightDistance = 8
@@ -695,7 +897,7 @@ ATT.Attachments = {
     {
         PrintName = "Front sight",
         Category = {"eft_frontsight"},
-        Pos = Vector(0, 14.8+1.2, -1.1),
+        Pos = Vector(0, 13.1, -1.35),
         Ang = Angle(0, -90, 0),
         Icon_Offset = Vector(0, 0, 0),
         ExtraSightDistance = 8
@@ -703,8 +905,36 @@ ATT.Attachments = {
     {
         PrintName = "Top Tactical",
         Category = {"eft_tactical_top", "eft_tactical_top_big"},
-        Pos = Vector(0, 11.5, -1.1),
+        Pos = Vector(0, 9.3, -1.35),
         Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },    
+    {
+        PrintName = "M-LOK R",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(0.98, 11.0, 0.1),
+        Ang = Angle(180, 90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK L",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-0.98, 11.0, 0.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B",
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 4.3, 1.27),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B Tac",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(0, 11.0, 1.27),
+        Ang = Angle(0, -90, -90),
         Icon_Offset = Vector(0, 0, 0),
     },
 }

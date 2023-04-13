@@ -6,7 +6,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Yankee Hill Phantom 5.56x45 flash hider"
 ATT.CompactName = "Phantom"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_yankee_hill_phantom_556x45_flash_hider.png", "mips smooth")
 ATT.Description = [[The Phantom flash hider designed for the AR-15 platform, manufactured by Yankee Hill. Fits 5.56x45 barrels.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -25,7 +25,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 SureFire WarComp 5.56x45 flash hider"
 ATT.CompactName = "WarComp"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_surefire_warcomp_556x45_flash_hider.png", "mips smooth")
 ATT.Description = [[WarComp flash hider for AR-15 produced by Surefire.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -54,7 +54,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Ferfrans CQB 5.56x45 muzzle brake"
 ATT.CompactName = "Ferfrans M"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_ferfrans_cqb_556x45_muzzle_brake.png", "mips smooth")
 ATT.Description = [[A muzzle brake manufactured by Ferfrans. Can also be equipped with Ferfrans Modular Concussion Reduction Device.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -83,7 +83,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Griffin Armament Gate-LOK Hammer 5.56x45 flash hider"
 ATT.CompactName = "G-LOK"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_griffin_armament_gatelok_hammer_556x45_flash_hider.png", "mips smooth")
 ATT.Description = [[The Gate-LOK Hammer reduces recoil and ensures the maximum service life of the suppressor. Manufactured by Griffin Armament.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -112,7 +112,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Bulletec ST-6012 5.56x45 muzzle brake"
 ATT.CompactName = "ST6012"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_bulletec_st6012_556x45_muzzle_brake.png", "mips smooth")
 ATT.Description = [[ST-6012 is an effective muzzle brake for an AR-15 base weapon system, produced by Bulletec.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -131,7 +131,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 AWC PSR 5.56x45 muzzle brake"
 ATT.CompactName = "PSR-556"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_awc_psr_556x45_muzzle_brake.png", "mips smooth")
 ATT.Description = [[PSR is an effective muzzle brake manufactured by AWC Silencers for 5.56x45. Reduces recoil and counters the muzzle rise. The brake is threaded and compatible with AWC PSR THOR sound suppressors.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -160,7 +160,7 @@ ATT = {}
 
 ATT.PrintName = "AWC PSR muzzle brake protector"
 ATT.CompactName = "PSR prot"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/awc_psr_muzzle_brake_protector.png", "mips smooth")
 ATT.Description = [[A thread protector for PSR muzzle brakes manufactured by AWC Silencers.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -178,7 +178,7 @@ ATT = {}
 
 ATT.PrintName = "Yankee Hill Annihilator multi-caliber flash hider"
 ATT.CompactName = "Annihilator"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/yankee_hill_annihilator_multicaliber_flash_hider.png", "mips smooth")
 ATT.Description = [[Multicaliber flash hider designed for AR-15 platform by Yankee Hill.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -197,7 +197,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Colt USGI A2 5.56x45 flash hider"
 ATT.CompactName = "USGI A2"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_colt_usgi_a2_556x45_flash_hider.png", "mips smooth")
 ATT.Description = [[The 5.56x45 Colt USGI A2 Flash hider a.k.a. Bird Cage is designed for mounting on 5.56x45 weapons built on AR-15 system. However, it can be installed on other weapons of the same caliber, provided that barrel has the same threading for muzzle devices. A service muzzle device for M4A1.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -226,7 +226,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 ADAR 2-15 5.56x45 flash hider"
 ATT.CompactName = "ADAR FH"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_colt_usgi_a2_556x45_flash_hider.png", "mips smooth")
 ATT.Description = [[The 5.56x45 ADAR 2-15 Flashhider.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -255,7 +255,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 AAC Blackout 51T 5.56x45 flash hider"
 ATT.CompactName = "Blackout 51T"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_aac_blackout_51t_556x45_flash_hider.png", "mips smooth")
 ATT.Description = [[Advanced Armament Corp. Blackout 51T 5.56x45 flash hider is an effective flash suppressor that also serves as a platform for attaching a 5.56x45 SDN-6 sound suppressor. Can be Installed on weapons based on AR-15 rifles.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -284,7 +284,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 HK BLITZ 5.56x45 flash hider"
 ATT.CompactName = "BLITZ 556"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_hk_blitz_556x45_flash_hider.png", "mips smooth")
 ATT.Description = [[A flash hider for use on AR-15 style platforms. The BLITZ compensator is one of the most effective designs available and a great upgrade for a stock AR-15.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -303,7 +303,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Daniel Defense WAVE 5.56x45 muzzle brake"
 ATT.CompactName = "Wave MB"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_daniel_defense_wave_556x45_muzzle_brake.png", "mips smooth")
 ATT.Description = [[Daniel Defense Wave is a very effective muzzle brake that also serves as a platform for attaching a QD Wave sound suppressor.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -332,7 +332,7 @@ ATT = {}
 
 ATT.PrintName = "Desert Tech 5.56x45 flash hider"
 ATT.CompactName = "MDR reg."
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/desert_tech_556x45_flash_hider.png", "mips smooth")
 ATT.Description = [[Flash hider developed by Desert Tech company specifically for MDR.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -351,7 +351,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 KAC QDC 5.56x45 Flash Suppressor Kit"
 ATT.CompactName = "QDC 556"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_kac_qdc_556x45_flash_suppressor_kit.png", "mips smooth")
 ATT.Description = [[The KAC 5.56 QD muzzle compensator/flash hider is an effective flash suppressor that also serves as a platform for attaching a KAC quick detach QDSS-NT4 sound suppressor. Installed on weapons based on AR-15/M16/M4.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -380,7 +380,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Noveske KX3 5.56x45 flash hider"
 ATT.CompactName = "KX3 556"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_noveske_kx3_556x45_flash_hider.png", "mips smooth")
 ATT.Description = [[The Noveske KX3 Flash hider, aka the Burning Pig, is designed to increase reliability in short-barreled members of AR-15 family by increasing backpressure and directing the muzzle blast forward of the shooter. Although originally designed for short-barreled AR-15s, it will work on any barrel length and have since been introduced for a variety of mounts. This particular KX3 may be used on 5.56mm barrels with 1/2x28 threading.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -399,7 +399,7 @@ ATT = {}
 
 ATT.PrintName = "Ferfrans CRD 5.56x45 Concussion Reduction Device"
 ATT.CompactName = "CRD"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ferfrans_crd_556x45_concussion_reduction_device.png", "mips smooth")
 ATT.Description = [[Muzzle device "Concussion Reduction Device" manufactured by Ferfrans.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -419,7 +419,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Nordic Components Corvette 5.56x45 compensator"
 ATT.CompactName = "Corvette"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_nordic_components_corvette_556x45_compensator.png", "mips smooth")
 ATT.Description = [[Corvette is an effective compensator for an AR-15 based weapon systems. Produced by Nordic.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -438,7 +438,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 SureFire SF3P 5.56x45 Flash hider"
 ATT.CompactName = "SF3P-556"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_surefire_sf3p_556x45_flash_hider.png", "mips smooth")
 ATT.Description = [[The advanced SureFire SF3P-556 three-prong flash hider, which fits M4/M16 weapons and variants, features a greatly reduces muzzle flash. The SF3P-556 also serves as a rock-solid mounting adapter for SureFire SOCOM Series 5.56 mm Fast-Attach suppressors.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -467,7 +467,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 SilencerCo ASR 5.56x45 flash hider"
 ATT.CompactName = "ASR 556"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_silencerco_asr_556x45_flash_hider.png", "mips smooth")
 ATT.Description = [[SilencerCo ASR 5.56x45 flash-hider is an effective flash suppressor that also serves as a platform for attaching a SilencerCo Saker 556 sound suppressor. Can be Installed on AR-15 weapon systems.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -496,7 +496,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Thunder Beast Arms 223CB 5.56x45 muzzle brake"
 ATT.CompactName = "223CB"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_thunder_beast_arms_223cb_556x45_muzzle_brake.png", "mips smooth")
 ATT.Description = [[Thunder Beast 223CB is an effective muzzle brake that also serves as a platform for attaching a QD sound suppressor.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -526,7 +526,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 SureFire SF4P FH556RC 5.56x45 flash hider"
 ATT.CompactName = "FH556RC"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_surefire_sf4p_fh556rc_556x45_flash_hider.png", "mips smooth")
 ATT.Description = [[The advanced SureFire FH556RC-556 four-prong flash hider, which fits M4/M16 weapons and variants, features a greatly reduces muzzle flash. The SF3P-556 also serves as a rock-solid mounting adapter for SureFire SOCOM Series 5.56 mm Fast-Attach suppressors.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -555,7 +555,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 TAA ZK-23 5.56x45 muzzle brake"
 ATT.CompactName = "ZK-23 556"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_taa_zk23_556x45_muzzle_brake.png", "mips smooth")
 ATT.Description = [[The ZK is single-chamber highly effective slant face muzzle brake manufactured by Tactical Advantage Armory. The front is rather pointy and doubles as a CQB threat deterrent and soft target weapon. Not recommended for situations where high concussion is a concern.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -574,7 +574,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Vendetta Precision VP-09 Interceptor 5.56x45 muzzle brake"
 ATT.CompactName = "VP-09 556"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_vendetta_precision_vp09_interceptor_556x45_muzzle_brake.png", "mips smooth")
 ATT.Description = [[Muzzle brake developed by Vendetta precision company specifically for the civilian market.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -593,7 +593,7 @@ ATT = {}
 
 ATT.PrintName = "Gemtech ONE Direct Thread Mount adapter"
 ATT.CompactName = "ONE Mount"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/gemtech_one_direct_thread_mount_adapter.png", "mips smooth")
 ATT.Description = [[Direct Thread Mount adapter for installation of Gemtech ONE silencer directly onto the barrel threading.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -622,7 +622,7 @@ ATT = {}
 
 ATT.PrintName = "KAC QDC 5.56x45 3-Prong Flash Eliminator"
 ATT.CompactName = "QDC-3 556"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/kac_qdc_556x45_3prong_flash_eliminator.png", "mips smooth")
 ATT.Description = [[Knight's Armament QDC 3-Prong 5.56x45 flash hider is an effective flash suppressor that also serves as a platform for attaching KAC QDC 556 sound suppressor. Can be Installed on AR-15 weapon systems.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -651,7 +651,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 TROY Claymore 5.56x45 muzzle brake"
 ATT.CompactName = "Claymore"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_troy_claymore_556x45_muzzle_brake.png", "mips smooth")
 ATT.Description = [[Claymore is an effective muzzle brake for an AR-15 base weapon system, produced by TROY.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -670,7 +670,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 SureFire Warden 5.56x45 blast regulator"
 ATT.CompactName = "War 556"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_surefire_warden_556x45_blast_regulator.png", "mips smooth")
 ATT.Description = [[The SureFire Warden blast regulator features a stainless steel body that enhances the overall appearance while protecting the inner parts from harm. This blast regulator prevents dirt, dust, debris, etc., from causing internal damage.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -689,7 +689,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 AlienTech 5.56x45 muzzle brake"
 ATT.CompactName = "AlienTech"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/AWOOGa.png", "mips smooth")
 ATT.Description = [[A competition steel muzzle brake with one closed and five open ports designed by George Gubich, a six-time champion in practical shooting in Russia. Installed on AR-15 family weapons.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -708,7 +708,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 SAI JailBrake 5.56x45 muzzle device"
 ATT.CompactName = "Jail Brake"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_sai_jailbrake_556x45_muzzle_device.png", "mips smooth")
 ATT.Description = [[The JailBrake muzzle device manufactured by Salient Arms International. Can be installed only on compatible SAI handguards for AR-15.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -744,7 +744,7 @@ ATT = {}
 
 ATT.PrintName = "AWC Thor PSR XL multi-caliber sound suppressor"
 ATT.CompactName = "Thor PSR"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/awc_thor_psr_xl_multicaliber_sound_suppressor.png", "mips smooth")
 ATT.Description = [[The Thor PSR XL sound suppressor is designed for use with 7.62x51 NATO rounds, but is also compatible with several other calibers. Requires an AWC PSR muzzle brake for installation. Manufactured by AWC Silencers.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -765,7 +765,7 @@ ATT = {}
 
 ATT.PrintName = "KAC QDC 5.56x45 sound suppressor"
 ATT.CompactName = "QDC 556"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/kac_qdc_556x45_sound_suppressor.png", "mips smooth")
 ATT.Description = [[The Knight's Armament Company QDC 556 sound suppressor, designed for use with 5.56x45 caliber weapon systems. Can only be installed on the KAC QDC 3-Prong Flash Eliminator.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -786,7 +786,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressor"
 ATT.CompactName = "M4SD-K"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/ar15_griffin_armament_m4sdk_556x45_sound_suppressor.png", "mips smooth")
 ATT.Description = [[The M4SD-K sound suppressor, designed for use with 5.56x45 caliber weapon systems. Can only be installed on the SDQD mounting interface flash hiders. Manufactured by Griffin Armament.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -807,7 +807,7 @@ ATT = {}
 
 ATT.PrintName = "AAC 762-SDN-6 multi-caliber sound suppressor"
 ATT.CompactName = "SDN-6"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/aac_762sdn6_multicaliber_sound_suppressor.png", "mips smooth")
 ATT.Description = [[AAC 762 SDN-6 sound suppressor designed for use with a 7.62x51 NATO, but also functions as a superb multi-caliber suppressor for multiple hosts, providing excellent performance on 7.62 NATO, .300 AAC, 6.8 SPC, 6.5, and 5.56mm NATO. can only be installed on compatible with a "51T" devices.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -828,7 +828,7 @@ ATT = {}
 
 ATT.PrintName = "Gemtech ONE multi-caliber sound suppressor"
 ATT.CompactName = "Gemtech ONE"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/gemtech_one_multicaliber_sound_suppressor.png", "mips smooth")
 ATT.Description = [[Gemtech ONE sound suppressor designed for use with a 7.62x51 NATO, but also compatible with a most popular rifle calibers. Can only be installed on compatible devices.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -849,7 +849,7 @@ ATT = {}
 
 ATT.PrintName = "SureFire SOCOM556-MONSTER 5.56x45 sound suppressor"
 ATT.CompactName = "556-MONSTER"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/surefire_socom556monster_556x45_sound_suppressor.png", "mips smooth")
 ATT.Description = [[Surefire SOCOM556-MONSTER 5.56x45 and .223 silencer, can only be installed on compatible Surefire muzzle devices.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -870,7 +870,7 @@ ATT = {}
 
 ATT.PrintName = "SureFire SOCOM556-RC2 5.56x45 sound suppressor"
 ATT.CompactName = "RC2"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/surefire_socom556rc2_556x45_sound_suppressor.png", "mips smooth")
 ATT.Description = [[Surefire SOCOM556-RC2 5.56x45 and .223 silencer, can only be installed on compatible Surefire muzzle devices.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -891,7 +891,7 @@ ATT = {}
 
 ATT.PrintName = "Thunder Beast Arms Ultra 5 sound suppressor"
 ATT.CompactName = "Ultra 5"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/thunder_beast_arms_ultra_5_sound_suppressor.png", "mips smooth")
 ATT.Description = [[The Ultra 5 sound suppressor is designed for use with 7.62x51 NATO rounds, but also functions as a superb multi-caliber suppressor for multiple hosts, providing excellent performance on 7.62 NATO, .300, 6.8 SPC, 6.5, and 5.56mm NATO. Can only be installed on compatible muzzle devices made by Thunder Beast Arms.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -912,7 +912,7 @@ ATT = {}
 
 ATT.PrintName = "SureFire SOCOM556-MINI MONSTER 5.56x45 sound suppressor"
 ATT.CompactName = "556-MINI"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/surefire_socom556mini_monster_556x45_sound_suppressor.png", "mips smooth")
 ATT.Description = [[Surefire SOCOM556-MINI MONSTER 5.56x45 and .223 silencer is a shorter version of the SOCOM556-MONSTER. Can only be installed on compatible Surefire muzzle devices.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -933,7 +933,7 @@ ATT = {}
 
 ATT.PrintName = "SilencerCo Saker ASR 556 5.56x45 sound suppressor"
 ATT.CompactName = "SAKER ASR 556"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/silencerco_saker_asr_556_556x45_sound_suppressor.png", "mips smooth")
 ATT.Description = [[The Saker ASR 556 sound suppressor, designed for use with 5.56x45 caliber weapon systems. Can be installed on ASR-compatible muzzle devices.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -954,7 +954,7 @@ ATT = {}
 
 ATT.PrintName = "KAC QDSS NT-4 5.56x45 sound suppressor (Black)"
 ATT.CompactName = "NT-4 BLK"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/kac_qdss_nt4_556x45_sound_suppressor_(black).png", "mips smooth")
 ATT.Description = [[The Knight's Armament Company QDSS NT-4 5.56x45 and .223 sound suppressor can only be installed on compatible KAC muzzle devices. ]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -976,7 +976,7 @@ ATT = {}
 
 ATT.PrintName = "KAC QDSS NT-4 5.56x45 sound suppressor (FDE)"
 ATT.CompactName = "NT-4 FDE"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/kac_qdss_nt4_556x45_sound_suppressor_(fde).png", "mips smooth")
 ATT.Description = [[The Knight's Armament Company QDSS NT-4 5.56x45 and .223 sound suppressor can only be installed on compatible KAC muzzle devices. ]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -998,7 +998,7 @@ ATT = {}
 
 ATT.PrintName = "Daniel Defense WAVE QD sound suppressor"
 ATT.CompactName = "Wave QD"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/daniel_defense_wave_qd_sound_suppressor.png", "mips smooth")
 ATT.Description = [[Daniel Defence Wave QD sound suppressor, which can be installed over a Wave muzzle brake.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"

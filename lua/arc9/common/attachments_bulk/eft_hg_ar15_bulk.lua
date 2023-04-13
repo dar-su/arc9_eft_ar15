@@ -8,7 +8,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 ADAR 2-15 wooden handguard"
 ATT.CompactName = "2-15 wood"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_adar_215_wooden_handguard.png", "mips smooth")
 ATT.Description = [[ADAR 2-15 SVD style wooden handguard.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -30,7 +30,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Aeroknox AX-15 10.5 inch M-LOK handguard"
 ATT.CompactName = "AX-15 10.5"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_aeroknox_ax15_105_inch_mlok_handguard.png", "mips smooth")
 ATT.Description = [[The AX-15 10.5 inch handguard for AR-15 systems, equipped with an M-LOK interface for the installation of additional devices and accessories. Manufactured by Aeroknox.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -91,7 +91,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Alexander Arms MK10 rifle length handguard"
 ATT.CompactName = "MK10 RL"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_alexander_arms_mk10_rifle_length_handguard.png", "mips smooth")
 ATT.Description = [[The MK10 lightweight handguard system manufactured by Alexander Arms. Made of G10 composite fiberglass and compatible with most AR-15-type carbines.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -136,7 +136,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Colt M4 Carbine Length handguard"
 ATT.CompactName = "M4 Carbine"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_colt_m4_carbine_length_handguard.png", "mips smooth")
 ATT.Description = [[A carbine length handguard manufactured by Colt, a standard-issue handguard for the M4A1 assault rifles.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -164,7 +164,7 @@ ARC9.LoadAttachment(ATT, "eft_hg_ar15_m4")
 ATT = {}
 ATT.PrintName = "AR-15 Colt M4 Carbine Length lower handguard"
 ATT.CompactName = "M4 Carbine"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_colt_m4_carbine_length_lower_handguard.png", "mips smooth")
 ATT.Description = [[A carbine length lower handguard part manufactured by Colt, a standard-issue handguard for the M4A1 assault rifles.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -182,7 +182,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Daniel Defense RIS II 12.25 handguard (Coyote Brown)"
 ATT.CompactName = "RIS II 12.25"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_daniel_defense_ris_ii_1225_handguard_(coyote_brown).png", "mips smooth")
 ATT.Description = [[The Daniel Defense RIS II 12.25 foregrip is a part of the SOPMOD Block II program to replace the standard M4CQBR or Mk18 foregrips in the US SOCOM service. It's made with light but durable aircraft aluminum alloy and comes equipped with 4 mounts for the installation of additional devices and accessories. This foregrip option is incompatible with the M203 UBGL.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -251,7 +251,7 @@ ARC9.LoadAttachment(ATT, "eft_hg_ar15_ddrisii1225")
 ATT = {}
 ATT.PrintName = "AR-15 Daniel Defense RIS II 12.25 lower handguard (Coyote Brown)"
 ATT.CompactName = "RIS II 12.25"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_daniel_defense_ris_ii_1225_lower_handguard_(coyote_brown).png", "mips smooth")
 ATT.Description = [[The Daniel Defense RIS II 12.25 lower handguard. Made with light but durable aircraft aluminum alloy. Equipped with RIS interface for installation of additional devices and accessories. Coyote Brown version.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -285,7 +285,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Daniel Defense RIS II 9.5 handguard"
 ATT.CompactName = "RIS II 9.5"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_daniel_defense_ris_ii_95_handguard.png", "mips smooth")
 ATT.Description = [[The Daniel Defense RIS II 9.5 foregrip is a part of the SOPMOD Block II program to replace the standard M4CQBR or Mk18 foregrips in the US SOCOM service. It's made with light but durable aircraft aluminum alloy and comes equipped with 4 mounts for the installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -352,7 +352,7 @@ ARC9.LoadAttachment(ATT, "eft_hg_ar15_ddrisii95")
 ATT = {}
 ATT.PrintName = "AR-15 Daniel Defense RIS II 9.5 lower handguard"
 ATT.CompactName = "RIS II 12.25"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_daniel_defense_ris_ii_95_lower_handguard.png", "mips smooth")
 ATT.Description = [[The Daniel Defense RIS II 9.5 lower handguard. Made with light but durable aircraft aluminum alloy. Equipped with RIS interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -379,7 +379,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Daniel Defense RIS II 9.5 handguard (Coyote brown)"
 ATT.CompactName = "RIS II 9.5"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_daniel_defense_ris_ii_95_handguard_(coyote_brown).png", "mips smooth")
 ATT.Description = [[The Daniel Defense RIS II 9.5 foregrip is a part of the SOPMOD Block II program to replace the standard M4CQBR or Mk18 foregrips in the US SOCOM service. It's made with light but durable aircraft aluminum alloy and comes equipped with 4 mounts for the installation of additional devices and accessories. Coyote brown.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -444,7 +444,7 @@ ARC9.LoadAttachment(ATT, "eft_hg_ar15_ddrisii95_b")
 ATT = {}
 ATT.PrintName = "AR-15 Daniel Defense RIS II 9.5 lower handguard (Coyote Brown)"
 ATT.CompactName = "RIS II 12.25"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_daniel_defense_ris_ii_95_lower_handguard_(coyote_brown).png", "mips smooth")
 ATT.Description = [[The Daniel Defense RIS II 9.5 lower handguard. Made with light but durable aircraft aluminum alloy. Equipped with RIS interface for installation of additional devices and accessories. Coyote Brown.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -471,7 +471,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Daniel Defense RIS II FSP 9.5 handguard (Coyote Brown)"
 ATT.CompactName = "RIS II FSP 9.5 CB"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_daniel_defense_ris_ii_fsp_95_handguard_(coyote_brown).png", "mips smooth")
 ATT.Description = [[The Daniel Defense RIS II FSP 9.5 foregrip is a part of the SOPMOD Block II program to replace the standard M4CQBR or Mk18 foregrips in the US SOCOM service. It's made with light but durable aircraft aluminum alloy and comes equipped with 4 mounts for the installation of additional devices and accessories. This foregrip option is incompatible with the M203 UBGL.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -523,7 +523,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Geissele SMR MK16 13.5 inch M-LOK handguard"
 ATT.CompactName = "SMR MK16 13.5"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_geissele_smr_mk16_95_inch_mlok_handguard.png", "mips smooth")
 ATT.Description = [[Geissele SMR 13.5 inch M-LOK handguard for AR-15 equipped with a M-LOK interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -592,7 +592,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Geissele SMR MK16 9.5 inch M-LOK handguard"
 ATT.CompactName = "SMR MK16 9.5"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_geissele_smr_mk16_135_inch_mlok_handguard.png", "mips smooth")
 ATT.Description = [[Geissele SMR 9.5 inch M-LOK handguard for AR-15 equipped with a M-LOK interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -661,7 +661,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 KAC RIS handguard"
 ATT.CompactName = "KAC RIS"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_kac_ris_handguard.png", "mips smooth")
 ATT.Description = [[Knight's Armament Company RIS is a standard service handguard for the M4A1 carbines, but it can be installed on most AR-15 based weapons, provided that the barrel is the right length. It comes equipped with 4 mounts for the installation of a heat shield and additional accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -709,7 +709,7 @@ ARC9.LoadAttachment(ATT, "eft_hg_ar15_kacris")
 ATT = {}
 ATT.PrintName = "AR-15 KAC RIS lower handguard"
 ATT.CompactName = "KAC RIS"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_kac_ris_lower_handguard.png", "mips smooth")
 ATT.Description = [[Knight's Armament Company RIS lower handguard for the M4A1 carbine.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -736,7 +736,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 KAC \"URX 3.1\" 10.75 inch handguard"
 ATT.CompactName = "URX 3.1 10.75\""
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_kac_urx_31_1075_inch_handguard.png", "mips smooth")
 ATT.Description = [[The Knight's Armament URX 3.1 handguard for AR-15 equipped with a unique interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -817,7 +817,7 @@ ARC9.LoadAttachment(ATT, "eft_hg_ar15_kacurx31")
 ATT = {}
 ATT.PrintName = "AR-15 KAC URX 3.1 10.75 inch lower handguard"
 ATT.CompactName = "URX3.1 10.75\""
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_kac_urx_31_1075_inch_lower_handguard.png", "mips smooth")
 ATT.Description = [[The Knight's Armament URX 3.1 lower handguard for AR-15 equipped with a unique interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -848,7 +848,7 @@ ARC9.LoadAttachment(ATT, "eft_hg_ar15_kacurx31_lower")
 ATT = {}
 ATT.PrintName = "KAC URX 3 3 inch rail"
 ATT.CompactName = "3In. URX"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/mounts/AWOOGA.png", "mips smooth")
 ATT.Description = [[KAC URX 3 1 inch rail allows installation of additional equipment on the Knights Armanent Company URX handguards.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -870,7 +870,7 @@ ARC9.LoadAttachment(ATT, "eft_urxpanel_3")
 ATT = {}
 ATT.PrintName = "KAC URX 3/3.1 stopper panel"
 ATT.CompactName = "KAC stoper"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/mounts/kac_urx_331_stopper_panel.png", "mips smooth")
 ATT.Description = [[Stopper panel for URX 3/3.1 handguards, manufactured by Knights Armament.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -882,7 +882,7 @@ ARC9.LoadAttachment(ATT, "eft_urxstoper")
 ATT = {}
 ATT.PrintName = "KAC URX 3/3.1 stopper panel (Flat dark earth)"
 ATT.CompactName = "KAC stoper"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/mounts/kac_urx_331_stopper_panel_(fde).png", "mips smooth")
 ATT.Description = [[Stopper panel for URX 3/3.1 handguards, manufactured by Knights Armament. Flat dark earth.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -896,7 +896,7 @@ ARC9.LoadAttachment(ATT, "eft_urxstoper_fde")
 ATT = {}
 ATT.PrintName = "KAC URX 3/3.1 long panel"
 ATT.CompactName = "URX long"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/mounts/kac_urx_331_long_panel.png", "mips smooth")
 ATT.Description = [[Long rail cover for URX 3/3.1 handguards, manufactured by Knights Armament.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -909,7 +909,7 @@ ARC9.LoadAttachment(ATT, "eft_urxlong")
 ATT = {}
 ATT.PrintName = "KAC URX 3/3.1 long panel (Flat dark earth)"
 ATT.CompactName = "URX long"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/mounts/kac_urx_331_long_panel_(fde).png", "mips smooth")
 ATT.Description = [[Long rail cover for URX 3/3.1 handguards, manufactured by Knights Armament. Flat dark earth.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -923,7 +923,7 @@ ARC9.LoadAttachment(ATT, "eft_urxlong_fde")
 ATT = {}
 ATT.PrintName = "KAC URX 3/3.1 short panel"
 ATT.CompactName = "URX short"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/mounts/kac_urx_331_short_panel.png", "mips smooth")
 ATT.Description = [[Short rail cover for URX 3/3.1 handguards, manufactured by Knights Armament.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -936,7 +936,7 @@ ARC9.LoadAttachment(ATT, "eft_urxshort")
 ATT = {}
 ATT.PrintName = "KAC URX 3/3.1 short panel (Flat dark earth)"
 ATT.CompactName = "URX short"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/mounts/kac_urx_331_short_panel_(fde).png", "mips smooth")
 ATT.Description = [[Short rail cover for URX 3/3.1 handguards, manufactured by Knights Armament. Flat dark earth.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -953,7 +953,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 KAC URX 3 8 inch handguard"
 ATT.CompactName = "URX 3 8\""
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_kac_urx_3_8_inch_handguard.png", "mips smooth")
 ATT.Description = [[The Knight's Armament URX 3 handguard for AR-15 equipped with a unique interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1025,7 +1025,7 @@ ARC9.LoadAttachment(ATT, "eft_hg_ar15_kacurx38")
 ATT = {}
 ATT.PrintName = "AR-15 KAC URX 3 8 inch lower handguard"
 ATT.CompactName = "URX3 8\""
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_kac_urx_3_8_inch_lower_handguard.png", "mips smooth")
 ATT.Description = [[The Knight's Armament URX 3 lower handguard for AR-15 equipped with a unique interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1058,7 +1058,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Lone Star Ion Lite handguard"
 ATT.CompactName = "Ion Lite"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_lone_star_ion_lite_handguard.png", "mips smooth")
 ATT.Description = [[Lightweight handguard Lone Star Ion Lite for use with sport rifles based on AR-15.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1148,7 +1148,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Magpul MOE SL carbine length M-LOK handguard"
 ATT.CompactName = "MOE SL"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_magpul_moe_sl_carbine_length_mlok_handguard.png", "mips smooth")
 ATT.Description = [[The Magpul MOE SL carbine length handguard for AR-15 systems, equipped with an M-LOK interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1195,7 +1195,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Magpul MOE SL medium length M-LOK handguard"
 ATT.CompactName = "MOE SL"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_magpul_moe_sl_medium_length_mlok_handguard.png", "mips smooth")
 ATT.Description = [[Magpul MOE SL foregrip for AR-15 equipped with a M-LOK interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1241,7 +1241,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 SAI 14.5 inch QD Rail handguard"
 ATT.CompactName = "SAI QD Rail"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_sai_145_inch_qd_rail_handguard.png", "mips smooth")
 ATT.Description = [[The Salient Arms International QD Rail handguard for AR-15 equipped with an M-LOK interface for the installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1337,7 +1337,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 SAI 10 inch QD Rail handguard"
 ATT.CompactName = "SAI QD 10\""
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_sai_10_inch_qd_rail_handguard.png", "mips smooth")
 ATT.Description = [[Salinet Arms QD Rail foregrip for AR-15 equipped with a M-LOK interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1433,7 +1433,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Soyuz-TM 12 inch M-LOK handguard"
 ATT.CompactName = "STM 12\""
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_soyuztm_12_inch_mlok_handguard.png", "mips smooth")
 ATT.Description = [[STM 12 inch M-LOK handguard for AR-15 equipped with a M-LOK interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1503,7 +1503,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Soyuz-TM 15 inch M-LOK handguard"
 ATT.CompactName = "STM 15\""
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_soyuztm_15_inch_mlok_handguard.png", "mips smooth")
 ATT.Description = [[STM 15 inch M-LOK handguard for AR-15 equipped with a M-LOK interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1573,7 +1573,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Soyuz-TM 9 inch M-LOK handguard"
 ATT.CompactName = "STM 9\""
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_soyuztm_9_inch_mlok_handguard.png", "mips smooth")
 ATT.Description = [[STM 9 inch M-LOK handguard for AR-15 equipped with a M-LOK interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1643,7 +1643,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 STNGR VYPR 10 inch M-LOK handguard"
 ATT.CompactName = "Stngr Vypr"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_stngr_vypr_10_inch_mlok_handguard.png", "mips smooth")
 ATT.Description = [[Stngr Vypr foregrip for AR-15 equipped with a M-LOK interface for installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1718,7 +1718,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Strike Industries Viper carbine length M-LOK handguard"
 ATT.CompactName = "AR15 Viper"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_strike_industries_viper_carbine_length_mlok_handguard.png", "mips smooth")
 ATT.Description = [[The Strike Industries Viper handguard for AR-15 equipped with an M-LOK interface for the installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1768,7 +1768,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Strike Industries Viper carbine length M-LOK handguard (Flat dark earth)"
 ATT.CompactName = "AR15 Viper"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_strike_industries_viper_carbine_length_mlok_handguard_(fde).png", "mips smooth")
 ATT.Description = [[The Strike Industries Viper handguard for AR-15 equipped with an M-LOK interface for the installation of additional devices and accessories. Flat dark earth.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1814,7 +1814,7 @@ ARC9.LoadAttachment(ATT, "eft_hg_ar15_viper_f")
 ATT = {}
 ATT.PrintName = "AR-15 Strike Industries Viper carbine length M-LOK lower handguard"
 ATT.CompactName = "Viper AR15"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_strike_industries_viper_carbine_length_mlok_lower_handguard.png", "mips smooth")
 ATT.Description = [[The Strike Industries Viper lower handguard for AR-15 equipped with an M-LOK interface for the installation of additional devices and accessories.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1837,7 +1837,7 @@ ARC9.LoadAttachment(ATT, "eft_hg_ar15_viper_lower")
 ATT = {}
 ATT.PrintName = "AR-15 Strike Industries Viper carbine length M-LOK lower handguard (Flat dark earth)"
 ATT.CompactName = "Viper AR15"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_strike_industries_viper_carbine_length_mlok_lower_handguard_(fde).png", "mips smooth")
 ATT.Description = [[The Strike Industries Viper lower handguard for AR-15 equipped with an M-LOK interface for the installation of additional devices and accessories. Flat dark earth.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1864,7 +1864,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Unique-ARs Wing & Skull 12 inch handguard"
 ATT.CompactName = "Wing&Skull"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_uniquears_wing_&_skull_12_inch_handguard.png", "mips smooth")
 ATT.Description = [[A 12 inch Wing & Skull handguard for AR-15 weapon systems. Manufactured by Unique-ARs.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1887,7 +1887,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 War Sport LVOA-C handguard (Black)"
 ATT.CompactName = "LVOA-C blk."
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_war_sport_lvoac_handguard.png", "mips smooth")
 ATT.Description = [[Lightweight handguard War Sport LVOA-C for use with sport rifles based on AR-15.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1963,7 +1963,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 War Sport LVOA-C handguard (FDE)"
 ATT.CompactName = "LVOA-C FDE"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/AWOOGA.png", "mips smooth")
 ATT.Description = [[Lightweight handguard War Sport LVOA-C for use with sport rifles based on AR-15. Flat dark earth.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -2040,7 +2040,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 War Sport LVOA-C handguard (Gray)"
 ATT.CompactName = "LVOA-C Gray"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/AWOOGA.png", "mips smooth")
 ATT.Description = [[Lightweight handguard War Sport LVOA-C for use with sport rifles based on AR-15. Gray.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -2116,7 +2116,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 War Sport LVOA-S handguard (Black)"
 ATT.CompactName = "LVOA-S blk."
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_war_sport_lvoas_handguard.png", "mips smooth")
 ATT.Description = [[Lightweight handguard War Sport LVOA-S (SBR) for use with sport rifles based on AR-15.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -2188,7 +2188,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 War Sport LVOA-S handguard (FDE)"
 ATT.CompactName = "LVOA-S FDE"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/AWOOGA.png", "mips smooth")
 ATT.Description = [[Lightweight handguard War Sport LVOA-S (SBR) for use with sport rifles based on AR-15. Flat dark earth.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -2261,7 +2261,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 War Sport LVOA-S handguard (Gray)"
 ATT.CompactName = "LVOA-S Gray"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/AWOOGA.png", "mips smooth")
 ATT.Description = [[Lightweight handguard War Sport LVOA-S (SBR) for use with sport rifles based on AR-15. Gray.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -2336,7 +2336,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 Precision Reflex GEN III Delta Carbon handguard"
 ATT.CompactName = "Delta Carbon"
-ATT.Icon = Material("entities/eft_ak_attachments/mag/76255.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_precision_reflex_gen_iii_delta_carbon_handguard.png", "mips smooth")
 ATT.Description = [[The GEN III Delta Carbon handguard for AR-15 systems, equipped with a custom interface for the installation of additional devices and accessories. Manufactured by Precision Reflex.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -2385,7 +2385,7 @@ ARC9.LoadAttachment(ATT, "eft_hg_ar15_precision")
 ATT = {}
 ATT.PrintName = "Precision Reflex handguard bottom rail mount"
 ATT.CompactName = "PR bot."
-ATT.Icon = Material("entities/eft_attachments/mount/si6.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/mounts/precision_reflex_handguard_bottom_rail_mount.png", "mips smooth")
 ATT.Description = [[A bottom rail for handguards by Precision Reflex, which allows you to install foregrips.]]
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_pri_precision_reflex_bottom_rail_section_gen3.mdl"
 ATT.Category = {"eft_mount_precis_b"}
@@ -2406,7 +2406,7 @@ ARC9.LoadAttachment(ATT, "eft_mount_precision_bottom")
 ATT = {}
 ATT.PrintName = "Precision Reflex handguard short side rail mount"
 ATT.CompactName = "PR side"
-ATT.Icon = Material("entities/eft_attachments/mount/si4.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/mounts/precision_reflex_handguard_short_side_rail_mount.png", "mips smooth")
 ATT.Description = [[A short rail for handguards by Precision Reflex, which allows you to install additional tactical equipment.]]
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_pri_precision_reflex_short_rail_section_gen3.mdl"
 ATT.Category = {"eft_mount_precis_s"}
@@ -2427,7 +2427,7 @@ ARC9.LoadAttachment(ATT, "eft_mount_precision_side")
 ATT = {}
 ATT.PrintName = "Precision Reflex handguard long top rail mount"
 ATT.CompactName = "PR top"
-ATT.Icon = Material("entities/eft_attachments/mount/si4.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/mounts/precision_reflex_handguard_long_top_rail_mount.png", "mips smooth")
 ATT.Description = [[A long rail for handguards by Precision Reflex, which allows you to install additional tactical equipment and front iron sights.]]
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_pri_precision_reflex_long_rail_section_gen3.mdl"
 ATT.Category = {"eft_mount_precis_t"}

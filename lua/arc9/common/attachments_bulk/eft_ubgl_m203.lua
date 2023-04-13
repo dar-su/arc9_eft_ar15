@@ -2,7 +2,7 @@ local ATT = {}
 
 ATT.PrintName = [[M203 40mm underbarrel grenade launcher]]
 ATT.CompactName = [[M203]]
-ATT.Icon = Material("entities/eft_ak_attachments/gp25real.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/m203_40mm.png", "mips smooth")
 ATT.Description = [[A single-shot 40mm underbarrel grenade launcher, designed for installation on M16 and M4 assault rifles.]]
 ATT.Pros = {}
 ATT.Cons = {}
