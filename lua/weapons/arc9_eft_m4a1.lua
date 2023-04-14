@@ -4,7 +4,7 @@ SWEP.Base = "arc9_base"
 SWEP.Spawnable = true
 SWEP.Category = "ARC9 - Escape From Tarkov"
 SWEP.SubCategory = "Assault Rifles"
-SWEP.SubCategory = "_Not for your eyes"
+SWEP.SubCategory = "_Not for your eyesss"
 SWEP.Credits = { Author1 = "Darsu", Assets2 = "Battlestate Games LTD", General_help3 = "Mal0", ARC9_Base4 = "Arctic" }
 
 SWEP.PrintName = "Colt M4A1"

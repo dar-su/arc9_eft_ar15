@@ -11,7 +11,7 @@ ATT.Icon = Material("entities/eft_ar15_attachments/hk416/hk_416a5_556x45_upper_r
 ATT.Description = [[An upper receiver for the 416A5 assault rifle manufactured by Heckler & Koch. Equipped with a mount for attaching additional devices.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.HasReciever = true
+ATT.HasReceiver = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/reciever_ar15_hk_hk416a5_std.mdl"
 
@@ -160,7 +160,7 @@ ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_416_hk_279mm_556x45.mdl"
 ATT.MuzzleDevice = true
-ATT.BarrelLengthAdd = 2
+ATT.BarrelLengthAdd = 2.5
 ATT.EFTErgoAdd = -8
 ATT.CustomCons = { Ergonomics = "-8" }
 ATT.RecoilMult = 0.98
@@ -205,7 +205,7 @@ ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_416_hk_368mm_556x45.mdl"
 ATT.MuzzleDevice = true
-ATT.BarrelLengthAdd = 2
+ATT.BarrelLengthAdd = 4
 ATT.EFTErgoAdd = -15
 ATT.CustomCons = { Ergonomics = "-15" }
 ATT.RecoilMult = 0.97
@@ -252,7 +252,7 @@ ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_416_hk_419mm_556x45.mdl"
 ATT.MuzzleDevice = true
-ATT.BarrelLengthAdd = 2
+ATT.BarrelLengthAdd = 5.5
 ATT.EFTErgoAdd = -20
 ATT.CustomCons = { Ergonomics = "-20" }
 ATT.RecoilMult = 0.95
@@ -299,7 +299,7 @@ ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_416_hk_505mm_556x45.mdl"
 ATT.MuzzleDevice = true
-ATT.BarrelLengthAdd = 2
+ATT.BarrelLengthAdd = 7
 ATT.EFTErgoAdd = -30
 ATT.CustomCons = { Ergonomics = "-30" }
 ATT.RecoilMult = 0.93
