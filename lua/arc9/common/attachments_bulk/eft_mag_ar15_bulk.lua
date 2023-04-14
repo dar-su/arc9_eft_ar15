@@ -19,8 +19,8 @@ ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_colt_ar15
 ATT.Category = {"eft_ar15_mag"}
 ATT.SuppressEmptySuffix = false 
 
--- ATT.EFTErgoAdd = -4
--- ATT.CustomCons = { Ergonomics = "-4" }
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
 
 ATT.ActivateElements = {"30rnd"}
 
@@ -47,8 +47,8 @@ ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_fn_mk16_s
 ATT.Category = {"eft_ar15_mag"}
 ATT.SuppressEmptySuffix = false 
 
--- ATT.EFTErgoAdd = -4
--- ATT.CustomCons = { Ergonomics = "-4" }
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
 
 ATT.ActivateElements = {"30rnd"}
 
@@ -77,8 +77,8 @@ ATT.DropMagazineSkin = 1
 ATT.Category = {"eft_ar15_mag"}
 ATT.SuppressEmptySuffix = false 
 
--- ATT.EFTErgoAdd = -4
--- ATT.CustomCons = { Ergonomics = "-4" }
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
 
 ATT.ActivateElements = {"30rnd"}
 
@@ -105,8 +105,8 @@ ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_hk_416_st
 ATT.Category = {"eft_ar15_mag"}
 ATT.SuppressEmptySuffix = false 
 
--- ATT.EFTErgoAdd = -4
--- ATT.CustomCons = { Ergonomics = "-4" }
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
 
 ATT.ActivateElements = {"30rnd"}
 
@@ -134,8 +134,8 @@ ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_hk_gen_2_
 ATT.Category = {"eft_ar15_mag"}
 ATT.SuppressEmptySuffix = false 
 
--- ATT.EFTErgoAdd = -4
--- ATT.CustomCons = { Ergonomics = "-4" }
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
 
 ATT.ActivateElements = {"30rnd"}
 
@@ -163,8 +163,8 @@ ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_hk_polyme
 ATT.Category = {"eft_ar15_mag"}
 ATT.SuppressEmptySuffix = false 
 
--- ATT.EFTErgoAdd = -4
--- ATT.CustomCons = { Ergonomics = "-4" }
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
 
 ATT.ActivateElements = {"30rnd"}
 
@@ -191,8 +191,8 @@ ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_magpul_pm
 ATT.Category = {"eft_ar15_mag"}
 ATT.SuppressEmptySuffix = false 
 
--- ATT.EFTErgoAdd = -4
--- ATT.CustomCons = { Ergonomics = "-4" }
+ATT.EFTErgoAdd = -16
+ATT.CustomCons = { Ergonomics = "-16" }
 
 ATT.ActivateElements = {"drum"}
 
@@ -219,8 +219,8 @@ ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_magpul_pm
 ATT.Category = {"eft_ar15_mag"}
 ATT.SuppressEmptySuffix = false 
 
--- ATT.EFTErgoAdd = -4
--- ATT.CustomCons = { Ergonomics = "-4" }
+ATT.EFTErgoAdd = 5
+ATT.CustomPros = { Ergonomics = "+5" }
 
 ATT.ActivateElements = {"10rnd"}
 
@@ -247,8 +247,8 @@ ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_magpul_pm
 ATT.Category = {"eft_ar15_mag"}
 ATT.SuppressEmptySuffix = false 
 
--- ATT.EFTErgoAdd = -4
--- ATT.CustomCons = { Ergonomics = "-4" }
+ATT.EFTErgoAdd = 3
+ATT.CustomPros = { Ergonomics = "+3" }
 
 ATT.ActivateElements = {"20rnd"}
 
@@ -275,8 +275,8 @@ ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_magpul_pm
 ATT.Category = {"eft_ar15_mag"}
 ATT.SuppressEmptySuffix = false 
 
--- ATT.EFTErgoAdd = -4
--- ATT.CustomCons = { Ergonomics = "-4" }
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
 
 ATT.ActivateElements = {"30rnd"}
 
@@ -307,8 +307,8 @@ ATT.DropMagazineSkin = 1
 ATT.Category = {"eft_ar15_mag"}
 ATT.SuppressEmptySuffix = false 
 
--- ATT.EFTErgoAdd = -4
--- ATT.CustomCons = { Ergonomics = "-4" }
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
 
 ATT.ActivateElements = {"30rnd"}
 
@@ -336,8 +336,8 @@ ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_magpul_pm
 ATT.Category = {"eft_ar15_mag"}
 ATT.SuppressEmptySuffix = false 
 
--- ATT.EFTErgoAdd = -4
--- ATT.CustomCons = { Ergonomics = "-4" }
+ATT.EFTErgoAdd = -7
+ATT.CustomCons = { Ergonomics = "-7" }
 
 ATT.ActivateElements = {"40rnd"}
 
@@ -368,8 +368,8 @@ ATT.DropMagazineSkin = 1
 ATT.Category = {"eft_ar15_mag"}
 ATT.SuppressEmptySuffix = false 
 
--- ATT.EFTErgoAdd = -4
--- ATT.CustomCons = { Ergonomics = "-4" }
+ATT.EFTErgoAdd = -7
+ATT.CustomCons = { Ergonomics = "-7" }
 
 ATT.ActivateElements = {"40rnd"}
 
@@ -397,8 +397,11 @@ ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_magpul_pm
 ATT.Category = {"eft_ar15_mag"}
 ATT.SuppressEmptySuffix = false 
 
--- ATT.EFTErgoAdd = -4
--- ATT.CustomCons = { Ergonomics = "-4" }
+
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
+ATT.CustomPros = { ["Improved check accuracy"] = "Yes" }
+ATT.EFTImprovedMagCheck = true
 
 ATT.ActivateElements = {"30rnd"}
 
@@ -429,8 +432,10 @@ ATT.DropMagazineSkin = 1
 ATT.Category = {"eft_ar15_mag"}
 ATT.SuppressEmptySuffix = false 
 
--- ATT.EFTErgoAdd = -4
--- ATT.CustomCons = { Ergonomics = "-4" }
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
+ATT.CustomPros = { ["Improved check accuracy"] = "Yes" }
+ATT.EFTImprovedMagCheck = true
 
 ATT.ActivateElements = {"30rnd"}
 
@@ -459,8 +464,8 @@ ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_surefire_
 ATT.Category = {"eft_ar15_mag"}
 ATT.SuppressEmptySuffix = false 
 
--- ATT.EFTErgoAdd = -4
--- ATT.CustomCons = { Ergonomics = "-4" }
+ATT.EFTErgoAdd = -27
+ATT.CustomCons = { Ergonomics = "-27" }
 
 ATT.ActivateElements = {"100rnd"}
 
@@ -488,8 +493,8 @@ ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_surefire_
 ATT.Category = {"eft_ar15_mag"}
 ATT.SuppressEmptySuffix = false 
 
--- ATT.EFTErgoAdd = -4
--- ATT.CustomCons = { Ergonomics = "-4" }
+ATT.EFTErgoAdd = -18
+ATT.CustomCons = { Ergonomics = "-18" }
 
 ATT.ActivateElements = {"100rnd"}
 
@@ -518,8 +523,8 @@ ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_troy_batt
 ATT.Category = {"eft_ar15_mag"}
 ATT.SuppressEmptySuffix = false 
 
--- ATT.EFTErgoAdd = -4
--- ATT.CustomCons = { Ergonomics = "-4" }
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
 
 ATT.ActivateElements = {"30rnd"}
 
@@ -551,8 +556,8 @@ ATT.SuppressEmptySuffix = false
 
 ATT.FuckingAirsoft = true 
 
--- ATT.EFTErgoAdd = -4
--- ATT.CustomCons = { Ergonomics = "-4" }
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
 
 ATT.ActivateElements = {"30rnd"}
 

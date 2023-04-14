@@ -34,7 +34,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasBolt = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/charge_ar15_badger_ordnance_tactical_latch.mdl"
-
+ATT.EFTErgoAdd = 1
+ATT.CustomPros = { Ergonomics = "+1" }
 ATT.Category = {"eft_ar15_charge"}
 
 ARC9.LoadAttachment(ATT, "eft_charge_ar15_botl")
@@ -72,7 +73,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasBolt = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/charge_ar15_geissele_ach.mdl"
-
+ATT.EFTErgoAdd = 2
+ATT.CustomPros = { Ergonomics = "+2" }
 ATT.Category = {"eft_ar15_charge"}
 
 ARC9.LoadAttachment(ATT, "eft_charge_ar15_ach")
@@ -91,7 +93,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasBolt = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/charge_ar15_hk_extended_latch_charging_handle.mdl"
-
+ATT.EFTErgoAdd = 1
+ATT.CustomPros = { Ergonomics = "+1" }
 ATT.Category = {"eft_ar15_charge"}
 
 ARC9.LoadAttachment(ATT, "eft_charge_ar15_hkext")
@@ -110,7 +113,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasBolt = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/charge_ar15_masp_ambi_battle_charging_handle.mdl"
-
+ATT.EFTErgoAdd = 1
+ATT.CustomPros = { Ergonomics = "+1" }
 ATT.Category = {"eft_ar15_charge"}
 
 ARC9.LoadAttachment(ATT, "eft_charge_ar15_masp")
@@ -129,7 +133,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasBolt = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/charge_ar15_radian_raptor_ambidextrous_charging_handle.mdl"
-
+ATT.EFTErgoAdd = 3
+ATT.CustomPros = { Ergonomics = "+3" }
 ATT.Category = {"eft_ar15_charge"}
 
 ARC9.LoadAttachment(ATT, "eft_charge_ar15_raptor")
@@ -149,7 +154,8 @@ ATT.HasBolt = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/charge_ar15_radian_raptor_ambidextrous_charging_handle.mdl"
 ATT.ModelSkin = 1
-
+ATT.EFTErgoAdd = 3
+ATT.CustomPros = { Ergonomics = "+3" }
 ATT.Category = {"eft_ar15_charge"}
 
 ARC9.LoadAttachment(ATT, "eft_charge_ar15_raptor_g")
@@ -167,7 +173,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasBolt = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/charge_ar15_rainer_arms_avalanche_mod2.mdl"
-
+ATT.EFTErgoAdd = 3
+ATT.CustomPros = { Ergonomics = "+3" }
 ATT.Category = {"eft_ar15_charge"}
 
 ARC9.LoadAttachment(ATT, "eft_charge_ar15_mod2")

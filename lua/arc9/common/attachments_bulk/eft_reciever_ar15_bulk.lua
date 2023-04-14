@@ -18,6 +18,12 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/reciever_ar15_colt_m4a1_std.mdl"
 
 ATT.Category = {"eft_m4a1_upper"}
 
+ATT.EFTErgoAdd = 5
+ATT.CustomPros = { Ergonomics = "+5" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.HeatCapacityMult = 0.989
+
 ATT.Attachments = {
     {
         PrintName = "Optic",
@@ -68,6 +74,10 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/reciever_ar15_adar_2-15_std.mdl"
 
 ATT.Category = {"eft_m4a1_upper"}
 
+ATT.EFTErgoAdd = 4
+ATT.CustomPros = { Ergonomics = "+4" }
+ATT.HeatCapacityMult = 0.991
+
 ATT.Attachments = {
     {
         PrintName = "Optic",
@@ -115,6 +125,12 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasReceiver = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/reciever_ar15_lone_star_tx15_lightweight.mdl"
+
+ATT.EFTErgoAdd = 6
+ATT.CustomPros = { Ergonomics = "+6" }
+ATT.RecoilMult = 0.98
+ATT.VisualRecoilMult = 0.98
+ATT.HeatCapacityMult = 0.983
 
 ATT.Category = {"eft_m4a1_upper"}
 
@@ -170,6 +186,12 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/reciever_ar15_noveske_gen3.mdl"
 
 ATT.Category = {"eft_m4a1_upper"}
 
+ATT.EFTErgoAdd = 13
+ATT.CustomPros = { Ergonomics = "+13" }
+ATT.RecoilMult = 0.98
+ATT.VisualRecoilMult = 0.98
+ATT.HeatCapacityMult = 0.979
+
 ATT.Attachments = {
     {
         PrintName = "Optic",
@@ -219,6 +241,12 @@ ATT.HasReceiver = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/reciever_ar15_vltor_mur-1s.mdl"
 
 ATT.Category = {"eft_m4a1_upper"}
+
+ATT.EFTErgoAdd = 8
+ATT.CustomPros = { Ergonomics = "+8" }
+ATT.RecoilMult = 0.96
+ATT.VisualRecoilMult = 0.96
+ATT.HeatCapacityMult = 0.975
 
 ATT.EFTAR15NoFwdAssist = true
 

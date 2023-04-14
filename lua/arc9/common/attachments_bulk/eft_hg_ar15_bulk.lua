@@ -18,7 +18,9 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_adar_wood_v1.mdl"
 ATT.LHIK = true 
 
 ATT.ExcludeElements = {"barrel_260mm", "barrel_370mm"}
-
+ATT.EFTErgoAdd = 7
+ATT.CustomPros = { Ergonomics = "+7" }
+ATT.HeatCapacityMult = 1.074
 ATT.Category = {"eft_ar15_hguard"}
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_adar")
@@ -38,7 +40,9 @@ ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_aeroknox_ax15_10,5_m_lok.mdl"
 ATT.LHIK = true 
-
+ATT.EFTErgoAdd = 9
+ATT.CustomPros = { Ergonomics = "+9" }
+ATT.HeatCapacityMult = 0.953
 ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"barrel_260mm", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
@@ -101,7 +105,11 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_alexander_arms_mk
 ATT.LHIK = true 
 
 ATT.Category = {"eft_ar15_hguard"}
-
+ATT.EFTErgoAdd = 8
+ATT.CustomPros = { Ergonomics = "+8" }
+ATT.RecoilMult = 0.97
+ATT.VisualRecoilMult = 0.97
+ATT.HeatCapacityMult = 0.996
 ATT.ExcludeElements = {"eft_gas_ar15_rg", "eft_gas_ar15_m4fs"}
 
 ATT.Attachments = {
@@ -145,7 +153,9 @@ ATT.HasHG = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_colt_m4_length_std.mdl"
 ATT.LHIK = true 
 -- ATT.LHIK_Priority = -22 -- needs lower hg
-
+ATT.EFTErgoAdd = 2
+ATT.CustomPros = { Ergonomics = "+2" }
+ATT.HeatCapacityMult = 1.032
 ATT.Category = {"eft_ar15_hguard"}
 
 ATT.Attachments = {
@@ -171,6 +181,9 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_colt_m4_length_std_bottom.mdl"
 ATT.LHIK = true
 ATT.LHIK_Priority = 1 -- lower
+ATT.EFTErgoAdd = 7
+ATT.CustomPros = { Ergonomics = "+7" }
+ATT.HeatCapacityMult = 1.029
 ATT.Category = {"eft_hglower_m4"}
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_m4_lower")
 
@@ -187,7 +200,9 @@ ATT.Description = [[The Daniel Defense RIS II 12.25 foregrip is a part of the SO
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasHG = true
-
+ATT.EFTErgoAdd = 2
+ATT.CustomPros = { Ergonomics = "+2" }
+ATT.HeatCapacityMult = 0.968
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_dd_ris_ii_12,25.mdl"
 ATT.LHIK = true 
 ATT.LHIK_Priority = 0 -- lower
@@ -259,6 +274,11 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_dd_ris_ii_12,25_l
 ATT.LHIK = true
 ATT.LHIK_Priority = 1 -- lower
 ATT.Category = {"eft_hglower_ddrisii1225"}
+ATT.EFTErgoAdd = 5
+ATT.CustomPros = { Ergonomics = "+5" }
+ATT.RecoilMult = 0.98
+ATT.VisualRecoilMult = 0.98
+ATT.HeatCapacityMult = 0.975
 ATT.Attachments = {
     {
         PrintName = "B Tactical",
@@ -295,7 +315,9 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_dd_ris_ii_9,5.mdl
 ATT.ModelSkin = 1
 ATT.LHIK = true 
 -- ATT.LHIK_Priority = -22 -- needs lower hg
-
+ATT.EFTErgoAdd = 2
+ATT.CustomPros = { Ergonomics = "+2" }
+ATT.HeatCapacityMult = 0.987
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "Daniel Defens"
 
@@ -361,6 +383,11 @@ ATT.ModelSkin = 1
 ATT.LHIK = true
 ATT.LHIK_Priority = 1 -- lower
 ATT.Category = {"eft_hglower_ddrisii95"}
+ATT.EFTErgoAdd = 5
+ATT.CustomPros = { Ergonomics = "+5" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.HeatCapacityMult = 0.992
 ATT.Attachments = {
     {
         PrintName = "Grip",
@@ -388,7 +415,11 @@ ATT.HasHG = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_dd_ris_ii_9,5.mdl"
 ATT.LHIK = true 
 -- ATT.LHIK_Priority = -22 -- needs lower hg
-
+ATT.EFTErgoAdd = 5
+ATT.CustomPros = { Ergonomics = "+5" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.HeatCapacityMult = 0.992
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "Daniel Defens"
 ATT.Attachments = {
@@ -453,6 +484,11 @@ ATT.LHIK = true
 ATT.LHIK_Priority = 1 -- lower
 ATT.Category = {"eft_hglower_ddrisii95"}
 ATT.HasHG = true
+ATT.EFTErgoAdd = 5
+ATT.CustomPros = { Ergonomics = "+5" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.HeatCapacityMult = 0.992
 ATT.Attachments = {
     {
         PrintName = "Grip",
@@ -479,7 +515,11 @@ ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_dd_ris_ii_fsp_9,5.mdl"
 ATT.LHIK = true 
-
+ATT.EFTErgoAdd = 7
+ATT.CustomPros = { Ergonomics = "+7" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.HeatCapacityMult = 0.988
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "Daniel Defens"
 
@@ -531,7 +571,11 @@ ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_geissele_smr_mk16_135_inch.mdl"
 ATT.LHIK = true 
-
+ATT.EFTErgoAdd = 10
+ATT.CustomPros = { Ergonomics = "+10" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.HeatCapacityMult = 0.965
 ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"barrel_260mm", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
@@ -600,7 +644,9 @@ ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_geissele_smr_mk16_95_inch.mdl"
 ATT.LHIK = true 
-
+ATT.EFTErgoAdd = 8
+ATT.CustomPros = { Ergonomics = "+8" }
+ATT.HeatCapacityMult = 0.996
 ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
@@ -670,7 +716,9 @@ ATT.HasHG = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_kac_ris.mdl"
 ATT.LHIK = true 
 -- ATT.LHIK_Priority = -22 -- needs lower hg`
-
+ATT.EFTErgoAdd = 1
+ATT.CustomPros = { Ergonomics = "+1" }
+ATT.HeatCapacityMult = 1.018
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Attachments = {
     {
@@ -716,6 +764,9 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_kac_ris_lower.mdl"
 ATT.LHIK = true
 ATT.LHIK_Priority = 1 -- lower
+ATT.EFTErgoAdd = 4
+ATT.CustomPros = { Ergonomics = "+4" }
+ATT.HeatCapacityMult = 1.013
 ATT.Category = {"eft_hglower_kacris"}
 ATT.Attachments = {
     {
@@ -745,7 +796,9 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_kac_urx_31_10,75_
 ATT.LHIK = true 
 -- ATT.LHIK_Priority = -22 -- needs lower hg
 ATT.HasHG = true
-
+ATT.EFTErgoAdd = 2
+ATT.CustomPros = { Ergonomics = "+2" }
+ATT.HeatCapacityMult = 0.96
 ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"barrel_260mm", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
@@ -824,6 +877,11 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_kac_urx_31_10,75_inch_lower.mdl"
 ATT.LHIK = true
 ATT.LHIK_Priority = 1 -- lower
+ATT.EFTErgoAdd = 4
+ATT.CustomPros = { Ergonomics = "+4" }
+ATT.RecoilMult = 0.98
+ATT.VisualRecoilMult = 0.98
+ATT.HeatCapacityMult = 0.98
 ATT.Category = {"eft_hglower_kacurx31"}
 ATT.Attachments = {
     {
@@ -876,6 +934,11 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tactical_urx_kac_panel_hand_stop.mdl"
 ATT.ModelAngleOffset = Angle(0,-90,0)
+ATT.EFTErgoAdd = 4
+ATT.CustomPros = { Ergonomics = "+4" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.HeatCapacityMult = 0.99
 ATT.Category = {"eft_urx_panel_lower"}
 ARC9.LoadAttachment(ATT, "eft_urxstoper")
 ///////////////////////////////////////      eft_urxstoper_fde
@@ -889,6 +952,11 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tactical_urx_kac_panel_hand_stop.mdl"
 ATT.ModelSkin = 1
 ATT.ModelAngleOffset = Angle(0,-90,0)
+ATT.EFTErgoAdd = 4
+ATT.CustomPros = { Ergonomics = "+4" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.HeatCapacityMult = 0.99
 ATT.Category = {"eft_urx_panel_lower"}
 ARC9.LoadAttachment(ATT, "eft_urxstoper_fde")
 
@@ -902,6 +970,9 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tactical_urx_kac_panel_long.mdl"
 ATT.ModelAngleOffset = Angle(0,180,0)
+ATT.EFTErgoAdd = 3
+ATT.CustomPros = { Ergonomics = "+3" }
+ATT.HeatCapacityMult = 0.98
 ATT.Category = {"eft_urx_panel_long"}
 ARC9.LoadAttachment(ATT, "eft_urxlong")
 
@@ -916,6 +987,9 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tactical_urx_kac_panel_long.mdl"
 ATT.ModelSkin = 1
 ATT.ModelAngleOffset = Angle(0,180,0)
+ATT.EFTErgoAdd = 3
+ATT.CustomPros = { Ergonomics = "+3" }
+ATT.HeatCapacityMult = 0.98
 ATT.Category = {"eft_urx_panel_long"}
 ARC9.LoadAttachment(ATT, "eft_urxlong_fde")
 
@@ -929,6 +1003,9 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tactical_urx_kac_panel_short.mdl"
 ATT.ModelAngleOffset = Angle(0,180,0)
+ATT.EFTErgoAdd = 2
+ATT.CustomPros = { Ergonomics = "+2" }
+ATT.HeatCapacityMult = 0.99
 ATT.Category = {"eft_urx_panel_long"}
 ARC9.LoadAttachment(ATT, "eft_urxshort")
 
@@ -943,6 +1020,9 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tactical_urx_kac_panel_short.mdl"
 ATT.ModelSkin = 1
 ATT.ModelAngleOffset = Angle(0,180,0)
+ATT.EFTErgoAdd = 2
+ATT.CustomPros = { Ergonomics = "+2" }
+ATT.HeatCapacityMult = 0.99
 ATT.Category = {"eft_urx_panel_short"}
 ARC9.LoadAttachment(ATT, "eft_urxshort_fde")
 
@@ -958,7 +1038,9 @@ ATT.Description = [[The Knight's Armament URX 3 handguard for AR-15 equipped wit
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasHG = true
-
+ATT.EFTErgoAdd = 2
+ATT.CustomPros = { Ergonomics = "+2" }
+ATT.HeatCapacityMult = 1.018
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_kac_urx_3_8_inch.mdl"
 ATT.LHIK = true 
 -- ATT.LHIK_Priority = -22 -- needs lower hg
@@ -1033,6 +1115,11 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_kac_urx_3_8_inch_
 ATT.LHIK = true
 ATT.LHIK_Priority = 1 -- lower
 ATT.Category = {"eft_hglower_kacurx38"}
+ATT.EFTErgoAdd = 4
+ATT.CustomPros = { Ergonomics = "+4" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.HeatCapacityMult = 1.005
 ATT.Attachments = {
     {
         PrintName = "B Tactical",
@@ -1066,7 +1153,12 @@ ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_lone_star_ion_lite_m_lok_16_inch.mdl"
 ATT.LHIK = true 
-
+ATT.EFTErgoAdd = 11
+ATT.CustomPros = { Ergonomics = "+11" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.SpreadMult = 0.99
+ATT.HeatCapacityMult = 0.961
 ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"barrel_260mm","barrel_370mm","barrel_406mm", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
@@ -1158,7 +1250,9 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_magpul_moe_sl_car
 ATT.LHIK = true 
 
 ATT.Category = {"eft_ar15_hguard"}
-
+ATT.EFTErgoAdd = 10
+ATT.CustomPros = { Ergonomics = "+10" }
+ATT.HeatCapacityMult = 1.058
 ATT.ExcludeElements = {"barrel_406mm"}
 
 ATT.Attachments = {
@@ -1203,7 +1297,11 @@ ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_magpul_moe_sl_mid_length.mdl"
 ATT.LHIK = true 
-
+ATT.EFTErgoAdd = 10
+ATT.CustomPros = { Ergonomics = "+10" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.HeatCapacityMult = 1.064
 ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"barrel_260mm","barrel_370mm", "eft_gas_ar15_jp"}
@@ -1249,7 +1347,11 @@ ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_sai_qd_rail_long.mdl"
 ATT.LHIK = true 
-
+ATT.EFTErgoAdd = 12
+ATT.CustomPros = { Ergonomics = "+12" }
+ATT.RecoilMult = 0.97
+ATT.VisualRecoilMult = 0.97
+ATT.HeatCapacityMult = 0.968
 ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"barrel_260mm", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
@@ -1345,7 +1447,11 @@ ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_sai_qd_rail_short.mdl"
 ATT.LHIK = true 
-
+ATT.EFTErgoAdd = 10
+ATT.CustomPros = { Ergonomics = "+10" }
+ATT.RecoilMult = 0.97
+ATT.VisualRecoilMult = 0.97
+ATT.HeatCapacityMult = 0.965
 ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"barrel_406mm","barrel_370mm","barrel_18i","barrel_20i", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
@@ -1441,7 +1547,9 @@ ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_stmarms_12_inch_m_lok.mdl"
 ATT.LHIK = true 
-
+ATT.EFTErgoAdd = 6.5
+ATT.CustomPros = { Ergonomics = "+6.5" }
+ATT.HeatCapacityMult = 0.982
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "Soyuz-TM"
 
@@ -1511,7 +1619,11 @@ ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_stmarms_15_inch_m_lok.mdl"
 ATT.LHIK = true 
-
+ATT.EFTErgoAdd = 5.5
+ATT.CustomPros = { Ergonomics = "+5.5" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.HeatCapacityMult = 0.986
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "Soyuz-TM"
 
@@ -1584,7 +1696,9 @@ ATT.LHIK = true
 
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "Soyuz-TM"
-
+ATT.EFTErgoAdd = 6
+ATT.CustomPros = { Ergonomics = "+6" }
+ATT.HeatCapacityMult = 0.978
 ATT.ExcludeElements = {"eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
 
 ATT.Attachments = {
@@ -1651,7 +1765,11 @@ ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_stngr_vypr_m_lok_10_inch.mdl"
 ATT.LHIK = true 
-
+ATT.EFTErgoAdd = 8
+ATT.CustomPros = { Ergonomics = "+8" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.HeatCapacityMult = 0.985
 ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
@@ -1727,7 +1845,9 @@ ATT.HasHG = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_strike_industries_viper.mdl"
 ATT.LHIK = true 
 -- ATT.LHIK_Priority = -22 -- needs lower hg
-
+ATT.EFTErgoAdd = 3
+ATT.CustomPros = { Ergonomics = "+3" }
+ATT.HeatCapacityMult = 1.008
 ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"barrel_406mm"}
@@ -1778,7 +1898,9 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_strike_industries
 ATT.ModelSkin = 1
 ATT.LHIK = true 
 -- ATT.LHIK_Priority = -22 -- needs lower hg
-
+ATT.EFTErgoAdd = 3
+ATT.CustomPros = { Ergonomics = "+3" }
+ATT.HeatCapacityMult = 1.008
 ATT.Category = {"eft_ar15_hguard"}
 
 ATT.Attachments = {
@@ -1821,6 +1943,9 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_strike_industries_viper_lower.mdl"
 ATT.LHIK = true
 ATT.LHIK_Priority = 1 -- lower
+ATT.EFTErgoAdd = 7
+ATT.CustomPros = { Ergonomics = "+7" }
+ATT.HeatCapacityMult = 1.018
 ATT.Category = {"eft_hglower_viper"}
 ATT.Attachments = {
     {
@@ -1845,6 +1970,9 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_strike_industries
 ATT.ModelSkin = 1
 ATT.LHIK = true
 ATT.LHIK_Priority = 1 -- lower
+ATT.EFTErgoAdd = 7
+ATT.CustomPros = { Ergonomics = "+7" }
+ATT.HeatCapacityMult = 1.018
 ATT.Category = {"eft_hglower_viper"}
 ATT.Attachments = {
     {
@@ -1877,7 +2005,9 @@ ATT.Category = {"eft_ar15_hguard"}
 
 ATT.ExcludeElements = {"barrel_260mm", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
 
-
+ATT.EFTErgoAdd = 15
+ATT.CustomPros = { Ergonomics = "+15" }
+ATT.HeatCapacityMult = 0.964
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_wing")
 
 ///////////////////////////////////////      eft_hg_ar15_lvoac_b
@@ -1895,7 +2025,11 @@ ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_war_sport_lvoa_c.mdl"
 ATT.LHIK = true 
-
+ATT.EFTErgoAdd = 10
+ATT.CustomPros = { Ergonomics = "+10" }
+ATT.RecoilMult = 0.98
+ATT.VisualRecoilMult = 0.98
+ATT.HeatCapacityMult = 0.942
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "WS LVOA"
 
@@ -1963,7 +2097,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 War Sport LVOA-C handguard (FDE)"
 ATT.CompactName = "LVOA-C FDE"
-ATT.Icon = Material("entities/eft_ar15_attachments/hg/AWOOGA.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_war_sport_lvoac_handguard_f.png", "mips smooth")
 ATT.Description = [[Lightweight handguard War Sport LVOA-C for use with sport rifles based on AR-15. Flat dark earth.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1972,7 +2106,11 @@ ATT.HasHG = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_war_sport_lvoa_c.mdl"
 ATT.ModelSkin = 1
 ATT.LHIK = true 
-
+ATT.EFTErgoAdd = 10
+ATT.CustomPros = { Ergonomics = "+10" }
+ATT.RecoilMult = 0.98
+ATT.VisualRecoilMult = 0.98
+ATT.HeatCapacityMult = 0.942
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "WS LVOA"
 
@@ -2040,7 +2178,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 War Sport LVOA-C handguard (Gray)"
 ATT.CompactName = "LVOA-C Gray"
-ATT.Icon = Material("entities/eft_ar15_attachments/hg/AWOOGA.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_war_sport_lvoac_handguard_g.png", "mips smooth")
 ATT.Description = [[Lightweight handguard War Sport LVOA-C for use with sport rifles based on AR-15. Gray.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -2049,7 +2187,11 @@ ATT.HasHG = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_war_sport_lvoa_c.mdl"
 ATT.ModelSkin = 2
 ATT.LHIK = true 
-
+ATT.EFTErgoAdd = 10
+ATT.CustomPros = { Ergonomics = "+10" }
+ATT.RecoilMult = 0.98
+ATT.VisualRecoilMult = 0.98
+ATT.HeatCapacityMult = 0.942
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "WS LVOA"
 
@@ -2124,7 +2266,11 @@ ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_war_sport_lvoa_s.mdl"
 ATT.LHIK = true 
-
+ATT.EFTErgoAdd = 9
+ATT.CustomPros = { Ergonomics = "+9" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.HeatCapacityMult = 0.95
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "WS LVOA"
 ATT.Attachments = {
@@ -2188,7 +2334,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 War Sport LVOA-S handguard (FDE)"
 ATT.CompactName = "LVOA-S FDE"
-ATT.Icon = Material("entities/eft_ar15_attachments/hg/AWOOGA.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_war_sport_lvoas_handguard_f.png", "mips smooth")
 ATT.Description = [[Lightweight handguard War Sport LVOA-S (SBR) for use with sport rifles based on AR-15. Flat dark earth.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -2197,7 +2343,11 @@ ATT.HasHG = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_war_sport_lvoa_s.mdl"
 ATT.ModelSkin = 1
 ATT.LHIK = true 
-
+ATT.EFTErgoAdd = 9
+ATT.CustomPros = { Ergonomics = "+9" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.HeatCapacityMult = 0.95
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "WS LVOA"
 ATT.Attachments = {
@@ -2261,7 +2411,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 War Sport LVOA-S handguard (Gray)"
 ATT.CompactName = "LVOA-S Gray"
-ATT.Icon = Material("entities/eft_ar15_attachments/hg/AWOOGA.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ar15_war_sport_lvoas_handguard_g.png", "mips smooth")
 ATT.Description = [[Lightweight handguard War Sport LVOA-S (SBR) for use with sport rifles based on AR-15. Gray.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -2270,7 +2420,11 @@ ATT.HasHG = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_war_sport_lvoa_s.mdl"
 ATT.ModelSkin = 2
 ATT.LHIK = true 
-
+ATT.EFTErgoAdd = 9
+ATT.CustomPros = { Ergonomics = "+9" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.HeatCapacityMult = 0.95
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "WS LVOA"
 
@@ -2347,7 +2501,11 @@ ATT.ModelSkin = 2
 ATT.LHIK = true 
 
 ATT.Category = {"eft_ar15_hguard"}
-
+ATT.EFTErgoAdd = 14
+ATT.CustomPros = { Ergonomics = "+14" }
+ATT.RecoilMult = 0.98
+ATT.VisualRecoilMult = 0.98
+ATT.HeatCapacityMult = 1.03
 ATT.ExcludeElements = {"barrel_260mm", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
 
 ATT.Attachments = {

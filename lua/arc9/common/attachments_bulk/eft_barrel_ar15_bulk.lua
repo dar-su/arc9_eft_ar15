@@ -19,6 +19,14 @@ ATT.BarrelLengthAdd = 2
 
 ATT.Category = {"eft_m4a1_barrel"}
 
+ATT.EFTErgoAdd = -7
+ATT.CustomCons = { Ergonomics = "-7" }
+ATT.RecoilMult = 0.98
+ATT.VisualRecoilMult = 0.98
+ATT.HeatCapacityMult = 1.06
+ATT.PhysBulletMuzzleVelocityMult = 0.84
+ATT.Spread = 2.41 * ARC9.MOAToAcc
+
 ATT.ActivateElements = {"barrel_260mm"}
 
 ATT.Attachments = {
@@ -54,6 +62,14 @@ ATT.HasBarrel = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_ar15_370mm.mdl"
 ATT.MuzzleDevice = true
 ATT.BarrelLengthAdd = 2
+
+ATT.EFTErgoAdd = -14
+ATT.CustomCons = { Ergonomics = "-14" }
+ATT.RecoilMult = 0.97
+ATT.VisualRecoilMult = 0.97
+ATT.HeatCapacityMult = 1.02
+ATT.PhysBulletMuzzleVelocityMult = 0.935
+ATT.Spread = 1.82 * ARC9.MOAToAcc
 
 ATT.Category = {"eft_m4a1_barrel"}
 
@@ -92,6 +108,14 @@ ATT.HasBarrel = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_ar15_457mm.mdl"
 ATT.MuzzleDevice = true
 ATT.BarrelLengthAdd = 2
+
+ATT.EFTErgoAdd = -22
+ATT.CustomCons = { Ergonomics = "-22" }
+ATT.RecoilMult = 0.95
+ATT.VisualRecoilMult = 0.95
+ATT.HeatCapacityMult = 0.96
+ATT.PhysBulletMuzzleVelocityMult = 0.958
+ATT.Spread = 1.41 * ARC9.MOAToAcc
 
 ATT.Category = {"eft_m4a1_barrel"}
 
@@ -132,6 +156,14 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_ar15_508mm.mdl"
 ATT.MuzzleDevice = true
 ATT.BarrelLengthAdd = 2
 
+ATT.EFTErgoAdd = -29
+ATT.CustomCons = { Ergonomics = "-29" }
+ATT.RecoilMult = 0.94
+ATT.VisualRecoilMult = 0.94
+ATT.HeatCapacityMult = 0.94
+ATT.PhysBulletMuzzleVelocityMult = 0.97
+ATT.Spread = 1.1 * ARC9.MOAToAcc
+
 ATT.Category = {"eft_m4a1_barrel"}
 
 ATT.ActivateElements = {"barrel_20i"}
@@ -170,6 +202,14 @@ ATT.HasBarrel = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_ar15_adar_406mm.mdl"
 ATT.MuzzleDevice = true
 ATT.BarrelLengthAdd = 2
+
+ATT.EFTErgoAdd = -15
+ATT.CustomCons = { Ergonomics = "-15" }
+ATT.RecoilMult = 0.96
+ATT.VisualRecoilMult = 0.96
+ATT.HeatCapacityMult = 0.98
+ATT.PhysBulletMuzzleVelocityMult = 0.945
+ATT.Spread = 2.2 * ARC9.MOAToAcc
 
 ATT.Category = {"eft_m4a1_barrel"}
 

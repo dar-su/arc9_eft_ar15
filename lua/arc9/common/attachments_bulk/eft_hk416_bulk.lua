@@ -16,7 +16,11 @@ ATT.HasReciever = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/reciever_ar15_hk_hk416a5_std.mdl"
 
 ATT.Category = {"eft_hk416_upper"}
-
+ATT.EFTErgoAdd = 6
+ATT.CustomPros = { Ergonomics = "+6" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.HeatCapacityMult = 0.986
 ATT.Attachments = {
     {
         PrintName = "Optic",
@@ -109,7 +113,13 @@ ATT.HasBarrel = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_416_hk_264mm_556x45.mdl"
 ATT.MuzzleDevice = true
 ATT.BarrelLengthAdd = 2
-
+ATT.EFTErgoAdd = -5
+ATT.CustomCons = { Ergonomics = "-5" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.HeatCapacityMult = 1.06
+ATT.PhysBulletMuzzleVelocityMult = 0.82
+ATT.Spread = 2.51 * ARC9.MOAToAcc
 ATT.ExcludeElements = {
     "eft_hg_hk416_mrs14", "eft_hg_hk416_quadext", "eft_hg_hk416_midwest135", "eft_hg_hk416_crux", "eft_hg_hk416_troy",
     "eft_muzzle_ar15_ferfrans", "eft_silencer_sdn6", "eft_silencer_gemtechone", "eft_silencer_ar15_kacqdssnt4", "eft_silencer_ar15_kacqdssnt4_f", "eft_silencer_ar15_socommonster", "eft_silencer_ar15_socomrc2", "eft_silencer_ar15_socommini", "eft_silencer_ultra5", "eft_silencer_waveqd"
@@ -151,7 +161,13 @@ ATT.HasBarrel = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_416_hk_279mm_556x45.mdl"
 ATT.MuzzleDevice = true
 ATT.BarrelLengthAdd = 2
-
+ATT.EFTErgoAdd = -8
+ATT.CustomCons = { Ergonomics = "-8" }
+ATT.RecoilMult = 0.98
+ATT.VisualRecoilMult = 0.98
+ATT.HeatCapacityMult = 1.04
+ATT.PhysBulletMuzzleVelocityMult = 0.84
+ATT.Spread = 2.41 * ARC9.MOAToAcc
 ATT.ExcludeElements = {"eft_hg_hk416_mrs14", "eft_hg_hk416_quadext", "eft_hg_hk416_midwest135", "eft_hg_hk416_crux", "eft_hg_hk416_troy"}
 
 ATT.Category = {"eft_hk416_barrel"}
@@ -190,7 +206,13 @@ ATT.HasBarrel = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_416_hk_368mm_556x45.mdl"
 ATT.MuzzleDevice = true
 ATT.BarrelLengthAdd = 2
-
+ATT.EFTErgoAdd = -15
+ATT.CustomCons = { Ergonomics = "-15" }
+ATT.RecoilMult = 0.97
+ATT.VisualRecoilMult = 0.97
+ATT.HeatCapacityMult = 1.02
+ATT.PhysBulletMuzzleVelocityMult = 0.92
+ATT.Spread = 1.89 * ARC9.MOAToAcc
 ATT.DrawFunc = function(swep, model) model:SetBodygroup(1, swep:GetValue("FoldSights") and 1 or 0) end
 
 ATT.Category = {"eft_hk416_barrel"}
@@ -231,7 +253,13 @@ ATT.HasBarrel = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_416_hk_419mm_556x45.mdl"
 ATT.MuzzleDevice = true
 ATT.BarrelLengthAdd = 2
-
+ATT.EFTErgoAdd = -20
+ATT.CustomCons = { Ergonomics = "-20" }
+ATT.RecoilMult = 0.95
+ATT.VisualRecoilMult = 0.95
+ATT.HeatCapacityMult = 0.98
+ATT.PhysBulletMuzzleVelocityMult = 0.95
+ATT.Spread = 1.55 * ARC9.MOAToAcc
 ATT.DrawFunc = function(swep, model) model:SetBodygroup(1, swep:GetValue("FoldSights") and 1 or 0) end
 
 ATT.Category = {"eft_hk416_barrel"}
@@ -272,6 +300,13 @@ ATT.HasBarrel = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_416_hk_505mm_556x45.mdl"
 ATT.MuzzleDevice = true
 ATT.BarrelLengthAdd = 2
+ATT.EFTErgoAdd = -30
+ATT.CustomCons = { Ergonomics = "-30" }
+ATT.RecoilMult = 0.93
+ATT.VisualRecoilMult = 0.93
+ATT.HeatCapacityMult = 0.94
+ATT.PhysBulletMuzzleVelocityMult = 1.03
+ATT.Spread = 1.1 * ARC9.MOAToAcc
 
 ATT.DrawFunc = function(swep, model) model:SetBodygroup(1, swep:GetValue("FoldSights") and 1 or 0) end
 
@@ -309,6 +344,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasGas = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/gas_block_416_hk_416a5_std.mdl"
+ATT.HeatCapacityMult = 0.995
 
 ATT.Category = {"eft_hk416_gasblock"}
 
@@ -355,7 +391,11 @@ ATT.Description = [[The HK MRS KeyMod handguard for 416A5 equipped with a KeyMod
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasHG = true
-
+ATT.EFTErgoAdd = 6
+ATT.CustomPros = { Ergonomics = "+6" }
+ATT.RecoilMult = 0.97
+ATT.VisualRecoilMult = 0.97
+ATT.HeatCapacityMult = 0.977
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_416_hk_mrs_keymod_14_inch.mdl"
 ATT.LHIK = true 
 
@@ -451,7 +491,9 @@ ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_416_hk_quad_rail.mdl"
 ATT.LHIK = true 
-
+ATT.EFTErgoAdd = 4
+ATT.CustomPros = { Ergonomics = "+4" }
+ATT.HeatCapacityMult = 0.976
 ATT.Category = {"eft_hk416_hguard"}
 
 -- ATT.ExcludeElements = {"barrel_260mm","barrel_370mm","barrel_406mm", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
@@ -519,7 +561,11 @@ ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_416_hk_quad_rail_extended.mdl"
 ATT.LHIK = true 
-
+ATT.EFTErgoAdd = 5
+ATT.CustomPros = { Ergonomics = "+5" }
+ATT.RecoilMult = 0.98
+ATT.VisualRecoilMult = 0.98
+ATT.HeatCapacityMult = 0.985
 ATT.Category = {"eft_hk416_hguard"}
 
 ATT.ExcludeElements = {"barrel_11i", "barrel_145i", "barrel_165i"}
@@ -586,7 +632,9 @@ ATT.Description = [[Quadrail handguard for 416 and compatables. Comes with a fou
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasHG = true
-
+ATT.EFTErgoAdd = 4
+ATT.CustomPros = { Ergonomics = "+4" }
+ATT.HeatCapacityMult = 0.976
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_416_hk_quad_rail_w_sight.mdl"
 ATT.LHIK = true 
 
@@ -659,7 +707,9 @@ ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_416_midwest_m_lok_9_inch.mdl"
 ATT.LHIK = true 
-
+ATT.EFTErgoAdd = 8
+ATT.CustomPros = { Ergonomics = "+8" }
+ATT.HeatCapacityMult = 0.986
 ATT.Category = {"eft_hk416_hguard"}
 
 -- ATT.ExcludeElements = {"barrel_260mm","barrel_370mm","barrel_406mm", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
@@ -727,7 +777,11 @@ ATT.HasHG = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_416_midwest_m_lok_13,5_inch.mdl"
 ATT.LHIK = true 
-
+ATT.EFTErgoAdd = 10
+ATT.CustomPros = { Ergonomics = "+10" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.HeatCapacityMult = 0.969
 ATT.Category = {"eft_hk416_hguard"}
 
 ATT.ExcludeElements = {"barrel_11i", "barrel_145i", "barrel_165i"}
@@ -807,7 +861,11 @@ ATT.LHIK = true
 ATT.DrawFunc = function(swep, model) model:SetBodygroup(1, swep:GetValue("FoldSights") and 1 or 0) end
 
 ATT.Category = {"eft_hk416_hguard"}
-
+ATT.EFTErgoAdd = 11
+ATT.CustomPros = { Ergonomics = "+11" }
+ATT.RecoilMult = 0.97
+ATT.VisualRecoilMult = 0.97
+ATT.HeatCapacityMult = 0.958
 -- ATT.ExcludeElements = {"barrel_260mm","barrel_370mm","barrel_406mm", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
 
 ATT.Attachments = {
@@ -877,7 +935,9 @@ ATT.Description = [[Troy industries carbon fiber M-LOK foregrip for 416A5 equipp
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasHG = true
-
+ATT.EFTErgoAdd = 14
+ATT.CustomPros = { Ergonomics = "+14" }
+ATT.HeatCapacityMult = 1.017
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_416_troy_m_lok_13_inch_carbon_fiber.mdl"
 ATT.LHIK = true 
 

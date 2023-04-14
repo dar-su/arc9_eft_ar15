@@ -48,7 +48,8 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_mk10_alexander_arms_10_inc
 
 ATT.Category = {"eft_mount_alexander_10"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 90)
 

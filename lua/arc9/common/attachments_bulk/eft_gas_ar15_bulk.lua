@@ -15,7 +15,9 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasGas = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/gas_block_ar15_colt_m4_front_sight_gas_block_std.mdl"
-
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.HeatCapacityMult = 0.995
 ATT.Category = {"eft_ar15_gasblock"}
 
 ARC9.LoadAttachment(ATT, "eft_gas_ar15_m4fs")
@@ -35,7 +37,11 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasGas = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/gas_block_ar15_dd_mk12_low_profile.mdl"
-
+ATT.EFTErgoAdd = 1
+ATT.CustomPros = { Ergonomics = "+1" }
+ATT.RecoilMult = 0.98
+ATT.VisualRecoilMult = 0.98
+ATT.HeatCapacityMult = 0.995
 ATT.Category = {"eft_ar15_gasblock"}
 
 ARC9.LoadAttachment(ATT, "eft_gas_ar15_mk12")
@@ -55,7 +61,11 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasGas = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/gas_block_ar15_jp_jpgs5b.mdl"
-
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.RecoilMult = 0.97
+ATT.VisualRecoilMult = 0.97
+ATT.HeatCapacityMult = 0.99
 ATT.Category = {"eft_ar15_gasblock"}
 
 ARC9.LoadAttachment(ATT, "eft_gas_ar15_jp")
@@ -75,7 +85,9 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasGas = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/gas_block_ar15_windham_weaponry_rail_gas_block.mdl"
-
+ATT.RecoilMult = 0.98
+ATT.VisualRecoilMult = 0.98
+ATT.HeatCapacityMult = 0.995
 ATT.Category = {"eft_ar15_gasblock"}
 
 ATT.Attachments = {
