@@ -305,7 +305,7 @@ SWEP.CamOffsetAng = Angle(0, 0, 90)
 SWEP.CamQCA_Mult = 0.3
 SWEP.CamQCA_Mult_ADS = 0.05
 
-SWEP.MuzzleParticle = "muzzleflash_ak74"
+SWEP.MuzzleParticle = "muzzleflash_FAMAS"
 
 SWEP.CaseEffectQCA = 2
 SWEP.ShellModel = "models/weapons/arc9_eft_shared/shells/eft_shell_556_m855.mdl"
