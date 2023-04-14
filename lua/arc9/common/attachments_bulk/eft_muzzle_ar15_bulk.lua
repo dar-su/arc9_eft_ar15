@@ -882,7 +882,7 @@ ATT = {}
 
 ATT.PrintName = "AR-15 AlienTech 5.56x45 muzzle brake"
 ATT.CompactName = "AlienTech"
-ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/AWOOGa.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/alien.png", "mips smooth")
 ATT.Description = [[A competition steel muzzle brake with one closed and five open ports designed by George Gubich, a six-time champion in practical shooting in Russia. Installed on AR-15 family weapons.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
