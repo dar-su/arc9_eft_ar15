@@ -22,6 +22,8 @@ ATT.SuppressEmptySuffix = false
 ATT.EFTErgoAdd = -3
 ATT.CustomCons = { Ergonomics = "-3" }
 
+ATT.MalfunctionMeanShotsToFailMult = 0.92
+
 ATT.ActivateElements = {"30rnd"}
 
 ATT.ChamberSize = 1
@@ -49,6 +51,8 @@ ATT.SuppressEmptySuffix = false
 
 ATT.EFTErgoAdd = -3
 ATT.CustomCons = { Ergonomics = "-3" }
+
+ATT.MalfunctionMeanShotsToFailMult = 0.92
 
 ATT.ActivateElements = {"30rnd"}
 
@@ -80,6 +84,8 @@ ATT.SuppressEmptySuffix = false
 ATT.EFTErgoAdd = -3
 ATT.CustomCons = { Ergonomics = "-3" }
 
+ATT.MalfunctionMeanShotsToFailMult = 0.92
+
 ATT.ActivateElements = {"30rnd"}
 
 ATT.ChamberSize = 1
@@ -107,6 +113,8 @@ ATT.SuppressEmptySuffix = false
 
 ATT.EFTErgoAdd = -3
 ATT.CustomCons = { Ergonomics = "-3" }
+
+ATT.MalfunctionMeanShotsToFailMult = 0.94
 
 ATT.ActivateElements = {"30rnd"}
 
@@ -137,6 +145,8 @@ ATT.SuppressEmptySuffix = false
 ATT.EFTErgoAdd = -3
 ATT.CustomCons = { Ergonomics = "-3" }
 
+ATT.MalfunctionMeanShotsToFailMult = 0.93
+
 ATT.ActivateElements = {"30rnd"}
 
 ATT.ChamberSize = 1
@@ -166,6 +176,8 @@ ATT.SuppressEmptySuffix = false
 ATT.EFTErgoAdd = -2
 ATT.CustomCons = { Ergonomics = "-2" }
 
+ATT.MalfunctionMeanShotsToFailMult = 0.95
+
 ATT.ActivateElements = {"30rnd"}
 
 ATT.ChamberSize = 1
@@ -193,6 +205,8 @@ ATT.SuppressEmptySuffix = false
 
 ATT.EFTErgoAdd = -16
 ATT.CustomCons = { Ergonomics = "-16" }
+
+ATT.MalfunctionMeanShotsToFailMult = 0.7
 
 ATT.ActivateElements = {"drum"}
 
@@ -222,6 +236,8 @@ ATT.SuppressEmptySuffix = false
 ATT.EFTErgoAdd = 5
 ATT.CustomPros = { Ergonomics = "+5" }
 
+ATT.MalfunctionMeanShotsToFailMult = 0.97
+
 ATT.ActivateElements = {"10rnd"}
 
 ATT.ChamberSize = 1
@@ -250,6 +266,8 @@ ATT.SuppressEmptySuffix = false
 ATT.EFTErgoAdd = 3
 ATT.CustomPros = { Ergonomics = "+3" }
 
+ATT.MalfunctionMeanShotsToFailMult = 0.96
+
 ATT.ActivateElements = {"20rnd"}
 
 ATT.ChamberSize = 1
@@ -277,6 +295,8 @@ ATT.SuppressEmptySuffix = false
 
 ATT.EFTErgoAdd = -3
 ATT.CustomCons = { Ergonomics = "-3" }
+
+ATT.MalfunctionMeanShotsToFailMult = 0.92
 
 ATT.ActivateElements = {"30rnd"}
 
@@ -317,6 +337,8 @@ ATT.ClipSize = 30
 
 ARC9.LoadAttachment(ATT, "eft_mag_ar15_pmag_30_f")
 
+ATT.MalfunctionMeanShotsToFailMult = 0.92
+
 
 ///////////////////////////////////////      eft_mag_ar15_pmag_40
 
@@ -338,6 +360,8 @@ ATT.SuppressEmptySuffix = false
 
 ATT.EFTErgoAdd = -7
 ATT.CustomCons = { Ergonomics = "-7" }
+
+ATT.MalfunctionMeanShotsToFailMult = 0.83
 
 ATT.ActivateElements = {"40rnd"}
 
@@ -371,6 +395,8 @@ ATT.SuppressEmptySuffix = false
 ATT.EFTErgoAdd = -7
 ATT.CustomCons = { Ergonomics = "-7" }
 
+ATT.MalfunctionMeanShotsToFailMult = 0.83
+
 ATT.ActivateElements = {"40rnd"}
 
 ATT.ChamberSize = 1
@@ -402,6 +428,8 @@ ATT.EFTErgoAdd = -3
 ATT.CustomCons = { Ergonomics = "-3" }
 ATT.CustomPros = { ["Improved check accuracy"] = "Yes" }
 ATT.EFTImprovedMagCheck = true
+
+ATT.MalfunctionMeanShotsToFailMult = 0.92
 
 ATT.ActivateElements = {"30rnd"}
 
@@ -437,6 +465,8 @@ ATT.CustomCons = { Ergonomics = "-3" }
 ATT.CustomPros = { ["Improved check accuracy"] = "Yes" }
 ATT.EFTImprovedMagCheck = true
 
+ATT.MalfunctionMeanShotsToFailMult = 0.92
+
 ATT.ActivateElements = {"30rnd"}
 
 ATT.ChamberSize = 1
@@ -467,6 +497,8 @@ ATT.SuppressEmptySuffix = false
 ATT.EFTErgoAdd = -27
 ATT.CustomCons = { Ergonomics = "-27" }
 
+ATT.MalfunctionMeanShotsToFailMult = 0.55
+
 ATT.ActivateElements = {"100rnd"}
 
 ATT.ChamberSize = 1
@@ -495,6 +527,8 @@ ATT.SuppressEmptySuffix = false
 
 ATT.EFTErgoAdd = -18
 ATT.CustomCons = { Ergonomics = "-18" }
+
+ATT.MalfunctionMeanShotsToFailMult = 0.64
 
 ATT.ActivateElements = {"100rnd"}
 
@@ -525,6 +559,8 @@ ATT.SuppressEmptySuffix = false
 
 ATT.EFTErgoAdd = -2
 ATT.CustomCons = { Ergonomics = "-2" }
+
+ATT.MalfunctionMeanShotsToFailMult = 0.98
 
 ATT.ActivateElements = {"30rnd"}
 
@@ -558,6 +594,8 @@ ATT.FuckingAirsoft = true
 
 ATT.EFTErgoAdd = -3
 ATT.CustomCons = { Ergonomics = "-3" }
+
+ATT.MalfunctionMeanShotsToFailMult = 0.92
 
 ATT.ActivateElements = {"30rnd"}
 

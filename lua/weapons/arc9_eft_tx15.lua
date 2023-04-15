@@ -21,7 +21,7 @@ SWEP.Description = [[The Lone Star Armory TX15 Designated Marksman Light (DML) i
 
 
 SWEP.StandardPresets = {
-    -- "[AK-102]XQAAAQDHAQAAAAAAAAA9iIIiM7tupQCpjtobRJEkdZ1fP0HAkJiOqPoMO8XlQdGBUjnPdZz59bzgnfs3jZp5xv52L4mcs1orzafSW/1LTxp7vejsdZM1p6rIZNhldR0uzscWwRKkX9jeYTrt1UKtvdZx7SLdNr5ZNVP98/pRSAyHo0Tt0PCSTkhmp/v8w4hVND7Bwt2KOJJXfinSUydfg1FLMl+5UXJFfOsQ1Cfi4GmOHczfSTbakgV22KKPI8v31sm+5GNK0HHqs1YA",
+    "[D-WARRIOR]XQAAAQDyAgAAAAAAAAA9iIIiM7tuo1AtT00OeFD8dxCU/zddtX1JxM6lL5EPJYFvH7XF2W2LlPydVHA0zDyXWg0QgBBx8hMzV1rzd+nKXdOrH8bFe+Soq+2fYQIHIGDxbEj4deD+wJLUrfwt/JmBpkmJLYlzbz2ASPs6TqbjuvYbDUa/gmJtLxDk8v1rywFRr+0Y8HHBlEmqZGNymLGFV7hnl1Mjgyntuy9EEd/jpwOkxojq9F4Uk0m9kOarIioy0n3gUhg/Vfjt8VQioqtECBwpLaKu4WWxSU9vjSTWHwRtHBGGOcOdi4+bhNjAxlnqRa10Cmfms7a3AldBm6W0/srXhUoxlOwRzea4sL1cTO09ag3+zAm5LUnklwU5OFiCkjTSw/jD6qgagV4uRspwrF9NbcIA"
 }
 
 SWEP.BarrelLength = 38
@@ -93,6 +93,12 @@ SWEP.SpreadAddMove = 0.015
 
 --          Recoil
 
+SWEP.Recoil = 0.4
+
+SWEP.RecoilMultHipFire = 1.1
+SWEP.RecoilMultCrouch = 0.75
+SWEP.RecoilAutoControlMultHipFire = 0.5
+
 SWEP.Recoil = 0.5
 
 SWEP.RecoilMultHipFire = 1.1
@@ -101,8 +107,8 @@ SWEP.RecoilAutoControlMultHipFire = 0.5
 
 SWEP.RecoilUp = 3
 SWEP.RecoilSide = 0.7
-SWEP.RecoilRandomUp = 0.9
-SWEP.RecoilRandomSide = 0.3
+SWEP.RecoilRandomUp = 0.1
+SWEP.RecoilRandomSide = 0.1
 
 SWEP.ViewRecoil = false 
 -- SWEP.ViewRecoil = false 
@@ -124,29 +130,29 @@ SWEP.VisualRecoilMultHipFire = 0.3
 SWEP.VisualRecoilMultSights = 0.3
 SWEP.VisualRecoilMultCrouch = 0.5
 
-SWEP.VisualRecoilCenter = Vector(2, 22, 2)
-SWEP.VisualRecoilUp = 77 -- Vertical tilt
+SWEP.VisualRecoilCenter = Vector(2, 21, 2)
+SWEP.VisualRecoilUp = 180 -- Vertical tilt
 SWEP.VisualRecoilSide = 6.5 -- Horizontal tilt
-SWEP.VisualRecoilRoll = 25 -- Roll tilt
+SWEP.VisualRecoilRoll = 33 -- Roll tilt
 
 SWEP.VisualRecoilPunch = 20 -- How far back visual recoil moves the gun
-SWEP.VisualRecoilPunchSights = -20 -- How far back visual recoil moves the gun
+SWEP.VisualRecoilPunchSights = -50 -- How far back visual recoil moves the gun
 
 
-SWEP.VisualRecoilSpringPunchDamping = 11
-SWEP.VisualRecoilDampingConst = 350
+SWEP.VisualRecoilSpringPunchDamping = 16
+SWEP.VisualRecoilDampingConst = 320
 SWEP.VisualRecoilSpringMagnitude = 2 / 1.67
-SWEP.VisualRecoilPositionBumpUp = -0.07
+SWEP.VisualRecoilPositionBumpUp = -0.09
 SWEP.VisualRecoilPositionBumpUpRTScope = -0.04
-SWEP.VisualRecoilPositionBumpUpHipFire = 0.001
+SWEP.VisualRecoilPositionBumpUpHipFire = -0.01
 
 
 SWEP.VisualRecoilThinkFunc = function(springconstant, VisualRecoilSpringMagnitude, PUNCH_DAMPING, recamount)
     if recamount > 2 then
-        recamount = math.Clamp((recamount - 2) / 16, 0, 1)
-        return springconstant * math.max(1, 10 * recamount), VisualRecoilSpringMagnitude * 0.72, PUNCH_DAMPING * 0.75
+        recamount = math.Clamp((recamount - 2) / 20, 0, 1)
+        return springconstant * math.max(1, 10 * recamount), VisualRecoilSpringMagnitude * 0.7, PUNCH_DAMPING * 0.7
     elseif recamount == 1 then
-        return springconstant * 50, VisualRecoilSpringMagnitude * 1, PUNCH_DAMPING * 1
+        return springconstant * 1.15, VisualRecoilSpringMagnitude * 0.75, PUNCH_DAMPING * 1
     end
 
     return springconstant, VisualRecoilSpringMagnitude, PUNCH_DAMPING
@@ -155,17 +161,21 @@ end
 
 SWEP.VisualRecoilDoingFunc = function(up, side, roll, punch, recamount)
     if recamount > 2 then
-        recamount = 1.65 - math.Clamp((recamount - 2) / 3.5, 0, 1)
+        recamount = 1.25 - math.Clamp((recamount - 2) / 5, 0, 1)
         
-        local fakerandom = 1 + (((69+recamount%5*CurTime()%3)*2420)%4)/10 
+        local fakerandom = (((69+recamount%5*CurTime()%3)*2420)%4) * (1-recamount)
         
-        return up * recamount * fakerandom, side * 0.8, roll, punch * 0.5
+        return up * recamount + fakerandom, side * 8, roll, punch * 0.5
     elseif recamount == 1 then
-        return up * 2, side * 2, roll, punch
+        return up * 1, side * 16, roll, punch
     end
 
     return up, side, roll, punch
 end
+
+
+SWEP.RecoilKick = 0
+SWEP.RecoilKickDamping = 10
 
 
 SWEP.RecoilKick = 0
@@ -503,3 +513,6 @@ else
     print("Dum! install arc9 eft shared!!!!!!!!!!!!!!")
 end
 SWEP.AimDownSightsTimeMultShooting = 4
+
+SWEP.RicochetSounds = ARC9EFT.RicochetSounds
+SWEP.ShellSounds = ARC9EFT.Shells556

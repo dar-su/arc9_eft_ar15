@@ -906,7 +906,7 @@ ARC9.LoadAttachment(ATT, "eft_hg_ar15_kacurx31_lower")
 ATT = {}
 ATT.PrintName = "KAC URX 3 3 inch rail"
 ATT.CompactName = "3In. URX"
-ATT.Icon = Material("entities/eft_ar15_attachments/mounts/AWOOGA.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ar15_attachments/mounts/kac_urx_3_3_inch_rail.png", "mips smooth")
 ATT.Description = [[KAC URX 3 1 inch rail allows installation of additional equipment on the Knights Armanent Company URX handguards.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"

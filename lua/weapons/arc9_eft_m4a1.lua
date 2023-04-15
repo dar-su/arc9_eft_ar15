@@ -21,7 +21,17 @@ SWEP.Description = [[The Colt M4A1 carbine is a fully automatic variant of the b
 
 
 SWEP.StandardPresets = {
-    -- "[AK-102]XQAAAQDHAQAAAAAAAAA9iIIiM7tupQCpjtobRJEkdZ1fP0HAkJiOqPoMO8XlQdGBUjnPdZz59bzgnfs3jZp5xv52L4mcs1orzafSW/1LTxp7vejsdZM1p6rIZNhldR0uzscWwRKkX9jeYTrt1UKtvdZx7SLdNr5ZNVP98/pRSAyHo0Tt0PCSTkhmp/v8w4hVND7Bwt2KOJJXfinSUydfg1FLMl+5UXJFfOsQ1Cfi4GmOHczfSTbakgV22KKPI8v31sm+5GNK0HHqs1YA",
+    "[SOPMOD I]XQAAAQBvAgAAAAAAAAA9iIIiM7tuo1AtT00OeFD8dxCU/zddtX05kwqgXDaoWvYrAxXbm5yD2PuqJgug+6etrDZ0pO9vCPeeVHL1LbSyT4qLjV+hZxy9krjtrSnAhf82no1Aui9zuzqUM4JO3XRziSXKdjyjHmGhwdHHeiOafKVKX7tYgcEs40qLU11cqhmbYwrK60dOP0lPQ8ol0Fj+fSyaHozdG/G/2iIS6bCz1F9i4cP8hG/fToDMajTucejE8Ef67E0i/XgSZFmJsAMvkk/M9k7GBd7MHKrHljkNZVRdmOmQU8BHVGivR/9gKztl491s8Hxs28Fo5i7IgrbtcqDEe92FktjaAA==",
+    "[SOPMOD II]XQAAAQB1AwAAAAAAAAA9iIIiM7tuo1AtT00OeFD8dxCU/zddtX05kwqgXDaoWvYrBUUQkjJucX0S3JATo2Nfnbie0r59m3WdC/6YowNcZS1QPIqfzlZoe2hE6Wz+GhAEywWfTlUJR7fDXq+wSVM9xbYFPLvbh73GLEG/6AJALNbpUom37jmByW8uDbYiems3ZVkF3Ae9L8rbNH6gf2bsD5HBzfuS1eSB4Hl/SL457vxALLaraelLV6wnWGWMCtqQeBHcs+v90d1DIZiYbD+oY34KZ3taHzjc6b8vSf5KgaYSkNYWrQCoYQzfQq7X7LnP8Q1nVAlP9yOxgt3L4cGG5z+9cW3YF8jZlCXkSXKFlsrTN1UACwvd3YhXXCSDPne5uN2jM8GJkrLu4zVw4i0TuCIogewVb5YJBQ9CNbLxehxwTitVTHcmTLSTkUmpM+n0VHHwclTaZXaGvBcA",
+    "[Peacekeeper]XQAAAQC0AwAAAAAAAAA9iIIiM7tuo1AtT00OeFD8dxCU/zddtX05kwqgXDaoWvYrBUUQkjJucX0S3JATo2Nfnbie0r59m3WdC/6YowNcZS1QPIqfzlZoe2hE6Wz+GhAEywWfTlUJR7fDXq+wSVM9xbYFPLvbh73GLEG/6AJALNbpUom37jmByW8uDbYiems3ZVkF3Ae9L8rbNH6gf2bsD5HBzfuS1eSB4Hl/SL457vxALLaraelLV6wnWGWMCtqQeBHcs+v90d1DIZiYbD+oY34KZ3taHzjc6b8vSf5KkMwyfa86cQ04tMDjcdjYdES9Lw8GUlZ4vxV2HhROh6ueN+8eHdwpMbDGyTxcMFPPZhfa4newhZ0U/83/SiiVQZM+P+LoLzegTHvyBx6Ff6Ed/Ar+7S1YQxSknM3eYGJh/HQR/9JjqiRukkVNxJZcNbPRSlARn4LieRA5kOibiV8KxLogtOT6KMdgZeaQ",
+    "[Space Trooper]XQAAAQBOAwAAAAAAAAA9iIIiM7tuo1AtT00OeFD8dxCU/zddtX05kwqgXDaoWvYrBUUQYeU321Blwvc3YvfQnT1vz328+QPk6LU2VZi4COqvmJPV5TTk78HPVEwDx3T6rVa1XGB/vJgG6s981bNuc7EHzEKbjtYxzJBC0gep2u2BUUwSlsJo7+RAxB8o3wgNW3+QLq+yfW18Kh1jQYAnXMJAFxSp2DrZyRtQKWMh5LqnZ21nG9yLPmXCdMZMiJXNzxc03UlCJvf0B5de9p5ueVzG+RIYICsFklIGHvTo+RYo+RpP5Z8i0NG0ot5QkGLS0/PNHQm5tQeOvzSuzTlFqh4h0Tx7nVG+nYBfDDTJ6rdI8fG1Iy+OL0EqJMeCjcgJMdYzJNqkr7WTrOae4OdoNMIittVjK94iwN8ijWA=",
+    "[2k17 NY]XQAAAQCQAwAAAAAAAAA9iIIiM7tuo1AtT00OeFD8dxCU/zddtX1JxM6lL5EPJYFvH7XZekgKmudHIczw4K+L68bLWp7vp4m0SfTSlSgHp7rn/KKgY0t4YjhWehgnUkHc0xeB99V465WjCHROC2zrGHkJ4PfjloM+Z8N/3FcWImXMDEg/44Dd+kUdN+iFoZfCCFmdmGczHWQfAdILPxiNCl7wlIlm/xIpXMVEop3yfqGj/fKbglDHpc1h5d+CJzUf08OYVdImb9MjWW2AyrbZXquAEYV8MQtG0/MXRApV/eBiNlOwgMSNCGEEOTndBK40W4g4W27po9ee0VmeDaR2kCXnejYxSChFKDbjuzc0mIADyruQ4HoGzYRWLESIO/bDMLfzoUzcGFUbpb7NuA/I/+oZXNK1CwguzJdxMzAcJp166yr0Xwqh+TrjcNXKhu5KpxoNgA==",
+    "[LVOA]XQAAAQD5AgAAAAAAAAA9iIIiM7tuo1AtT00OeFD8dxCU/zddtX1JxM6lL5EPJYFt2x0qeS6WRSVkkx0OSngmz0hLvlr4RCZLVyiqd1deLV3lJ9B44VotaADxGKdPCrJH9DQZtEwzq2SVyNnAE5XFN3m9DuH5Dx0Evnq6+6xxFz/KJwvcm0GhKXaF8BPokQzz7zFmMseMJxbZZHqosw3l5G+qKylPkiq49pLbPyokfRrptLv1VyW2B0ewiD0216Sipmhot+rfuv7fFNyMoFSK4qhlrFWm0xz0swU1xt2Xp3Z7DM9nRpE9NS+gwbdBH1ju0V7gdOMB3fVMuslB+xzTdehEuev1Er1RT4XJd/Ivv2UA",
+    "[SAI]XQAAAQD6AgAAAAAAAAA9iIIiM7tuo1AtT00OeFD8dxCU/zddtYA+pZobJ8YeZHsgtiqc28dHFji5LTIIIqvVtn3GsDXpx+rZrFqUzHwPb1tiSdN5aW86pwcBUMPgs34+ZJYsrmwx+z4EvR11aUiwWijT+g3TVyhCfm9SLKreJndwmT58Ffg0O3D5Iah9LmyMShoHAdBhsD6hJigSLaMKY/w2T6I5DS+WBI+zUcruczQGqqbsnocEWu9gT9AoZgQyTh4Yo9ElApfjk89UGs5HA0godlCX7R/iOH3qZGtr5RwTzgWUTc0sZigNrGax8ffY8peNyB7ItdNMbQyHehSwMuXFYj8NaQy52HCb4gpggFJQkWh5CZf/ioLk5j+hzVwEHz7m9qrl2top+Bx+SH11WTtLfA==",
+    "[USASOC-I]XQAAAQAYAwAAAAAAAAA9iIIiM7tuo1AtT00OeFD8dxCU/zddtX05kwqgXDaoWvYrBUUQYeU32zbpmqA3INJlR4Y9dS+0jZnKzSOVTtaS5ENX7TeGUvsfQKXcoQyWpFE8wWxXhWHrWlazeMug+GRrnRH7FFaZcPV7P47Qcsn/UvjLWSLYTh7SZrpWXlH+kEl59qcuPjRIIyP3MCz13tOVUQ/zOzMDiYyggTzb15ZpC2QQ9rvU9gUAFsofGfXLL6cfjiDa6obx8v+iccN8p0Z/E7oCfbmuTL3Qfs/Rbl4Qeq/Q6HnWiGW3Grh+BWNzokDzuHryQfuIfK0d4+cZvx4cbiW+VJwQdr1Jby8I+vfow755lhzpy4bHX4UBeyY01DUMhHHrfjVepytQFy2C6EBa8S5ly7u6Hr1h8GshAWCbnwA=",
+    "[USASOC-II]XQAAAQC/AgAAAAAAAAA9iIIiM7tuo1AtT00OeFD8dxCU/zddtX05kwqgXDaoWvYrBUUQcjCpJYjy8R8OWOwGH/Q96df6He2f7mHJj8dtCIXO0CBVaINrexosOl/9N2e5UxySSwbH7FVDb6FiES0dVMSdGak5Hz5fodXQIYpjYWF8dZLnAuTIeZm8IO0im+zj750USuCGlwf4d9K+m/fSZDlyrR1NK8NBRTmxxSqmqz3pJgtlUYTFvqAQBooio2pl1mDiV4c5u+L+bCF07CyTaGbgUZ+SAx4motVsI7W03geo4wPHuZOI4rOdIeAvDLRM63QexAzrahOifHJOsxwQQYam5t+R5ra7uKkVJ/9P8FrUFoecARjOo4mgROfn7rSU7QI8DTa9me+4N8dGYK4=",
+    "[Custom]XQAAAQDWAgAAAAAAAAA9iIIiM7tuo1AtT00OeFD8dxCU/zddtX05kwqgXDaoWvYrBUUQYeU32zbowilqcLZ9G4bXrlOiara+pGhY4X3fREAWD23+NT2U44SCqOKAzD0hd32nEXwzdgEEigBr9JyzkduiDd2RLL40sIyG38azlik6j8zCYk964XU2l4cRzs8PO04jc9oEXaszbfxMjYQJh5SvwHRarMyrDTiQi34qdjZk7xnUOYa2ZPb7Yk+NL/u6yXI5Do2ddLPpInkdCKaGlkJKU/Lb/aa6esEUT2gr1/hHWyebG0fk353ZdeDDuQAXbm87PUODDzzg8JsC35d7XZgP8e/MTXeQ/FSyXQfmYlkX7QOXEYGEULapuzWLBWxbKgA=",
+    "[Your-Ex]XQAAAQB1AwAAAAAAAAA9iIIiM7tuo1AtT00OeFD8dxCU/zddtX05kwqgXDaoWvYrBUUQYeU32zbpmqA3INJlR4Y9dS+0jZnKzSOVTtaS5ENX7TeGUvsfQKXcoQyWpFE8wWxXhWHrWlazORBVpkxo67252KlZ4yJZowQbVX+21v0EUijF6zD5Grpe0gRAmiZqGvImgU9AkCKxCQ3W1DzadR6UE/N+WuTR+DVMAouNEfweoR3rbOwnZ6Zuf4njI8BCx3G3h08LnG5t3iDit8/p7+by9wJPc54p5NH9x8SDK5oGzYHq93qy9xOG4aRSBKwKhDiGeKJewGCxIHE7V94Ctd4SKA4eLXRlLMOzb9dS+p+EO7L34UZ5NBP9/5tOOstLcqbu0Dt3f2fE+5QNc/bn7bnegqURjZ9KX5vgmyApob8bgtsICs2MdKH5Iun3JAJhCTn3Fq0A",
 }
 
 SWEP.BarrelLength = 38
@@ -101,8 +111,8 @@ SWEP.RecoilAutoControlMultHipFire = 0.5
 
 SWEP.RecoilUp = 3
 SWEP.RecoilSide = 0.7
-SWEP.RecoilRandomUp = 0.9
-SWEP.RecoilRandomSide = 0.3
+SWEP.RecoilRandomUp = 0.1
+SWEP.RecoilRandomSide = 0.1
 
 SWEP.ViewRecoil = false 
 -- SWEP.ViewRecoil = false 
@@ -124,29 +134,29 @@ SWEP.VisualRecoilMultHipFire = 0.3
 SWEP.VisualRecoilMultSights = 0.3
 SWEP.VisualRecoilMultCrouch = 0.5
 
-SWEP.VisualRecoilCenter = Vector(2, 22, 2)
-SWEP.VisualRecoilUp = 77 -- Vertical tilt
+SWEP.VisualRecoilCenter = Vector(2, 21, 2)
+SWEP.VisualRecoilUp = 180 -- Vertical tilt
 SWEP.VisualRecoilSide = 6.5 -- Horizontal tilt
-SWEP.VisualRecoilRoll = 25 -- Roll tilt
+SWEP.VisualRecoilRoll = 33 -- Roll tilt
 
 SWEP.VisualRecoilPunch = 20 -- How far back visual recoil moves the gun
-SWEP.VisualRecoilPunchSights = -20 -- How far back visual recoil moves the gun
+SWEP.VisualRecoilPunchSights = -50 -- How far back visual recoil moves the gun
 
 
-SWEP.VisualRecoilSpringPunchDamping = 11
+SWEP.VisualRecoilSpringPunchDamping = 16
 SWEP.VisualRecoilDampingConst = 350
 SWEP.VisualRecoilSpringMagnitude = 2 / 1.67
-SWEP.VisualRecoilPositionBumpUp = -0.07
+SWEP.VisualRecoilPositionBumpUp = -0.08
 SWEP.VisualRecoilPositionBumpUpRTScope = -0.04
-SWEP.VisualRecoilPositionBumpUpHipFire = 0.001
+SWEP.VisualRecoilPositionBumpUpHipFire = -0.01
 
 
 SWEP.VisualRecoilThinkFunc = function(springconstant, VisualRecoilSpringMagnitude, PUNCH_DAMPING, recamount)
     if recamount > 2 then
-        recamount = math.Clamp((recamount - 2) / 16, 0, 1)
-        return springconstant * math.max(1, 10 * recamount), VisualRecoilSpringMagnitude * 0.72, PUNCH_DAMPING * 0.75
+        recamount = math.Clamp((recamount - 2) / 20, 0, 1)
+        return springconstant * math.max(1, 10 * recamount), VisualRecoilSpringMagnitude * 0.65, PUNCH_DAMPING * 0.6
     elseif recamount == 1 then
-        return springconstant * 50, VisualRecoilSpringMagnitude * 1, PUNCH_DAMPING * 1
+        return springconstant * 1.25, VisualRecoilSpringMagnitude * 0.75, PUNCH_DAMPING * 1
     end
 
     return springconstant, VisualRecoilSpringMagnitude, PUNCH_DAMPING
@@ -155,13 +165,13 @@ end
 
 SWEP.VisualRecoilDoingFunc = function(up, side, roll, punch, recamount)
     if recamount > 2 then
-        recamount = 1.65 - math.Clamp((recamount - 2) / 3.5, 0, 1)
+        recamount = 1.25 - math.Clamp((recamount - 2) / 5, 0, 1)
         
-        local fakerandom = 1 + (((69+recamount%5*CurTime()%3)*2420)%4)/10 
+        local fakerandom = (((69+recamount%5*CurTime()%3)*2420)%4) * (1-recamount)
         
-        return up * recamount * fakerandom, side * 0.8, roll, punch * 0.5
+        return up * recamount + fakerandom, side * 8, roll, punch * 0.5
     elseif recamount == 1 then
-        return up * 2, side * 2, roll, punch
+        return up * 1, side * 16, roll, punch
     end
 
     return up, side, roll, punch
@@ -177,7 +187,7 @@ SWEP.RecoilKickDamping = 10
 
 SWEP.Malfunction = true 
 SWEP.MalfunctionNeverLastShoot = false 
-SWEP.MalfunctionMeanShotsToFail = 1.5 * 450
+SWEP.MalfunctionMeanShotsToFail = 583
 SWEP.MalfunctionMeanShotsToFailMultHot = -0.2
 SWEP.Overheat = true
 SWEP.HeatCapacity = 240
@@ -312,6 +322,7 @@ SWEP.ShellModel = "models/weapons/arc9_eft_shared/shells/eft_shell_556_m855.mdl"
 SWEP.ShellScale = 1
 SWEP.ShellCorrectAng = Angle(0, 180, 180)
 SWEP.ShellPhysBox = Vector(0.5, 0.5, 2)
+
 
 SWEP.BulletBones = {
     [1] = "patron_in_weapon",
@@ -500,3 +511,6 @@ else
     print("Dum! install arc9 eft shared!!!!!!!!!!!!!!")
 end
 SWEP.AimDownSightsTimeMultShooting = 4
+
+SWEP.RicochetSounds = ARC9EFT.RicochetSounds
+SWEP.ShellSounds = ARC9EFT.Shells556

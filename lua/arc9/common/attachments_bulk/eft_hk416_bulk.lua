@@ -374,6 +374,7 @@ ATT.Sights = {
         Pos = Vector(0, 7.5, -1.32),
         Ang = Angle(0, 0, 0),
         Magnification = 1.1,
+        ViewModelFOV = 53,
         IsIronSight = true
     }
 }

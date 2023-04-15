@@ -93,16 +93,16 @@ SWEP.SpreadAddMove = 0.015
 
 --          Recoil
 
-SWEP.Recoil = 0.5
+SWEP.Recoil = 0.55
 
 SWEP.RecoilMultHipFire = 1.1
 SWEP.RecoilMultCrouch = 0.75
 SWEP.RecoilAutoControlMultHipFire = 0.5
 
 SWEP.RecoilUp = 3
-SWEP.RecoilSide = 0.7
-SWEP.RecoilRandomUp = 0.9
-SWEP.RecoilRandomSide = 0.3
+SWEP.RecoilSide = 0.3
+SWEP.RecoilRandomUp = 0.1
+SWEP.RecoilRandomSide = 0.1
 
 SWEP.ViewRecoil = false 
 -- SWEP.ViewRecoil = false 
@@ -124,29 +124,29 @@ SWEP.VisualRecoilMultHipFire = 0.3
 SWEP.VisualRecoilMultSights = 0.3
 SWEP.VisualRecoilMultCrouch = 0.5
 
-SWEP.VisualRecoilCenter = Vector(2, 22, 2)
-SWEP.VisualRecoilUp = 77 -- Vertical tilt
-SWEP.VisualRecoilSide = 6.5 -- Horizontal tilt
-SWEP.VisualRecoilRoll = 25 -- Roll tilt
+SWEP.VisualRecoilCenter = Vector(2, 17, 2)
+SWEP.VisualRecoilUp = 180 -- Vertical tilt
+SWEP.VisualRecoilSide = 4.5 -- Horizontal tilt
+SWEP.VisualRecoilRoll = 33 -- Roll tilt
 
 SWEP.VisualRecoilPunch = 20 -- How far back visual recoil moves the gun
-SWEP.VisualRecoilPunchSights = -20 -- How far back visual recoil moves the gun
+SWEP.VisualRecoilPunchSights = -50 -- How far back visual recoil moves the gun
 
 
-SWEP.VisualRecoilSpringPunchDamping = 11
+SWEP.VisualRecoilSpringPunchDamping = 12
 SWEP.VisualRecoilDampingConst = 350
 SWEP.VisualRecoilSpringMagnitude = 2 / 1.67
-SWEP.VisualRecoilPositionBumpUp = -0.07
+SWEP.VisualRecoilPositionBumpUp = -0.03
 SWEP.VisualRecoilPositionBumpUpRTScope = -0.04
-SWEP.VisualRecoilPositionBumpUpHipFire = 0.001
+SWEP.VisualRecoilPositionBumpUpHipFire = -0.01
 
 
 SWEP.VisualRecoilThinkFunc = function(springconstant, VisualRecoilSpringMagnitude, PUNCH_DAMPING, recamount)
     if recamount > 2 then
-        recamount = math.Clamp((recamount - 2) / 16, 0, 1)
-        return springconstant * math.max(1, 10 * recamount), VisualRecoilSpringMagnitude * 0.72, PUNCH_DAMPING * 0.75
+        recamount = math.Clamp((recamount - 2) / 20, 0, 1)
+        return springconstant * math.max(1, 10 * recamount), VisualRecoilSpringMagnitude * 0.65, PUNCH_DAMPING * 0.6
     elseif recamount == 1 then
-        return springconstant * 50, VisualRecoilSpringMagnitude * 1, PUNCH_DAMPING * 1
+        return springconstant * 1.25, VisualRecoilSpringMagnitude * 0.75, PUNCH_DAMPING * 1
     end
 
     return springconstant, VisualRecoilSpringMagnitude, PUNCH_DAMPING
@@ -155,13 +155,13 @@ end
 
 SWEP.VisualRecoilDoingFunc = function(up, side, roll, punch, recamount)
     if recamount > 2 then
-        recamount = 1.65 - math.Clamp((recamount - 2) / 3.5, 0, 1)
+        recamount = 1.25 - math.Clamp((recamount - 2) / 5, 0, 1)
         
-        local fakerandom = 1 + (((69+recamount%5*CurTime()%3)*2420)%4)/10 
+        local fakerandom = (((69+recamount%5*CurTime()%3)*2420)%4) * (1-recamount)
         
-        return up * recamount * fakerandom, side * 0.8, roll, punch * 0.5
+        return up * recamount + fakerandom, side * 8, roll, punch * 0.5
     elseif recamount == 1 then
-        return up * 2, side * 2, roll, punch
+        return up * 1, side * 14, roll, punch
     end
 
     return up, side, roll, punch
@@ -439,7 +439,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Pistol grip",
-        Category = {"eft_ar15_pgrip", "eft_ar15_pgripstock", "eft_ar15_pgrip_m4"},
+        Category = {"eft_ar15_pgrip", "eft_ar15_pgrip_m4"},
         Installed = "eft_ar_pgrip_hkbg",
         Bone = "mod_pistol_grip",
         Pos = Vector(0, 0, 0),
@@ -504,3 +504,6 @@ else
     print("Dum! install arc9 eft shared!!!!!!!!!!!!!!")
 end
 SWEP.AimDownSightsTimeMultShooting = 4
+
+SWEP.RicochetSounds = ARC9EFT.RicochetSounds
+SWEP.ShellSounds = ARC9EFT.Shells556
