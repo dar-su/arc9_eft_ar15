@@ -109,7 +109,7 @@ SWEP.RecoilMultHipFire = 1.1
 SWEP.RecoilMultCrouch = 0.75
 SWEP.RecoilAutoControlMultHipFire = 0.5
 
-SWEP.RecoilUp = 3
+SWEP.RecoilUp = 3 * 0.85 -- patch 0.13.0.4.22617
 SWEP.RecoilSide = 0.7
 SWEP.RecoilRandomUp = 0.1
 SWEP.RecoilRandomSide = 0.1
@@ -135,7 +135,7 @@ SWEP.VisualRecoilMultSights = 0.3
 SWEP.VisualRecoilMultCrouch = 0.5
 
 SWEP.VisualRecoilCenter = Vector(2, 21, 2)
-SWEP.VisualRecoilUp = 180 -- Vertical tilt
+SWEP.VisualRecoilUp = 180 * 0.85 -- patch 0.13.0.4.22617
 SWEP.VisualRecoilSide = 6.5 -- Horizontal tilt
 SWEP.VisualRecoilRoll = 33 -- Roll tilt
 
