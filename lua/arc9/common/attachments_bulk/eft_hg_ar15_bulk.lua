@@ -320,6 +320,7 @@ ATT.CustomPros = { Ergonomics = "+2" }
 ATT.HeatCapacityMult = 0.987
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "Daniel Defens"
+ATT.ExcludeElements = { "eft_gas_ar15_rg", "eft_gas_ar15_m4fs"}
 
 ATT.Attachments = {
     {
@@ -422,6 +423,7 @@ ATT.VisualRecoilMult = 0.99
 ATT.HeatCapacityMult = 0.992
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "Daniel Defens"
+ATT.ExcludeElements = { "eft_gas_ar15_rg", "eft_gas_ar15_m4fs"}
 ATT.Attachments = {
     {
         PrintName = "Lower HG",
@@ -2272,6 +2274,7 @@ ATT.RecoilMult = 0.99
 ATT.VisualRecoilMult = 0.99
 ATT.HeatCapacityMult = 0.95
 ATT.Category = {"eft_ar15_hguard"}
+ATT.ExcludeElements = { "eft_gas_ar15_rg", "eft_gas_ar15_m4fs"}
 ATT.Folder = "WS LVOA"
 ATT.Attachments = {
     {
@@ -2349,6 +2352,7 @@ ATT.RecoilMult = 0.99
 ATT.VisualRecoilMult = 0.99
 ATT.HeatCapacityMult = 0.95
 ATT.Category = {"eft_ar15_hguard"}
+ATT.ExcludeElements = { "eft_gas_ar15_rg", "eft_gas_ar15_m4fs"}
 ATT.Folder = "WS LVOA"
 ATT.Attachments = {
     {
@@ -2426,6 +2430,7 @@ ATT.RecoilMult = 0.99
 ATT.VisualRecoilMult = 0.99
 ATT.HeatCapacityMult = 0.95
 ATT.Category = {"eft_ar15_hguard"}
+ATT.ExcludeElements = { "eft_gas_ar15_rg", "eft_gas_ar15_m4fs"}
 ATT.Folder = "WS LVOA"
 
 ATT.Attachments = {
