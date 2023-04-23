@@ -2035,7 +2035,7 @@ ATT.HeatCapacityMult = 0.942
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "WS LVOA"
 
-ATT.ExcludeElements = {"barrel_260mm", "eft_silencer_r43_556"}
+ATT.ExcludeElements = {"barrel_260mm", "eft_silencer_r43_556","eft_gas_ar15_rg", "eft_gas_ar15_m4fs"}
 
 
 ATT.Attachments = {
@@ -2116,7 +2116,7 @@ ATT.HeatCapacityMult = 0.942
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "WS LVOA"
 
-ATT.ExcludeElements = {"barrel_260mm", "eft_silencer_r43_556"}
+ATT.ExcludeElements = {"barrel_260mm", "eft_silencer_r43_556","eft_gas_ar15_rg", "eft_gas_ar15_m4fs"}
 
 ATT.Attachments = {
     {
@@ -2197,7 +2197,7 @@ ATT.HeatCapacityMult = 0.942
 ATT.Category = {"eft_ar15_hguard"}
 ATT.Folder = "WS LVOA"
 
-ATT.ExcludeElements = {"barrel_260mm", "eft_silencer_r43_556"}
+ATT.ExcludeElements = {"barrel_260mm", "eft_silencer_r43_556","eft_gas_ar15_rg", "eft_gas_ar15_m4fs"}
 
 ATT.Attachments = {
     {

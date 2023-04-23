@@ -434,6 +434,62 @@ ARC9EFT.AR15_Anims = {
         IKTimeLine = rik_magcheck,
         EventTable = rst_magcheck
     },
+    ["inspect_mag_2"] = {
+        Source = "magcheck2",
+        MinProgress = 0.85,
+        FireASAP = true,
+        IKTimeLine = rik_magcheck,
+        EventTable = rst_magcheck
+    },
+    ["inspect_empty_mag_2"] = {
+        Source = "magcheck2_empty",
+        MinProgress = 0.85,
+        FireASAP = true,
+        IKTimeLine = rik_magcheck,
+        EventTable = rst_magcheck
+    },
+    ["inspect_mag_4"] = {
+        Source = "magcheck4",
+        MinProgress = 0.85,
+        FireASAP = true,
+        IKTimeLine = rik_magcheck,
+        EventTable = rst_magcheck
+    },
+    ["inspect_empty_mag_4"] = {
+        Source = "magcheck4_empty",
+        MinProgress = 0.85,
+        FireASAP = true,
+        IKTimeLine = rik_magcheck,
+        EventTable = rst_magcheck
+    },
+    ["inspect_mag_5"] = {
+        Source = "magcheck5",
+        MinProgress = 0.85,
+        FireASAP = true,
+        IKTimeLine = rik_magcheck,
+        EventTable = rst_magcheck
+    },
+    ["inspect_empty_mag_5"] = {
+        Source = "magcheck5_empty",
+        MinProgress = 0.85,
+        FireASAP = true,
+        IKTimeLine = rik_magcheck,
+        EventTable = rst_magcheck
+    },
+    ["inspect_mag_6"] = {
+        Source = "magcheck6",
+        MinProgress = 0.85,
+        FireASAP = true,
+        IKTimeLine = rik_magcheck,
+        EventTable = rst_magcheck
+    },
+    ["inspect_empty_mag_6"] = {
+        Source = "magcheck6_empty",
+        MinProgress = 0.85,
+        FireASAP = true,
+        IKTimeLine = rik_magcheck,
+        EventTable = rst_magcheck
+    },
 
     ["firemode_1"] = {
         Source = "firemode_1",
