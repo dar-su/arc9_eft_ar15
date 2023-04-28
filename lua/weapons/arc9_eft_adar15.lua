@@ -3,18 +3,23 @@ AddCSLuaFile()
 SWEP.Base = "arc9_base"
 SWEP.Spawnable = true
 SWEP.Category = "ARC9 - Escape From Tarkov"
-SWEP.SubCategory = "Assault Carbines"
+SWEP.SubCategory = ARC9:GetPhrase("eft_subcat_carb")
 SWEP.SubCategory = "_Not for your eyesss"
-SWEP.Credits = { Author1 = "Darsu", Assets2 = "Battlestate Games LTD", General_help3 = "Mal0", ARC9_Base4 = "Arctic" }
+SWEP.Credits = { 
+    [ARC9:GetPhrase("eft_trivia_author") .. "1"] = "Darsu", 
+    [ARC9:GetPhrase("eft_trivia_assets") .. "2"] = "Battlestate Games LTD", 
+    [ARC9:GetPhrase("eft_trivia_help") .. "3"] = "Mal0", 
+    [ARC9:GetPhrase("eft_trivia_arc9") .. "4"] = "Arctic",
+}
 
 SWEP.PrintName = "ADAR 2-15"
 SWEP.Class = "Assault Carbine"
 SWEP.Trivia = {
-    Manufacturer1 = "ADAR",
-    Calibre2 = "5.56x45mm NATO",
-    Action3 = "Gas",
-    Country4 = "Russian Federation",
-    Year5 = "2018"
+    [ARC9:GetPhrase("eft_trivia_manuf") .. "1"] = "ADAR",
+    [ARC9:GetPhrase("eft_trivia_cal") .. "2"] = "5.56x45mm NATO",
+    [ARC9:GetPhrase("eft_trivia_act") .. "3"] = ARC9:GetPhrase("eft_trivia_act_gas"),
+    [ARC9:GetPhrase("eft_trivia_country") .. "4"] = ARC9:GetPhrase("eft_trivia_country_rus"),
+    [ARC9:GetPhrase("eft_trivia_year") .. "5"] = "2018"
 }
 
 SWEP.Description = [[The ADAR 2-15 Russian civilian carbine that is based on the design of the AR-15. The carbine is produced in St. Petersburg with use of Israeli components and chrome barrels made by Molot Arms.]]

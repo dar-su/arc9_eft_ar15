@@ -3,18 +3,23 @@ AddCSLuaFile()
 SWEP.Base = "arc9_base"
 SWEP.Spawnable = true
 SWEP.Category = "ARC9 - Escape From Tarkov"
-SWEP.SubCategory = "Assault Carbines"
+SWEP.SubCategory = ARC9:GetPhrase("eft_subcat_carb")
 SWEP.SubCategory = "_Not for your eyesss"
-SWEP.Credits = { Author1 = "Darsu", Assets2 = "Battlestate Games LTD", General_help3 = "Mal0", ARC9_Base4 = "Arctic" }
+SWEP.Credits = { 
+    [ARC9:GetPhrase("eft_trivia_author") .. "1"] = "Darsu", 
+    [ARC9:GetPhrase("eft_trivia_assets") .. "2"] = "Battlestate Games LTD", 
+    [ARC9:GetPhrase("eft_trivia_help") .. "3"] = "Mal0", 
+    [ARC9:GetPhrase("eft_trivia_arc9") .. "4"] = "Arctic",
+}
 
 SWEP.PrintName = "Lone Star TX-15 DML"
 SWEP.Class = "Assault Carbine"
 SWEP.Trivia = {
-    Manufacturer1 = "Lone Star Armory",
-    Calibre2 = "5.56x45mm NATO",
-    Action3 = "Gas",
-    Country4 = "USA",
-    Year5 = "2006" -- idk
+    [ARC9:GetPhrase("eft_trivia_manuf") .. "1"] = "Lone Star Armory",
+    [ARC9:GetPhrase("eft_trivia_cal") .. "2"] = "5.56x45mm NATO",
+    [ARC9:GetPhrase("eft_trivia_act") .. "3"] = ARC9:GetPhrase("eft_trivia_act_gas"),
+    [ARC9:GetPhrase("eft_trivia_country") .. "4"] = ARC9:GetPhrase("eft_trivia_country_usa"),
+    [ARC9:GetPhrase("eft_trivia_year") .. "5"] = "2006" -- idk
 }
 
 SWEP.Description = [[The Lone Star Armory TX15 Designated Marksman Light (DML) is a high precision civilian rifle designed on the AR-15 system base, chambered in 5.56x45 rounds.]]
