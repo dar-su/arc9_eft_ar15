@@ -893,8 +893,8 @@ ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -2
 ATT.CustomCons = { Ergonomics = "-2" }
-ATT.RecoilMult = 0.81
-ATT.VisualRecoilMult = 0.81
+ATT.RecoilMult = 0.89
+ATT.VisualRecoilMult = 0.89
 ATT.HeatCapacityMult = 0.987
 ATT.PhysBulletMuzzleVelocityMult = 1.0045
 

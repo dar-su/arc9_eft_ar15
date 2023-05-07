@@ -597,7 +597,7 @@ ATT.CustomCons = { Ergonomics = "-3" }
 
 ATT.MalfunctionMeanShotsToFailMult = 0.92
 
-ATT.ActivateElements = {"30rnd"}
+ATT.ActivateElements = {"30rnd", "eft_bb_mag"}
 
 ATT.ChamberSize = 1
 ATT.ClipSize = 30
