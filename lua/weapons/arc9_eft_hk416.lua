@@ -410,6 +410,7 @@ SWEP.AttachmentElements = {
 SWEP.missingpartsnotifsent = 0
 
 function SWEP:HookP_BlockFire() return ARC9EFT.AR15_MissingParts(self) end
+function SWEP:Hook_RedPrintName() return ARC9EFT.AR15_RedName(self) end
 
 
 SWEP.Attachments = {

@@ -688,3 +688,16 @@ ARC9EFT.AR15_MissingParts = function(swep)
             return true
     end    
 end
+
+ARC9EFT.AR15_RedName = function(swep)
+    if !swep:GetValue("HasGas") or 
+        !swep:GetValue("HasAmmoooooooo") or 
+        !swep:GetValue("HasGrip") or 
+        !swep:GetValue("HasBolt") or 
+        !swep:GetValue("HasReceiver") or 
+        !swep:GetValue("HasBarrel") or 
+        !swep:GetValue("HasBufferTube") or 
+        !swep:GetValue("HasHG") then
+            return true
+    end    
+end

@@ -223,6 +223,7 @@ ATT.Attachments = {
         Category = "eft_ammo_40x46",
         Pos = Vector(5, 0, 1),
         Ang = Angle(0, 0, 0),
+        Integral = "eft_ammo_40x46_m406",
     },
 }
 
