@@ -196,26 +196,6 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "eft_muzzle_ar15_psr556")
 
-///////////////////////////////////////      eft_muzzle_psr_protector
-
-ATT = {}
-
-ATT.PrintName = "AWC PSR muzzle brake protector"
-ATT.CompactName = "PSR prot"
-ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/awc_psr_muzzle_brake_protector.png", "mips smooth")
-ATT.Description = [[A thread protector for PSR muzzle brakes manufactured by AWC Silencers.]]
-ATT.SortOrder = 0
-ATT.MenuCategory = "ARC9 - EFT Attachments"
-
-ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_psr_awc_thread_protector_std_multi.mdl" -- bring from axmc to shared
-ATT.ModelOffset = Vector(0, -0.165, 0)
-ATT.ModelAngleOffset = Angle(0, 90, 0)
-ATT.Category = {"eft_awcpsr"}
-
-ATT.EFTErgoAdd = 2
-ATT.CustomPros = { Ergonomics = "+2" }
-
-ARC9.LoadAttachment(ATT, "eft_muzzle_psr_protector")
 
 ///////////////////////////////////////      eft_muzzle_ar15_annih
 
@@ -228,7 +208,7 @@ ATT.Description = [[Multicaliber flash hider designed for AR-15 platform by Yank
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_all_yankee_hill_anihilator_flash_hider_multi.mdl" -- bring this to shared
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_all_yankee_hill_anihilator_flash_hider_multi.mdl" -- bring this to shared    done
 ATT.MuzzleDevice = true
 ATT.BarrelLengthAdd = 0.5
 
@@ -756,36 +736,6 @@ ATT.Category = {"eft_ar15_muzzle"}
 
 ARC9.LoadAttachment(ATT, "eft_muzzle_ar15_vp09")
 
-///////////////////////////////////////      eft_muzzle_ar15_onemount          -- move to shared
-
-ATT = {}
-
-ATT.PrintName = "Gemtech ONE Direct Thread Mount adapter"
-ATT.CompactName = "ONE Mount"
-ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/gemtech_one_direct_thread_mount_adapter.png", "mips smooth")
-ATT.Description = [[Direct Thread Mount adapter for installation of Gemtech ONE silencer directly onto the barrel threading.]]
-ATT.SortOrder = 0
-ATT.MenuCategory = "ARC9 - EFT Attachments"
-
-ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_all_gemtech_direct_mount_multi.mdl"
--- ATT.MuzzleDevice = true
-ATT.BarrelLengthAdd = 0.5
-
-
-
-ATT.Category = {"eft_ar15_muzzle"}
-
-ATT.Attachments = {
-    {
-        PrintName = "Silencer",
-        Category = "eft_gemtechone",
-        Pos = Vector(-0.1, 0, 0),
-        Icon_Offset = Vector(1, 0, 0),
-        Ang = Angle(0, 0, 0),
-    },
-}
-
-ARC9.LoadAttachment(ATT, "eft_muzzle_ar15_onemount")
 
 ///////////////////////////////////////      eft_muzzle_ar15_qdc3
 
@@ -1030,63 +980,6 @@ ATT.Category = {"eft_m4sdk"}
 
 ARC9.LoadAttachment(ATT, "eft_silencer_ar15_m4sdk")
 
-///////////////////////////////////////      eft_silencer_sdn6
-
-ATT = {}
-
-ATT.PrintName = "AAC 762-SDN-6 multi-caliber sound suppressor"
-ATT.CompactName = "SDN-6"
-ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/aac_762sdn6_multicaliber_sound_suppressor.png", "mips smooth")
-ATT.Description = [[AAC 762 SDN-6 sound suppressor designed for use with a 7.62x51 NATO, but also functions as a superb multi-caliber suppressor for multiple hosts, providing excellent performance on 7.62 NATO, .300 AAC, 6.8 SPC, 6.5, and 5.56mm NATO. can only be installed on compatible with a "51T" devices.]]
-ATT.SortOrder = 0
-ATT.MenuCategory = "ARC9 - EFT Attachments"
-
-ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_ar10_aac_762_sdn_6_762x51.mdl"
-ATT.MuzzleParticle = "muzzleflash_suppressed"
-ATT.NoFlash = true
-ATT.BarrelLengthAdd = 5
-ATT.Silencer = true
-
-ATT.EFTErgoAdd = -26
-ATT.CustomCons = { Ergonomics = "-26" }
-ATT.RecoilMult = 0.86
-ATT.VisualRecoilMult = 0.86
-ATT.SpreadMult = 1.02
-ATT.HeatCapacityMult = 1.15
-ATT.PhysBulletMuzzleVelocityMult = 1.0075
-
-ATT.Category = {"eft_sdn6"}
-
-ARC9.LoadAttachment(ATT, "eft_silencer_sdn6")
-
-///////////////////////////////////////      eft_silencer_gemtechone      -- move to shared
-
-ATT = {}
-
-ATT.PrintName = "Gemtech ONE multi-caliber sound suppressor"
-ATT.CompactName = "Gemtech ONE"
-ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/gemtech_one_multicaliber_sound_suppressor.png", "mips smooth")
-ATT.Description = [[Gemtech ONE sound suppressor designed for use with a 7.62x51 NATO, but also compatible with a most popular rifle calibers. Can only be installed on compatible devices.]]
-ATT.SortOrder = 0
-ATT.MenuCategory = "ARC9 - EFT Attachments"
-
-ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_base_gemtech_one_multi.mdl"
-ATT.MuzzleParticle = "muzzleflash_suppressed"
-ATT.NoFlash = true
-ATT.BarrelLengthAdd = 5
-ATT.Silencer = true
-
-ATT.EFTErgoAdd = -20
-ATT.CustomCons = { Ergonomics = "-20" }
-ATT.RecoilMult = 0.91
-ATT.VisualRecoilMult = 0.91
-ATT.SpreadMult = 0.98
-ATT.HeatCapacityMult = 1.14
-
-ATT.Category = {"eft_gemtechone"}
-
-ARC9.LoadAttachment(ATT, "eft_silencer_gemtechone")
-
 ///////////////////////////////////////      eft_silencer_ar15_socommonster
 
 ATT = {}
@@ -1143,34 +1036,6 @@ ATT.Category = {"eft_ar15_surefire_silencer"}
 
 ARC9.LoadAttachment(ATT, "eft_silencer_ar15_socomrc2")
 
-///////////////////////////////////////      eft_silencer_ultra5
-
-ATT = {}
-
-ATT.PrintName = "Thunder Beast Arms Ultra 5 sound suppressor"
-ATT.CompactName = "Ultra 5"
-ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/thunder_beast_arms_ultra_5_sound_suppressor.png", "mips smooth")
-ATT.Description = [[The Ultra 5 sound suppressor is designed for use with 7.62x51 NATO rounds, but also functions as a superb multi-caliber suppressor for multiple hosts, providing excellent performance on 7.62 NATO, .300, 6.8 SPC, 6.5, and 5.56mm NATO. Can only be installed on compatible muzzle devices made by Thunder Beast Arms.]]
-ATT.SortOrder = 0
-ATT.MenuCategory = "ARC9 - EFT Attachments"
-
-ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_tbac_thunder_beast_ultra_5_762x51.mdl"
-ATT.MuzzleParticle = "muzzleflash_suppressed"
-ATT.NoFlash = true
-ATT.BarrelLengthAdd = 5
-ATT.Silencer = true
-
-ATT.EFTErgoAdd = -23
-ATT.CustomCons = { Ergonomics = "-23" }
-ATT.RecoilMult = 0.87
-ATT.VisualRecoilMult = 0.87
-ATT.SpreadMult = 1.03
-ATT.HeatCapacityMult = 1.135
-ATT.PhysBulletMuzzleVelocityMult = 1.005
-
-ATT.Category = {"eft_ultra5"}
-
-ARC9.LoadAttachment(ATT, "eft_silencer_ultra5")
 
 ///////////////////////////////////////      eft_silencer_ar15_socommini
 
@@ -1287,32 +1152,3 @@ ATT.PhysBulletMuzzleVelocityMult = 1.0075
 ATT.Category = {"eft_ar15_kacqdc"}
 
 ARC9.LoadAttachment(ATT, "eft_silencer_ar15_kacqdssnt4_f")
-
-///////////////////////////////////////      eft_silencer_waveqd
-
-ATT = {}
-
-ATT.PrintName = "Daniel Defense WAVE QD sound suppressor"
-ATT.CompactName = "Wave QD"
-ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/daniel_defense_wave_qd_sound_suppressor.png", "mips smooth")
-ATT.Description = [[Daniel Defence Wave QD sound suppressor, which can be installed over a Wave muzzle brake.]]
-ATT.SortOrder = 0
-ATT.MenuCategory = "ARC9 - EFT Attachments"
-
-ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_wave_dd_wave_qd_supressor_multi.mdl"
-ATT.MuzzleParticle = "muzzleflash_suppressed"
-ATT.NoFlash = true
-ATT.BarrelLengthAdd = 5
-ATT.Silencer = true
-
-ATT.EFTErgoAdd = -17
-ATT.CustomCons = { Ergonomics = "-17" }
-ATT.RecoilMult = 0.92
-ATT.VisualRecoilMult = 0.92
-ATT.SpreadMult = 1.01
-ATT.HeatCapacityMult = 1.14
-
-ATT.Category = {"eft_waveqd"}
-
-ARC9.LoadAttachment(ATT, "eft_silencer_waveqd")
-
