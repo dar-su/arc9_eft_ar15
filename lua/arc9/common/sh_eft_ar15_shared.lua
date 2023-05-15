@@ -666,7 +666,7 @@ ARC9EFT.AR15_Anims = {
 
 ARC9EFT.AR15_MissingParts = function(swep)
     if swep:GetValue("FuckingAirsoft") then 
-        if swep.missingpartsnotifsent < CurTime() then
+        if SERVER and swep.missingpartsnotifsent < CurTime() then
             swep.missingpartsnotifsent = CurTime() + 2
             net.Start("arc9eftquestionnotif")
             net.Send(swep:GetOwner())
@@ -680,7 +680,7 @@ ARC9EFT.AR15_MissingParts = function(swep)
         !swep:GetValue("HasBarrel") or 
         !swep:GetValue("HasBufferTube") or 
         !swep:GetValue("HasHG") then
-            if swep.missingpartsnotifsent < CurTime() then
+            if SERVER and swep.missingpartsnotifsent < CurTime() then
                 swep.missingpartsnotifsent = CurTime() + 3
                 net.Start("arc9eftmissingparts")
                 net.Send(swep:GetOwner())
