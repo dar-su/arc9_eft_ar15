@@ -83,9 +83,9 @@ end
 
 
 local path = "weapons/darsu_eft/m4a1/"
-local randspin = {"arc9_eft_shared/weapon_generic_rifle_spin1.wav","arc9_eft_shared/weapon_generic_rifle_spin2.wav","arc9_eft_shared/weapon_generic_rifle_spin3.wav","arc9_eft_shared/weapon_generic_rifle_spin4.wav","arc9_eft_shared/weapon_generic_rifle_spin5.wav","arc9_eft_shared/weapon_generic_rifle_spin6.wav","arc9_eft_shared/weapon_generic_rifle_spin7.wav","arc9_eft_shared/weapon_generic_rifle_spin8.wav","arc9_eft_shared/weapon_generic_rifle_spin9.wav","arc9_eft_shared/weapon_generic_rifle_spin10.wav"}
-local pouchin = {"arc9_eft_shared/generic_mag_pouch_in1.wav","arc9_eft_shared/generic_mag_pouch_in2.wav","arc9_eft_shared/generic_mag_pouch_in3.wav","arc9_eft_shared/generic_mag_pouch_in4.wav","arc9_eft_shared/generic_mag_pouch_in5.wav","arc9_eft_shared/generic_mag_pouch_in6.wav","arc9_eft_shared/generic_mag_pouch_in7.wav"}
-local pouchout = {"arc9_eft_shared/generic_mag_pouch_out1.wav","arc9_eft_shared/generic_mag_pouch_out2.wav","arc9_eft_shared/generic_mag_pouch_out3.wav","arc9_eft_shared/generic_mag_pouch_out4.wav","arc9_eft_shared/generic_mag_pouch_out5.wav","arc9_eft_shared/generic_mag_pouch_out6.wav","arc9_eft_shared/generic_mag_pouch_out7.wav"}
+local randspin = {"arc9_eft_shared/weapon_generic_rifle_spin1.ogg","arc9_eft_shared/weapon_generic_rifle_spin2.ogg","arc9_eft_shared/weapon_generic_rifle_spin3.ogg","arc9_eft_shared/weapon_generic_rifle_spin4.ogg","arc9_eft_shared/weapon_generic_rifle_spin5.ogg","arc9_eft_shared/weapon_generic_rifle_spin6.ogg","arc9_eft_shared/weapon_generic_rifle_spin7.ogg","arc9_eft_shared/weapon_generic_rifle_spin8.ogg","arc9_eft_shared/weapon_generic_rifle_spin9.ogg","arc9_eft_shared/weapon_generic_rifle_spin10.ogg"}
+local pouchin = {"arc9_eft_shared/generic_mag_pouch_in1.ogg","arc9_eft_shared/generic_mag_pouch_in2.ogg","arc9_eft_shared/generic_mag_pouch_in3.ogg","arc9_eft_shared/generic_mag_pouch_in4.ogg","arc9_eft_shared/generic_mag_pouch_in5.ogg","arc9_eft_shared/generic_mag_pouch_in6.ogg","arc9_eft_shared/generic_mag_pouch_in7.ogg"}
+local pouchout = {"arc9_eft_shared/generic_mag_pouch_out1.ogg","arc9_eft_shared/generic_mag_pouch_out2.ogg","arc9_eft_shared/generic_mag_pouch_out3.ogg","arc9_eft_shared/generic_mag_pouch_out4.ogg","arc9_eft_shared/generic_mag_pouch_out5.ogg","arc9_eft_shared/generic_mag_pouch_out6.ogg","arc9_eft_shared/generic_mag_pouch_out7.ogg"}
 
 local rik_single = {
     { t = 0, lhik = 1 },
@@ -121,13 +121,13 @@ local rik_magcheck = {
 }
 local rst_single = {
     { s = randspin, t = 0.3 },
-    { s = path .. "mcx_bolt_out.wav", t = 0.75 },
-    { s = path .. "mcx_bolt_in.wav", t = 1.2 },
+    { s = path .. "mcx_bolt_out.ogg", t = 0.75 },
+    { s = path .. "mcx_bolt_in.ogg", t = 1.2 },
     { s = randspin, t = 1.96 },
-    { s = "arc9_eft_shared/weap_round_pullout.wav", t = 2.52 },
+    { s = "arc9_eft_shared/weap_round_pullout.ogg", t = 2.52 },
     { s = randspin, t = 2.7 },
-    { s = path .. "ak74_round_in_chamber.wav", t = 3.22 },
-    { s = path .. "mcx_bolt_catchrelease.wav", t = 4.92 },
+    { s = path .. "ak74_round_in_chamber.ogg", t = 3.22 },
+    { s = path .. "mcx_bolt_catchrelease.ogg", t = 4.92 },
     { s = randspin, t = 5.27 },
 }
 
@@ -143,12 +143,12 @@ local rik_chamber = {
     { t = 1, lhik = 1 },
 }
 
-local magin = {path .. "mcx_mag_in1.wav", path .. "mcx_mag_in2.wav", path .. "mcx_mag_in3.wav"}
-local magout = {path .. "mcx_mag_out1.wav", path .. "mcx_mag_out2.wav", path .. "mcx_mag_out3.wav"}
+local magin = {path .. "mcx_mag_in1.ogg", path .. "mcx_mag_in2.ogg", path .. "mcx_mag_in3.ogg"}
+local magout = {path .. "mcx_mag_out1.ogg", path .. "mcx_mag_out2.ogg", path .. "mcx_mag_out3.ogg"}
 
 local rst_def = {
     { s = randspin, t = 0.1 },
-    { s = path .. "mcx_magrelease_button.wav", t = 0.49 },
+    { s = path .. "mcx_magrelease_button.ogg", t = 0.49 },
     { s = magout, t = 0.61 },
     { s = pouchin, t = 1.08 },
     { s = pouchout, t = 1.42 },
@@ -157,12 +157,12 @@ local rst_def = {
 }
 local rst_empty = {
     { s = randspin, t = 0.04 },
-    { s = path .. "mcx_magrelease_button.wav", t = 0.3 },
+    { s = path .. "mcx_magrelease_button.ogg", t = 0.3 },
     { s = magout, t = 0.38 },
     { s = pouchout, t = 0.96 },
     { s = magin, t = 1.6 },
-    { s = path .. "mcx_bolt_catch_handhit.wav", t = 2.2 },
-    { s = path .. "mcx_bolt_catchrelease.wav", t = 2.25 },
+    { s = path .. "mcx_bolt_catch_handhit.ogg", t = 2.2 },
+    { s = path .. "mcx_bolt_catchrelease.ogg", t = 2.25 },
     { s = randspin, t = 2.27 },
     {hide = 0, t = 0},
     {hide = 1, t = 0.6},
@@ -172,7 +172,7 @@ local rst_empty = {
 
 local rst_def40 = {
     { s = randspin, t = 0.1 },
-    { s = path .. "mcx_magrelease_button.wav", t = 0.49 },
+    { s = path .. "mcx_magrelease_button.ogg", t = 0.49 },
     { s = magout, t = 0.61 },
     { s = pouchin, t = 1.08 },
     { s = pouchout, t = 1.42+0.12 },
@@ -181,12 +181,12 @@ local rst_def40 = {
 }
 local rst_empty40 = {
     { s = randspin, t = 0.04 },
-    { s = path .. "mcx_magrelease_button.wav", t = 0.3 },
+    { s = path .. "mcx_magrelease_button.ogg", t = 0.3 },
     { s = magout, t = 0.38 },
     { s = pouchout, t = 0.96+0.12 },
     { s = magin, t = 1.6+0.12 },
-    { s = path .. "mcx_bolt_catch_handhit.wav", t = 2.2+0.12 },
-    { s = path .. "mcx_bolt_catchrelease.wav", t = 2.25+0.12 },
+    { s = path .. "mcx_bolt_catch_handhit.ogg", t = 2.2+0.12 },
+    { s = path .. "mcx_bolt_catchrelease.ogg", t = 2.25+0.12 },
     { s = randspin, t = 2.27+0.12 },
     {hide = 0, t = 0},
     {hide = 1, t = 0.6},
@@ -195,7 +195,7 @@ local rst_empty40 = {
 
 local rst_def50 = {
     { s = randspin, t = 0.1 },
-    { s = path .. "mcx_magrelease_button.wav", t = 0.49 },
+    { s = path .. "mcx_magrelease_button.ogg", t = 0.49 },
     { s = magout, t = 0.61 },
     { s = pouchin, t = 1.08 },
     { s = pouchout, t = 1.42+0.2 },
@@ -204,12 +204,12 @@ local rst_def50 = {
 }
 local rst_empty50 = {
     { s = randspin, t = 0.04 },
-    { s = path .. "mcx_magrelease_button.wav", t = 0.3 },
+    { s = path .. "mcx_magrelease_button.ogg", t = 0.3 },
     { s = magout, t = 0.38 },
     { s = pouchout, t = 0.96+0.2 },
     { s = magin, t = 1.6+0.2 },
-    { s = path .. "mcx_bolt_catch_handhit.wav", t = 2.2+0.2 },
-    { s = path .. "mcx_bolt_catchrelease.wav", t = 2.25+0.2 },
+    { s = path .. "mcx_bolt_catch_handhit.ogg", t = 2.2+0.2 },
+    { s = path .. "mcx_bolt_catchrelease.ogg", t = 2.25+0.2 },
     { s = randspin, t = 2.27+0.2 },
     {hide = 0, t = 0},
     {hide = 1, t = 0.6},
@@ -218,7 +218,7 @@ local rst_empty50 = {
 
 local rst_magcheck = {
     { s = randspin, t = 5/24 },
-    { s = path .. "mcx_magrelease_button.wav", t = 0.46 },
+    { s = path .. "mcx_magrelease_button.ogg", t = 0.46 },
     { s = magout, t = 0.63 },
     { s = randspin, t = 0.91 },
     { s = randspin, t = 1.41 },
@@ -234,8 +234,8 @@ local rst_look = {
 
 local rst_chamber = {
     { s = randspin, t = 9/24 },
-    { s = "arc9_eft_shared/weap_bolt_handle_out.wav", t = 21/24},
-    { s = "arc9_eft_shared/weap_bolt_handle_in.wav", t = 37/24},
+    { s = "arc9_eft_shared/weap_bolt_handle_out.ogg", t = 21/24},
+    { s = "arc9_eft_shared/weap_bolt_handle_in.ogg", t = 37/24},
     { s = randspin, t = 53/24 },
 }
 
@@ -259,41 +259,41 @@ ARC9EFT.AR15_Anims = {
             { t = 1, lhik = 1 },
         },
         EventTable = {
-            { s = "arc9_eft_shared/weap_in.wav", t = 0 },
-            { s = path .. "mcx_bolt_out.wav", t = 0.33 },
-            { s = path .. "mcx_bolt_in.wav", t = 0.63 },
+            { s = "arc9_eft_shared/weap_in.ogg", t = 0 },
+            { s = path .. "mcx_bolt_out.ogg", t = 0.33 },
+            { s = path .. "mcx_bolt_in.ogg", t = 0.63 },
         },
     },
 
     ["draw"] = {
         Source = "draw",
-        EventTable = {{ s = "arc9_eft_shared/weap_in.wav", t = 0 },}
+        EventTable = {{ s = "arc9_eft_shared/weap_in.ogg", t = 0 },}
     },
     ["holster"] = {
         Source = "holster",
-        EventTable = {{ s = "arc9_eft_shared/weap_out.wav", t = 0 }}
+        EventTable = {{ s = "arc9_eft_shared/weap_out.ogg", t = 0 }}
     },
 
     ["draw_empty"] = {
         Source = "draw_empty",
-        EventTable = {{ s = "arc9_eft_shared/weap_in.wav", t = 0 },}
+        EventTable = {{ s = "arc9_eft_shared/weap_in.ogg", t = 0 },}
     },
     ["holster_empty"] = {
         Source = "holster_empty",
-        EventTable = {{ s = "arc9_eft_shared/weap_out.wav", t = 0 }}
+        EventTable = {{ s = "arc9_eft_shared/weap_out.ogg", t = 0 }}
     },
 
     ["fire"] = {
         Source = "fire", 
-        EventTable = { { s = "arc9_eft_shared/weap_trigger_hammer.wav", t = 0 } }
+        EventTable = { { s = "arc9_eft_shared/weap_trigger_hammer.ogg", t = 0 } }
     },
     ["fire_empty"] = {
         Source = "fire_empty",
     },
 
 
-    ["dryfire"] = { Source = "fire_dry", EventTable = { { s = "arc9_eft_shared/weap_trigger_hammer.wav", t = 0 }, } },
-    ["dryfire_empty"] = { Source = "fire_dry_empty", EventTable = { { s = "arc9_eft_shared/weap_trigger_hammer.wav", t = 0 }, } },
+    ["dryfire"] = { Source = "fire_dry", EventTable = { { s = "arc9_eft_shared/weap_trigger_hammer.ogg", t = 0 }, } },
+    ["dryfire_empty"] = { Source = "fire_dry_empty", EventTable = { { s = "arc9_eft_shared/weap_trigger_hammer.ogg", t = 0 }, } },
 
     ["reload"] = {
         Source = "reload_single",
@@ -493,36 +493,36 @@ ARC9EFT.AR15_Anims = {
 
     ["firemode_1"] = {
         Source = "firemode_1",
-        EventTable = { { s = "arc9_eft_shared/weap_fireselctor.wav", t = 0.2 } }
+        EventTable = { { s = "arc9_eft_shared/weap_fireselctor.ogg", t = 0.2 } }
     },
     ["firemode_2"] = {
         Source = "firemode_0",
-        EventTable = { { s = "arc9_eft_shared/weap_fireselctor.wav", t = 0.2 } }
+        EventTable = { { s = "arc9_eft_shared/weap_fireselctor.ogg", t = 0.2 } }
     },
     ["firemode_1_empty"] = {
         Source = "firemode_1_empty",
-        EventTable = { { s = "arc9_eft_shared/weap_fireselctor.wav", t = 0.2 } }
+        EventTable = { { s = "arc9_eft_shared/weap_fireselctor.ogg", t = 0.2 } }
     },
     ["firemode_2_empty"] = {
         Source = "firemode_0_empty",
-        EventTable = { { s = "arc9_eft_shared/weap_fireselctor.wav", t = 0.2 } }
+        EventTable = { { s = "arc9_eft_shared/weap_fireselctor.ogg", t = 0.2 } }
     },
 
     ["toggle"] = {
         Source = "mod_switch",
-        EventTable = {{ s = {"arc9_eft_shared/weapon_light_switcher1.wav", "arc9_eft_shared/weapon_light_switcher2.wav", "arc9_eft_shared/weapon_light_switcher3.wav"}, t = 0 }}
+        EventTable = {{ s = {"arc9_eft_shared/weapon_light_switcher1.ogg", "arc9_eft_shared/weapon_light_switcher2.ogg", "arc9_eft_shared/weapon_light_switcher3.ogg"}, t = 0 }}
     },
     ["switchsights"] = {
         Source = "mod_switch",
-        EventTable = {{ s = {"arc9_eft_shared/weapon_light_switcher1.wav", "arc9_eft_shared/weapon_light_switcher2.wav", "arc9_eft_shared/weapon_light_switcher3.wav"}, t = 0 }}
+        EventTable = {{ s = {"arc9_eft_shared/weapon_light_switcher1.ogg", "arc9_eft_shared/weapon_light_switcher2.ogg", "arc9_eft_shared/weapon_light_switcher3.ogg"}, t = 0 }}
     },
     ["toggle_empty"] = {
         Source = "mod_switch_empty",
-        EventTable = {{ s = {"arc9_eft_shared/weapon_light_switcher1.wav", "arc9_eft_shared/weapon_light_switcher2.wav", "arc9_eft_shared/weapon_light_switcher3.wav"}, t = 0 }}
+        EventTable = {{ s = {"arc9_eft_shared/weapon_light_switcher1.ogg", "arc9_eft_shared/weapon_light_switcher2.ogg", "arc9_eft_shared/weapon_light_switcher3.ogg"}, t = 0 }}
     },
     ["switchsights_empty"] = {
         Source = "mod_switch_empty",
-        EventTable = {{ s = {"arc9_eft_shared/weapon_light_switcher1.wav", "arc9_eft_shared/weapon_light_switcher2.wav", "arc9_eft_shared/weapon_light_switcher3.wav"}, t = 0 }}
+        EventTable = {{ s = {"arc9_eft_shared/weapon_light_switcher1.ogg", "arc9_eft_shared/weapon_light_switcher2.ogg", "arc9_eft_shared/weapon_light_switcher3.ogg"}, t = 0 }}
     },
 
 
@@ -532,8 +532,8 @@ ARC9EFT.AR15_Anims = {
         EventTable = {
             { s = randspin, t = 0.04 },
             { s = randspin, t = 0.49 },
-            { s = path .. "mcx_bolt_out.wav", t = 1.17 },
-            { s = path .. "mcx_bolt_in.wav", t = 1.55 },
+            { s = path .. "mcx_bolt_out.ogg", t = 1.17 },
+            { s = path .. "mcx_bolt_in.ogg", t = 1.55 },
             { s = randspin, t = 1.89 },
             
         },
@@ -553,14 +553,14 @@ ARC9EFT.AR15_Anims = {
             { s = randspin, t = 0.04 },
             { s = randspin, t = 0.49 },
             { s = randspin, t = 0.81 },
-            { s = path .. "mcx_bolt_out.wav", t = 1.04 },
+            { s = path .. "mcx_bolt_out.ogg", t = 1.04 },
             { s = randspin, t = 1.3 },
             { s = randspin, t = 1.61 },
-            { s = path .. "ak_jam_feedfault_extraction_nohand.wav", t = 1.66 },
+            { s = path .. "ak_jam_feedfault_extraction_nohand.ogg", t = 1.66 },
             { s = randspin, t = 1.91 },
-            { s = path .. "mcx_bolt_in.wav", t = 2.38 },
-            { s = path .. "generic_jam_slidelock_hit1.wav", t = 2.66 },
-            { s = path .. "generic_jam_slidelock_hit2.wav", t = 3.02 },
+            { s = path .. "mcx_bolt_in.ogg", t = 2.38 },
+            { s = path .. "generic_jam_slidelock_hit1.ogg", t = 2.66 },
+            { s = path .. "generic_jam_slidelock_hit2.ogg", t = 3.02 },
             { s = randspin, t = 3.38 },
         },
         EjectAt = 1.66
@@ -571,12 +571,12 @@ ARC9EFT.AR15_Anims = {
             { s = randspin, t = 0.04 },
             { s = randspin, t = 0.49 },
             { s = randspin, t = 0.81 },
-            { s = path .. "mcx_bolt_out.wav", t = 1.04 },
+            { s = path .. "mcx_bolt_out.ogg", t = 1.04 },
             { s = randspin, t = 1.3 },
             { s = randspin, t = 1.61 },
-            { s = path .. "ak_jam_feedfault_extraction_nohand.wav", t = 1.66 },
+            { s = path .. "ak_jam_feedfault_extraction_nohand.ogg", t = 1.66 },
             { s = randspin, t = 1.91 },
-            { s = path .. "mcx_bolt_in.wav", t = 2.38 },
+            { s = path .. "mcx_bolt_in.ogg", t = 2.38 },
             { s = randspin, t = 2.73 },
         },
         EjectAt = 1.66
@@ -587,16 +587,16 @@ ARC9EFT.AR15_Anims = {
         EventTable = {
             { s = randspin, t = 0.04 },
             { s = randspin, t = 0.49 },
-            { s = path .. "ar_jam_boltlock_grab1.wav", t = 0.98 },
-            { s = path .. "ar_jam_boltlock_try1.wav", t = 1.04 },
-            { s = path .. "ar_jam_boltlock_grab2.wav", t = 1.57 },
-            { s = path .. "ar_jam_boltlock_try2.wav", t = 1.72 },
+            { s = path .. "ar_jam_boltlock_grab1.ogg", t = 0.98 },
+            { s = path .. "ar_jam_boltlock_try1.ogg", t = 1.04 },
+            { s = path .. "ar_jam_boltlock_grab2.ogg", t = 1.57 },
+            { s = path .. "ar_jam_boltlock_try2.ogg", t = 1.72 },
             { s = randspin, t = 1.94 },
-            { s = path .. "ar_jam_boltlock_grab3.wav", t = 2.37 },
-            { s = path .. "ar_jam_boltlock_try3.wav", t = 2.44 },
-            { s = path .. "mcx_bolt_out.wav", t = 2.88 },
-            { s = path .. "ak_jam_feedfault_extraction_nohand.wav", t = 2.97 },
-            { s = path .. "mcx_bolt_in.wav", t = 3 },
+            { s = path .. "ar_jam_boltlock_grab3.ogg", t = 2.37 },
+            { s = path .. "ar_jam_boltlock_try3.ogg", t = 2.44 },
+            { s = path .. "mcx_bolt_out.ogg", t = 2.88 },
+            { s = path .. "ak_jam_feedfault_extraction_nohand.ogg", t = 2.97 },
+            { s = path .. "mcx_bolt_in.ogg", t = 3 },
             { s = randspin, t = 3.18 },
             
         },
@@ -615,12 +615,12 @@ ARC9EFT.AR15_Anims = {
         EventTable = {
             { s = randspin, t = 0.04 },
             { s = randspin, t = 0.49 },
-            { s = path .. "ar_jam_boltlock_grab1.wav", t = 1.03 },
-            { s = path .. "ar_jam_boltlock_try1.wav", t = 1.22 },
-            { s = path .. "ar_jam_boltlock_grab2.wav", t = 1.56 },
-            { s = path .. "mcx_bolt_out.wav", t = 1.67 },
-            { s = path .. "ak_jam_feedfault_extraction_nohand.wav", t = 1.75 },
-            { s = path .. "mcx_bolt_in.wav", t = 1.87 },
+            { s = path .. "ar_jam_boltlock_grab1.ogg", t = 1.03 },
+            { s = path .. "ar_jam_boltlock_try1.ogg", t = 1.22 },
+            { s = path .. "ar_jam_boltlock_grab2.ogg", t = 1.56 },
+            { s = path .. "mcx_bolt_out.ogg", t = 1.67 },
+            { s = path .. "ak_jam_feedfault_extraction_nohand.ogg", t = 1.75 },
+            { s = path .. "mcx_bolt_in.ogg", t = 1.87 },
             { s = randspin, t = 2.1 },
             
         },
@@ -639,11 +639,11 @@ ARC9EFT.AR15_Anims = {
         EventTable = {
             { s = randspin, t = 0.04 },
             { s = randspin, t = 0.49 },
-            { s = path .. "ak_jam_shell_grab.wav", t = 0.94 },
-            { s = path .. "ak_jam_shell_remove.wav", t = 1.3 },
-            { s = "arc9_eft_shared/weap_bolt_handle_out.wav", t = 1.71},
-            { s = "arc9_eft_shared/weap_bolt_handle_in.wav", t = 2},
-            { s = path .. "generic_jam_slidelock_hit1.wav", t = 2.25 },
+            { s = path .. "ak_jam_shell_grab.ogg", t = 0.94 },
+            { s = path .. "ak_jam_shell_remove.ogg", t = 1.3 },
+            { s = "arc9_eft_shared/weap_bolt_handle_out.ogg", t = 1.71},
+            { s = "arc9_eft_shared/weap_bolt_handle_in.ogg", t = 2},
+            { s = path .. "generic_jam_slidelock_hit1.ogg", t = 2.25 },
             { s = randspin, t = 2.43 },
         },
     },
@@ -652,11 +652,11 @@ ARC9EFT.AR15_Anims = {
         EventTable = {
             { s = randspin, t = 0.04 },
             { s = randspin, t = 0.49 },
-            { s = path .. "ak_jam_shell_grab.wav", t = 0.94 },
-            { s = path .. "ak_jam_shell_remove.wav", t = 1.3 },
-            { s = "arc9_eft_shared/weap_bolt_handle_out.wav", t = 1.71},
-            { s = "arc9_eft_shared/weap_bolt_handle_in.wav", t = 2},
-            -- { s = path .. "generic_jam_slidelock_hit1.wav", t = 2.25 },
+            { s = path .. "ak_jam_shell_grab.ogg", t = 0.94 },
+            { s = path .. "ak_jam_shell_remove.ogg", t = 1.3 },
+            { s = "arc9_eft_shared/weap_bolt_handle_out.ogg", t = 1.71},
+            { s = "arc9_eft_shared/weap_bolt_handle_in.ogg", t = 2},
+            -- { s = path .. "generic_jam_slidelock_hit1.ogg", t = 2.25 },
             { s = randspin, t = 2.3 },
         },
     },

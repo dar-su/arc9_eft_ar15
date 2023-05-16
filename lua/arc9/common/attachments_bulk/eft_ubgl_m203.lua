@@ -66,14 +66,14 @@ ATT.MuzzleDeviceUBGL = true
 ATT.DropMagazineAmountUBGL = 0
 
 local path = "weapons/darsu_eft/m203/"
-local randspin = {"arc9_eft_shared/weapon_generic_rifle_spin1.wav","arc9_eft_shared/weapon_generic_rifle_spin2.wav","arc9_eft_shared/weapon_generic_rifle_spin3.wav","arc9_eft_shared/weapon_generic_rifle_spin4.wav","arc9_eft_shared/weapon_generic_rifle_spin5.wav","arc9_eft_shared/weapon_generic_rifle_spin6.wav","arc9_eft_shared/weapon_generic_rifle_spin7.wav","arc9_eft_shared/weapon_generic_rifle_spin8.wav","arc9_eft_shared/weapon_generic_rifle_spin9.wav","arc9_eft_shared/weapon_generic_rifle_spin10.wav"}
+local randspin = {"arc9_eft_shared/weapon_generic_rifle_spin1.ogg","arc9_eft_shared/weapon_generic_rifle_spin2.ogg","arc9_eft_shared/weapon_generic_rifle_spin3.ogg","arc9_eft_shared/weapon_generic_rifle_spin4.ogg","arc9_eft_shared/weapon_generic_rifle_spin5.ogg","arc9_eft_shared/weapon_generic_rifle_spin6.ogg","arc9_eft_shared/weapon_generic_rifle_spin7.ogg","arc9_eft_shared/weapon_generic_rifle_spin8.ogg","arc9_eft_shared/weapon_generic_rifle_spin9.ogg","arc9_eft_shared/weapon_generic_rifle_spin10.ogg"}
 
 
 ATT.IKAnimationProxy = {
     ["fire_ubgl"] = {
         Source = "fire",
         EventTable = {
-            { s = path .. "m203_trigger.wav", t = 0 },
+            { s = path .. "m203_trigger.ogg", t = 0 },
         }
     },
     ["fire_empty_ubgl"] = {
@@ -83,16 +83,16 @@ ATT.IKAnimationProxy = {
         Source = "reload",
         EventTable = {
             -- { s = randspin, t = 0.05 },
-            { s = path .. "m203_hand_on_tube.wav", t = 10/24 },
-            { s = path .. "fn40gl_tube_button.wav", t = 12/24 },
-            { s = path .. "m203_tube_open_empty.wav", t = 16/24 },
-            { s = path .. "m203_grenade_out_slide.wav", t = 18/24 },
-            { s = path .. "m203_hand_out_tube.wav", t = 24/24 },
+            { s = path .. "m203_hand_on_tube.ogg", t = 10/24 },
+            { s = path .. "fn40gl_tube_button.ogg", t = 12/24 },
+            { s = path .. "m203_tube_open_empty.ogg", t = 16/24 },
+            { s = path .. "m203_grenade_out_slide.ogg", t = 18/24 },
+            { s = path .. "m203_hand_out_tube.ogg", t = 24/24 },
 
-            { s = path .. "m203_grenade_in.wav", t = 47/24 },
-            { s = path .. "m203_hand_on_tube.wav", t = 68/24 },
-            { s = path .. "m203_tube_close_full.wav", t = 71/24 },
-            { s = path .. "m203_hand_out_tube.wav", t = 76/24 },
+            { s = path .. "m203_grenade_in.ogg", t = 47/24 },
+            { s = path .. "m203_hand_on_tube.ogg", t = 68/24 },
+            { s = path .. "m203_tube_close_full.ogg", t = 71/24 },
+            { s = path .. "m203_hand_out_tube.ogg", t = 76/24 },
             -- { s = randspin, t = 1.7 },
         }
     },
@@ -122,16 +122,16 @@ ATT.IKAnimationProxy = {
     ["inspect_check_ubgl"] = {
         Source = "check",
         EventTable = {
-            { s = path .. "m203_hand_on_tube.wav", t = 11/24 },
-            { s = path .. "fn40gl_tube_button.wav", t = 13/24 },
-            { s = path .. "m203_tube_open_full.wav", t = 16/24 },
-            { s = path .. "m203_hand_out_tube.wav", t = 25/24 },
-            { s = path .. "m203_grenade_out.wav", t = 33/24 },
+            { s = path .. "m203_hand_on_tube.ogg", t = 11/24 },
+            { s = path .. "fn40gl_tube_button.ogg", t = 13/24 },
+            { s = path .. "m203_tube_open_full.ogg", t = 16/24 },
+            { s = path .. "m203_hand_out_tube.ogg", t = 25/24 },
+            { s = path .. "m203_grenade_out.ogg", t = 33/24 },
 
-            { s = path .. "m203_grenade_in.wav", t = 75/24 },
-            { s = path .. "m203_hand_on_tube.wav", t = 98/24 },
-            { s = path .. "m203_tube_close_full.wav", t = 101/24 },
-            { s = path .. "m203_hand_out_tube.wav", t = 106/24 },
+            { s = path .. "m203_grenade_in.ogg", t = 75/24 },
+            { s = path .. "m203_hand_on_tube.ogg", t = 98/24 },
+            { s = path .. "m203_tube_close_full.ogg", t = 101/24 },
+            { s = path .. "m203_hand_out_tube.ogg", t = 106/24 },
         }
     }
 } -- When an animation event plays, override it with one based on this LHIK model.
@@ -167,16 +167,16 @@ ATT.ShootVolumeUBGL = 111
 ATT.SpreadUBGL = 0.02
 
 ATT.FirstShootSoundUBGL = false
-ATT.ShootSoundUBGL = path.."m203_fire_outdoor_close.wav"
-ATT.DistantShootSoundUBGL = path.."m203_fire_outdoor_distant.wav"
-ATT.ShootSoundIndoorUBGL = path.."m203_fire_indoor_close.wav"
-ATT.DistantShootSoundIndoorUBGL = path.."m203_fire_indoor_distant.wav"
+ATT.ShootSoundUBGL = path.."m203_fire_outdoor_close.ogg"
+ATT.DistantShootSoundUBGL = path.."m203_fire_outdoor_distant.ogg"
+ATT.ShootSoundIndoorUBGL = path.."m203_fire_indoor_close.ogg"
+ATT.DistantShootSoundIndoorUBGL = path.."m203_fire_indoor_distant.ogg"
 ATT.HasSightsUBGL = true
 
 ATT.TriggerDelayUBGL = false
 
-ATT.EnterUBGLSound = path.."m203_hand_out_tube.wav"
-ATT.ExitUBGLSound = path.."m203_hand_on_tube.wav"
+ATT.EnterUBGLSound = path.."m203_hand_out_tube.ogg"
+ATT.ExitUBGLSound = path.."m203_hand_on_tube.ogg"
 
 ATT.ShootEntUBGL = "arc9_eft_40mm_m381_bang" -- bla bla
 ATT.ShootEntForceUBGL = 20000
