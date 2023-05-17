@@ -13,6 +13,7 @@ ATT.ExcludeElements = {
     "eft_hg_ar15_ddrisii1225_lower",
     "eft_hg_ar15_ddrisii95_lower",
     "eft_hg_ar15_ddrisii95_lower_b",
+    "eft_hg_ar15_ddfsp",
     "eft_hg_ar15_kacris_lower",
     "eft_hg_ar15_kacurx31_lower",
     "eft_hg_ar15_kacurx38_lower",
