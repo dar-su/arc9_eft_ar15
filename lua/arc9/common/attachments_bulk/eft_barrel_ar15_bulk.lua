@@ -33,6 +33,7 @@ ATT.Attachments = {
     {
         PrintName = "Gas block",
         Category = "eft_ar15_gasblock",
+        ExcludeElements = {"nostdgasblockpls"},
         Pos = Vector(-7.72, 0, 0.25),
         Ang = Angle(0, 0, 0),
     },
@@ -79,6 +80,7 @@ ATT.Attachments = {
     {
         PrintName = "Gas block",
         Category = "eft_ar15_gasblock",
+        ExcludeElements = {"nostdgasblockpls"},
         Pos = Vector(-7.72, 0, 0.25),
         Ang = Angle(0, 0, 0),
     },
@@ -127,6 +129,7 @@ ATT.Attachments = {
     {
         PrintName = "Gas block",
         Category = "eft_ar15_gasblock",
+        ExcludeElements = {"nostdgasblockpls"},
         Pos = Vector(-11.2, 0, 0.25),
         Ang = Angle(0, 0, 0),
     },
@@ -174,6 +177,7 @@ ATT.Attachments = {
     {
         PrintName = "Gas block",
         Category = "eft_ar15_gasblock",
+        ExcludeElements = {"nostdgasblockpls"},
         Pos = Vector(-11.2, 0, 0.25),
         Ang = Angle(0, 0, 0),
     },
@@ -222,6 +226,7 @@ ATT.Attachments = {
     {
         PrintName = "Gas block",
         Category = "eft_ar15_gasblock",
+        ExcludeElements = {"nostdgasblockpls"},
         Pos = Vector(-9.65, 0, 0.25),
         Ang = Angle(0, 0, 0),
     },
