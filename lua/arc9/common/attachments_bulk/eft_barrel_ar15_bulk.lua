@@ -15,6 +15,7 @@ ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_ar15_260mm.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 2
 ATT.BarrelLengthAdd = 2
 
 ATT.Category = {"eft_m4a1_barrel"}
@@ -62,6 +63,7 @@ ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_ar15_370mm.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 2
 ATT.BarrelLengthAdd = 4
 
 ATT.EFTErgoAdd = -14
@@ -109,6 +111,7 @@ ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_ar15_457mm.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 2
 ATT.BarrelLengthAdd = 6
 
 ATT.EFTErgoAdd = -22
@@ -157,6 +160,7 @@ ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_ar15_508mm.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 2
 ATT.BarrelLengthAdd = 7
 
 ATT.EFTErgoAdd = -29
@@ -205,6 +209,7 @@ ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_ar15_adar_406mm.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 2
 ATT.BarrelLengthAdd = 5
 
 ATT.EFTErgoAdd = -15

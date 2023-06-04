@@ -13,6 +13,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_yankee_hill_phantom_aggressive_end_flash_hider_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.RecoilMult = 0.925
@@ -37,6 +38,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_surefire_warcomp_556_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -1
@@ -74,6 +76,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_ferfrans_muzzle_brake_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -1
@@ -110,6 +113,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_griffin_gatelok_hammer_comp_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -1
@@ -146,6 +150,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_bulletec_st_6012_muzzle_brake_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -1
@@ -172,6 +177,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_awc_psr_muzzle_brake_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -1
@@ -210,6 +216,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_all_yankee_hill_anihilator_flash_hider_multi.mdl" -- bring this to shared    done
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -1
@@ -236,6 +243,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_colt_usgi_a2_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -1
@@ -271,6 +279,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_colt_usgi_a2_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -1
@@ -306,6 +315,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_aac_blackout_51t_flash_hider_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 
@@ -343,6 +353,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_hk_blitz_flash_hider_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -2
@@ -369,6 +380,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_all_dd_wave_muzzle_brake_multi.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -1
@@ -406,6 +418,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_dt_mdr_std_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -2
@@ -433,6 +446,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_kac_qd_compensator_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -1
@@ -470,6 +484,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_noveske_kx3_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -2
@@ -498,6 +513,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ferfrans_ferfrans_crd_556x45.mdl"
 -- ATT.Scale = 0.75
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 5
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -3
@@ -524,6 +540,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_nordic_corvette_compensator_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -1
@@ -551,6 +568,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_surefire_sf3p_flash_hider_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -1
@@ -588,6 +606,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_silencerco_asr_flash_hider_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -2
@@ -624,6 +643,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_thunder_beast_223cb_muzzle_brake_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -2
@@ -662,6 +682,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_surefire_sf4p_fh556rc_flash_hider_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -1
@@ -699,6 +720,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_taa_zk_23_muzzle_brake_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.RecoilMult = 0.91
@@ -722,6 +744,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_vendetta_precision_vp_09_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -2
@@ -750,6 +773,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_kac_qdc_3_prong_flash_eliminator_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -2
@@ -785,6 +809,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_troy_claymore_muzzle_brake_556_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -2
@@ -811,7 +836,8 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar10_surefire_warden_direct_thread_blast_regulator_762x51.mdl"
--- ATT.MuzzleDevice = true
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -2
@@ -839,6 +865,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_alientech_gubich_muzzle_brake_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -2
@@ -865,6 +892,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_sai_jail_break_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 5
 ATT.BarrelLengthAdd = 1.5
 
 ATT.EFTErgoAdd = -2
@@ -912,6 +940,8 @@ ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
 ATT.Silencer = true
 
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 6
 ATT.EFTErgoAdd = -28
 ATT.CustomCons = { Ergonomics = "-28" }
 ATT.RecoilMult = 0.87
@@ -939,6 +969,8 @@ ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
 ATT.Silencer = true
 
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 6
 ATT.EFTErgoAdd = -20
 ATT.CustomCons = { Ergonomics = "-20" }
 ATT.RecoilMult = 0.86
@@ -968,6 +1000,8 @@ ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
 ATT.Silencer = true
 
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 6
 ATT.EFTErgoAdd = -19
 ATT.CustomCons = { Ergonomics = "-19" }
 ATT.RecoilMult = 0.86
@@ -997,6 +1031,8 @@ ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
 ATT.Silencer = true
 
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 6
 ATT.EFTErgoAdd = -16
 ATT.CustomCons = { Ergonomics = "-16" }
 ATT.RecoilMult = 0.91
@@ -1025,6 +1061,8 @@ ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
 ATT.Silencer = true
 
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 6
 ATT.EFTErgoAdd = -17
 ATT.CustomCons = { Ergonomics = "-17" }
 ATT.RecoilMult = 0.9
@@ -1054,6 +1092,8 @@ ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
 ATT.Silencer = true
 
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 6
 ATT.EFTErgoAdd = -7
 ATT.CustomCons = { Ergonomics = "-7" }
 ATT.RecoilMult = 0.93
@@ -1081,6 +1121,8 @@ ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
 ATT.Silencer = true
 
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 6
 ATT.EFTErgoAdd = -22
 ATT.CustomCons = { Ergonomics = "-22" }
 ATT.RecoilMult = 0.86
@@ -1111,6 +1153,8 @@ ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
 ATT.Silencer = true
 
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 6
 ATT.EFTErgoAdd = -21
 ATT.CustomCons = { Ergonomics = "-21" }
 ATT.RecoilMult = 0.9
@@ -1140,6 +1184,9 @@ ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
 ATT.Silencer = true
+
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 6
 
 ATT.EFTErgoAdd = -21
 ATT.CustomCons = { Ergonomics = "-21" }

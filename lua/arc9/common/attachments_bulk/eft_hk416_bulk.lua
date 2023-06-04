@@ -112,6 +112,7 @@ ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_416_hk_264mm_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 2
 ATT.BarrelLengthAdd = 2
 ATT.EFTErgoAdd = -5
 ATT.CustomCons = { Ergonomics = "-5" }
@@ -160,6 +161,7 @@ ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_416_hk_279mm_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 2
 ATT.BarrelLengthAdd = 2.5
 ATT.EFTErgoAdd = -8
 ATT.CustomCons = { Ergonomics = "-8" }
@@ -205,6 +207,7 @@ ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_416_hk_368mm_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 2
 ATT.BarrelLengthAdd = 4
 ATT.EFTErgoAdd = -15
 ATT.CustomCons = { Ergonomics = "-15" }
@@ -252,6 +255,7 @@ ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_416_hk_419mm_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 2
 ATT.BarrelLengthAdd = 5.5
 ATT.EFTErgoAdd = -20
 ATT.CustomCons = { Ergonomics = "-20" }
@@ -299,6 +303,7 @@ ATT.HasBarrel = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_416_hk_505mm_556x45.mdl"
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 2
 ATT.BarrelLengthAdd = 7
 ATT.EFTErgoAdd = -30
 ATT.CustomCons = { Ergonomics = "-30" }
