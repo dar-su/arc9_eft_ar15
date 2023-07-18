@@ -114,7 +114,7 @@ SWEP.RecoilMultHipFire = 1.1
 SWEP.RecoilMultCrouch = 0.75
 SWEP.RecoilAutoControlMultHipFire = 0.5
 
-SWEP.RecoilUp = 3 * 0.85 -- patch 0.13.0.4.22617
+SWEP.RecoilUp = 2.55
 SWEP.RecoilSide = 0.7
 SWEP.RecoilRandomUp = 0.9
 SWEP.RecoilRandomSide = 0.3
