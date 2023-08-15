@@ -1199,3 +1199,31 @@ ATT.PhysBulletMuzzleVelocityMult = 1.0075
 ATT.Category = {"eft_ar15_kacqdc"}
 
 ARC9.LoadAttachment(ATT, "eft_silencer_ar15_kacqdssnt4_f")
+
+
+///////////////////////////////////////      eft_muzzle_ar15_butter
+
+ATT = {}
+
+ATT.PrintName = "AR-15 Aeroknox Butterfly 5.56x45 muzzle brake"
+ATT.CompactName = "Aeroknox"
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/aeroknox.png", "mips smooth")
+ATT.Description = [[The Butterfly muzzle brake designed for 5.56x45 caliber barrels. Reduces recoil and barrel rise. Manufactured by Aeroknox.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_aeroknox_butterfly_muzzle_brake_556x45.mdl"
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
+ATT.BarrelLengthAdd = 0.5
+
+ATT.EFTErgoAdd = -1.5
+ATT.CustomCons = { Ergonomics = "-1.5" }
+ATT.RecoilMult = 0.905
+ATT.VisualRecoilMult = 0.905
+ATT.HeatCapacityMult = 0.97
+ATT.PhysBulletMuzzleVelocityMult = 1.001
+
+ATT.Category = {"eft_ar15_muzzle"}
+
+ARC9.LoadAttachment(ATT, "eft_muzzle_ar15_butter")

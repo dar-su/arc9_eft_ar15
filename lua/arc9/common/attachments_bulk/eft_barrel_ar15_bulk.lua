@@ -244,3 +244,102 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_barrel_ar15_406mm")
+
+
+///////////////////////////////////////      eft_barrel_ar15_hanson_16
+
+ATT = {}
+
+ATT.PrintName = "AR-15 Hanson Carbine 5.56x45 16 inch barrel"
+ATT.CompactName = "Hanson 16\""
+ATT.Icon = Material("entities/eft_ar15_attachments/barrel/hanson16.png", "mips smooth")
+ATT.Description = [[The Hanson Carbine barrel for AR-15 based weapons for 5.56x45 NATO ammo, 16 inch long.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasBarrel = true
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_ar15_ba_hanson_carbine_pro_406mm.mdl"
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 2
+ATT.BarrelLengthAdd = 5
+
+ATT.EFTErgoAdd = -15
+ATT.CustomCons = { Ergonomics = "-15" }
+ATT.RecoilMult = 0.95
+ATT.VisualRecoilMult = 0.95
+ATT.HeatCapacityMult = 0.96
+ATT.PhysBulletMuzzleVelocityMult = 0.945
+ATT.Spread = 1.03 * ARC9.MOAToAcc
+
+ATT.Category = {"eft_m4a1_barrel"}
+
+ATT.ActivateElements = {"barrel_406mm"}
+
+ATT.ExcludeElements = {"eft_hg_ar15_m4", "eft_hg_ar15_kacris"}
+
+
+ATT.Attachments = {
+    {
+        PrintName = "Gas block",
+        Category = "eft_ar15_gasblock",
+        ExcludeElements = {"nostdgasblockpls"},
+        Pos = Vector(-9.65, 0, 0.25),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Muzzle",
+        Category = "eft_ar15_muzzle",
+        Pos = Vector(-15.95, 0, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_barrel_ar15_hanson_16")
+
+
+///////////////////////////////////////      eft_barrel_ar15_hanson_137
+
+ATT = {}
+
+ATT.PrintName = "AR-15 Hanson Carbine 5.56x45 13.7 inch barrel"
+ATT.CompactName = "Hanson 13.7\""
+ATT.Icon = Material("entities/eft_ar15_attachments/barrel/hanson137.png", "mips smooth")
+ATT.Description = [[The Hanson Carbine barrel for AR-15 based weapons for 5.56x45 NATO ammo, 13.7 inch long.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasBarrel = true
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_ar15_ba_hanson_carbine_pro_348mm.mdl"
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 2
+ATT.BarrelLengthAdd = 3.5
+
+ATT.Category = {"eft_m4a1_barrel"}
+
+ATT.EFTErgoAdd = -12
+ATT.CustomCons = { Ergonomics = "-12" }
+ATT.RecoilMult = 0.97
+ATT.VisualRecoilMult = 0.97
+ATT.HeatCapacityMult = 1.03
+ATT.PhysBulletMuzzleVelocityMult = 0.93
+ATT.Spread = 1.55 * ARC9.MOAToAcc
+
+ATT.ActivateElements = {"barrel_260mm"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Gas block",
+        Category = "eft_ar15_gasblock",
+        ExcludeElements = {"nostdgasblockpls"},
+        Pos = Vector(-7.72, 0, 0.25),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Muzzle",
+        Category = "eft_ar15_muzzle",
+        Pos = Vector(-13.7, 0, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_barrel_ar15_hanson_137")

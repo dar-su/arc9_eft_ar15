@@ -2614,3 +2614,40 @@ ATT.Attachments = {
     },
 }
 ARC9.LoadAttachment(ATT, "eft_mount_precision_top")
+
+
+
+///////////////////////////////////////      eft_hg_ar15_ax15
+
+
+ATT = {}
+
+ATT.PrintName = "AR-15 Aeroknox AX-15 4 inch M-LOK handguard"
+ATT.CompactName = "AX-15 4\""
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ax15.png", "mips smooth")
+ATT.Description = [[The AX-15 4 inch handguard for AR-15 systems, equipped with an M-LOK interface for the installation of additional devices and accessories. Manufactured by Aeroknox.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_aeroknox_ax15_4.mdl"
+ATT.LHIK = true 
+
+ATT.Category = {"eft_ar15_hguard"}
+ATT.EFTErgoAdd = 13
+ATT.CustomPros = { Ergonomics = "+13" }
+ATT.HeatCapacityMult = 0.92
+ATT.ExcludeElements = {"eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big", "eft_backupmount"},
+        Pos = Vector(0, 2.2, -1.15),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_hg_ar15_ax15")

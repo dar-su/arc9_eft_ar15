@@ -99,3 +99,26 @@ ATT.Attachments = {
     },
 }
 ARC9.LoadAttachment(ATT, "eft_gas_ar15_rg")
+
+///////////////////////////////////////      eft_gas_ar15_lopro
+
+
+ATT = {}
+
+ATT.PrintName = "AR-15 Ballistic Advantage Lo-Pro Gas Block"
+ATT.CompactName = "Lo-Pro"
+ATT.Icon = Material("entities/eft_ar15_attachments/gas/lopro.png", "mips smooth")
+ATT.Description = [[A Low-profile gas block for AR-15 system barrels. Manufactured by Ballistic Advantage.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasGas = true
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/gas_block_ar15_ba_lo_pro.mdl"
+ATT.EFTErgoAdd = 1
+ATT.CustomPros = { Ergonomics = "+1" }
+ATT.RecoilMult = 0.97
+ATT.VisualRecoilMult = 0.97
+ATT.HeatCapacityMult = 0.98
+ATT.Category = {"eft_ar15_gasblock"}
+
+ARC9.LoadAttachment(ATT, "eft_gas_ar15_lopro")

@@ -281,3 +281,60 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_rec_ar15_mur")
+
+///////////////////////////////////////      eft_rec_ar15_aeronknxo
+
+
+ATT = {}
+
+ATT.PrintName = "AR-15 Aeroknox AX-15 5.56x45 upper receiver"
+ATT.CompactName = "AX-15"
+ATT.Icon = Material("entities/eft_ar15_attachments/rec/ax15.png", "mips smooth")
+ATT.Description = [[The AX-15 modular upper receiver for AR-based weapons. Fitted with mounts for attaching additional equipment. Manufactured by Aeroknox.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasReceiver = true
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/reciever_ar15_aeroknox_ax15.mdl"
+
+ATT.Category = {"eft_m4a1_upper"}
+
+ATT.EFTErgoAdd = 14
+ATT.CustomPros = { Ergonomics = "+14" }
+ATT.RecoilMult = 0.97
+ATT.VisualRecoilMult = 0.97
+ATT.HeatCapacityMult = 0.975
+
+ATT.EFTAR15NoFwdAssist = true
+
+ATT.Attachments = {
+    {
+        PrintName = "Optic",
+        Category = {"eft_optic_large", "eft_optic_medium", "eft_optic_small"},
+        Pos = Vector(2.2, 0, -2.1),
+        Ang = Angle(0, 0, 0),
+        ExcludeElements = {"IronsBlockingSight"},
+    },
+    {
+        PrintName = "Rear sight",
+        Category = {"eft_ar_rearsight", "eft_rearsight", "eft_rearsight_hk416"},
+        Pos = Vector(4.75, 0, -2.13),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Barrel",
+        Category = "eft_m4a1_barrel",
+        Pos = Vector(-0.175, 0, -0.9),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(-0.2, 0, 0),
+    },
+    {
+        PrintName = "Handguard",
+        Category = "eft_ar15_hguard",
+        Pos = Vector(-0.15, 0, -1),
+        Ang = Angle(0, 90, 0),
+        Icon_Offset = Vector(0, 4, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_rec_ar15_aeronknxo")
