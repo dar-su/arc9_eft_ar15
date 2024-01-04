@@ -51,12 +51,12 @@ ATT.VisualRecoilMult = 0.9
 
 ATT.ReloadInSightsUBGL = false 
 
-ATT.VisualRecoilUBGL = 0.5
-ATT.VisualRecoilDampingConstUBGL = 125
-ATT.VisualRecoilSpringMagnitudeUBGL = 2
-ATT.VisualRecoilUpUBGL = 120 -- Vertical tilt
+ATT.VisualRecoilUBGL = 1
+ATT.VisualRecoilDampingConstUBGL = 150
+ATT.VisualRecoilSpringMagnitudeUBGL = 0.1
+-- ATT.VisualRecoilUpUBGL = 120 -- Vertical tilt -- anyway overidded in gun code
 ATT.VisualRecoilSideUBGL = 0 -- Horizontal tilt
-ATT.VisualRecoilRollUBGL = 0 -- Roll tilt
+ATT.VisualRecoilRollUBGL = 11 -- Roll tilt
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/m203.mdl"
 -- ATT.ModelBodygroups = "01"
