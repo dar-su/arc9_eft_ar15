@@ -2617,7 +2617,7 @@ ARC9.LoadAttachment(ATT, "eft_mount_precision_top")
 
 
 
-///////////////////////////////////////      eft_hg_ar15_ax15
+///////////////////////////////////////      eft_hg_ar15_ax15_4
 
 
 ATT = {}
@@ -2650,4 +2650,67 @@ ATT.Attachments = {
     },
 }
 
-ARC9.LoadAttachment(ATT, "eft_hg_ar15_ax15")
+ARC9.LoadAttachment(ATT, "eft_hg_ar15_ax15_4")
+
+///////////////////////////////////////      eft_hg_ar15_ax15_158
+
+
+ATT = {}
+
+ATT.PrintName = "AR-15 Aeroknox AX-15 15.8 inch M-LOK handguard "
+ATT.CompactName = "AX-15 15.8"
+ATT.Icon = Material("entities/eft_ar15_attachments/hg/ax15long.png", "mips smooth")
+ATT.Description = [[The AX-15 15.8 inch handguard for AR-15 systems, equipped with an M-LOK interface for the installation of additional devices and accessories. Manufactured by Aeroknox.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_aeroknox_ax15_158.mdl"
+ATT.LHIK = true 
+ATT.EFTErgoAdd = 12
+ATT.CustomPros = { Ergonomics = "+12" }
+ATT.HeatCapacityMult = 0.985
+ATT.Category = {"eft_ar15_hguard"}
+
+ATT.ExcludeElements = {"barrel_406mm", "barrel_260mm", "eft_gas_ar15_rg", "eft_gas_ar15_jp", "eft_gas_ar15_m4fs"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 3.8, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_frontsight"},
+        Pos = Vector(0, 15.25, -1.1),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "M-LOK R",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(0.85, 15, 0.05),
+        Ang = Angle(180, 90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK L",
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Pos = Vector(-0.85, 15, 0.05),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "M-LOK B",
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 4.1, 0.97),
+        Ang = Angle(0, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+ARC9.LoadAttachment(ATT, "eft_hg_ar15_ax15_158")

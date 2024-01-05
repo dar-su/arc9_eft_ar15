@@ -1227,3 +1227,28 @@ ATT.PhysBulletMuzzleVelocityMult = 1.001
 ATT.Category = {"eft_ar15_muzzle"}
 
 ARC9.LoadAttachment(ATT, "eft_muzzle_ar15_butter")
+
+///////////////////////////////////////      eft_muzzle_ar15_nero
+
+ATT = {}
+
+ATT.PrintName = "AR-15 WDR NERO 556 5.56x45 muzzle brake"
+ATT.CompactName = "NERO 556"
+ATT.Icon = Material("entities/eft_ar15_attachments/muzzle/nero.png", "mips smooth")
+ATT.Description = [[The NERO 556 5.56x45 Muzzle Brake from Walker Defense Research reduces recoil and muzzle flip by directing gases upward and to the side.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_walkerdr_nero_556_inconel.mdl"
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
+ATT.BarrelLengthAdd = 0.5
+
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
+ATT.RecoilMult = 0.93
+ATT.VisualRecoilMult = 0.93
+
+ATT.Category = {"eft_ar15_muzzle"}
+
+ARC9.LoadAttachment(ATT, "eft_muzzle_ar15_nero")
