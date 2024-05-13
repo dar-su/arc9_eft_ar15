@@ -264,39 +264,3 @@ ATT.PhysBulletMuzzleVelocityMult = 1.006
 ATT.Category = {"eft_stm9_muzzle"}
 
 ARC9.LoadAttachment(ATT, "eft_muzzle_stm9_std")
-
-
-///////////////////////////////////////      eft_stm9_auto
-
-ATT = {}
-
-ATT.PrintName = "Illegal conversion to full-auto"
-ATT.CompactName = "Full auto"
-ATT.Icon = Material("entities/eft_stm9_attachments/autosear.png", "mips smooth")
-ATT.Description = [[we wont tell anyone :-)
-
-not official att for sure]]
-ATT.SortOrder = -100
-ATT.MenuCategory = "ARC9 - EFT Attachments"
-
-ATT.CustomPros = { ["More fun"] = "True" }
-ATT.CustomCons = { Illegal = "Very" }
-ATT.MalfunctionMeanShotsToFailMult = 0.75
-ATT.RPM = 850
-ATT.Firemodes = {
-    { Mode = -1 },
-}
-
-ATT.Category = {"eft_custom_slot_stm9"}
-
-ATT.Attachments = {
-    {
-        PrintName = "Custom slot",
-        Pos = Vector(0, 0, 1),
-        Ang = Angle(0, 0, 0),
-        Category = {"eft_custom_slot"},
- 
-    },
-}
-
-ARC9.LoadAttachment(ATT, "eft_stm9_auto")
