@@ -63,7 +63,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "Tactical",
-        Category = "eft_tactical",
+        Category = {"eft_tactical", "eft_bipod"},
         -- RejectAttachments = { ["eft_tactical_raptar"] = true },
         Pos = Vector(-7, -0.15, 0),
         Ang = Angle(0, 0, -90),

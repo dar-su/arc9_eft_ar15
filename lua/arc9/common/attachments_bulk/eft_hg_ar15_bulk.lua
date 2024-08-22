@@ -282,7 +282,7 @@ ATT.HeatCapacityMult = 0.975
 ATT.Attachments = {
     {
         PrintName = "B Tactical",
-        Category = {"eft_tactical", "eft_tactical_top"},
+        Category = {"eft_tactical", "eft_tactical_top", "eft_bipod"},
         Pos = Vector(0, 10, 1.15),
         Ang = Angle(0, -90, 180),
         Icon_Offset = Vector(0, 0, 0.5),
@@ -888,7 +888,7 @@ ATT.Category = {"eft_hglower_kacurx31"}
 ATT.Attachments = {
     {
         PrintName = "B Tactical",
-        Category = {"eft_tactical", "eft_tactical_top"},
+        Category = {"eft_tactical", "eft_tactical_top", "eft_bipod"},
         Pos = Vector(0, 8.5, 1.25),
         Ang = Angle(0, -90, 180),
         Icon_Offset = Vector(0, 0, 0.5),
@@ -1125,7 +1125,7 @@ ATT.HeatCapacityMult = 1.005
 ATT.Attachments = {
     {
         PrintName = "B Tactical",
-        Category = {"eft_tactical", "eft_tactical_top"},
+        Category = {"eft_tactical", "eft_tactical_top", "eft_bipod"},
         Pos = Vector(0, 8.5-2.2, 1.25),
         Ang = Angle(0, -90, 180),
         Icon_Offset = Vector(0, 0, 0.5),
@@ -1396,7 +1396,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "B Tactical",
-        Category = {"eft_tactical", "eft_tactical_top"},
+        Category = {"eft_tactical", "eft_tactical_top", "eft_bipod"},
         Pos = Vector(0, 12-2+3.35, 1.45),
         Ang = Angle(0, -90, 180),
         Icon_Offset = Vector(0, 0, 0.5),
@@ -1495,7 +1495,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "B Tactical",
-        Category = {"eft_tactical", "eft_tactical_top"},
+        Category = {"eft_tactical", "eft_tactical_top", "eft_bipod"},
         Pos = Vector(0, 12-2, 1.45),
         Ang = Angle(0, -90, 180),
         Icon_Offset = Vector(0, 0, 0.5),
