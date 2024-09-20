@@ -1008,7 +1008,7 @@ ATT.ModelAngleOffset = Angle(0,180,0)
 ATT.EFTErgoAdd = 2
 ATT.CustomPros = { Ergonomics = "+2" }
 ATT.HeatCapacityMult = 0.99
-ATT.Category = {"eft_urx_panel_long"}
+ATT.Category = {"eft_urx_panel_short"}
 ARC9.LoadAttachment(ATT, "eft_urxshort")
 
 ///////////////////////////////////////      eft_urxshort_fde
