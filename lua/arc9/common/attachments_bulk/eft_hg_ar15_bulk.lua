@@ -1205,7 +1205,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "M-LOK B Tac",
-        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset", "eft_mount_mlok_bipod"},
         Pos = Vector(0, 10.5, 0.85),
         Ang = Angle(0, -90, -90),
         Icon_Offset = Vector(0, 0, 0),
@@ -1590,7 +1590,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "M-LOK B Tac",
-        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset", "eft_mount_mlok_bipod"},
         Pos = Vector(0, 13.5-3, 0.85),
         Ang = Angle(0, -90, -90),
         Icon_Offset = Vector(0, 0, 0),
@@ -1664,7 +1664,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "M-LOK B Tac",
-        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset", "eft_mount_mlok_bipod"},
         Pos = Vector(0, 13.5, 0.85),
         Ang = Angle(0, -90, -90),
         Icon_Offset = Vector(0, 0, 0),
@@ -1736,7 +1736,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "M-LOK B Tac",
-        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset", "eft_mount_mlok_bipod"},
         Pos = Vector(0, 13.5-6, 0.85),
         Ang = Angle(0, -90, -90),
         Icon_Offset = Vector(0, 0, 0),
@@ -1815,7 +1815,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "M-LOK B Tac",
-        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset", "eft_mount_mlok_bipod"},
         Pos = Vector(0, 13.5-4.7, 0.85),
         Ang = Angle(0, -90, -90),
         Icon_Offset = Vector(0, 0, 0),
@@ -2064,7 +2064,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "B2 Keymod",
-        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4", "eft_mount_keymod_bipod"},
         Pos = Vector(0, 12.6, 1.22),
         Ang = Angle(0, -90, -90),
         Icon_Offset = Vector(0, 0, 0),
@@ -2144,7 +2144,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "B2 Keymod",
-        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4", "eft_mount_keymod_bipod"},
         Pos = Vector(0, 12.6, 1.22),
         Ang = Angle(0, -90, -90),
         Icon_Offset = Vector(0, 0, 0),
@@ -2225,7 +2225,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "B2 Keymod",
-        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4", "eft_mount_keymod_bipod"},
         Pos = Vector(0, 12.6, 1.22),
         Ang = Angle(0, -90, -90),
         Icon_Offset = Vector(0, 0, 0),
@@ -2302,7 +2302,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "B2 Keymod",
-        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4", "eft_mount_keymod_bipod"},
         Pos = Vector(0, 12.6-2, 1.22),
         Ang = Angle(0, -90, -90),
         Icon_Offset = Vector(0, 0, 0),
@@ -2380,7 +2380,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "B2 Keymod",
-        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4", "eft_mount_keymod_bipod"},
         Pos = Vector(0, 12.6-2, 1.22),
         Ang = Angle(0, -90, -90),
         Icon_Offset = Vector(0, 0, 0),
@@ -2459,7 +2459,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "B2 Keymod",
-        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4", "eft_mount_keymod_bipod"},
         Pos = Vector(0, 12.6-2, 1.22),
         Ang = Angle(0, -90, -90),
         Icon_Offset = Vector(0, 0, 0),

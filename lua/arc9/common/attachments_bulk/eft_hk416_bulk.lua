@@ -453,7 +453,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "B Tac Keymod",
-        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4", "eft_mount_keymod_bipod"},
         Pos = Vector(0, 12.3, 1.15),
         Ang = Angle(0, -90, -90),
         Icon_Offset = Vector(0, 0, 0),
@@ -861,7 +861,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "M-LOK B Tac",
-        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset", "eft_mount_mlok_bipod"},
         Pos = Vector(0, 12.3, 1.12),
         Ang = Angle(0, -90, -90),
         Icon_Offset = Vector(0, 0, 0),
@@ -942,7 +942,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "M-LOK B Tac",
-        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset", "eft_mount_mlok_bipod"},
         Pos = Vector(0, 12.5, 1.27),
         Ang = Angle(0, -90, -90),
         Icon_Offset = Vector(0, 0, 0),
@@ -1019,7 +1019,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "M-LOK B Tac",
-        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset"},
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset", "eft_mount_mlok_bipod"},
         Pos = Vector(0, 11.0, 1.27),
         Ang = Angle(0, -90, -90),
         Icon_Offset = Vector(0, 0, 0),
