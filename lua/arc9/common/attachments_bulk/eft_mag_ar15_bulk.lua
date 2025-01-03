@@ -607,3 +607,34 @@ ARC9.LoadAttachment(ATT, "eft_mag_ar15_airsoft")
 
 
 
+
+///////////////////////////////////////      eft_mag_ar15_beta_100
+
+
+ATT = {}
+
+ATT.PrintName = "5.56x45 Beta C-Mag 100-round drum magazine"
+ATT.CompactName = "C-Mag 100"
+ATT.Icon = Material("entities/eft_ar15_attachments/mag/balls.png", "mips smooth")
+ATT.Description = [[A 100-round double drum magazine for the AR-15 platform weapons. Manufactured by Beta Company.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_stanag_beta_c_mag_556x45_100.mdl"
+ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_beta_c_mag_556x45_100.mdl"
+
+
+ATT.Category = {"eft_ar15_doubledrum"}
+ATT.SuppressEmptySuffix = false 
+
+ATT.EFTErgoAdd = -24
+ATT.CustomCons = { Ergonomics = "-24" }
+
+ATT.MalfunctionMeanShotsToFailMult = 0.6
+
+ATT.ActivateElements = {"100rndballs"}
+
+ATT.ChamberSize = 1
+ATT.ClipSize = 100
+
+ARC9.LoadAttachment(ATT, "eft_mag_ar15_beta_100")

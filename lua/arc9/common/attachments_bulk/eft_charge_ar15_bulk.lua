@@ -178,3 +178,42 @@ ATT.CustomPros = { Ergonomics = "+3" }
 ATT.Category = {"eft_ar15_charge"}
 
 ARC9.LoadAttachment(ATT, "eft_charge_ar15_mod2")
+
+///////////////////////////////////////      eft_charge_ar15_gnr
+
+ATT = {}
+
+ATT.PrintName = "AR-15 Daniel Defense GRIP-N-RIP charging handle"
+ATT.CompactName = "GNR"
+ATT.Icon = Material("entities/eft_ar15_attachments/charge/gnr.png", "mips smooth")
+ATT.Description = [[The GRIP-N-RIP charging handle for AR-15 style weapons. Manufactured by Daniel Defense.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasBolt = true
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/charge_ar15_dd_grip_n_rip.mdl"
+ATT.EFTErgoAdd = 2
+ATT.CustomPros = { Ergonomics = "+2" }
+ATT.Category = {"eft_ar15_charge"}
+
+ARC9.LoadAttachment(ATT, "eft_charge_ar15_gnr")
+
+///////////////////////////////////////      eft_charge_ar15_badlever
+
+ATT = {}
+
+ATT.PrintName = "AR-15 Magpul B.A.D. Lever bolt release"
+ATT.CompactName = "B.A.D."
+ATT.Icon = Material("entities/eft_ar15_attachments/charge/bad.png", "mips smooth")
+ATT.Description = [[The Battery Assist Device Lever for the AR-15 platform and compatibles. Allows to release the bolt into battery from the right side of the rifle, making it easier to operate the weapon for left-handed shooters. Manufactured by Magpul.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+-- ATT.HasBolt = true
+ATT.ActivateElemetns = {"eft_fast_catch"}
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/charge_ar15_magpul_bad_lever.mdl"
+ATT.EFTErgoAdd = 2
+ATT.CustomPros = { Ergonomics = "+2" }
+ATT.Category = {"eft_ar15_charge_lever"}
+
+ARC9.LoadAttachment(ATT, "eft_charge_ar15_badlever")
