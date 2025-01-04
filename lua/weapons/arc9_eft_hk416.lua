@@ -85,6 +85,8 @@ function SWEP:GetSightPositions()
     return s.Pos, s.Ang
 end
 
+SWEP.DefaultElements = {"noextendedcatch"}
+
 SWEP.Attachments = {
     {
         PrintName = "Reciever",
