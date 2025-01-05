@@ -26,6 +26,8 @@ SWEP.StandardPresets = false
 SWEP.ViewModel = "models/weapons/arc9/darsu_eft/c_adar.mdl"
 SWEP.DefaultBodygroups = "00000010000000"
 
+SWEP.RecoilAutoControl = 6
+
 SWEP.EFTErgo = 48
 
 SWEP.RPM = 450
