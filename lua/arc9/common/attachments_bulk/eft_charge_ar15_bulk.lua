@@ -209,7 +209,7 @@ ATT.Description = [[The Battery Assist Device Lever for the AR-15 platform and c
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 -- ATT.HasBolt = true
-ATT.ActivateElemetns = {"eft_fast_catch"}
+ATT.ActivateElements = {"eft_fast_catch"}
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/charge_ar15_magpul_bad_lever.mdl"
 ATT.EFTErgoAdd = 2

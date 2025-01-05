@@ -2,7 +2,6 @@ ARC9EFT = ARC9EFT or {}
 
 ARC9EFT.AR15_AnimsHook = function(swep, anim)
     local elements = swep:GetElements()
-    local class = swep:GetClass()
 
     local ending = ""
 
@@ -76,7 +75,7 @@ ARC9EFT.AR15_AnimsHook = function(swep, anim)
         
         return "jam_" .. rand
     end
-    
+
     if anim == "ready" then return anim end -- fcudfjhgfioudhmfiojm
     if anim == "reload_empty" and elements["eft_fast_catch"] then return anim .. ending .. "_l" end
     return anim .. ending
@@ -116,7 +115,8 @@ local rik_empty = {
 local rik_emptyl = {
     { t = 0, lhik = 1 },
     { t = 0.15, lhik = 0 },
-    { t = 0.82, lhik = 0 },
+    { t = 0.73, lhik = 0 },
+    { t = 0.92, lhik = 1 },
     { t = 1, lhik = 1 },
 }
 
@@ -182,9 +182,9 @@ local rst_emptyl = {
     { s = magout, t = 0.38 },
     { s = pouchout, t = 0.96 },
     { s = magin, t = 1.6 },
-    { s = path .. "mcx_bolt_catch_handhit.ogg", t = 2.2 },
-    { s = path .. "mcx_bolt_catchrelease.ogg", t = 2.25 },
-    { s = randspin, t = 2.27 },
+    -- { s = path .. "mcx_bolt_catch_handhit.ogg", t = 2.2-0.1 },
+    { s = path .. "mcx_bolt_catchrelease.ogg", t = 2.25-0.1 },
+    { s = randspin, t = 2.27-0.1 },
     {hide = 0, t = 0},
     {hide = 1, t = 0.6},
     {hide = 0, t = 1.1}
@@ -219,9 +219,9 @@ local rst_empty40l = {
     { s = magout, t = 0.38 },
     { s = pouchout, t = 0.96+0.12 },
     { s = magin, t = 1.6+0.12 },
-    { s = path .. "mcx_bolt_catch_handhit.ogg", t = 2.2+0.12 },
-    { s = path .. "mcx_bolt_catchrelease.ogg", t = 2.25+0.12 },
-    { s = randspin, t = 2.27+0.12 },
+    -- { s = path .. "mcx_bolt_catch_handhit.ogg", t = 2.2+0.12 },
+    { s = path .. "mcx_bolt_catchrelease.ogg", t = 2.25+0.12-0.1 },
+    { s = randspin, t = 2.27+0.12-0.1 },
     {hide = 0, t = 0},
     {hide = 1, t = 0.6},
     {hide = 0, t = 1.12}
@@ -255,9 +255,9 @@ local rst_empty50l = {
     { s = magout, t = 0.38 },
     { s = pouchout, t = 0.96+0.2 },
     { s = magin, t = 1.6+0.2 },
-    { s = path .. "mcx_bolt_catch_handhit.ogg", t = 2.2+0.2 },
-    { s = path .. "mcx_bolt_catchrelease.ogg", t = 2.25+0.2 },
-    { s = randspin, t = 2.27+0.2 },
+    -- { s = path .. "mcx_bolt_catch_handhit.ogg", t = 2.2+0.2 },
+    { s = path .. "mcx_bolt_catchrelease.ogg", t = 2.25+0.2-0.1 },
+    { s = randspin, t = 2.27+0.2-0.1 },
     {hide = 0, t = 0},
     {hide = 1, t = 0.6},
     {hide = 0, t = 1.12}
@@ -267,19 +267,19 @@ local rst_def70 = {
     { s = path .. "mcx_magrelease_button.ogg", t = 0.49 },
     { s = magout, t = 0.61 },
     { s = pouchin, t = 1.08 },
-    { s = pouchout, t = 1.42+0.2 },
-    { s = magin, t = 2.04+0.2 },
-    { s = randspin, t = 2.57+0.2 }
+    { s = pouchout, t = 1.42+0.25 },
+    { s = magin, t = 2.04+0.35 },
+    { s = randspin, t = 2.57+0.35 }
 }
 local rst_empty70 = {
     { s = randspin, t = 0.04 },
     { s = path .. "mcx_magrelease_button.ogg", t = 0.3 },
     { s = magout, t = 0.38 },
-    { s = pouchout, t = 0.96+0.2 },
-    { s = magin, t = 1.6+0.2 },
-    { s = path .. "mcx_bolt_catch_handhit.ogg", t = 2.2+0.2 },
-    { s = path .. "mcx_bolt_catchrelease.ogg", t = 2.25+0.2 },
-    { s = randspin, t = 2.27+0.2 },
+    { s = pouchout, t = 0.96+0.25 },
+    { s = magin, t = 1.6+0.35 },
+    { s = path .. "mcx_bolt_out.ogg", t = 2.62 },
+    { s = path .. "mcx_bolt_in.ogg", t = 2.9 },
+    { s = randspin, t = 2.27+0.35 },
     {hide = 0, t = 0},
     {hide = 1, t = 0.6},
     {hide = 0, t = 1.12}
@@ -288,11 +288,11 @@ local rst_empty70l = {
     { s = randspin, t = 0.04 },
     { s = path .. "mcx_magrelease_button.ogg", t = 0.3 },
     { s = magout, t = 0.38 },
-    { s = pouchout, t = 0.96+0.2 },
-    { s = magin, t = 1.6+0.2 },
-    { s = path .. "mcx_bolt_catch_handhit.ogg", t = 2.2+0.2 },
-    { s = path .. "mcx_bolt_catchrelease.ogg", t = 2.25+0.2 },
-    { s = randspin, t = 2.27+0.2 },
+    { s = pouchout, t = 0.96+0.25 },
+    { s = magin, t = 1.6+0.35 },
+    -- { s = path .. "mcx_bolt_catch_handhit.ogg", t = 2.2+0.2 },
+    { s = path .. "mcx_bolt_catchrelease.ogg", t = 2.25+0.35-0.1 },
+    { s = randspin, t = 2.27+0.35-0.1 },
     {hide = 0, t = 0},
     {hide = 1, t = 0.6},
     {hide = 0, t = 1.12}
