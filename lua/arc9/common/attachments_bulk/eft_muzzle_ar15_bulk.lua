@@ -906,12 +906,11 @@ ATT.Category = {"eft_jailbreak"}
 -- a lot
 ATT.ExcludeElements = {"eft_muzzle_ar15_kx3","eft_muzzle_ar15_ferfrans","barrel_18i","barrel_20i", "eft_silencer_gemtechone", "eft_muzzle_dthybrid", "eft_silencer_r43_556", "eft_muzzle_pws_cqb", "eft_silencer_sdn6", 
 "eft_silencer_ar15_sakerasr", "eft_silencer_ar15_kacqdssnt4", "eft_silencer_ar15_kacqdssnt4_f", "eft_silencer_ar15_socommonster", "eft_silencer_ar15_socomrc2", "eft_silencer_ar15_socommini", 
-"eft_silencer_ultra5", "eft_silencer_waveqd", "eft_silencer_ar15_qdc556", "eft_muzzle_ar15_warden", "eft_silencer_ar15_m4sdk", 
+"eft_silencer_ultra5", "eft_silencer_waveqd", "eft_silencer_ar15_qdc556", "eft_muzzle_ar15_warden", "eft_silencer_ar15_m4sdk", "eft_rec_ar15_stm9", 
 
-"NOT THE eft_silencer_thorpsr"}
+"eft_silencer_thorpsr"}
 -- thor psr can be installed because commisioner wanted the glitch to stay 🐟
-
--- add stm9 upper too
+-- years passed now we can dissalow it back
 
 ARC9.LoadAttachment(ATT, "eft_muzzle_ar15_jailbreak")
 
