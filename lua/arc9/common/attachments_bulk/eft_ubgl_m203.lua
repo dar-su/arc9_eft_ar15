@@ -180,7 +180,7 @@ ATT.EnterUBGLSound = path.."m203_hand_out_tube.ogg"
 ATT.ExitUBGLSound = path.."m203_hand_on_tube.ogg"
 
 ATT.ShootEntUBGL = "arc9_eft_40mm_m381_bang" -- bla bla
-ATT.ShootEntForceUBGL = 20000
+ATT.ShootEntForceUBGL = 4000
 
 ATT.MuzzleParticleUBGL = "muzzleflash_m79"
 
