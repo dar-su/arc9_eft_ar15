@@ -354,4 +354,29 @@ SWEP.Attachments = {
         Ang = Angle(0, -90, 0),
         ExcludeElements = {"noextendedcatch"}
     },
+
+    {
+        PrintName = "Camouflage 1",
+        Category = {"universal_camo"},
+        Bone = "weapon",
+        Pos = Vector(0, 6, -2),
+        CosmeticOnly = true,
+        IsAdvancedCamo1 = true,
+    },
+    {
+        PrintName = "Camouflage 2",
+        Category = {"universal_camo"},
+        Bone = "weapon",
+        Pos = Vector(0, 4.5, -2),
+        CosmeticOnly = true,
+        IsAdvancedCamo2 = true,
+    },
+    {
+        PrintName = "Camouflage 3",
+        Category = {"universal_camo"},
+        Bone = "weapon",
+        Pos = Vector(0, 3, -2),
+        CosmeticOnly = true,
+        IsAdvancedCamo3 = true,
+    },
 }

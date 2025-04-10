@@ -167,6 +167,7 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 3.35, -1),
     },
 }
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_m4")
 
@@ -185,6 +186,7 @@ ATT.EFTErgoAdd = 7
 ATT.CustomPros = { Ergonomics = "+7" }
 ATT.HeatCapacityMult = 1.029
 ATT.Category = {"eft_hglower_m4"}
+ATT.AdvancedCamoSupport = "eft_hg_ar15_m4"
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_m4_lower")
 
 
@@ -628,6 +630,7 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 0),
     },
 }
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_mk16")
 
@@ -699,6 +702,7 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 0),
     },
 }
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_mk1695")
 
@@ -753,6 +757,7 @@ ATT.Attachments = {
     },
 }
 
+ATT.AdvancedCamoSupport = true
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_kacris")
 
 ///////////////////////////////////////      eft_hg_ar15_kacris_lower
@@ -779,6 +784,7 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, -1),
     },
 }
+ATT.AdvancedCamoSupport = "eft_hg_ar15_kacris"
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_kacris_lower")
 
 
@@ -1432,6 +1438,7 @@ ATT.Attachments = {
     },
 }
 
+ATT.AdvancedCamoSupport = true
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_saiqd")
 
 ///////////////////////////////////////      eft_hg_ar15_saiqd10
@@ -1532,6 +1539,7 @@ ATT.Attachments = {
 }
 
 
+ATT.AdvancedCamoSupport = "eft_hg_ar15_saiqd"
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_saiqd10")
 
 ///////////////////////////////////////      eft_hg_ar15_stm12
@@ -2541,6 +2549,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),   
     },
 }
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_precision")
 

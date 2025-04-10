@@ -1011,6 +1011,7 @@ ATT.PhysBulletMuzzleVelocityMult = 1.015
 
 ATT.Category = {"eft_m4sdk"}
 
+ATT.AdvancedCamoSupport = true
 ARC9.LoadAttachment(ATT, "eft_silencer_ar15_m4sdk")
 
 ///////////////////////////////////////      eft_silencer_ar15_socommonster
@@ -1131,6 +1132,7 @@ ATT.HeatCapacityMult = 1.13
 ATT.PhysBulletMuzzleVelocityMult = 1.0075
 
 ATT.Category = {"eft_ar15_saker"}
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_silencer_ar15_sakerasr")
 

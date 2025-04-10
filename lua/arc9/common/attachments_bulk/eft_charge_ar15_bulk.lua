@@ -18,6 +18,8 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/charge_ar15_colt_charging_handle
 
 ATT.Category = {"eft_ar15_charge"}
 
+ATT.AdvancedCamoSupport = "eft_charge_ar15_colt"
+
 ARC9.LoadAttachment(ATT, "eft_charge_ar15_adar")
 
 ///////////////////////////////////////      eft_charge_ar15_botl
@@ -56,6 +58,8 @@ ATT.HasBolt = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/charge_ar15_colt_charging_handle.mdl"
 
 ATT.Category = {"eft_ar15_charge"}
+
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_charge_ar15_colt")
 
@@ -96,6 +100,8 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/charge_ar15_hk_extended_latch_ch
 ATT.EFTErgoAdd = 1
 ATT.CustomPros = { Ergonomics = "+1" }
 ATT.Category = {"eft_ar15_charge"}
+
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_charge_ar15_hkext")
 

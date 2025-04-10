@@ -50,6 +50,7 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 4, 0),
     },
 }
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_rec_hk416")
 
@@ -480,6 +481,7 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 0),
     },
 }
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_hg_hk416_mrs14")
 
@@ -557,6 +559,7 @@ ATT.Attachments = {
         -- Icon_Offset = Vector(0, 0, -1),
     }, 
 }
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_hg_hk416_quad")
 
@@ -639,6 +642,7 @@ ATT.Attachments = {
     }, 
 }
 
+ATT.AdvancedCamoSupport = true
 ARC9.LoadAttachment(ATT, "eft_hg_hk416_quadext")
 
 ///////////////////////////////////////      eft_hg_hk416_quadsight
@@ -788,6 +792,7 @@ ATT.Attachments = {
     },
 }
 
+ATT.AdvancedCamoSupport = true
 ARC9.LoadAttachment(ATT, "eft_hg_hk416_midwest9")
 
 ///////////////////////////////////////      eft_hg_hk416_midwest135
@@ -867,6 +872,7 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 0),
     },
 }
+ATT.AdvancedCamoSupport = "eft_hg_hk416_midwest9"
 
 ARC9.LoadAttachment(ATT, "eft_hg_hk416_midwest135")
 
@@ -948,6 +954,7 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 0),
     },
 }
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_hg_hk416_crux")
 

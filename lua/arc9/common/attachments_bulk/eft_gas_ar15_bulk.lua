@@ -19,6 +19,7 @@ ATT.EFTErgoAdd = -1
 ATT.CustomCons = { Ergonomics = "-1" }
 ATT.HeatCapacityMult = 0.995
 ATT.Category = {"eft_ar15_gasblock"}
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_gas_ar15_m4fs")
 

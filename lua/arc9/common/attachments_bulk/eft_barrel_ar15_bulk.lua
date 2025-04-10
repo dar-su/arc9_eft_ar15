@@ -94,6 +94,8 @@ ATT.Attachments = {
     },
 }
 
+ATT.AdvancedCamoSupport = true
+
 ARC9.LoadAttachment(ATT, "eft_barrel_ar15_370mm")
 
 

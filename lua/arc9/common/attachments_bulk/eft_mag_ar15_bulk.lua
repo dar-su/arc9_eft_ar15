@@ -29,6 +29,7 @@ ATT.ActivateElements = {"30rnd"}
 ATT.ChamberSize = 1
 ATT.ClipSize = 30
 
+ATT.AdvancedCamoSupport = true
 ARC9.LoadAttachment(ATT, "eft_mag_ar15_stanag_30")
 
 ///////////////////////////////////////      eft_mag_ar15_mk16_30
@@ -121,6 +122,7 @@ ATT.ActivateElements = {"30rnd"}
 ATT.ChamberSize = 1
 ATT.ClipSize = 30
 
+ATT.AdvancedCamoSupport = true
 ARC9.LoadAttachment(ATT, "eft_mag_ar15_hksteel")
 
 
@@ -182,6 +184,7 @@ ATT.ActivateElements = {"30rnd"}
 
 ATT.ChamberSize = 1
 ATT.ClipSize = 30
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_mag_ar15_hkstanag")
 
@@ -212,6 +215,7 @@ ATT.ActivateElements = {"drum"}
 
 ATT.ChamberSize = 1
 ATT.ClipSize = 60
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_mag_ar15_pmag_60")
 

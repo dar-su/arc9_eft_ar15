@@ -53,6 +53,7 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 4, 0),
     },
 }
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_rec_ar15_m4a1")
 
@@ -222,6 +223,7 @@ ATT.Attachments = {
     },
 }
 
+ATT.AdvancedCamoSupport = true
 ARC9.LoadAttachment(ATT, "eft_rec_ar15_gen3")
 
 
@@ -280,6 +282,7 @@ ATT.Attachments = {
     },
 }
 
+ATT.AdvancedCamoSupport = true
 ARC9.LoadAttachment(ATT, "eft_rec_ar15_mur")
 
 ///////////////////////////////////////      eft_rec_ar15_aeronknxo
