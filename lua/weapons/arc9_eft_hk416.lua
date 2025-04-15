@@ -172,7 +172,10 @@ SWEP.Attachments = {
         Bone = "mod_pistol_grip",
         Pos = Vector(0, -8, -5),
         Ang = Angle(0, 0, 0),
+        RequireElements = false
     },
+    -- new slot
+    _,
 
     {
         PrintName = "Camouflage 1",
