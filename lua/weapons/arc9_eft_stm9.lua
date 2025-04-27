@@ -46,9 +46,13 @@ SWEP.IronSights = {
 }
 
 SWEP.ActivePos = Vector(-0.7, -3.1, -.35)
-SWEP.CustomizePos = Vector(16.5, 24, 5.3)
-SWEP.CustomizeSnapshotFOV = 95
-SWEP.CustomizeRotateAnchor = Vector(22, -4.3, -3.7)
+SWEP.CustomizePos = Vector(15.5, 37.5, 4)
+SWEP.CustomizeSnapshotFOV = 60
+SWEP.CustomizeRotateAnchor = Vector(15.5, -4.3, -3.7)
+
+SWEP.PeekMaxFOV = 60
+SWEP.PeekPosReloading = Vector(3, 2, -1)
+SWEP.PeekAngReloading = Angle(0, 0, -5)
 
 -- this thing can one hand sprint
 local handupang, handuppos, handupholdtype = Angle(-2, 40, -7), Vector(0, -4, -10), "normal"
@@ -256,7 +260,7 @@ SWEP.Hook_TranslateAnimation = function(swep, anim)
     end
     
     if anim == "reload" or anim == "reload_empty" then
-        if nomag then return "reload_single" end
+        -- if nomag then return "reload_single" end
         if empty then return "reload_empty" .. mag end
         return anim .. mag
     end
@@ -519,76 +523,12 @@ SWEP.Animations = {
     ["fire_dry"] = { Source = "fire_dry", EventTable = { { s = "arc9_eft_shared/weap_trigger_hammer.ogg", t = 0 } } },
     ["fire_empty"] = { Source = "fire_empty", NoIdle = true, EventTable = { { s = "arc9_eft_shared/weap_trigger_hammer.ogg", t = 0 } } },
     ["fire_dry_empty"] = { Source = "fire_dry_empty", EventTable = { { s = "arc9_eft_shared/weap_trigger_hammer.ogg", t = 0 } } },
-
-    ["reload_0"] = {
-        Source = "reload0",
-        MinProgress = 0.85,
-        FireASAP = true,
-        MagSwapTime = 1.5,
-        EventTable = rst_reload,
-        IKTimeLine = rik_reload
-    },
-    ["reload_empty_0"] = {
-        Source = "reload_empty0",
-        MinProgress = 0.85,
-        FireASAP = true,
-        MagSwapTime = 1.5,
-        EventTable = rst_reloadempty,
-        IKTimeLine = rik_reloadempty
-    },
-    ["reload_1"] = {
-        Source = "reload1",
-        MinProgress = 0.85,
-        FireASAP = true,
-        MagSwapTime = 1.5,
-        EventTable = rst_reload1,
-        IKTimeLine = rik_reload
-    },
-    ["reload_empty_1"] = {
-        Source = "reload_empty1",
-        MinProgress = 0.85,
-        FireASAP = true,
-        MagSwapTime = 1.5,
-        EventTable = rst_reloadempty1,
-        IKTimeLine = rik_reloadempty
-    },
-    ["reload_2"] = {
-        Source = "reload2",
-        MinProgress = 0.85,
-        FireASAP = true,
-        MagSwapTime = 1.5,
-        EventTable = rst_reload2,
-        IKTimeLine = rik_reload
-    },
-    ["reload_empty_2"] = {
-        Source = "reload_empty2",
-        MinProgress = 0.85,
-        FireASAP = true,
-        MagSwapTime = 1.5,
-        EventTable = rst_reloadempty2,
-        IKTimeLine = rik_reloadempty
-    },
-    ["reload_3"] = {
-        Source = "reload3",
-        MinProgress = 0.85,
-        FireASAP = true,
-        MagSwapTime = 1.5,
-        EventTable = rst_reload3,
-        IKTimeLine = rik_reload3
-    },
-    ["reload_empty_3"] = {
-        Source = "reload_empty3",
-        MinProgress = 0.85,
-        FireASAP = true,
-        MagSwapTime = 1.5,
-        EventTable = rst_reloadempty3,
-        IKTimeLine = rik_reloadempty3
-    },
-
     
-    ["reload_single"] = {
+    ["reload_empty"] = {
         Source = "reload_single",
-        MinProgress = 0.95,
+        RefillProgress = 0.9,
+        PeekProgress = 0.98,
+        MinProgress = 0.99,
         FireASAP = true,
         MagSwapTime = 1.5,
         EventTable = {
@@ -612,7 +552,86 @@ SWEP.Animations = {
             { t = 1, lhik = 1 },
         },
     },    
-    
+    ["reload_0"] = {
+        Source = "reload0",
+        RefillProgress = 0.8,
+        PeekProgress = 0.95,
+        MinProgress = 1,
+        FireASAP = true,
+        MagSwapTime = 1.5,
+        EventTable = rst_reload,
+        IKTimeLine = rik_reload
+    },
+    ["reload_empty_0"] = {
+        Source = "reload_empty0",
+        RefillProgress = 0.8,
+        PeekProgress = 0.95,
+        MinProgress = 1,
+        FireASAP = true,
+        MagSwapTime = 1.5,
+        EventTable = rst_reloadempty,
+        IKTimeLine = rik_reloadempty
+    },
+    ["reload_1"] = {
+        Source = "reload1",
+        RefillProgress = 0.8,
+        PeekProgress = 0.95,
+        MinProgress = 1,
+        FireASAP = true,
+        MagSwapTime = 1.5,
+        EventTable = rst_reload1,
+        IKTimeLine = rik_reload
+    },
+    ["reload_empty_1"] = {
+        Source = "reload_empty1",
+        RefillProgress = 0.8,
+        PeekProgress = 0.95,
+        MinProgress = 1,
+        FireASAP = true,
+        MagSwapTime = 1.5,
+        EventTable = rst_reloadempty1,
+        IKTimeLine = rik_reloadempty
+    },
+    ["reload_2"] = {
+        Source = "reload2",
+        RefillProgress = 0.8,
+        PeekProgress = 0.95,
+        MinProgress = 1,
+        FireASAP = true,
+        MagSwapTime = 1.5,
+        EventTable = rst_reload2,
+        IKTimeLine = rik_reload
+    },
+    ["reload_empty_2"] = {
+        Source = "reload_empty2",
+        RefillProgress = 0.8,
+        PeekProgress = 0.95,
+        MinProgress = 1,
+        FireASAP = true,
+        MagSwapTime = 1.5,
+        EventTable = rst_reloadempty2,
+        IKTimeLine = rik_reloadempty
+    },
+    ["reload_3"] = {
+        Source = "reload3",
+        RefillProgress = 0.8,
+        PeekProgress = 0.95,
+        MinProgress = 1,
+        FireASAP = true,
+        MagSwapTime = 1.5,
+        EventTable = rst_reload3,
+        IKTimeLine = rik_reload3
+    },
+    ["reload_empty_3"] = {
+        Source = "reload_empty3",
+        RefillProgress = 0.8,
+        PeekProgress = 0.95,
+        MinProgress = 1,
+        FireASAP = true,
+        MagSwapTime = 1.5,
+        EventTable = rst_reloadempty3,
+        IKTimeLine = rik_reloadempty3
+    },
 
 
     ["inspect1"] = {
@@ -889,7 +908,7 @@ SWEP.Attachments = {
         Bone = "mod_magazine",
         Integral = true,
         Installed = "eft_ammo_9x19_pst_gzh",
-        Pos = Vector(0, -1, -6),
+        Pos = Vector(0, -1, 0.2),
         Ang = Angle(0, 0, 0),
     },
     {
@@ -897,7 +916,7 @@ SWEP.Attachments = {
         Category = "eft_g17_mag",
         Bone = "mod_magazine",
         Installed = "eft_mag_g17_bigstick_33",
-        Icon_Offset = Vector(-1, 0, -1.5),
+        Icon_Offset = Vector(0, 0, 0),
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, -90, 0),
     },
@@ -912,7 +931,7 @@ SWEP.Attachments = {
         PrintName = "Custom slot",
         Category = {"eft_custom_slot", "eft_custom_slot_stm9"},
         Bone = "mod_pistol_grip",
-        Pos = Vector(0, -8, -5),
+        Pos = Vector(0, -3, -0.5),
         Ang = Angle(0, 0, 0),
     },
 }

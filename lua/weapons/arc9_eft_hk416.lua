@@ -153,7 +153,7 @@ SWEP.Attachments = {
         Bone = "mod_magazine",
         Integral = true,
         Installed = "eft_ammo_556_fmj",
-        Pos = Vector(0, -1, -6),
+        Pos = Vector(0, -1.5, -1.25),
         Ang = Angle(0, 0, 0),
     },
     {
@@ -161,7 +161,7 @@ SWEP.Attachments = {
         Category = {"eft_ar15_mag", "eft_ar15_drum", "eft_ar15_quad", "eft_ar15_mag_airsoft", "eft_ar15_doubledrum"},
         Bone = "mod_magazine",
         Installed = "eft_mag_ar15_hksteel",
-        Icon_Offset = Vector(-1, 0, -3.5),
+        Icon_Offset = Vector(-0.5, 0, -1.25),
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, -90, 0),
     },
@@ -170,7 +170,7 @@ SWEP.Attachments = {
         Category = {"eft_custom_slot", "eft_custom_slot_m4a1"},
         RejectAttachments = {["eft_extras_camos"] = true}, -- we have real camo support
         Bone = "mod_pistol_grip",
-        Pos = Vector(0, -8, -5),
+        Pos = Vector(0, -3, -0.5),
         Ang = Angle(0, 0, 0),
         RequireElements = false
     },
