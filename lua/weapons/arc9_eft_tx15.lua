@@ -44,9 +44,6 @@ SWEP.StandardPresets = {
 SWEP.ViewModel = "models/weapons/arc9/darsu_eft/c_tx15.mdl"
 SWEP.DefaultBodygroups = "00000010000000"
 
-SWEP.CustomizePos = Vector(19, 40, 4)
-SWEP.CustomizeSnapshotPos = Vector(0, 40, 0)
-
 SWEP.RecoilAutoControl = 6
 
 SWEP.EFTErgo = 50

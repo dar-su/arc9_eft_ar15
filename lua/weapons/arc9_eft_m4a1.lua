@@ -322,7 +322,7 @@ SWEP.Attachments = {
         Bone = "mod_magazine",
         Integral = true,
         Installed = "eft_ammo_556_fmj",
-        Pos = Vector(0, -1.5, -1.25),
+        Pos = Vector(0, -1.25, -2.5),
         Ang = Angle(0, 0, 0),
     },
     {
@@ -330,7 +330,7 @@ SWEP.Attachments = {
         Category = {"eft_ar15_mag", "eft_ar15_drum", "eft_ar15_quad", "eft_ar15_mag_airsoft", "eft_ar15_doubledrum"},
         Bone = "mod_magazine",
         Installed = "eft_mag_ar15_stanag_30",
-        Icon_Offset = Vector(-0.5, 0, -1.25),
+        Icon_Offset = Vector(0, 0, -2.5),
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, -90, 0),
     },
@@ -386,3 +386,82 @@ SWEP.Attachments = {
         IsAdvancedCamo3 = true,
     },
 }
+
+
+------------------------- |||           CustomizePos            ||| -------------------------
+
+SWEP.CustomizePosHook = function(wep, vec)
+-- Barrels
+	if wep:HasElement("eft_barrel_ar15_260mm") or wep:HasElement("eft_barrel_hk416_11i") or wep:HasElement("eft_barrel_hk416_106i") then vec = vec + Vector(-2.5, -3, 0)
+	elseif wep:HasElement("eft_barrel_ar15_406mm") or wep:HasElement("eft_barrel_hk416_165i") then vec = vec + Vector(1.25, 1, 0)
+	elseif wep:HasElement("eft_barrel_ar15_hanson_16") then vec = vec + Vector(2, 2, 0)
+	elseif wep:HasElement("eft_barrel_ar15_18i") then vec = vec + Vector(2.5, 4, 0)
+	elseif wep:HasElement("eft_barrel_ar15_20i") or wep:HasElement("eft_barrel_hk416_20i") then vec = vec + Vector(3.25, 6, 0)
+	end
+	
+-- Stocks
+	if wep:HasElement("eft_ar_stock_prsgen3") or wep:HasElement("eft_ar_stock_prsgen3g") then vec = vec + Vector(-1.75, 3, 0) end
+	if wep:HasElement("eft_ar_stock_prsgen2f") or wep:HasElement("eft_ar_stock_adar") then vec = vec + Vector(-1.25, 2, 0) end
+
+-- Suppressors	
+	if wep:HasElement("eft_silencer_dthybrid") 
+		or wep:HasElement("eft_silencer_r43_556") 
+		or wep:HasElement("eft_silencer_ultra5") 
+		or wep:HasElement("eft_silencer_ar15_m4sdk") 
+		or wep:HasElement("eft_silencer_ar15_sakerasr")
+		or wep:HasElement("eft_silencer_ar15_socommini") 
+		or wep:HasElement("eft_silencer_ar15_socommonster") 
+		or wep:HasElement("eft_silencer_ar15_socomrc2") 
+		or wep:HasElement("eft_silencer_ar15_kacqdssnt4") 
+		or wep:HasElement("eft_silencer_ar15_kacqdssnt4_f") 
+		then vec = vec + Vector(2, 3, 0)
+
+		elseif wep:HasElement("eft_silencer_sdn6") then vec = vec + Vector(4, 6, 0)
+		elseif wep:HasElement("eft_silencer_thorpsr") then vec = vec + Vector(4, 6, 0)
+		elseif wep:HasElement("eft_silencer_waveqd") or wep:HasElement("eft_silencer_gemtechone") then vec = vec + Vector(3, 5, 0)
+	end
+	
+
+-- Magazines
+	if wep:HasElement("eft_mag_ar15_surefire_100") then vec = vec + Vector(0, 6, 3) end
+
+	return vec
+end
+
+SWEP.CustomizeRotateAnchorHook = function(wep, vec)
+-- Barrels
+	if wep:HasElement("eft_barrel_ar15_260mm") or wep:HasElement("eft_barrel_hk416_11i") or wep:HasElement("eft_barrel_hk416_106i") then vec = vec + Vector(-2.5, 0, 0)
+	elseif wep:HasElement("eft_barrel_ar15_406mm") or wep:HasElement("eft_barrel_hk416_165i") then vec = vec + Vector(1.25, 0, 0)
+	elseif wep:HasElement("eft_barrel_ar15_hanson_16") then vec = vec + Vector(2, 0, 0)
+	elseif wep:HasElement("eft_barrel_ar15_18i") then vec = vec + Vector(2.5, 0, 0)
+	elseif wep:HasElement("eft_barrel_ar15_20i") or wep:HasElement("eft_barrel_hk416_20i") then vec = vec + Vector(3.25, 0, 0)
+	end
+	
+-- Stocks
+	if wep:HasElement("eft_ar_stock_prsgen3") or wep:HasElement("eft_ar_stock_prsgen3g") then vec = vec + Vector(-1.75, 0, 0) end
+	if wep:HasElement("eft_ar_stock_prsgen2f") or wep:HasElement("eft_ar_stock_adar") then vec = vec + Vector(-1.25, 0, 0) end
+
+-- Suppressors	
+	if wep:HasElement("eft_silencer_dthybrid") 
+		or wep:HasElement("eft_silencer_r43_556") 
+		or wep:HasElement("eft_silencer_ultra5") 
+		or wep:HasElement("eft_silencer_ar15_m4sdk") 
+		or wep:HasElement("eft_silencer_ar15_sakerasr")
+		or wep:HasElement("eft_silencer_ar15_socommini") 
+		or wep:HasElement("eft_silencer_ar15_socommonster") 
+		or wep:HasElement("eft_silencer_ar15_socomrc2") 
+		or wep:HasElement("eft_silencer_ar15_kacqdssnt4") 
+		or wep:HasElement("eft_silencer_ar15_kacqdssnt4_f") 
+		then vec = vec + Vector(2, 0, 0)
+
+		elseif wep:HasElement("eft_silencer_sdn6") then vec = vec + Vector(4, 0, 0)
+		elseif wep:HasElement("eft_silencer_thorpsr") then vec = vec + Vector(4, 0, 0)
+		elseif wep:HasElement("eft_silencer_waveqd") or wep:HasElement("eft_silencer_gemtechone") then vec = vec + Vector(3, 0, 0)
+	end
+	
+
+-- Magazines
+	if wep:HasElement("eft_mag_ar15_surefire_100") then vec = vec + Vector(0, 0, 3) end
+
+	return vec
+end

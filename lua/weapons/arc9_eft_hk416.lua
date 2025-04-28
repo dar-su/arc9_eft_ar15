@@ -34,6 +34,8 @@ SWEP.StandardPresets = false
 SWEP.ViewModel = "models/weapons/arc9/darsu_eft/c_hk416.mdl"
 SWEP.DefaultBodygroups = "00000010000000"
 
+SWEP.CustomizePos = Vector(17, 42.5, 4)
+
 SWEP.RPM = 850
 SWEP.EFTErgo = 51
 
@@ -153,7 +155,7 @@ SWEP.Attachments = {
         Bone = "mod_magazine",
         Integral = true,
         Installed = "eft_ammo_556_fmj",
-        Pos = Vector(0, -1.5, -1.25),
+        Pos = Vector(0, -1.25, -2.5),
         Ang = Angle(0, 0, 0),
     },
     {
@@ -161,7 +163,7 @@ SWEP.Attachments = {
         Category = {"eft_ar15_mag", "eft_ar15_drum", "eft_ar15_quad", "eft_ar15_mag_airsoft", "eft_ar15_doubledrum"},
         Bone = "mod_magazine",
         Installed = "eft_mag_ar15_hksteel",
-        Icon_Offset = Vector(-0.5, 0, -1.25),
+        Icon_Offset = Vector(0, 0, -2.5),
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, -90, 0),
     },
