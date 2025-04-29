@@ -183,6 +183,62 @@ SWEP.MuzzleParticle = "muzzleflash_smg"
 SWEP.ShellModel = "models/weapons/arc9/darsu_eft/shells/9x19.mdl"
 SWEP.ShellSounds = ARC9EFT.Shells9mm
 
+SWEP.CustomizePosHook = function(wep, vec)
+	local eles = wep:GetElements()
+
+	-- Barrels
+	if eles["eft_stm9_barrel_12"] then vec = vec + Vector(1.25, 1, 0)
+	elseif eles["eft_stm9_barrel_14"] then vec = vec + Vector(2, 2, 0)
+	elseif eles["eft_stm9_barrel_16"] then vec = vec + Vector(3, 3, 0)
+	end
+	
+	-- Stocks
+	if eles["eft_ar_stock_prsgen3"] or eles["eft_ar_stock_prsgen3g"] then vec = vec + Vector(-1.75, 3, 0) end
+	if eles["eft_ar_stock_prsgen2f"] or eles["eft_ar_stock_adar"] then vec = vec + Vector(-1.25, 2, 0) end
+
+	-- Suppressors	
+	if eles["eft_silencer_illusion"] 
+		or eles["eft_silencer_alpha9"] 
+		or eles["eft_silencer_osprey9"] 
+		or eles["eft_silencer_srd9"] 
+		then vec = vec + Vector(2, 3, 0)
+	end
+	
+
+	-- Magazines
+	if eles["eft_mag_bigstick31"] or eles["eft_mag_g17_bigstick_33"] or eles["eft_mag_g17_sgmt_50"] then vec = vec + Vector(0, 4, 1.5) end
+
+	return vec
+end
+
+SWEP.CustomizeRotateAnchorHook = function(wep, vec)
+	local eles = wep:GetElements()
+
+	-- Barrels
+	if eles["eft_stm9_barrel_12"] then vec = vec + Vector(1.25, 0, 0)
+	elseif eles["eft_stm9_barrel_14"] then vec = vec + Vector(2, 0, 0)
+	elseif eles["eft_stm9_barrel_16"] then vec = vec + Vector(3, 0, 0)
+	end
+	
+	-- Stocks
+	if eles["eft_ar_stock_prsgen3"] or eles["eft_ar_stock_prsgen3g"] then vec = vec + Vector(-1.75, 0, 0) end
+	if eles["eft_ar_stock_prsgen2f"] or eles["eft_ar_stock_adar"] then vec = vec + Vector(-1.25, 0, 0) end
+
+	-- Suppressors	
+	if eles["eft_silencer_illusion"] 
+		or eles["eft_silencer_alpha9"] 
+		or eles["eft_silencer_osprey9"] 
+		or eles["eft_silencer_srd9"] 
+		then vec = vec + Vector(2, 0, 0)
+	end
+	
+
+	-- Magazines
+	if eles["eft_mag_bigstick31"] or eles["eft_mag_g17_bigstick_33"] or eles["eft_mag_g17_sgmt_50"] then vec = vec + Vector(0, 0, 1.5) end
+
+	return vec
+end
+
 ------------------------- |||           Sounds            ||| -------------------------
 
 local path = "weapons/darsu_eft/stm9/"
@@ -936,58 +992,3 @@ SWEP.Attachments = {
         Ang = Angle(0, 0, 0),
     },
 }
-
-
-------------------------- |||           CustomizePos            ||| -------------------------
-
-SWEP.CustomizePosHook = function(wep, vec)
--- Barrels
-	if wep:HasElement("eft_stm9_barrel_12") then vec = vec + Vector(1.25, 1, 0)
-	elseif wep:HasElement("eft_stm9_barrel_14") then vec = vec + Vector(2, 2, 0)
-	elseif wep:HasElement("eft_stm9_barrel_16") then vec = vec + Vector(3, 3, 0)
-	end
-	
--- Stocks
-	if wep:HasElement("eft_ar_stock_prsgen3") or wep:HasElement("eft_ar_stock_prsgen3g") then vec = vec + Vector(-1.75, 3, 0) end
-	if wep:HasElement("eft_ar_stock_prsgen2f") or wep:HasElement("eft_ar_stock_adar") then vec = vec + Vector(-1.25, 2, 0) end
-
--- Suppressors	
-	if wep:HasElement("eft_silencer_illusion") 
-		or wep:HasElement("eft_silencer_alpha9") 
-		or wep:HasElement("eft_silencer_osprey9") 
-		or wep:HasElement("eft_silencer_srd9") 
-		then vec = vec + Vector(2, 3, 0)
-	end
-	
-
--- Magazines
-	if wep:HasElement("eft_mag_bigstick31") or wep:HasElement("eft_mag_g17_bigstick_33") or wep:HasElement("eft_mag_g17_sgmt_50") then vec = vec + Vector(0, 4, 1.5) end
-
-	return vec
-end
-
-SWEP.CustomizeRotateAnchorHook = function(wep, vec)
--- Barrels
-	if wep:HasElement("eft_stm9_barrel_12") then vec = vec + Vector(1.25, 0, 0)
-	elseif wep:HasElement("eft_stm9_barrel_14") then vec = vec + Vector(2, 0, 0)
-	elseif wep:HasElement("eft_stm9_barrel_16") then vec = vec + Vector(3, 0, 0)
-	end
-	
--- Stocks
-	if wep:HasElement("eft_ar_stock_prsgen3") or wep:HasElement("eft_ar_stock_prsgen3g") then vec = vec + Vector(-1.75, 0, 0) end
-	if wep:HasElement("eft_ar_stock_prsgen2f") or wep:HasElement("eft_ar_stock_adar") then vec = vec + Vector(-1.25, 0, 0) end
-
--- Suppressors	
-	if wep:HasElement("eft_silencer_illusion") 
-		or wep:HasElement("eft_silencer_alpha9") 
-		or wep:HasElement("eft_silencer_osprey9") 
-		or wep:HasElement("eft_silencer_srd9") 
-		then vec = vec + Vector(2, 0, 0)
-	end
-	
-
--- Magazines
-	if wep:HasElement("eft_mag_bigstick31") or wep:HasElement("eft_mag_g17_bigstick_33") or wep:HasElement("eft_mag_g17_sgmt_50") then vec = vec + Vector(0, 0, 1.5) end
-
-	return vec
-end
