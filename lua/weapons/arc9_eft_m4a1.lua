@@ -5,18 +5,18 @@ SWEP.Spawnable = true
 
 ------------------------- |||           Trivia            ||| -------------------------
 
-SWEP.PrintName = "Colt M4A1"
-SWEP.Description = [[The Colt M4A1 carbine is a fully automatic variant of the basic M4 Carbine and was primarily designed for special operations use. However, U.S. Special Operations Command (USSOCOM) was soon to adopt the M4A1 for almost all special operations units, followed later by general introduction of the M4A1 into service with the U.S. Army and Marine Corps.]]
+SWEP.PrintName = ARC9:GetPhrase("eft_weapon_m4a1")
+SWEP.Description = "eft_weapon_m4a1_desc"
 
-SWEP.Class = ARC9:GetPhrase("eft_class_weapon_ar")
+SWEP.Class = "eft_class_weapon_ar"
 SWEP.SubCategory = ARC9:GetPhrase("eft_subcat_ar")
 
 SWEP.Trivia = {
-    [ARC9:GetPhrase("eft_trivia_manuf") .. "1"] = "Colt’s Manufacturing Company",
-    [ARC9:GetPhrase("eft_trivia_cal") .. "2"] = "5.56x45mm NATO",
-    [ARC9:GetPhrase("eft_trivia_act") .. "3"] = ARC9:GetPhrase("eft_trivia_act_gas"),
-    [ARC9:GetPhrase("eft_trivia_country") .. "4"] = ARC9:GetPhrase("eft_trivia_country_usa"),
-    [ARC9:GetPhrase("eft_trivia_year") .. "5"] = "1991"
+    ["eft_trivia_manuf1"] = "eft_trivia_manuf_colt",
+    ["eft_trivia_cal2"] = "eft_trivia_calibr_556x45",
+    ["eft_trivia_act3"] = "eft_trivia_act_gas",
+    ["eft_trivia_country4"] = "eft_trivia_country_usa",
+    ["eft_trivia_year5"] = "1991"
 }
 
 SWEP.StandardPresets = {

@@ -8,17 +8,17 @@ SWEP.Category = "ARC9 - Escape From Tarkov"
 
 SWEP.SubCategory = ARC9:GetPhrase("eft_subcat_carb")
 
-SWEP.PrintName = "ADAR 2-15"
-SWEP.Class = ARC9:GetPhrase("eft_class_weapon_carb")
+SWEP.PrintName = ARC9:GetPhrase("eft_weapon_adar215")
+SWEP.Class = "eft_class_weapon_carb"
 
-SWEP.Description = [[The ADAR 2-15 Russian civilian carbine that is based on the design of the AR-15. The carbine is produced in St. Petersburg with use of Israeli components and chrome barrels made by Molot Arms.]]
+SWEP.Description = "eft_weapon_adar215_desc"
 
 SWEP.Trivia = {
-    [ARC9:GetPhrase("eft_trivia_manuf") .. "1"] = "ADAR",
-    [ARC9:GetPhrase("eft_trivia_cal") .. "2"] = "5.56x45mm NATO",
-    [ARC9:GetPhrase("eft_trivia_act") .. "3"] = ARC9:GetPhrase("eft_trivia_act_gas"),
-    [ARC9:GetPhrase("eft_trivia_country") .. "4"] = ARC9:GetPhrase("eft_trivia_country_rus"),
-    [ARC9:GetPhrase("eft_trivia_year") .. "5"] = "2018"
+    ["eft_trivia_manuf1"] = "eft_trivia_manuf_adar",
+    ["eft_trivia_cal2"] = "eft_trivia_calibr_556x45",
+    ["eft_trivia_act3"] = "eft_trivia_act_gas",
+    ["eft_trivia_country4"] = "eft_trivia_country_rus",
+    ["eft_trivia_year5"] = "2018"
 }
 
 SWEP.StandardPresets = false

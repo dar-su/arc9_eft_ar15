@@ -8,17 +8,17 @@ SWEP.Category = "ARC9 - Escape From Tarkov"
 
 SWEP.SubCategory = ARC9:GetPhrase("eft_subcat_ar")
 
-SWEP.PrintName = "HK 416A5"
-SWEP.Class = ARC9:GetPhrase("eft_class_weapon_ar")
+SWEP.PrintName = ARC9:GetPhrase("eft_weapon_hk416a5")
+SWEP.Class = "eft_class_weapon_ar"
 
-SWEP.Description = [[The HK416 A5 is a further development of the HK416 assault rifle in 5.56x45mm NATO caliber. The most striking changes compared to its previous versions as well as to market available AR platforms include an improved and tool-less gas regulator for suppressor use, a redesigned, user-friendly lower receiver, which allows complete ambidextrous operation of the weapon and ensures optimised magazine compatibility. Additionally, numerous technical improvements to maximize the safety of the operator, weapon reliability, ammunition compatibility, and durability under real operating conditions.]]
+SWEP.Description = "eft_weapon_hk416a5_desc"
 
 SWEP.Trivia = {
-    [ARC9:GetPhrase("eft_trivia_manuf") .. "1"] = "Heckler & Koch",
-    [ARC9:GetPhrase("eft_trivia_cal") .. "2"] = "5.56x45mm NATO",
-    [ARC9:GetPhrase("eft_trivia_act") .. "3"]= ARC9:GetPhrase("eft_trivia_act_blow"),
-    [ARC9:GetPhrase("eft_trivia_country") .. "4"] = ARC9:GetPhrase("eft_trivia_country_germ"),
-    [ARC9:GetPhrase("eft_trivia_year") .. "5"] = "2004"
+    ["eft_trivia_manuf1"] = "eft_trivia_manuf_hk",
+    ["eft_trivia_cal2"] = "eft_trivia_calibr_556x45",
+    ["eft_trivia_act3"]= "eft_trivia_act_blow",
+    ["eft_trivia_country4"] = "eft_trivia_country_germ",
+    ["eft_trivia_year5"] = "2004"
 }
 
 SWEP.IronSights = {

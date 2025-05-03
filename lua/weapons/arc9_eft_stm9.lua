@@ -5,21 +5,18 @@ SWEP.Spawnable = true
 
 ------------------------- |||           Trivia            ||| -------------------------
 
-ARC9:AddPhrase("eft_weapon_stm9", "Soyuz-TM STM-9", "en")
-ARC9:AddPhrase("eft_weapon_stm9", "Союз-ТМ STM-9", "ru")
-ARC9:AddPhrase("eft_weapon_stm9", "Soyuwz-TM STM-9", "uwu")
 SWEP.PrintName = ARC9:GetPhrase("eft_weapon_stm9")
-SWEP.Description = [[A PCC carbine with excellent performance already "out of the box", manufactured by Soyuz-TM Arms. Designed with the participation of world bronze medalist in Semi-Auto Rifle Vadim Mikhailov. Accuracy, speed, comfort of recoil. Compatible with Glock 9x19 magazines.]]
+SWEP.Description = "eft_weapon_stm9_desc"
 
-SWEP.Class = ARC9:GetPhrase("eft_class_weapon_smg")
+SWEP.Class = "eft_class_weapon_smg"
 SWEP.SubCategory = ARC9:GetPhrase("eft_subcat_smg")
 
 SWEP.Trivia = {
-    [ARC9:GetPhrase("eft_trivia_manuf") .. "1"] = "Soyuz-TM Arms",
-    [ARC9:GetPhrase("eft_trivia_cal") .. "2"] = "9x19mm Parabellum",
-    [ARC9:GetPhrase("eft_trivia_act") .. "3"] = ARC9:GetPhrase("eft_trivia_act_blow"),
-    [ARC9:GetPhrase("eft_trivia_country") .. "4"] = ARC9:GetPhrase("eft_trivia_country_ru"),
-    [ARC9:GetPhrase("eft_trivia_year") .. "5"] = "2019"
+    ["eft_trivia_manuf1"] = "eft_trivia_manuf_soyus",
+    ["eft_trivia_cal2"] = "eft_trivia_calibr_9x19",
+    ["eft_trivia_act3"] = "eft_trivia_act_blow",
+    ["eft_trivia_country4"] = "eft_trivia_country_ru",
+    ["eft_trivia_year5"] = "2019"
 }
 
 SWEP.StandardPresets = false 
