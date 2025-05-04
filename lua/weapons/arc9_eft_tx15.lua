@@ -126,7 +126,7 @@ SWEP.Attachments = {
         Installed = "eft_charge_ar15_raptor_g",
     },
     {
-        PrintName = "Buffer tube",
+        PrintName = "eft_cat_buffertube",
         Installed = "eft_ar_buffertube_a2",
         SubAttachments = {
             {

@@ -150,7 +150,7 @@ ATT.ActivePosHook = function(wep, vec)
     return vec + Vector(0, 0, 0)
 end
 
--- ATT.Category = {"fas_ubgl", "grip", "eft_ak_gp34"}
+-- ATT.Category = {"fas_ubgl", "eft_cat_foregrip", "eft_ak_gp34"}
 -- ATT.Category = {"eft_ak_gp34"}
 ATT.Category = {"eft_m4a1_m203"}
 
@@ -220,7 +220,7 @@ end
 
 ATT.Attachments = {
     {
-        PrintName = "Grenade type",
+        PrintName = "eft_cat_ammo",
         Category = "eft_ammo_40x46",
         Pos = Vector(5, 0, 1),
         Ang = Angle(0, 0, 0),

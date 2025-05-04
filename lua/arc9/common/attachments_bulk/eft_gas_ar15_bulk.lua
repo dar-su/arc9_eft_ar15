@@ -93,7 +93,7 @@ ATT.Category = {"eft_ar15_gasblock"}
 
 ATT.Attachments = {
     {
-        PrintName = "Front sight",
+        PrintName = "eft_cat_frontsight",
         Category = {"eft_frontsight"},
         Pos = Vector(-1.1, 0, -1.45),
         Ang = Angle(0, 0, 0),

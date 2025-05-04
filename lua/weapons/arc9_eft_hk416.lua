@@ -91,7 +91,7 @@ SWEP.DefaultElements = {"noextendedcatch"}
 
 SWEP.Attachments = {
     {
-        PrintName = "Reciever",
+        PrintName = "eft_cat_receiver",
         Category = "eft_hk416_upper",
         Installed = "eft_rec_hk416",
         Bone = "mod_reciever",
@@ -120,7 +120,7 @@ SWEP.Attachments = {
         }
     },
     {
-        PrintName = "Pistol grip",
+        PrintName = "eft_cat_pgrip",
         Category = {"eft_ar15_pgrip", "eft_ar15_pgrip_m4"},
         Installed = "eft_ar_pgrip_hkbg",
         Bone = "mod_pistol_grip",
@@ -128,7 +128,7 @@ SWEP.Attachments = {
         Ang = Angle(0, -90, 0),
     },
     {
-        PrintName = "Charging handle",
+        PrintName = "eft_cat_charge",
         Category = "eft_ar15_charge",
         Installed = "eft_charge_ar15_hkext",
         Bone = "mod_charge",
@@ -137,7 +137,7 @@ SWEP.Attachments = {
         Ang = Angle(0, -90, 0),
     },
     {
-        PrintName = "Buffer tube",
+        PrintName = "eft_cat_buffertube",
         Category = "eft_hk416_buffertube",
         Bone = "mod_reciever",
         Pos = Vector(0, -7.7, 0.9),
@@ -150,7 +150,7 @@ SWEP.Attachments = {
         }
     },
     {
-        PrintName = "Ammunition",
+        PrintName = "eft_cat_ammo",
         Category = {"eft_ammo_556", "eft_ammo_556bb"},
         Bone = "mod_magazine",
         Integral = true,
@@ -159,7 +159,7 @@ SWEP.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Magazine",
+        PrintName = "eft_cat_magazine",
         Category = {"eft_ar15_mag", "eft_ar15_drum", "eft_ar15_quad", "eft_ar15_mag_airsoft", "eft_ar15_doubledrum"},
         Bone = "mod_magazine",
         Installed = "eft_mag_ar15_hksteel",
@@ -168,7 +168,7 @@ SWEP.Attachments = {
         Ang = Angle(0, -90, 0),
     },
     {
-        PrintName = "Custom slot",
+        PrintName = "eft_cat_custom",
         Category = {"eft_custom_slot", "eft_custom_slot_m4a1"},
         RejectAttachments = {["eft_extras_camos"] = true}, -- we have real camo support
         Bone = "mod_pistol_grip",
@@ -180,7 +180,7 @@ SWEP.Attachments = {
     _,
 
     {
-        PrintName = "Camouflage 1",
+        PrintName = "eft_cat_camo1",
         Category = {"universal_camo"},
         Bone = "weapon",
         Pos = Vector(0, 6, -2),
@@ -188,7 +188,7 @@ SWEP.Attachments = {
         IsAdvancedCamo1 = true,
     },
     {
-        PrintName = "Camouflage 2",
+        PrintName = "eft_cat_camo2",
         Category = {"universal_camo"},
         Bone = "weapon",
         Pos = Vector(0, 4.5, -2),
@@ -196,7 +196,7 @@ SWEP.Attachments = {
         IsAdvancedCamo2 = true,
     },
     {
-        PrintName = "Camouflage 3",
+        PrintName = "eft_cat_camo3",
         Category = {"universal_camo"},
         Bone = "weapon",
         Pos = Vector(0, 3, -2),

@@ -21,7 +21,7 @@ ATT.ModelAngleOffset = Angle(0, 0, 90)
 
 ATT.Attachments = {
     {
-        PrintName = "Tactical",
+        PrintName = "eft_cat_tactical",
         Category = "eft_tactical",
         -- RejectAttachments = { ["eft_tactical_raptar"] = true },
         Pos = Vector(-0.2, -0.15, 0),
@@ -55,14 +55,14 @@ ATT.ModelAngleOffset = Angle(0, 0, 90)
 
 ATT.Attachments = {
     {
-        PrintName = "Grip",
+        PrintName = "eft_cat_foregrip",
         Category = {"eft_foregrip_small", "eft_foregrip_large",},
         Pos = Vector(-0, -0.15, 0),
         Ang = Angle(0, 0, 90),
         Icon_Offset = Vector(0, 0, -1),
     },
     {
-        PrintName = "Tactical",
+        PrintName = "eft_cat_tactical",
         Category = {"eft_tactical", "eft_bipod"},
         -- RejectAttachments = { ["eft_tactical_raptar"] = true },
         Pos = Vector(-7, -0.15, 0),

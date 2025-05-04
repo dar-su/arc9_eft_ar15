@@ -27,7 +27,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_stm9_barrel"}
 ATT.Attachments = {
     {
-        PrintName = "Muzzle",
+        PrintName = "eft_cat_muzzle",
         Category = {"eft_glock_muzzle", "eft_stm9_muzzle"},
         Pos = Vector(-10.06, 0, 0.0),
         Ang = Angle(0, 0, 0),
@@ -64,7 +64,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_stm9_barrel"}
 ATT.Attachments = {
     {
-        PrintName = "Muzzle",
+        PrintName = "eft_cat_muzzle",
         Category = {"eft_glock_muzzle", "eft_stm9_muzzle"},
         Pos = Vector(-11.58, 0, 0.0),
         Ang = Angle(0, 0, 0),
@@ -101,7 +101,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_stm9_barrel"}
 ATT.Attachments = {
     {
-        PrintName = "Muzzle",
+        PrintName = "eft_cat_muzzle",
         Category = {"eft_glock_muzzle", "eft_stm9_muzzle"},
         Pos = Vector(-13.61, 0, 0.0),
         Ang = Angle(0, 0, 0),
@@ -138,7 +138,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_stm9_barrel"}
 ATT.Attachments = {
     {
-        PrintName = "Muzzle",
+        PrintName = "eft_cat_muzzle",
         Category = {"eft_glock_muzzle", "eft_stm9_muzzle"},
         Pos = Vector(-15.61, 0, -0.01),
         Ang = Angle(0, 0, 0),
@@ -207,27 +207,27 @@ ATT.CustomPros = { Ergonomics = "+4" }
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = "eft_cat_scope",
         Category = {"eft_optic_large", "eft_optic_medium", "eft_optic_small"},
         Pos = Vector(2.2, 0, -2.1),
         Ang = Angle(0, 0, 0),
         ExcludeElements = {"IronsBlockingSight"},
     },
     {
-        PrintName = "Rear sight",
+        PrintName = "eft_cat_rearsight",
         Category = {"eft_ar_rearsight", "eft_rearsight", "eft_rearsight_hk416"},
         Pos = Vector(4.75, 0, -2.13),
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Barrel",
+        PrintName = "eft_cat_barrel",
         Category = "eft_stm9_barrel",
         Pos = Vector(-0.175, 0, -0.9),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(-0.2, 0, 0),
     },
     {
-        PrintName = "Handguard",
+        PrintName = "eft_cat_handguard",
         Category = "eft_ar15_hguard",
         Pos = Vector(-0.15, 0, -1),
         Ang = Angle(0, 90, 0),
